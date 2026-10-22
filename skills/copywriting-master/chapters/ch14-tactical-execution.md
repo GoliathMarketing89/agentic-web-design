@@ -1,7 +1,7 @@
 # Chapter 14: Tactical Execution, Editing & The Imitation Game
 
 ## Core Idea
-Copywriting is a skill you can learn by imitation, not just talent. Vosler's tactical methods — the Imitation Game, Amazon R&D, Community Arbitrage, Cognitive Manipulation, and the Kintsugi/Vocal editing processes — turn writing from a guessing game into a repeatable system.
+Copywriting is a skill you can learn by imitation, not just talent. The tactical methods — the Imitation Game, Amazon R&D, Community Arbitrage, Cognitive Manipulation, and the Kintsugi/Vocal editing processes — turn writing from a guessing game into a repeatable system.
 
 ## Frameworks Introduced
 - **The Imitation Game (Method 1)**: harness the structure of trending content to craft engaging copy quickly.

@@ -48,7 +48,7 @@ People care first about themselves, not about you or your company. The strongest
 ## Worked Example
 Haldeman-Julius sold 200 million five-cent books in the 1920s-30s by advertising only the titles. When a title underperformed, he changed the title — not the copy — and studied response. The two strongest appeals were sex and self-improvement, both LF8. The lesson: the appeal itself, not the writing, drives response.
 
-Whitman's "Go somewhere and do something" escalation shows how word choice builds imagery: "Go somewhere and do something" (blank screen) → "Go to the kitchen, open the oven, and pull out the freshest, crispiest, most delicious hot pizza you've ever eaten..." Each step adds specific visual words that force the reader to picture the scene, building desire for the product.
+The "Go somewhere and do something" escalation shows how word choice builds imagery: "Go somewhere and do something" (blank screen) → "Go to the kitchen, open the oven, and pull out the freshest, crispiest, most delicious hot pizza you've ever eaten..." Each step adds specific visual words that force the reader to picture the scene, building desire for the product.
 
 ## Key Takeaways
 1. Base every appeal on one of the Life-Force 8; they are the most powerful motivators because they're biologically programmed.

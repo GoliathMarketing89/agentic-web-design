@@ -1,7 +1,7 @@
 # Chapter 13: Headline Formulas
 
 ## Core Idea
-Headlines are the highest-leverage words you write — "five times as many people read the headline as read the body copy" (Ogilvy). Vosler compiles ~39+ swipeable headline formulas from the swipe files of hundreds of copywriters, plus the 33 Headline Prompts and the 41 Classic Headline Templates. Every subhead and crosshead deserves the same attention as the primary headline.
+Headlines are the highest-leverage words you write — "five times as many people read the headline as read the body copy" (Ogilvy). The swipe files of hundreds of copywriters yield ~39+ swipeable headline formulas, plus the 33 Headline Prompts and the 41 Classic Headline Templates. Every subhead and crosshead deserves the same attention as the primary headline.
 
 ## Frameworks Introduced
 - **The Headline Starter Kit** (basic formulas):

@@ -1,7 +1,7 @@
 # Chapter 12: Sales Letter Formulas
 
 ## Core Idea
-Direct-response sales letters are built from proven, repeatable formulas. Vosler compiles the tried-and-true formulas of the last 150 years — from AIDA to the Craig Clemens formula to Perry Belcher's 21-step formula — and stresses one counterintuitive rule: the call to action belongs late, not early.
+Direct-response sales letters are built from proven, repeatable formulas. The tried-and-true formulas of the last 150 years — from AIDA to the Craig Clemens formula to Perry Belcher's 21-step formula — stress one counterintuitive rule: the call to action belongs late, not early.
 
 ## Frameworks Introduced
 - **AIDA / AIDCA / IDCA**: Attention (Awareness) → Interest (Inspire) → Desire → Action. AIDCA adds Conviction (turn doubt into trust via testimonials, endorsements, statistics, research, demos, guarantees). IDCA skips Attention when the reader already has it (e.g., a landing page building on an ad).

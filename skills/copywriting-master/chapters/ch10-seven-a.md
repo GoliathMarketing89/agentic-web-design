@@ -1,7 +1,7 @@
 # Chapter 10: The 7-A Framework (The A's of Influence)
 
 ## Core Idea
-Persuasion is a sequence, not a single blast: capture attention through appeal, influence attitude, then inspire action. Vosler's "A's of Influence" is the persuasion arc that underlies 7-figure marketing copy, and the 7-A version is the long-form spine.
+Persuasion is a sequence, not a single blast: capture attention through appeal, influence attitude, then inspire action. The "A's of Influence" is the persuasion arc that underlies high-converting marketing copy, and the 7-A version is the long-form spine.
 
 ## Frameworks Introduced
 - **The A's of Influence (full list)**: Attention, Appeal, Acknowledgement, Arousal, Angst, Aspirations, Attitude, Authority, Ambiguity, Ascension, Affirm, Associate, Aggravate, Animate, Action. Use as a vocabulary for what each part of a piece must do.
@@ -33,7 +33,7 @@ Persuasion is a sequence, not a single blast: capture attention through appeal, 
 - Think of Attention as the head: "Chop off the head and you're left with very little interest." If the start fails, nothing downstream matters.
 
 ## Anti-patterns
-- **Rushing to the CTA**: don't supply a call to action before the reader is ready. Vosler stresses the CTA belongs late (step 19 of 21 in the sales-letter formula).
+- **Rushing to the CTA**: don't supply a call to action before the reader is ready. The CTA belongs late (step 19 of 21 in the sales-letter formula).
 - **Skipping Acknowledgement**: if you don't join the reader's existing conversation, they tune you out.
 - **Aggravate without relief**: ratchet pain up, then remove it — never leave the reader in Angst.
 - **Making the brand the hero**: the audience is the hero; you are the guide.

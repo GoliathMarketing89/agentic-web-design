@@ -88,4 +88,4 @@ The pool cleaner (Secret #18, Directing Mental Movies): a $250 automatic pool cl
 - **Ch 2**: The 41 secrets operationalize the 17 principles (Length-Implies-Strength, Means-End Chain, scarcity, social proof).
 - **Ch 4**: The hot lists distill these techniques into checklists and response boosters.
 - **Ogilvy's Ogilvy on Advertising**: the layout principle and headline rules come from David Ogilvy.
-- **Schwartz's Breakthrough Advertising**: Secret #29 (editorial/camouflage ads) is Schwartz's technique.
+- **Editorial/Camouflage Ads**: Secret #29 (editorial/camouflage ads) is a camouflage technique.

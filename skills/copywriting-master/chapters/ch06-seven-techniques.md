@@ -1,4 +1,4 @@
-# Chapter 6: The Seven Basic Techniques of Breakthrough Advertising
+# Chapter 6: The Seven Basic Techniques
 
 ## Core Idea
 Once your headline stops the prospect, body copy does the selling by altering his vision of reality — expanding or altering the three dimensions of his mental world (Desires, Identifications, Beliefs). The seven techniques are the active processes you use to build desire, build a saleable personality, and build belief, layer by layer, until the prospect reaches absolute conviction.

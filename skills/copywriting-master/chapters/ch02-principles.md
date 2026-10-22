@@ -86,7 +86,7 @@ Seventeen research-backed principles of consumer psychology explain how to get i
 - **Overusing rhetorical questions**: research is mixed; they're safer for retention than persuasion.
 
 ## Worked Example
-The $20 envelope experiment (Principle #16, Evidence): Whitman holds up a #10 envelope with a question mark and offers to trade it for a participant's $20. The universal question is "What's in the envelope?" — the WIIFM. Then he holds up a clear bag with a $20 bill visible; dozens of hands go up. Lesson: prospects must be convinced what's in "your bag" is worth more than the money you ask for, or the deal won't happen.
+The $20 envelope experiment (Principle #16, Evidence): The presenter holds up a #10 envelope with a question mark and offers to trade it for a participant's $20. The universal question is "What's in the envelope?" — the WIIFM. Then he holds up a clear bag with a $20 bill visible; dozens of hands go up. Lesson: prospects must be convinced what's in "your bag" is worth more than the money you ask for, or the deal won't happen.
 
 The baking soda story (Principle #8, Belief Re-ranking): a woman who evangelized baking-soda toothpaste for a decade reads a dentist's quote that it has "no proven therapeutic value," then another, then her own dentist confirms it. Her feelings were attacked by reason, and central-route thinking won. Beliefs change when you present an alternative view of reality backed by credible evidence.
 

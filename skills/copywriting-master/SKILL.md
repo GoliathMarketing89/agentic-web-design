@@ -1,6 +1,6 @@
 ---
 name: copywriting-master
-description: Use when writing copy that must convert. Runs an agentic loop (gather, position, desire, structure, write, humanize, verify) that turns a brief into excellent, human-sounding copy using Schwartz, Whitman, and Vosler frameworks. Built by Goliath Marketing (goliathmarketing.io).
+description: Use when writing copy that must convert. Runs an agentic loop (gather, position, desire, structure, write, humanize, verify) that turns a brief into excellent, human-sounding copy. Built by Goliath Marketing (goliathmarketing.io).
 version: 1.0.0
 author: Goliath Marketing
 license: MIT
@@ -10,7 +10,7 @@ platforms: [linux, macos, windows]
 
 # Copywriting Master
 
-The agentic engine for producing excellent copy. It turns a brief into finished copy by running a seven-step loop grounded in three books: Cashvertising (Whitman), Breakthrough Advertising (Schwartz), and 7 Figure Marketing Copy (Vosler).
+The agentic engine for producing excellent copy. It turns a brief into finished copy by running a seven-step loop: gather, position, desire, structure, write, humanize, verify.
 
 ## How to Use This Skill
 
@@ -27,7 +27,7 @@ Run these steps in order. Do not skip to writing.
 Extract from the brief: the offer (what is sold, price, guarantee), the audience (who, their pains, their current beliefs), the channel (email, landing page, ad, social), the goal (click, buy, sign up, share), and any voice or brand constraints. Write these down before anything else.
 
 ### Step 2 POSITION
-Use the Schwartz market-sophistication spectrum to decide what the copy must do. The more aware the market, the less you can rely on novelty and the more you must differentiate or claim.
+Use the market-sophistication spectrum to decide what the copy must do. The more aware the market, the less you can rely on novelty and the more you must differentiate or claim.
 
 - **Unaware**: educate. The market does not know it has the problem.
 - **Problem-aware**: name the problem, then present the solution category.
@@ -36,7 +36,7 @@ Use the Schwartz market-sophistication spectrum to decide what the copy must do.
 - **Most aware**: remind. The market knows everything; just close.
 
 ### Step 3 DESIRE
-Anchor the copy in the dominant desire using the Whitman Life-Force 8. Pick the one that drives this audience hardest and make it the emotional spine of the piece.
+Anchor the copy in the dominant desire. Pick the one that drives this audience hardest and make it the emotional spine of the piece.
 
 1. Survival, enjoyment of life, life extension
 2. Enjoyment of food and beverages
@@ -50,7 +50,7 @@ Anchor the copy in the dominant desire using the Whitman Life-Force 8. Pick the 
 ### Step 4 STRUCTURE
 Pick a persuasion arc and map the piece before writing.
 
-- **Long-form**: Vosler 7-A arc: Attention, Acknowledgement, Aggravate, Authority, Angst, Ambiguity, Appeal.
+- **Long-form**: the 7-A arc: Attention, Acknowledgement, Aggravate, Authority, Angst, Ambiguity, Appeal.
 - **Direct response**: a sales-letter formula (headline, hook, problem, solution, proof, offer, guarantee, CTA).
 - Map each section to a line in the outline. Know where the CTA lands before you write.
 
@@ -58,7 +58,7 @@ Pick a persuasion arc and map the piece before writing.
 Write the hook or headline, the body, and the CTA.
 
 - Headlines: use the swipeable formulas from ch13 (see Core Frameworks).
-- Delay the CTA until the prospect is ready. Vosler places the CTA at step 19 of 21. Do not ask for the sale before the desire and proof are fully built.
+- Delay the CTA until the prospect is ready. The CTA belongs late in the piece, after the desire and proof are fully built. Do not ask for the sale before then.
 
 ### Step 6 HUMANIZE
 Apply the voice rules. Vary sentence length. Be specific with numbers and names. Strip every AI tell:
@@ -72,11 +72,11 @@ Self-audit the finished copy. Check it against the anti-AI tells above and again
 
 ## Core Frameworks
 
-- **Market sophistication (Schwartz)**: Use the awareness level of the market to set the job of the copy. Unaware markets need education; aware markets need a claim. The claim is the single most important sentence: the specific, believable promise of the result the product delivers. Write the claim before the copy.
-- **Life-Force 8 (Whitman)**: Use the dominant desire to drive every headline and benefit. People buy to satisfy one of the eight life forces, not to own a product. Sell the outcome, not the feature.
-- **Means-End Chain (Whitman)**: Use it to trace a feature to the emotional end it serves. Feature leads to benefit leads to the life-force desire. Write the chain out for the offer before drafting.
-- **17 principles (Whitman)**: Use them as a checklist for the body: specific claims beat vague ones, concrete numbers beat adjectives, a strong guarantee removes risk, urgency creates action, and proof (testimonials, results) outsells assertion.
-- **Vosler 7-A arc**: Use for long-form. Attention (stop them), Acknowledgement (name their situation), Aggravate (make the pain vivid), Authority (prove credibility), Angst (show the cost of inaction), Ambiguity (open the possibility of a better outcome), Appeal (the close).
+- **Market sophistication**: Use the awareness level of the market to set the job of the copy. Unaware markets need education; aware markets need a claim. The claim is the single most important sentence: the specific, believable promise of the result the product delivers. Write the claim before the copy.
+- **The dominant desire**: Use it to drive every headline and benefit. People buy to satisfy a deep want, not to own a product. Sell the outcome, not the feature.
+- **Means-End Chain**: Use it to trace a feature to the emotional end it serves. Feature leads to benefit leads to the desire. Write the chain out for the offer before drafting.
+- **The 17 principles**: Use them as a checklist for the body: specific claims beat vague ones, concrete numbers beat adjectives, a strong guarantee removes risk, urgency creates action, and proof (testimonials, results) outsells assertion.
+- **The 7-A arc**: Use for long-form. Attention (stop them), Acknowledgement (name their situation), Aggravate (make the pain vivid), Authority (prove credibility), Angst (show the cost of inaction), Ambiguity (open the possibility of a better outcome), Appeal (the close).
 - **Sales-letter formula**: Use for direct response. Headline, hook, problem, solution, proof, offer, guarantee, CTA. Delay the CTA until desire and proof are complete.
 - **Headline formulas (ch13)**: Use the swipeable patterns: the how-to, the list, the question, the before-and-after, the specific-number, the curiosity gap, the fear, the desire, the testimonial, the command. Keep the {placeholder} structure and fill with specifics.
 
@@ -84,20 +84,20 @@ Self-audit the finished copy. Check it against the anti-AI tells above and again
 
 | Ch | Title | Key Frameworks |
 |----|-------|----------------|
-| [ch01](chapters/ch01-cashvertising-desires.md) | Cashvertising: What People Really Want | Life-Force 8, Nine secondary wants, tension-desire-action |
-| [ch02](chapters/ch02-cashvertising-principles.md) | Cashvertising: 17 Principles of Consumer Psychology | Means-End Chain, Length-Implies-Strength, belief re-ranking |
-| [ch03](chapters/ch03-cashvertising-techniques.md) | Cashvertising: 41 Ad-Agency Techniques | Specificity, Ogilvy layout, Granny Rule, social proof, PVAs |
-| [ch04](chapters/ch04-cashvertising-hotlists.md) | Cashvertising: 101 Hot Lists | Response superchargers, buying-easy, coupon boosters |
-| [ch05](chapters/ch05-breakthrough-strategy.md) | Breakthrough: Basic Strategy of Persuasion | Mass desire, three questions, amplification effect |
-| [ch06](chapters/ch06-breakthrough-seven-techniques.md) | Breakthrough: Seven Basic Techniques | Intensification, identification, gradualization, redefinition, mechanization, concentration, camouflage |
-| [ch07](chapters/ch07-breakthrough-market-sophistication.md) | Breakthrough: Market Sophistication | The 5-stage spectrum, unaware to most aware |
-| [ch08](chapters/ch08-breakthrough-the-claim.md) | Breakthrough: The Claim | Build, strengthen, refresh, elaborate, identify |
-| [ch09](chapters/ch09-breakthrough-headlines.md) | Breakthrough: Headlines | Be simple/direct, headline as bridge, 38 ways to strengthen |
-| [ch10](chapters/ch10-vosler-seven-a.md) | 7 Figure Copy: The 7-A Framework | A's of influence, Attention to Appeal arc |
-| [ch11](chapters/ch11-vosler-heros-journey.md) | 7 Figure Copy: Hero's Journey + Diamond of Persuasion | 12 phases, fan their flames, defeat their demons |
-| [ch12](chapters/ch12-vosler-sales-letter-formulas.md) | 7 Figure Copy: Sales Letter Formulas | Craig Clemens, 21-step (CTA at 19), AIDA, PASTOR, HELLYEAH |
-| [ch13](chapters/ch13-vosler-headline-formulas.md) | 7 Figure Copy: Headline Formulas | ~39 swipeable templates, 33 prompts, 41 classics |
-| [ch14](chapters/ch14-vosler-tactical-execution.md) | 7 Figure Copy: Tactical Execution | Imitation Game, editing, writer's block |
+| [ch01](chapters/ch01-desires.md) | What People Really Want | The 8 desires, secondary wants, tension-desire-action |
+| [ch02](chapters/ch02-principles.md) | 17 Principles of Consumer Psychology | Means-End Chain, Length-Implies-Strength, belief re-ranking |
+| [ch03](chapters/ch03-techniques.md) | 41 Ad-Agency Techniques | Specificity, layout, personalization, social proof, sensory words |
+| [ch04](chapters/ch04-hotlists.md) | 101 Response Boosters | Response superchargers, buying-easy, coupon boosters |
+| [ch05](chapters/ch05-strategy.md) | Basic Strategy of Persuasion | Mass desire, three questions, amplification effect |
+| [ch06](chapters/ch06-seven-techniques.md) | Seven Basic Techniques | Intensification, identification, gradualization, redefinition, mechanization, concentration, camouflage |
+| [ch07](chapters/ch07-market-sophistication.md) | Market Sophistication | The 5-stage spectrum, unaware to most aware |
+| [ch08](chapters/ch08-the-claim.md) | The Claim | Build, strengthen, refresh, elaborate, identify |
+| [ch09](chapters/ch09-headlines.md) | Headlines | Be simple/direct, headline as bridge, ways to strengthen |
+| [ch10](chapters/ch10-seven-a.md) | The 7-A Framework | The A's of influence, Attention to Appeal arc |
+| [ch11](chapters/ch11-heros-journey.md) | Hero's Journey + Diamond of Persuasion | 12 phases, fan their flames, defeat their demons |
+| [ch12](chapters/ch12-sales-letter-formulas.md) | Sales Letter Formulas | 21-step (CTA late), AIDA, PASTOR, HELLYEAH |
+| [ch13](chapters/ch13-headline-formulas.md) | Headline Formulas | ~39 swipeable templates, 33 prompts, 41 classics |
+| [ch14](chapters/ch14-tactical-execution.md) | Tactical Execution | Imitation Game, editing, writer's block |
 
 ## Topic Index
 
@@ -110,7 +110,6 @@ Self-audit the finished copy. Check it against the anti-AI tells above and again
 - **Headline formulas**: ch03, ch09, ch13
 - **Hero's Journey**: ch11
 - **Hot lists / response boosters**: ch04
-- **Life-Force 8**: ch01
 - **Market sophistication**: ch07
 - **Mass desire**: ch05
 - **Means-End Chain**: ch02
@@ -121,10 +120,10 @@ Self-audit the finished copy. Check it against the anti-AI tells above and again
 
 ## Supporting Files
 
-- [glossary.md](glossary.md): every significant term across the three books, alphabetized.
+- [glossary.md](glossary.md): every significant term, alphabetized.
 - [patterns.md](patterns.md): concrete techniques with when-to-use, how, and trade-offs.
 - [cheatsheet.md](cheatsheet.md): decision rules and thresholds for choosing frameworks.
 
 ## Scope and Limits
 
-This skill produces copy for marketing and direct response. It is not a substitute for legal review of claims, and it does not verify product facts or compliance with advertising regulations. The frameworks assume a real offer with real proof; do not invent testimonials, numbers, or results. For regulated categories (health, finance, legal), have the copy reviewed before publishing. The chapter files are study references; the loop above is the operating procedure.
+This skill produces copy for marketing and direct response. It is not a substitute for legal review of claims, and it does not verify product facts or compliance with advertising regulations. The frameworks assume a real offer with real proof; do not invent testimonials, numbers, or results. For regulated categories (health, finance, legal), have the copy reviewed before publishing. The chapter files are reference material; the loop above is the operating procedure.

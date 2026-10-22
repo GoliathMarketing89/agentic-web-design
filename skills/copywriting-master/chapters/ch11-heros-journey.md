@@ -37,7 +37,7 @@ Your audience is the hero of their own story; you are the guide (mentor). Map wh
 - **Unethical manipulation**: manipulation relies on false promises and distorted facts; persuasion relies on skillful demonstration of the facts.
 
 ## Worked Example
-The Apple example: the lesson that "the audience is the hero" is what created the first trillion-dollar brand. Vosler notes that everyone who harnesses this power can build an empire, and those who ignore it are stuck wondering what they're doing wrong. The copy's job is to reflect back to the hero a detailed image of their inner self — a "mirror" clear enough to shed new light — so they trust you as their new guide.
+The Apple example: the lesson that "the audience is the hero" is what created the first trillion-dollar brand. Everyone who harnesses this power can build an empire, and those who ignore it are stuck wondering what they're doing wrong. The copy's job is to reflect back to the hero a detailed image of their inner self — a "mirror" clear enough to shed new light — so they trust you as their new guide.
 
 ## Key Takeaways
 1. Define your hero's backstory: their fears, known and unknown, and their higher-level values.
