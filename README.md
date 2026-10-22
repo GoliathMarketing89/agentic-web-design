@@ -2,9 +2,9 @@
 
 Skills for building websites that look good **and** convert — and then rank.
 
-Three skills, one workflow. Built by [Goliath Marketing](https://goliathmarketing.io)
-from real client work and curated from the best of the web-design and SEO
-community.
+Four skills, one workflow. Built by [Goliath Marketing](https://goliathmarketing.io)
+from real client work and curated from the best of the web-design, SEO, and
+copywriting community.
 
 ## The skills
 
@@ -13,9 +13,11 @@ community.
 | **`agentic-web-design`** | Get good, converting design out of an AI coding agent. The taste problem, the build stack, the conversion checks. | Building or redesigning any site, landing page, or web app with an agent |
 | **`seo-ranking`** | Make a site rank on Google's first pages. Keyword research, on-page, technical, local SEO, Google Business Profile. | A site needs organic traffic |
 | **`local-link-building`** | Build genuine local links. The earned-over-placed playbook: foundation, reclamation, sponsorship, press, outreach, 90-day plan. | A site needs authority and rankings |
+| **`copywriting-master`** | Write copy that converts. An agentic loop (gather, position, desire, structure, write, humanize, verify) grounded in Schwartz, Whitman, and Vosler. | Any page, ad, or email that must sell |
 
-They chain together: **design** the site that deserves to rank → **rank** it with
-on-page and technical SEO → **build authority** with real local links.
+They chain together: **write** the copy that sells → **design** the site that
+deserves to rank → **rank** it with on-page and technical SEO → **build
+authority** with real local links.
 
 ## Install
 
@@ -31,6 +33,7 @@ npx skills add goliathmarketing89/agentic-web-design
 npx skills add goliathmarketing89/agentic-web-design/agentic-web-design
 npx skills add goliathmarketing89/agentic-web-design/seo-ranking
 npx skills add goliathmarketing89/agentic-web-design/local-link-building
+npx skills add goliathmarketing89/agentic-web-design/copywriting-master
 ```
 
 ### Manual
