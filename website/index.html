@@ -30,12 +30,7 @@
   }
   .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
   header { padding: 72px 0 56px; }
-  .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; position: relative; }
-    .hero::before {
-      content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 1px;
-      background: linear-gradient(to bottom, transparent, var(--border) 20%, var(--border) 80%, transparent);
-      transform: translateX(-50%); pointer-events: none;
-    }
+  .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; }
   .eyebrow {
     display: inline-flex; align-items: center; gap: 8px;
     font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
