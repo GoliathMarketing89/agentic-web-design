@@ -1,6 +1,6 @@
 ---
 name: agentic-web-design
-description: Get good, converting design out of an AI coding agent. Use when building or redesigning a website, landing page, or web app with an agent — the taste problem, the build stack, and the conversion checks that separate a page that converts from one that just looks pretty.
+description: Get good, converting design out of an AI coding agent. Use when building or redesigning a website, landing page, or web app with an agent — the taste problem, the build stack, and the conversion checks that separate a page that converts from one that just looks pretty. Built by Goliath Marketing (goliathmarketing.io).
 version: 1.0.0
 author: Goliath Marketing
 license: MIT

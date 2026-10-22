@@ -2,8 +2,9 @@
 
 Skills for building websites that look good **and** convert — and then rank.
 
-Three skills, one workflow. Built by Goliath Marketing from real client work and
-curated from the best of the web-design and SEO community.
+Three skills, one workflow. Built by [Goliath Marketing](https://goliathmarketing.io)
+from real client work and curated from the best of the web-design and SEO
+community.
 
 ## The skills
 
@@ -47,6 +48,12 @@ would make sense even if search didn't exist.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## About
+
+Built by [Goliath Marketing](https://goliathmarketing.io) — web design, SEO, and
+local link building for small local service businesses. These skills are the
+workflow we use on every client build, open-sourced.
 
 ## Contributing
 

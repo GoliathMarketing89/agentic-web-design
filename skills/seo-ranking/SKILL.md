@@ -1,6 +1,6 @@
 ---
 name: seo-ranking
-description: Make a website rank on Google's first pages. Use when a site needs organic traffic — the full SEO workflow: keyword research, competitor analysis, on-page optimization, technical SEO, local SEO, Google Business Profile, and authority building. Converts the Exposure Ninja playbook into agent operating instructions.
+description: Make a website rank on Google's first pages. Use when a site needs organic traffic — the full SEO workflow: keyword research, competitor analysis, on-page optimization, technical SEO, local SEO, Google Business Profile, and authority building. Converts the Exposure Ninja playbook into agent operating instructions. Built by Goliath Marketing (goliathmarketing.io).
 version: 1.0.0
 author: Goliath Marketing
 license: MIT
