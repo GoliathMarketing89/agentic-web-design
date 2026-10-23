@@ -41,7 +41,8 @@ Run these gates in order. A gate is a hard stop: you do not move to the next ste
 
 1. **Name the one goal of the site.** What are we trying to get the visitor to do? Most sites have one: buy, generate a lead, contact, book. It's the big CTA in the top-right corner. Write it down.
 2. **Map the homepage and nav.** Section by section, top to bottom: what is the hero's goal, what is the next section's goal, and the next. Each section has a job. The standard arc: hero → problem → solution → proof → how it works → about → pricing → FAQ → final CTA → footer (or an email-capture block, depending on the goal).
-3. Write the outline as a list of sections, each with its goal. Get it approved before writing copy.
+3. **Discuss the look with the user — back and forth, not a one-shot.** Before building, ask what they want it to feel like: references they like, a mood, a direction. Push back and refine until you both agree on the direction. Do not pump out a build and hope. This conversation is where the taste gets set.
+4. Write the outline as a list of sections, each with its goal. Get it approved before writing copy.
 
 ### Gate 1 — Copy first (write the words before the design)
 
@@ -66,6 +67,8 @@ Save the references (URLs + what to borrow from each) in `design.md`. The build 
 
 Build each section by adapting its design reference to the copy and the brand. Do not invent a generic layout — take the structure, spacing, and visual idea from the reference and fill it with the copy from Gate 1 and the brand from `design.md`.
 
+**Grab real assets — images and video — as part of the build.** A site with real imagery beats one built from code-based shapes and gradients. For each section that needs a visual, source it: generate it (image/video gen), pull from a stock library, or use a client-provided asset. A hero background video, real product photos, or a genuine portrait transforms a design. Do not leave a section as empty boxes or code-only decoration when a real asset would carry it.
+
 **Pick the framework for the project, not for the skill.** The workflow is the same in any stack; only the components change.
 
 - **Astro** — use **Stardrive** (`astro-stardrive.com`, local copy at `/home/michael/stardrive`) as the boilerplate: it bakes in technical SEO, security, accessibility, and AI-agent-readiness. Map the sections to Astro components, wire the design system into Astro's global CSS, use Astro islands for interactive pieces. Keep it static-first.
@@ -87,7 +90,7 @@ The coding agent cannot critique its own work. Spawn a **fresh design-critic sub
 
 Run the 25-point conversion audit (`resources.md` §4). **Do not ship a page that fails items 1-5.** For a home-service client, also run the Home Service Playbook. For ecommerce, the Product Page CRO.
 
-### Gate 7 — AI-tell audit & ship
+### Gate 7 — AI-tell audit, human review & ship
 
 Strip every AI tell before shipping:
 
@@ -97,7 +100,7 @@ Strip every AI tell before shipping:
 - Generic structure and padding — if a section looks like a template, it is not adapted enough to its reference.
 - **Hand-rewrite the copy** — AI copy is a tell and lacks human voice.
 
-Ship. The build is done when it passes Gates 5, 6, and 7, not when the code compiles.
+**Human review before ship.** Put the build in front of the user and get their read before calling it done. The critic loop scores it against references; the human decides if it actually feels right. Iterate on their feedback, then ship. The build is done when it passes Gates 5, 6, and 7, not when the code compiles.
 
 ---
 
