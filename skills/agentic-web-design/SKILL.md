@@ -64,9 +64,13 @@ Apply the creativity techniques (`resources.md` §1) so the build does not look 
 
 Build with the component stack (`resources.md` §3), mapped to the 9-block landing structure (`resources.md` §4). Know which block each section serves before you write it.
 
-**Astro path (preferred):** use **Stardrive** (`astro-stardrive.com`, local copy at `/home/michael/stardrive`) as the boilerplate — it bakes in technical SEO, security, accessibility, and AI-agent-readiness (`AGENTS.md`, `.ai/` guides, `llms.txt`). Map the 9 blocks to Astro components, wire the design system into Astro's global CSS, and use Astro islands for interactive pieces. Keep the build static-first; add interactivity only where a block needs it.
+**Pick the framework for the project, not for the skill.** The workflow is the same in any stack; only the components change.
 
-**React/Next path:** shadcn/ui plus the component stack, same 9-block mapping.
+- **Astro** — use **Stardrive** (`astro-stardrive.com`, local copy at `/home/michael/stardrive`) as the boilerplate: it bakes in technical SEO, security, accessibility, and AI-agent-readiness (`AGENTS.md`, `.ai/` guides, `llms.txt`). Map the 9 blocks to Astro components, wire the design system into Astro's global CSS, use Astro islands for interactive pieces. Keep it static-first.
+- **Webflow** — build the 9 blocks as Webflow sections. Use the design system for the style guide (colors, type, spacing) before you lay out sections. Keep interactions transform/opacity-only for performance. Export clean, semantic structure.
+- **React / Next** — shadcn/ui plus the component stack, same 9-block mapping.
+
+The conversion structure (Gate 5) and the critic loop (Gate 4) apply identically in every framework. Do not let the framework choice change the gates.
 
 ### Gate 4 — Critic loop (mandatory)
 
