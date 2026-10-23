@@ -32,7 +32,7 @@ The core problem is taste: agents default to generic output. These methods fix t
 
 | Tool | URL | What it is |
 |---|---|---|
-| awesome-design-md | github.com/VoltAgent/awesome-design-md | Design languages of 50+ major brands (Apple, Spotify, IBM) as one `DESIGN.md` per brand. Share the repo, let the agent install, adapt to your colors as `my_brand_design.md`. |
+| awesome-design-md | github.com/VoltAgent/awesome-design-md | Design languages of 50+ major brands (Apple, Spotify, IBM) as one `DESIGN.md` per brand. Share the repo, let the agent install, adapt to your colors as `design.md`. |
 | make-interfaces-feel-better | `npx skills add jakubkrehel/make-interfaces-feel-better` | UI/animation/performance polish tips. |
 | Jiro | jiro.build | 1200+ AI-ready design prompts. |
 | Minimal Gallery | minimal.gallery | Curated high-end sites to feed your agent. |

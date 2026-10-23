@@ -45,9 +45,9 @@ Before any code, write a Product Requirements Document: what you are building, f
 
 The single highest-leverage step, and the one agents skip. **Do not write code until this gate passes.**
 
-1. Pick **one** design system from the taste layer (`resources.md` §2). Prefer `awesome-design-md` (50+ brand design languages as `DESIGN.md` files) or a real product style from Refero Styles.
-2. Install it / load it into the agent's context.
-3. Write `my_brand_design.md` — adapt the chosen system to the client's colors, fonts, and voice. This file is the taste contract for the whole build.
+1. **Ask the user for references first.** Ask what sites, brands, or design directions they like. If they name any, use those as the primary taste source.
+2. **If they can't name any, find references from the shelf.** Pick from the taste layer (`resources.md` §2) — `awesome-design-md` (50+ brand design languages as `DESIGN.md` files), a real product style from Refero Styles, or a high-end site from the inspiration galleries. Load it into the agent's context.
+3. **Write `design.md`** — every website gets one. Adapt the chosen reference to the client's colors, fonts, and voice. This file is the taste contract for the whole build.
 4. Only then start building.
 
 If you skip this, the output will be generic. That is the failure mode this skill exists to prevent.
