@@ -1,6 +1,6 @@
 ---
 name: local-link-building
-description: Build genuine local links for a local service business (plumbing, home services, etc.). Use when a site needs authority and rankings — the earned-over-placed playbook: foundation, inventory, local bodies, sponsorship, press, reclamation, gap analysis, prospecting, outreach, and the 90-day plan. Built by Goliath Marketing (goliathmarketing.io).
+description: "Build genuine local links for a local service business (plumbing, home services, etc.). Use when a site needs authority and rankings — the earned-over-placed playbook: foundation, inventory, local bodies, sponsorship, press, reclamation, gap analysis, prospecting, outreach, and the 90-day plan. Built by Goliath Marketing (goliathmarketing.io)."
 version: 1.0.0
 author: Goliath Marketing
 license: MIT
