@@ -1,10 +1,10 @@
 ---
 name: agentic-web-design
-description: Get good, converting design out of an AI coding agent. Use when building or redesigning a website, landing page, or web app with an agent — the taste problem, the build stack, and the conversion checks that separate a page that converts from one that just looks pretty. Built by Goliath Marketing (goliathmarketing.io).
-version: 1.0.0
+description: Get good, converting design out of an AI coding agent. Use when building or redesigning a website, landing page, or web app with an agent — a mandatory taste-and-verify workflow that stops the agent from shipping generic AI output. Built by Goliath Marketing (goliathmarketing.io).
+version: 2.0.0
 author: Goliath Marketing
 license: MIT
-tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic]
+tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic, astro]
 platforms: [linux, macos, windows]
 triggers:
   - build a website
@@ -19,253 +19,103 @@ triggers:
 
 # Agentic Web Design
 
-The core problem with AI-built sites is **taste**: agents default to generic,
-committee-pleasing output. This skill is the workflow for getting on-brand,
-converting UI out of a coding agent — the method, the taste layer, the build
-stack, and the conversion checks.
+The problem with AI-built sites is **taste**: agents default to generic, committee-pleasing output. This skill is a mandatory workflow that stops that. It runs the build through seven gates, and the gates that matter most — feeding the agent taste and critiquing its own work — are not optional.
 
-**The rule that governs everything:** websites need to *convert*, not impress.
-Cinematic styling is garnish; conversion structure is the meal. Always verify
-creative output against the conversion checks in section 4.
+**The rule that governs everything:** websites need to *convert*, not impress. Cinematic styling is garnish; conversion structure is the meal. Every creative decision gets checked against the conversion structure before it ships.
 
-## When to use this skill
+## How to use this skill
 
-- Building or redesigning any website, landing page, or web app with an AI agent
-- A vibe-coded build that needs to look good AND convert
-- A client site (home services, local business, SaaS) that must turn visitors into leads
-- Any time an agent's default output looks "AI-generated" and you need real taste
+- **With a brief** (client, product, audience, goal): run the Goliath Build Loop below, in order. Do not skip a gate.
+- **With a step name** (e.g. "taste" or "critic"): load that gate's instructions.
+- **With a resource need**: load `resources.md` and read only the section the current gate points to. Do not read the whole shelf up front.
 
-For a formal DESIGN.md token spec file, use the `design-md` skill. For a
-specific brand's visual language (Stripe, Linear, Vercel), pair with
-`popular-web-designs`. This skill is the *workflow* that ties taste, build, and
-conversion together.
+The toolbox lives in [resources.md](resources.md). The loop below is the operating procedure; the resources are what each step reaches for.
 
-## The method — how to get good design out of an agent
+---
 
-### 1. Write the PRD first
+## The Goliath Build Loop
 
-Before any code, generate a Product Requirements Document: what you're building,
-for whom, the one conversion action, the message. Hand it to the agent with
-clearly communicated goals. An agent with a PRD builds differently than an
-agent with a one-line prompt.
+Run these gates in order. A gate is a hard stop: you do not move to the next step until the current one passes. If you are tempted to skip Gate 1 or Gate 4, you are about to produce the generic output this skill exists to prevent.
 
-### 2. Feed the agent taste BEFORE it writes code
+### Gate 0 — PRD (write it, get it approved)
 
-The single highest-leverage step. Load reference material into the agent's
-context *before* it starts building, so it knows what good looks like:
+Before any code, write a Product Requirements Document: what you are building, for whom, the one conversion action, and the message. Hand it to the user for approval. An agent with an approved PRD builds differently than an agent with a one-line prompt.
 
-- **awesome-design-md** — `github.com/VoltAgent/awesome-design-md` — design
-  languages of 50+ major brands (Apple, Spotify, IBM) compressed into one
-  `DESIGN.md` per brand: palettes, fonts, reference components. Share the repo
-  with the agent, let it install, tell it to use the spec as reference. Tip:
-  ask it to adapt a brand's system to your colors and save as
-  `my_brand_design.md` so the taste is yours.
-- **make-interfaces-feel-better** — Claude Code skill by Jakub Krehel, 30k+
-  installs. UI/animation/performance polish tips. Install:
-  `npx skills add jakubkrehel/make-interfaces-feel-better`
-- **Design prompt libraries** — Jiro (jiro.build, 1200+ AI-ready prompts),
-  Minimal Gallery (minimal.gallery), Kage (kage.design), Refero Styles
-  (styles.refero.design, 2000+ real product styles), Component Gallery
-  (component.gallery, 2600+ examples), DESIGNmd (designmd.ai).
+### Gate 1 — Taste (mandatory, before any code)
 
-**Lightweight variant:** use Playwright to grab visual inspiration from
-carefully-chosen reference sites, throw in a brand voice skill + a front-end
-design skill. Trade: taste comes from whatever pages you point Playwright at,
-so choose reference sites carefully.
+The single highest-leverage step, and the one agents skip. **Do not write code until this gate passes.**
 
-### 3. Push the agent past its bland defaults (8 techniques)
+1. Pick **one** design system from the taste layer (`resources.md` §2). Prefer `awesome-design-md` (50+ brand design languages as `DESIGN.md` files) or a real product style from Refero Styles.
+2. Install it / load it into the agent's context.
+3. Write `my_brand_design.md` — adapt the chosen system to the client's colors, fonts, and voice. This file is the taste contract for the whole build.
+4. Only then start building.
 
-1. **Seed strings** — have the agent generate a long random alphanumeric string
-   via shell script, then derive the creative direction (color, layout,
-   typography) from it. No two runs produce the same design.
-2. **Be more ambitious with prompts** — bring your own taste in. Describe an
-   inspiration (a video game, an interior trend, an art installation) and how it
-   should influence output. "Radically asymmetric layout, dissonant colors,
-   uncomfortable negative space. Break all the rules but still make it look good."
-3. **Positive feedback loops with subagents** — the coding agent can't critique
-   its own work. Invoke a separate "design critic" subagent in a fresh context,
-   given only a screenshot. Loop until it independently scores 9/10+. Use a big
-   expensive model as critic (executive decisions), a cheap fast model as
-   implementer.
-4. **Use image generation to enrich designs** — coding agents default to
-   code-based gradients/shapes (all AI tells). Push them to use real images.
-   Connect via built-in tools, Codex CLI, or a dedicated API key in a gitignored
-   `.env.agents` file.
-5. **Use video generation for advanced motion** — animated graphics (loop on
-   solid bg, chroma-key out, layer in) and fluid transitions between states.
-   Use an aggregator like fal.ai for one API key.
-6. **Cut elements that don't add value** — AI adds, rarely subtracts. Restraint
-   reads as premium. Most polishing is removal.
-7. **Remove AI tells** — strip overdone effects, excessive decoration, generic
-   structure.
-8. **Rewrite copy by hand** — AI copy is a tell and lacks human voice.
+If you skip this, the output will be generic. That is the failure mode this skill exists to prevent.
 
-## The taste layer — where to point the agent before it writes code
+### Gate 2 — Direction (set a non-default direction)
 
-| Tool | URL | What it is |
-|---|---|---|
-| Jiro | jiro.build | 1200+ AI-ready design prompts |
-| Minimal Gallery | minimal.gallery | Curated high-end sites to feed your agent |
-| Kage | kage.design | Real UI inspiration mapped straight to prompts |
-| Refero Styles | styles.refero.design | 2,000+ real product styles with typography |
-| Component Gallery | component.gallery | 2,600+ examples of how top design systems solve the same element |
-| AppShot Gallery | appshot.gallery | Real app screenshots for mobile |
-| DESIGNmd | designmd.ai | Design systems as markdown your agent can read |
-| VibePrompt | vibeprompts.dev | Ready-made prompts for dashboards and landing pages |
-| 21st.dev | 21st.dev | Component registry that plugs into agents via MCP |
-| Kinetics | kinetics.colorion.co | 150+ motion effects with React code and prompts |
+Apply the creativity techniques (`resources.md` §1) so the build does not look like every other AI site. Pick one and state the direction in a single line before building:
 
-**Design inspiration galleries** (the "pieces of a page" shelf): inspora.design
-(visual), posts.design (social), loadmo.re (mobile), mobbin.com (UI screens,
-signup-gated), recent.design, 60fps.design (UI animation), supahero.io (hero
-sections), navbar.gallery, cta.gallery, logobook.com (logos), pageflows.com
-(dashboards), component.gallery (design systems).
+- **Seed string** — generate a long random alphanumeric string, derive color/layout/typography from it. No two runs look the same.
+- **Ambitious prompt** — name a real inspiration (a video game, an interior trend, an art installation) and how it should shape the output. "Radically asymmetric layout, dissonant colors, uncomfortable negative space. Break the rules but still make it look good."
+- **Named reference** — point at a specific high-end site and say what to borrow.
 
-## The build layer — the actual building blocks
+### Gate 3 — Build (map to the conversion structure)
 
-### Core UI stacks (fast, clean)
+Build with the component stack (`resources.md` §3), mapped to the 9-block landing structure (`resources.md` §4). Know which block each section serves before you write it.
 
-| Tool | URL | What it is |
-|---|---|---|
-| shadcn/ui | ui.shadcn.com | The gold standard for clean, reusable UI |
-| Aceternity UI | ui.aceternity.com | 200+ animated React/Tailwind components |
-| Magic UI | magicui.design | Beautifully designed components for modern web apps |
-| Motion Primitives | motion-primitives.com | Ready-to-use animation and interaction components |
-| Uiverse | uiverse.io | Community-built UI elements |
-| UIAble | uiable.com | Ready-to-use UI components |
-| mapcn | mapcn.dev | Map components, markers, routes, popups |
-| MicroKit UI | microkit.co | Micro-interactions that make interfaces feel polished |
-| Liquid Glass | glass.samasante.com | Glass refraction components and effects |
-| CSS Text Effects | text-effects.colorion.co | Creative CSS text animations |
-| Circle Loaders | circleloaders.dominikakissi.com | Loading animations and loaders |
-| Gradient Buttons | gradientbuttons.colorion.co | Gradient button styles |
+**Astro path (preferred):** use **Stardrive** (`astro-stardrive.com`, local copy at `/home/michael/stardrive`) as the boilerplate — it bakes in technical SEO, security, accessibility, and AI-agent-readiness (`AGENTS.md`, `.ai/` guides, `llms.txt`). Map the 9 blocks to Astro components, wire the design system into Astro's global CSS, and use Astro islands for interactive pieces. Keep the build static-first; add interactivity only where a block needs it.
 
-### 3D / WebGL / scroll-driven (the visual upgrade layer)
+**React/Next path:** shadcn/ui plus the component stack, same 9-block mapping.
 
-- **ThreeUI** — threeui.com / github.com/MengTo/threeui — Meng To's open-sourced
-  three.js component library. 160+ free components and landing pages. Every
-  component copyable as a prompt or source — hand the prompt to an agent, tell it
-  to change theme/lighting/motion/layout. MIT. **Caveat:** 100–200 KB per
-  component + WebGL runtime; perf-test, not every site needs 3D.
-- **Canvas UI** — canvasui.dev — David Haz's html-in-canvas + WebGL effects
-  library. 33 components (Particle Reveal, Liquid, Glass, Shatter, VHS, Clouds,
-  Ripple...), each in React/Solid/Preact/Vue/Svelte/vanilla TS. Install via
-  shadcn CLI. MCP-ready. MIT + Commons Clause. **Caveat:** live-HTML-on-canvas
-  needs a Chrome flag; WebGL effects degrade gracefully elsewhere.
-- **Scrolltide** — scrolltide.co — 600+ design prompts with full source code for
-  3D and scroll-driven sites. 124 templates, 66 components, 55 shaders. $299
-  one-time lifetime; some free. Engineered for Claude/Cursor/v0.
-- **Spline** — spline.design — 3D design for the web, browser-based, exports to
-  Web/Webflow/React/Next.js.
-- **Three.js Journey** — threejs-journey.com — learn 3D on the web, step by step.
+### Gate 4 — Critic loop (mandatory)
 
-### Animation / icons / illustration
+The coding agent cannot critique its own work. Spawn a **fresh design-critic subagent** in a new context, given only a screenshot of the build. Ask it to score the design 1-10 against taste and the conversion structure. Loop until it independently scores **9/10 or higher**. Do not ship before it passes.
 
-- **LottieFiles** — lottiefiles.com — ready-made lightweight animations; 800k+ free & premium.
-- **Anime.js** — animejs.com — lightweight JavaScript animation library.
-- **3D Icons** — 3dicons.co — 1500+ hand-made 3D icons, CC0 (free commercial use).
-- **Kitbitz** — kitbitz.art — 2,000+ hand-drawn illustrations.
+- Use a big, expensive model as the critic (executive judgment).
+- Use a cheap, fast model as the implementer.
 
-## The conversion layer — the meal, not the garnish
+### Gate 5 — Conversion check (mandatory)
 
-Creative is garnish. These are the blocks that make a page convert. **Verify
-every build against these.**
+Run the 25-point conversion audit (`resources.md` §4). **Do not ship a page that fails items 1-5.** For a home-service client, also run the Home Service Playbook. For ecommerce, the Product Page CRO.
 
-### Landing Page Structure Template (9 blocks)
+### Gate 6 — AI-tell audit (mandatory)
 
-1. **Hero** — H1 value prop; 2-sentence product description; product visual
-   (video demo or annotated screenshot); one big CTA; quick social proof.
-2. **Problem agitation** — Point A the customer hates; specific negative
-   consequences of not solving it.
-3. **Transformation** — Point B the customer desires; specific positive benefits.
-4. **Social proof** — 5-7 testimonials with photo + role; bonus: opinion-leader endorsements.
-5. **Features** — 3-4 "how it works" steps or power features; zero technical language.
-6. **About us** — why you built it; what else you've built; media mentions.
-7. **Pricing** — 2-3 plans (downsell, main, upsell); transparent refund policy.
-8. **FAQ** — 5-7 tough objections answered directly.
-9. **Final CTA** — repeat value prop; big CTA button.
+Strip every AI tell before shipping:
 
-**Hormozi-style generation prompt rules:** headline pattern "Get [TARGET] To
-[OUTCOME] Without [FRUSTRATION]"; **NO blue/purple gradients** (overused in AI
-industry) — warm palettes, single accent color for CTAs, high contrast; Core Web
-Vitals targets (LCP < 2.5s, CLS < 0.1); transform/opacity-only animations;
-mobile-first; no external deps except icons.
+- Overdone effects and excessive decoration.
+- Blue/purple gradients (the industry default) — use warm palettes, one accent color for CTAs, high contrast.
+- Code-based gradients and shapes where a real image would do.
+- Generic structure and padding.
+- **Hand-rewrite the copy** — AI copy is a tell and lacks human voice. Run it through the `copywriting-master` skill if you need it to convert.
 
-### 25-point conversion audit
+### Gate 7 — Ship
 
-Scores any landing/sales page against 25 points. On new builds, don't ship a
-page that fails items 1-5. Highlights: headline 4-U formula; above-fold value
-prop; first-person CTA; 5-field form max; ad-to-page message match; social proof
-near CTAs; cognitive bias stack; PAS copy; genuine urgency only; price anchoring;
-F-pattern visual hierarchy; mobile thumb zone; grade-6 reading level; white space
-= focus; benefit-first language; micro-commitment ladder.
+Ship. The build is done when it passes Gates 4, 5, and 6, not when the code compiles.
 
-### Home Service Website Conversion Playbook
-
-For home-service clients (the vertical that pays the bills). Five points:
-
-1. **Hero answers three questions in under two seconds** — what you do, where,
-   how to reach you. Big headline naming the service, city under it, visible
-   phone number, real photo of actual work (never stock).
-2. **Trust signals where they can't be missed** — Google rating + review count
-   up top; licensed/insured, locally owned, years in business as simple icons.
-3. **Booking stupid easy, more than one way** — tap-to-call button that sticks
-   while scrolling, bare-minimum form, online scheduling.
-4. **Mobile-first** — traffic is on a phone standing in a kitchen. Fast load,
-   big tap targets, CTA within thumb reach.
-5. **Ad traffic gets its own landing pages, separate from SEO pages** — SEO
-   pages are long (need content to rank); ad pages are stripped to one service,
-   trust signals, one action.
-
-**Speed to lead:** the best-converting homepage still loses the job if nobody
-answers the phone for an hour. Instant response converts. Budget for a human (or
-fast call-answering system) on the phone during business hours.
-
-### High-Converting Product Page (6 elements)
-
-For ecommerce product pages: urgency-inducing toolbar (free shipping threshold +
-promo code); improved imagery (product in real life, not sterile studio); social
-proof integration (star rating + "Loved By Hundreds"); benefit-driven bullet
-points (quantified); flexible purchase options (one-time + subscription);
-streamlined checkout (multiple trusted payments + prominent Add to Cart).
-
-## The verify step — kill the AI tells before you ship
-
-1. **Design critic loop** — invoke a separate "design critic" subagent in a
-   fresh context, given only a screenshot. Loop until it independently scores
-   9/10+. Big expensive model as critic, cheap fast model as implementer.
-2. **Conversion check** — run the 25-point audit. Don't ship a page that fails
-   items 1-5.
-3. **AI-tell audit** — strip overdone effects, excessive decoration, generic
-   structure, blue/purple gradients, code-based gradients/shapes.
-4. **Hand-rewrite the copy** — AI copy is a tell and lacks human voice.
+---
 
 ## Quick-start decision guide
 
 | Job | Reach for |
 |---|---|
-| Give the agent taste | awesome-design-md, Minimal Gallery, Refero Styles, DESIGNmd, Jiro |
-| Build clean UI fast | shadcn/ui, Aceternity, Magic UI, Motion Primitives |
-| Add 3D / scroll-driven wow | ThreeUI, Scrolltide, Spline, Canvas UI |
-| Add motion / icons / illustration | LottieFiles, Anime.js, 3D Icons, Kitbitz |
-| Structure a landing page | 9-block template + Hormozi prompt |
-| Verify it converts | 25-point audit, Home Service Playbook, Product Page CRO |
-| Make it rank locally | see the `seo-ranking` skill |
-| Build authority with links | see the `local-link-building` skill |
-| Brand assets | ChatGPT Logo, Photo-to-Poster, PromptCard, Interior AI, Openverse |
+| Give the agent taste (Gate 1) | `resources.md` §2 — awesome-design-md, Refero Styles, DESIGNmd, Jiro |
+| Set a non-default direction (Gate 2) | `resources.md` §1 — seed strings, ambitious prompts |
+| Build clean UI fast (Gate 3) | `resources.md` §3 — shadcn/ui, Aceternity, Magic UI, Motion Primitives |
+| Add 3D / scroll-driven wow | `resources.md` §3 — ThreeUI, Scrolltide, Spline, Canvas UI |
+| Add motion / icons / illustration | `resources.md` §3 — LottieFiles, Anime.js, 3D Icons, Kitbitz |
+| Structure a landing page (Gate 3) | `resources.md` §4 — 9-block template + Hormozi prompt |
+| Verify it converts (Gate 5) | `resources.md` §4 — 25-point audit, Home Service Playbook, Product Page CRO |
+| Make it rank locally | `resources.md` §5 — Service Page SEO, Money Pages, Stardrive |
+| Brand assets | `resources.md` §6 — ChatGPT Logo, Photo-to-Poster, PromptCard, Interior AI, Openverse |
+| Ship it (Gate 7) | `resources.md` §7 — MVP Build Workflow, Vercel, Stardrive |
 
 ## Related skills in this repo
 
-- **`seo-ranking`** — after the site is built, make it rank: keyword research,
-  on-page optimization, technical SEO, local SEO, Google Business Profile.
-- **`local-link-building`** — build authority with genuine local links: the
-  playbook for earned-over-placed link building for a local service business.
+- **`copywriting-master`** — write the copy that sells before you build the page that holds it.
+- **`seo-ranking`** — after the site is built, make it rank.
+- **`local-link-building`** — build authority with genuine local links.
 
-## Sources
+## Scope and limits
 
-Curated from Michael's X bookmarks and the Goliath Marketing web-design
-workflow. Primary sources: Vibe-Coding Design That Converts (The Boring
-Marketer), AI Design Creativity (Anshu Chimala's 8 Techniques), Landing Page
-Structure Template (Dan Kulkov), Home Service Website Conversion Playbook (Noah
-Igler), High-Converting Product Page (Oliver Kenyon), and the design resource
-shelves (Aman Singh, Abraham John, Vullnet Ademaj, Tanzil Chowdhury).
+This skill produces the workflow and the toolbox for building converting sites with an agent. It does not guarantee a specific visual outcome — taste is enforced by the gates, not by the resources. The resources in `resources.md` are third-party tools; verify licenses and terms before shipping a client build. For regulated categories, have the copy and claims reviewed before publishing.
