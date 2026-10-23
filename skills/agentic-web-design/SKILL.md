@@ -35,67 +35,69 @@ The toolbox lives in [resources.md](resources.md). The loop below is the operati
 
 ## The Goliath Build Loop
 
-Run these gates in order. A gate is a hard stop: you do not move to the next step until the current one passes. If you are tempted to skip Gate 1 or Gate 4, you are about to produce the generic output this skill exists to prevent.
+Run these gates in order. A gate is a hard stop: you do not move to the next step until the current one passes. The two gates agents skip — writing the copy first and pulling real design references per section — are the ones that separate a bespoke site from an AI template.
 
-### Gate 0 — PRD (write it, get it approved)
+### Gate 0 — Goal & UX outline (decide before anything)
 
-Before any code, write a Product Requirements Document: what you are building, for whom, the one conversion action, and the message. Hand it to the user for approval. An agent with an approved PRD builds differently than an agent with a one-line prompt.
+1. **Name the one goal of the site.** What are we trying to get the visitor to do? Most sites have one: buy, generate a lead, contact, book. It's the big CTA in the top-right corner. Write it down.
+2. **Map the homepage and nav.** Section by section, top to bottom: what is the hero's goal, what is the next section's goal, and the next. Each section has a job. The standard arc: hero → problem → solution → proof → how it works → about → pricing → FAQ → final CTA → footer (or an email-capture block, depending on the goal).
+3. Write the outline as a list of sections, each with its goal. Get it approved before writing copy.
 
-### Gate 1 — Taste (mandatory, before any code)
+### Gate 1 — Copy first (write the words before the design)
 
-The single highest-leverage step, and the one agents skip. **Do not write code until this gate passes.**
+Once the outline is decided, write the proposed copy for each section. It does not have to be final or amazing — but you must know what goes in each section before you design it. The design adapts to the copy, not the other way around.
 
-1. **Ask the user for references first.** Ask what sites, brands, or design directions they like. If they name any, use those as the primary taste source.
-2. **If they can't name any, find references from the shelf.** Pick from the taste layer (`resources.md` §2) — `awesome-design-md` (50+ brand design languages as `DESIGN.md` files), a real product style from Refero Styles, or a high-end site from the inspiration galleries. Load it into the agent's context.
-3. **Write `design.md`** — every website gets one. Adapt the chosen reference to the client's colors, fonts, and voice. This file is the taste contract for the whole build.
-4. Only then start building.
+- Write the headline, subhead, section intros, and CTA for each section from the outline.
+- Run it through the `copywriting-master` skill if it needs to convert.
+- The copy is the content the design will carry. Do not design empty boxes and fill them later.
 
-If you skip this, the output will be generic. That is the failure mode this skill exists to prevent.
+### Gate 2 — Design references per section (the step that kills the AI look)
 
-### Gate 2 — Direction (set a non-default direction)
+This is the gate that was missing. **Do not design from memory or from a generic template.** For EACH section in the outline, find 1-2 interesting design references for that *type* of section — not "DJ websites" or "plumbing sites," but interesting heroes, interesting testimonial sections, interesting pricing sections, interesting FAQ sections. Pull them from the inspiration galleries (`resources.md` §2): awwwards, siteinspire, land-book, refero, minimal.gallery, supahero (heroes), cta.gallery, pageflows, etc.
 
-Apply the creativity techniques (`resources.md` §1) so the build does not look like every other AI site. Pick one and state the direction in a single line before building:
+- **Hero** → find an interesting hero layout, not a DJ hero.
+- **Testimonials** → find an interesting testimonial section.
+- **Pricing** → find an interesting pricing section.
+- And so on for every section.
 
-- **Seed string** — generate a long random alphanumeric string, derive color/layout/typography from it. No two runs look the same.
-- **Ambitious prompt** — name a real inspiration (a video game, an interior trend, an art installation) and how it should shape the output. "Radically asymmetric layout, dissonant colors, uncomfortable negative space. Break the rules but still make it look good."
-- **Named reference** — point at a specific high-end site and say what to borrow.
+Save the references (URLs + what to borrow from each) in `design.md`. The build adapts these references to the copy and the brand — it does not invent a layout from scratch.
 
-### Gate 3 — Build (map to the conversion structure)
+### Gate 3 — Build to the references
 
-Build with the component stack (`resources.md` §3), mapped to the 9-block landing structure (`resources.md` §4). Know which block each section serves before you write it.
+Build each section by adapting its design reference to the copy and the brand. Do not invent a generic layout — take the structure, spacing, and visual idea from the reference and fill it with the copy from Gate 1 and the brand from `design.md`.
 
 **Pick the framework for the project, not for the skill.** The workflow is the same in any stack; only the components change.
 
-- **Astro** — use **Stardrive** (`astro-stardrive.com`, local copy at `/home/michael/stardrive`) as the boilerplate: it bakes in technical SEO, security, accessibility, and AI-agent-readiness (`AGENTS.md`, `.ai/` guides, `llms.txt`). Map the 9 blocks to Astro components, wire the design system into Astro's global CSS, use Astro islands for interactive pieces. Keep it static-first.
-- **Webflow** — build the 9 blocks as Webflow sections. Use the design system for the style guide (colors, type, spacing) before you lay out sections. Keep interactions transform/opacity-only for performance. Export clean, semantic structure.
-- **React / Next** — shadcn/ui plus the component stack, same 9-block mapping.
+- **Astro** — use **Stardrive** (`astro-stardrive.com`, local copy at `/home/michael/stardrive`) as the boilerplate: it bakes in technical SEO, security, accessibility, and AI-agent-readiness. Map the sections to Astro components, wire the design system into Astro's global CSS, use Astro islands for interactive pieces. Keep it static-first.
+- **Webflow** — build the sections as Webflow sections. Use the design system for the style guide before you lay out sections. Keep interactions transform/opacity-only for performance.
+- **React / Next** — shadcn/ui plus the component stack, same section mapping.
 
-The conversion structure (Gate 5) and the critic loop (Gate 4) apply identically in every framework. Do not let the framework choice change the gates.
+### Gate 4 — Animations (make it impressive, last)
 
-### Gate 4 — Critic loop (mandatory)
+Only after the design is built do you add motion. Animation is the polish layer, not the structure. Add it where it earns its place: a hero entrance, a scroll reveal, a hover state. Keep it transform/opacity-only for performance. Do not animate everything.
 
-The coding agent cannot critique its own work. Spawn a **fresh design-critic subagent** in a new context, given only a screenshot of the build. Ask it to score the design 1-10 against taste and the conversion structure. Loop until it independently scores **9/10 or higher**. Do not ship before it passes.
+### Gate 5 — Critic loop (mandatory)
+
+The coding agent cannot critique its own work. Spawn a **fresh design-critic subagent** in a new context, given only a screenshot of the build AND the design references it was built from. Ask it to score the design 1-10 against the references and the conversion structure. Loop until it independently scores **9/10 or higher**. Do not ship before it passes.
 
 - Use a big, expensive model as the critic (executive judgment).
 - Use a cheap, fast model as the implementer.
 
-### Gate 5 — Conversion check (mandatory)
+### Gate 6 — Conversion check (mandatory)
 
 Run the 25-point conversion audit (`resources.md` §4). **Do not ship a page that fails items 1-5.** For a home-service client, also run the Home Service Playbook. For ecommerce, the Product Page CRO.
 
-### Gate 6 — AI-tell audit (mandatory)
+### Gate 7 — AI-tell audit & ship
 
 Strip every AI tell before shipping:
 
 - Overdone effects and excessive decoration.
 - Blue/purple gradients (the industry default) — use warm palettes, one accent color for CTAs, high contrast.
 - Code-based gradients and shapes where a real image would do.
-- Generic structure and padding.
-- **Hand-rewrite the copy** — AI copy is a tell and lacks human voice. Run it through the `copywriting-master` skill if you need it to convert.
+- Generic structure and padding — if a section looks like a template, it is not adapted enough to its reference.
+- **Hand-rewrite the copy** — AI copy is a tell and lacks human voice.
 
-### Gate 7 — Ship
-
-Ship. The build is done when it passes Gates 4, 5, and 6, not when the code compiles.
+Ship. The build is done when it passes Gates 5, 6, and 7, not when the code compiles.
 
 ---
 
@@ -103,13 +105,13 @@ Ship. The build is done when it passes Gates 4, 5, and 6, not when the code comp
 
 | Job | Reach for |
 |---|---|
-| Give the agent taste (Gate 1) | `resources.md` §2 — awesome-design-md, Refero Styles, DESIGNmd, Jiro |
-| Set a non-default direction (Gate 2) | `resources.md` §1 — seed strings, ambitious prompts |
-| Build clean UI fast (Gate 3) | `resources.md` §3 — shadcn/ui, Aceternity, Magic UI, Motion Primitives |
+| Map the UX outline (Gate 0) | the standard arc: hero → problem → solution → proof → how it works → about → pricing → FAQ → CTA |
+| Write the copy first (Gate 1) | the `copywriting-master` skill |
+| Find per-section design references (Gate 2) | `resources.md` §2 — awwwards, siteinspire, land-book, refero, minimal.gallery, supahero, cta.gallery, pageflows |
+| Build to the references (Gate 3) | `resources.md` §3 — shadcn/ui, Aceternity, Magic UI, Motion Primitives |
 | Add 3D / scroll-driven wow | `resources.md` §3 — ThreeUI, Scrolltide, Spline, Canvas UI |
-| Add motion / icons / illustration | `resources.md` §3 — LottieFiles, Anime.js, 3D Icons, Kitbitz |
-| Structure a landing page (Gate 3) | `resources.md` §4 — 9-block template + Hormozi prompt |
-| Verify it converts (Gate 5) | `resources.md` §4 — 25-point audit, Home Service Playbook, Product Page CRO |
+| Add motion / icons / illustration (Gate 4) | `resources.md` §3 — LottieFiles, Anime.js, 3D Icons, Kitbitz |
+| Verify it converts (Gate 6) | `resources.md` §4 — 25-point audit, Home Service Playbook, Product Page CRO |
 | Make it rank locally | `resources.md` §5 — Service Page SEO, Money Pages, Stardrive |
 | Brand assets | `resources.md` §6 — ChatGPT Logo, Photo-to-Poster, PromptCard, Interior AI, Openverse |
 | Ship it (Gate 7) | `resources.md` §7 — MVP Build Workflow, Vercel, Stardrive |
