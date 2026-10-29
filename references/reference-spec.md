@@ -74,7 +74,9 @@ heading, in this exact shape:
 - `type` must be one of the taxonomy values above. Anything else is rejected.
 - `source` should be `out-of-geo` (a competitor in another market), `gallery`
   (a design gallery / award site), or `team` (picked internally).
-- `url` must be unique across the whole library; duplicate URLs are skipped.
+- `url` + `type` together must be unique across the whole library; a duplicate
+  (url,type) pair is skipped. A single site can appear under several section
+  types — a great hero AND a great FAQ from the same URL are both valid.
 
 ## Geographic rule (how to hunt references)
 

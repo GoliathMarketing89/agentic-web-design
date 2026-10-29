@@ -176,6 +176,16 @@ def parse_blocks(text: str) -> list[dict]:
     return entries
 
 
+def dedupe_key(e: dict) -> tuple[str, str] | None:
+    """Unique identity of an entry: (url, type). A single site legitimately
+    belongs under multiple section types (great hero AND great FAQ), so URL
+    alone is too coarse to dedupe on."""
+    url = e.get("url")
+    if not url:
+        return None
+    return (url, e.get("type", ""))
+
+
 def rebuild(entries: list[dict]) -> str:
     """Group entries by type in the canonical section order and render md."""
     order = [
@@ -236,15 +246,17 @@ def main():
 
     lib = Path(args.library)
     existing = parse_blocks(lib.read_text(encoding="utf-8")) if lib.exists() else []
-    existing_urls = {e.get("url") for e in existing if e.get("url")}
+    seen = {dedupe_key(e) for e in existing}
 
     added, skipped = [], []
     for e in norm:
-        if e["url"] in existing_urls:
-            skipped.append(e["url"])
+        key = dedupe_key(e)
+        if key in seen:
+            reason = f"url already logged for type '{e.get('type')}'"
+            skipped.append(f"{e['url']} ({reason})")
             continue
         existing.append(e)
-        existing_urls.add(e["url"])
+        seen.add(key)
         added.append(e["url"])
         for note in e.get("_notes", []):
             print(f"  NOTE [{e['url']}]: {note}")
