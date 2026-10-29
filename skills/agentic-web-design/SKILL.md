@@ -54,7 +54,23 @@ Once the outline is decided, write the proposed copy for each section. It does n
 
 ### Gate 2 — Design references per section (the step that kills the AI look)
 
-This is the gate that was missing. **Do not design from memory or from a generic template.** For EACH section in the outline, find 1-2 interesting design references for that *type* of section — not "DJ websites" or "plumbing sites," but interesting heroes, interesting testimonial sections, interesting pricing sections, interesting FAQ sections. Pull them from the inspiration galleries (`resources.md` §2): awwwards, siteinspire, land-book, refero, minimal.gallery, supahero (heroes), cta.gallery, pageflows, etc.
+This is the gate that was missing. **Do not design from memory or from a generic template.** For EACH section in the outline, find 1-2 interesting design references for that *type* of section — not "DJ websites" or "plumbing sites," but interesting heroes, interesting testimonial sections, interesting pricing sections, interesting FAQ sections.
+
+**Pull from the shared library first, browse only when it's thin.** The
+reference library at `references/design-reference-library.md` (in this repo) is
+a vetted, per-section bank of real sites with what-to-borrow notes and conv/wow
+scores. Check it before you touch a gallery. For each section type in your
+outline, grep the matching `## <type>` block and shortlist 1-2 entries that fit
+the brief. Then **show the owner the shortlist — names/URLs and what you'd
+borrow — and get them agreed before building.** This is the reference
+conversation; never quietly pick references and build. If the library has
+nothing that fits a section type, run the `web-design-reference-miner` skill to
+find and vet some (that skill mines out-of-geography competitors and galleries,
+then appends vetted entries back through `references/append_reference.py`).
+
+Only after the library is checked do you reach for the inspiration galleries
+(`resources.md` §2): awwwards, siteinspire, land-book, refero, minimal.gallery,
+supahero (heroes), cta.gallery, pageflows, etc.
 
 - **Hero** → find an interesting hero layout, not a DJ hero.
 - **Testimonials** → find an interesting testimonial section.
