@@ -51,6 +51,7 @@ Allowed values exactly:
 | `nav` | Header / navigation treatment |
 | `logo-cloud` | Customer, partner or press mark groups with clearly scoped relationships |
 | `blog` | Editorial leads, article grids, journal feeds and topic discovery |
+| `search` | Query entry, result lists, facets, empty states and discovery controls |
 | `3d` | 3D, WebGL, scroll-driven, interactive |
 | `ecommerce` | Product pages, PDP layouts |
 | `footer` | Footer treatments |

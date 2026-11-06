@@ -1,0 +1,194 @@
+[
+  {
+    "id": "peak-product",
+    "name": "Peak Design — visual variant selection with practical size support",
+    "type": "ecommerce",
+    "url": "https://www.peakdesign.com/global/products/everyday-backpack",
+    "styles": "light, technical-product, visual-variants, size-guide",
+    "industry": "ecommerce, bags, technical-products",
+    "conv": 9,
+    "wow": 8,
+    "borrow": "a large product-image matrix beside size buttons and photographic color swatches, with a human-scale size-guide sheet",
+    "why": "Options are visually inspectable and size uncertainty is addressed without leaving the product context.",
+    "fit": "A physical product with meaningful sizes, colors and internal details that photography can explain.",
+    "avoid": "A product with inconsistent photography across variants or variants whose stock and compatibility cannot be modeled reliably.",
+    "slots": "Product identity; rating/review route; multi-angle gallery; size choices; color name and thumbnails; size guide; optional bundles; price; purchase action; description/specifications.",
+    "composition": "A wide two-column product area places a large two-up image matrix at left and a decision panel at right. Product identity and review evidence precede large size controls. Photographic color swatches show the whole bag instead of abstract color dots. Bundle choices follow as bordered rows.",
+    "mobile_behavior": "At 390 px the name and rating precede a single-image carousel with progress markers and arrows. Size buttons and labeled color thumbnails follow. The size guide opens as a rounded bottom sheet containing people of different heights wearing the product.",
+    "rebuild": "Use a variant model keyed by size and color, with inventory, price and its matching media set. Render semantic radio choices with text labels and a visible selected state. Keep gallery dimensions stable when variants change. Make the size guide an accessible dialog with scroll containment, close, Escape and focus return. Build a useful static gallery before adding turntable media.",
+    "assets": "Original multi-angle product images, interior detail photographs and consistent variant thumbnails. Shoot scale photographs on multiple body sizes and label the measurements. A 360 sequence is optional; use a poster fallback and load extra frames only when needed.",
+    "adapt": "Separate required choices from optional bundles. Place price and availability near the purchase action. Keep support widgets from covering the gallery or guide. Do not substitute a color change for a real variant dataset or reuse the source's claims and policies.",
+    "interaction": "Choosing Ocean updated its checked state, color label and product imagery after settling. The phone Size Guide opened and Close dismissed it. The 360 control, carousel swiping, bundle pricing and checkout were not tested. No item was added to a cart. The saved desktop context includes a support widget over part of the lower gallery.",
+    "desktop": [
+      "shots/peak-product-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/peak-product-mobile.jpg",
+      "shots/peak-product-mobile-guide.jpg"
+    ],
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and 390 px phone evidence inspected. Scores are editorial judgments of clarity and visual impact, not measured conversion. No complete rebuild, checkout or accessibility audit performed."
+  },
+  {
+    "id": "ugmonk-product",
+    "name": "Ugmonk — tactile material choices and explicit kit contents",
+    "type": "ecommerce",
+    "url": "https://ugmonk.com/products/analog-starter-kit",
+    "styles": "warm, tactile-photography, kit-selection, editorial-product",
+    "industry": "ecommerce, stationery, home-office",
+    "conv": 9,
+    "wow": 9,
+    "borrow": "photographic material swatches above kit cards that show the included components, quantity horizon and price",
+    "why": "The buyer sees the product in use and can compare complete packages without decoding a vague tier name.",
+    "fit": "A tangible product sold in several materials or bundles whose included components matter to the decision.",
+    "avoid": "A single simple SKU or bundles whose claimed savings and included quantities cannot be kept accurate.",
+    "slots": "Product gallery with explanatory images; title; material; benefit summary; rating; price; material links; kit image/name; included items; price/value; purchase action; shipping and origin context.",
+    "composition": "On a warm off-white surface, a large product photograph and vertical thumbnail rail sit left of a serif product title and compact buying information. Large cropped material swatches reveal the texture. Below them, outlined horizontal kit cards combine image, name, included items and price; selected and recommended states use restrained brown accents.",
+    "mobile_behavior": "The gallery becomes full-width with dot pagination, followed by title, summary and price. Three material swatches fit across the narrow screen. Kit cards remain horizontal but use compact type and wrap names and component lists. The longer list continues below the first screen.",
+    "rebuild": "Create separate records for material and package, including valid combinations, media, included components and price. Use real routes for linked products or semantic radios for in-place selection, with clear selected state. Build the gallery with ordinary image buttons, keyboard controls and descriptive labels. Keep package contents readable at 390 px and support longer translated names.",
+    "assets": "Original product still life, lifestyle use, material close-ups and annotated included-in-kit photography. Keep informative text in HTML when possible. Use consistent light and crop across swatches; reserve explanatory diagrams for genuine decision questions.",
+    "adapt": "Make the package distinction concrete: quantity, components and expected replenishment horizon. Use recommendation badges only with a defensible basis. Keep total price and delivery context near the action. Avoid intrusive lead-capture overlays while visitors are comparing options.",
+    "interaction": "Selecting gallery thumbnail 3 changed the displayed media and corresponding image description. Desktop gallery and phone gallery/options were captured. Material and kit destination URLs were inspected but not activated; selected package changes, price recalculation and checkout were not tested. An email offer briefly obscured an earlier capture; the accepted options capture is unobstructed. No form or cart action was submitted.",
+    "desktop": [
+      "shots/ugmonk-product-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/ugmonk-product-mobile.jpg",
+      "shots/ugmonk-product-mobile-options.jpg"
+    ],
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and 390 px phone evidence inspected. Scores are editorial judgments of clarity and visual impact, not measured conversion. No complete rebuild, checkout or accessibility audit performed."
+  },
+  {
+    "id": "lego-product",
+    "name": "LEGO — useful product detail after an item is retired",
+    "type": "ecommerce",
+    "url": "https://www.lego.com/en-us/product/retro-radio-10334",
+    "styles": "light, product-gallery, unavailable-state, product-facts",
+    "industry": "ecommerce, collectibles, consumer-products",
+    "conv": 6,
+    "wow": 8,
+    "borrow": "a preserved high-quality gallery and product facts with unmistakable retired status, instructions and alternative-product discovery",
+    "why": "An unavailable item can still answer ownership and research questions instead of ending in an unhelpful dead end.",
+    "fit": "A durable product catalog with discontinued items, replacement models, support needs or collectible value.",
+    "avoid": "An in-stock sales page copied wholesale from a retired-product state, or obsolete products whose details would create safety or compatibility confusion.",
+    "slots": "Breadcrumb; product theme and ID; gallery/thumbnails; reviews; explicit availability state; age/quantity or equivalent facts; instructions/support route; section navigation; related products.",
+    "composition": "A large landscape gallery dominates the left, with a narrow vertical thumbnail rail and overlaid image controls. A quieter right column carries identity, rating and a red retirement label. A section-navigation strip below the main panel leads to features, specifications and reviews.",
+    "mobile_behavior": "The gallery spans the width before title, review route and retired status. Compact fact blocks follow, then the building-instructions route and warning. Recommended products appear below. Section navigation stays along the bottom and overflows horizontally.",
+    "rebuild": "Treat availability as an explicit product state. Remove or disable purchase actions consistently in both page body and sticky controls while keeping the reason visible. Preserve gallery, manuals, specifications and support links. Offer relevant current alternatives with clear labels; keep the retired model's identity distinct from replacements. Make image controls and section navigation keyboard-operable.",
+    "assets": "Owned product images, alternate angles, valid manuals/instructions and current related-product images. Maintain a stable catalog identifier and accurate retirement information. Keep warnings as accessible text rather than decorative imagery alone.",
+    "adapt": "Use this as an unavailable-product recipe, not proof of a complete purchase flow. Add a prominent alternative or support action near the status when appropriate. Avoid huge empty desktop buying space after removing controls, and ensure sticky navigation never hides content.",
+    "interaction": "Selecting gallery thumbnail 4 produced an alternate product view with counter 4/13 in the desktop capture. The responsive gallery later showed a different counter, so exact frame persistence across resizing is not established. Retired status and the disabled purchase action were observed. Manuals, review routes and recommendations were not opened. No purchase action occurred.",
+    "desktop": [
+      "shots/lego-product-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/lego-product-mobile.jpg"
+    ],
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and 390 px phone evidence inspected. Scores are editorial judgments of clarity and visual impact, not measured conversion. No complete rebuild, checkout or accessibility audit performed."
+  },
+  {
+    "id": "linear-search",
+    "name": "Linear — compact journal command search with an explicit empty state",
+    "type": "search",
+    "url": "https://linear.app/now",
+    "styles": "dark, command-search, compact-results, empty-state",
+    "industry": "software, journals, content-heavy-sites",
+    "conv": 8,
+    "wow": 8,
+    "borrow": "a focused dark search dialog that filters a compact title list and replaces it with a clear no-results message",
+    "why": "The search task stays small and direct instead of opening a second complex browsing surface.",
+    "fit": "A bounded editorial archive or resource collection where titles carry enough context to identify a result.",
+    "avoid": "A large catalog whose results need imagery, date, source or other metadata to disambiguate similar titles.",
+    "slots": "Visible search trigger; dialog title; query field; result group label; result titles and destinations; active result; empty state; dismiss behavior.",
+    "composition": "A dark rounded dialog floats over a strongly dimmed journal page. The query field is separated by a thin rule. A small group label precedes dense full-row results with a directional icon and a highlighted active row. The empty state replaces the list rather than adding an error banner.",
+    "mobile_behavior": "An already-open dialog reflows into a narrow panel with side margins near the top of the viewport. Long titles truncate. The phone journal's top section did not expose the desktop search trigger; this pass verified the open panel after resizing, not a native phone opening route or virtual keyboard behavior.",
+    "rebuild": "Index stable article IDs, titles and URLs. Maintain query, loading, result, empty and failure states independently. Use an accessible combobox/listbox only if the full keyboard model is implemented; otherwise use a labeled search input and normal result links. Debounce remote requests, cancel stale results and restore focus on dismissal.",
+    "assets": "No hero artwork is needed. Provide a clean content index, accurate titles and stable destinations. Optional date/category metadata should be added when titles alone are ambiguous.",
+    "adapt": "Make search visibly discoverable on phones and add a clear close control. Let full titles wrap when truncation hides distinctions. Offer a reset or broader browse route in the empty state, and provide a separate message for network failure.",
+    "interaction": "Desktop Search opened the command menu. Typing quality returned four matching titles; typing zzzxq-no-match showed No results found. Both were captured. ArrowDown and Enter were sent, but the destination did not settle before the next navigation, so successful keyboard destination navigation is not claimed. Phone panel inspected by resizing an already-open desktop dialog.",
+    "desktop": [
+      "shots/linear-search-desktop.jpg",
+      "shots/linear-search-desktop-empty.jpg"
+    ],
+    "mobile": [
+      "shots/linear-search-mobile.jpg"
+    ],
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and 390 px phone evidence inspected. Scores are editorial judgments of clarity and visual impact, not measured conversion. No complete rebuild, checkout or accessibility audit performed."
+  },
+  {
+    "id": "stripe-search",
+    "name": "Stripe Docs — contextual results with breadcrumbs and separate AI suggestions",
+    "type": "search",
+    "url": "https://docs.stripe.com/",
+    "styles": "light, documentation-search, contextual-results, full-height-phone",
+    "industry": "documentation, technical-products, knowledge-bases",
+    "conv": 9,
+    "wow": 8,
+    "borrow": "search results with title, short description and breadcrumb context, followed by distinctly labeled alternative discovery routes",
+    "why": "Users can distinguish similar documentation pages before opening them and understand where a match belongs.",
+    "fit": "A large technical or knowledge library with similar topic names across multiple products.",
+    "avoid": "A tiny archive or an implementation that mixes generated answers and canonical documentation without clear source boundaries.",
+    "slots": "Search trigger; query; result title, excerpt and breadcrumb; highlighted matches; selected result; view-more route; optional AI suggestions; optional code-example group; close; empty state.",
+    "composition": "A tall white rounded search panel overlays the documentation page. Rows combine a document icon, highlighted title/excerpt matches and a small breadcrumb. The active row has a visible blue outline. A view-more route separates the initial matches from a labeled AI-suggestion group; code examples are a further content type below.",
+    "mobile_behavior": "The panel expands to nearly the full phone width and height while keeping the input and close control at the top. Result descriptions and breadcrumb lines shorten or truncate. The long list scrolls inside the search surface. No-results text remains near the query, with an optional AI question below it.",
+    "rebuild": "Index heading, excerpt, breadcrumb, canonical URL and result kind. Preserve the distinction between document navigation and actions such as asking AI or copying code. Implement loading, settled results, empty and network-failure states; announce result changes accessibly. Use stable focus styling, a scrollable results region and a dialog close mechanism.",
+    "assets": "A structured documentation index, lightweight document/type icons and high-quality excerpts. AI suggestions are optional and require an actual supported service; do not simulate generated answers or copy the source code examples.",
+    "adapt": "For a marketing resource center, retain title, excerpt and category context while omitting code and AI groups. Keep canonical results first. Do not make AI the only recovery path for zero matches. Preserve more context on phones when short titles are ambiguous.",
+    "interaction": "Search opened the panel. The webhooks query settled into matching pages with descriptions and breadcrumbs, plus separate AI and code-example groups. A nonmatching query settled to No results found with an AI suggestion; no AI suggestion was activated. Close dismissed the panel. Result navigation, code copying, virtual keyboard behavior and full keyboard traversal were not audited.",
+    "desktop": [
+      "shots/stripe-search-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/stripe-search-mobile.jpg",
+      "shots/stripe-search-mobile-empty.jpg"
+    ],
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and 390 px phone evidence inspected. Scores are editorial judgments of clarity and visual impact, not measured conversion. No complete rebuild, checkout or accessibility audit performed."
+  },
+  {
+    "id": "pexels-search",
+    "name": "Pexels — visual results with durable facets and a dedicated phone filter panel",
+    "type": "search",
+    "url": "https://www.pexels.com/search/coastal%20architecture/",
+    "styles": "light, visual-search, facets, masonry-results",
+    "industry": "asset-libraries, catalogs, visual-marketplaces",
+    "conv": 8,
+    "wow": 8,
+    "borrow": "a visual result grid paired with explicit facets, an active-filter count and URL-persisted orientation state",
+    "why": "Search refinement remains visible and shareable while the results themselves carry the main visual comparison task.",
+    "fit": "A visual catalog with meaningful filters such as format, size, category or orientation.",
+    "avoid": "A small text archive, uncontrolled metadata, or sponsored items that would be difficult to distinguish from actual results.",
+    "slots": "Query; heading reflecting the query; result-kind tabs and counts; related-query chips; Filters control/count; facet groups; selected choices; result thumbnails; explicit sponsored labels; clear/reset.",
+    "composition": "A broad header search sits above the query heading, content-type tabs and a row of related-search chips. The desktop Filters control reveals a left rail of grouped facets, reducing the width of the image result grid. Selection is shown with outlined pills and an active-filter count.",
+    "mobile_behavior": "The query heading and type tabs wrap or overflow in a compact top area. Results become one large-image column. A floating Filters (1) action near the bottom opens a dedicated tall panel with facet groups, selection, reset and back controls; the main results remain behind it.",
+    "rebuild": "Define a canonical URL schema for query, type, facets and sort. Parse it on load and update it when refinement changes. Keep selected state and counts synchronized with returned results; cancel stale requests. Build a responsive results grid with stable aspect ratios, lazy loading and explicit sponsored boundaries. Use a phone filter sheet with named controls and safe-area spacing.",
+    "assets": "Rights-cleared thumbnails, dimensions/aspect ratios, accurate facet metadata and creator/source records. Do not treat screenshots of source results as a licensed image collection. Provide real result counts and honest advertisement labels.",
+    "adapt": "Choose only filters that meaningfully narrow the client's catalog. Give reset and back icon buttons accessible names; the observed phone controls were unlabeled in the accessibility snapshot. Preserve a usable phone query-editing route and avoid a floating control that covers results.",
+    "interaction": "The coastal architecture query navigated to its result page. Filters opened the desktop rail. Clicking the visible Horizontal label produced a checked radio, a new result set, Filters (1), and URL parameter orientation=landscape. Phone filters and results were captured; the back control closed the panel. Range sliders, reset, empty results and image downloads were not tested.",
+    "desktop": [
+      "shots/pexels-search-desktop.jpg",
+      "shots/pexels-search-desktop-filter.jpg"
+    ],
+    "mobile": [
+      "shots/pexels-search-mobile.jpg",
+      "shots/pexels-search-mobile-filter.jpg"
+    ],
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and 390 px phone evidence inspected. Scores are editorial judgments of clarity and visual impact, not measured conversion. No complete rebuild, checkout or accessibility audit performed."
+  }
+]

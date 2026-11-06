@@ -15,6 +15,8 @@
     "social-proof": 4,
     "logo-cloud": 3,
     "blog": 3,
+    "search": 3,
+    "ecommerce": 3,
     "how-it-works": 4,
     "contact": 6,
     "faq": 6,
@@ -588,6 +590,60 @@
       "industry": "creative-agency, consultancy, professional-services",
       "fit": "A consultative service with a clear first conversation, delivery stage and client outcome.",
       "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "peak-product",
+      "name": "Peak Design — visual variant selection with practical size support",
+      "type": "ecommerce",
+      "styles": "light, technical-product, visual-variants, size-guide",
+      "industry": "ecommerce, bags, technical-products",
+      "fit": "A physical product with meaningful sizes, colors and internal details that photography can explain.",
+      "catalog": "patterns/product-search-2026-11-06.json"
+    },
+    {
+      "id": "ugmonk-product",
+      "name": "Ugmonk — tactile material choices and explicit kit contents",
+      "type": "ecommerce",
+      "styles": "warm, tactile-photography, kit-selection, editorial-product",
+      "industry": "ecommerce, stationery, home-office",
+      "fit": "A tangible product sold in several materials or bundles whose included components matter to the decision.",
+      "catalog": "patterns/product-search-2026-11-06.json"
+    },
+    {
+      "id": "lego-product",
+      "name": "LEGO — useful product detail after an item is retired",
+      "type": "ecommerce",
+      "styles": "light, product-gallery, unavailable-state, product-facts",
+      "industry": "ecommerce, collectibles, consumer-products",
+      "fit": "A durable product catalog with discontinued items, replacement models, support needs or collectible value.",
+      "catalog": "patterns/product-search-2026-11-06.json"
+    },
+    {
+      "id": "linear-search",
+      "name": "Linear — compact journal command search with an explicit empty state",
+      "type": "search",
+      "styles": "dark, command-search, compact-results, empty-state",
+      "industry": "software, journals, content-heavy-sites",
+      "fit": "A bounded editorial archive or resource collection where titles carry enough context to identify a result.",
+      "catalog": "patterns/product-search-2026-11-06.json"
+    },
+    {
+      "id": "stripe-search",
+      "name": "Stripe Docs — contextual results with breadcrumbs and separate AI suggestions",
+      "type": "search",
+      "styles": "light, documentation-search, contextual-results, full-height-phone",
+      "industry": "documentation, technical-products, knowledge-bases",
+      "fit": "A large technical or knowledge library with similar topic names across multiple products.",
+      "catalog": "patterns/product-search-2026-11-06.json"
+    },
+    {
+      "id": "pexels-search",
+      "name": "Pexels — visual results with durable facets and a dedicated phone filter panel",
+      "type": "search",
+      "styles": "light, visual-search, facets, masonry-results",
+      "industry": "asset-libraries, catalogs, visual-marketplaces",
+      "fit": "A visual catalog with meaningful filters such as format, size, category or orientation.",
+      "catalog": "patterns/product-search-2026-11-06.json"
     },
     {
       "id": "instrument-services",

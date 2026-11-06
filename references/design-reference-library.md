@@ -292,20 +292,6 @@
 - by: Codex
 
 ## logo-cloud
-### Notion — broad monochrome logo cloud with selected customer-story links
-- name: Notion — broad monochrome logo cloud with selected customer-story links
-- url: https://www.notion.com/
-- type: logo-cloud
-- styles: light, monochrome, broad-cloud, customer-links
-- industry: software, business-services, platforms
-- source: team
-- borrow: a short trust statement above two optically balanced rows of monochrome customer marks
-- why: A wide variety of recognizable marks communicates breadth, and selected logos offer a route to supporting stories.
-- conv: 8
-- wow: 7
-- shot: shots/notion-logo-desktop.jpg
-- by: Codex
-
 ### Linear — restrained dark customer strip with a collective evidence route
 - name: Linear — restrained dark customer strip with a collective evidence route
 - url: https://linear.app/
@@ -318,6 +304,20 @@
 - conv: 8
 - wow: 8
 - shot: shots/linear-logo-desktop.jpg
+- by: Codex
+
+### Notion — broad monochrome logo cloud with selected customer-story links
+- name: Notion — broad monochrome logo cloud with selected customer-story links
+- url: https://www.notion.com/
+- type: logo-cloud
+- styles: light, monochrome, broad-cloud, customer-links
+- industry: software, business-services, platforms
+- source: team
+- borrow: a short trust statement above two optically balanced rows of monochrome customer marks
+- why: A wide variety of recognizable marks communicates breadth, and selected logos offer a route to supporting stories.
+- conv: 8
+- wow: 7
+- shot: shots/notion-logo-desktop.jpg
 - by: Codex
 
 ### Webflow — customer logo grid with story and outcome cues
@@ -375,6 +375,49 @@
 - conv: 8
 - wow: 8
 - shot: shots/stripe-blog-desktop.jpg
+- by: Codex
+
+## search
+### Linear — compact journal command search with an explicit empty state
+- name: Linear — compact journal command search with an explicit empty state
+- url: https://linear.app/now
+- type: search
+- styles: dark, command-search, compact-results, empty-state
+- industry: software, journals, content-heavy-sites
+- source: team
+- borrow: a focused dark search dialog that filters a compact title list and replaces it with a clear no-results message
+- why: The search task stays small and direct instead of opening a second complex browsing surface.
+- conv: 8
+- wow: 8
+- shot: shots/linear-search-desktop.jpg
+- by: Codex
+
+### Stripe Docs — contextual results with breadcrumbs and separate AI suggestions
+- name: Stripe Docs — contextual results with breadcrumbs and separate AI suggestions
+- url: https://docs.stripe.com/
+- type: search
+- styles: light, documentation-search, contextual-results, full-height-phone
+- industry: documentation, technical-products, knowledge-bases
+- source: team
+- borrow: search results with title, short description and breadcrumb context, followed by distinctly labeled alternative discovery routes
+- why: Users can distinguish similar documentation pages before opening them and understand where a match belongs.
+- conv: 9
+- wow: 8
+- shot: shots/stripe-search-desktop.jpg
+- by: Codex
+
+### Pexels — visual results with durable facets and a dedicated phone filter panel
+- name: Pexels — visual results with durable facets and a dedicated phone filter panel
+- url: https://www.pexels.com/search/coastal%20architecture/
+- type: search
+- styles: light, visual-search, facets, masonry-results
+- industry: asset-libraries, catalogs, visual-marketplaces
+- source: team
+- borrow: a visual result grid paired with explicit facets, an active-filter count and URL-persisted orientation state
+- why: Search refinement remains visible and shareable while the results themselves carry the main visual comparison task.
+- conv: 8
+- wow: 8
+- shot: shots/pexels-search-desktop.jpg
 - by: Codex
 
 ## social-proof
@@ -1123,20 +1166,6 @@
 - by: Codex; observed 2026-11-06
 
 ## nav
-### Notion — illustrated discovery menu with persistent conversion routes
-- name: Notion — illustrated discovery menu with persistent conversion routes
-- url: https://www.notion.com/
-- type: nav
-- styles: light, illustrated-menu, compact-disclosure, persistent-actions
-- industry: software, multi-product, education
-- source: team
-- borrow: three illustrated product cards in a floating desktop menu that turn into compact mobile disclosure rows
-- why: A small set of visual choices makes product discovery approachable while self-service and sales routes remain obvious.
-- conv: 9
-- wow: 8
-- shot: shots/notion-nav-desktop.jpg
-- by: Codex
-
 ### Figma — task-led mega menu beside a grouped product directory
 - name: Figma — task-led mega menu beside a grouped product directory
 - url: https://www.figma.com/
@@ -1163,6 +1192,20 @@
 - conv: 7
 - wow: 9
 - shot: shots/locomotive-nav-desktop.jpg
+- by: Codex
+
+### Notion — illustrated discovery menu with persistent conversion routes
+- name: Notion — illustrated discovery menu with persistent conversion routes
+- url: https://www.notion.com/
+- type: nav
+- styles: light, illustrated-menu, compact-disclosure, persistent-actions
+- industry: software, multi-product, education
+- source: team
+- borrow: three illustrated product cards in a floating desktop menu that turn into compact mobile disclosure rows
+- why: A small set of visual choices makes product discovery approachable while self-service and sales routes remain obvious.
+- conv: 9
+- wow: 8
+- shot: shots/notion-nav-desktop.jpg
 - by: Codex
 
 ### Stripe split header nav
@@ -1193,6 +1236,48 @@
 - by: Hermes
 
 ## ecommerce
+### Peak Design — visual variant selection with practical size support
+- name: Peak Design — visual variant selection with practical size support
+- url: https://www.peakdesign.com/global/products/everyday-backpack
+- type: ecommerce
+- styles: light, technical-product, visual-variants, size-guide
+- industry: ecommerce, bags, technical-products
+- source: team
+- borrow: a large product-image matrix beside size buttons and photographic color swatches, with a human-scale size-guide sheet
+- why: Options are visually inspectable and size uncertainty is addressed without leaving the product context.
+- conv: 9
+- wow: 8
+- shot: shots/peak-product-desktop.jpg
+- by: Codex
+
+### Ugmonk — tactile material choices and explicit kit contents
+- name: Ugmonk — tactile material choices and explicit kit contents
+- url: https://ugmonk.com/products/analog-starter-kit
+- type: ecommerce
+- styles: warm, tactile-photography, kit-selection, editorial-product
+- industry: ecommerce, stationery, home-office
+- source: team
+- borrow: photographic material swatches above kit cards that show the included components, quantity horizon and price
+- why: The buyer sees the product in use and can compare complete packages without decoding a vague tier name.
+- conv: 9
+- wow: 9
+- shot: shots/ugmonk-product-desktop.jpg
+- by: Codex
+
+### LEGO — useful product detail after an item is retired
+- name: LEGO — useful product detail after an item is retired
+- url: https://www.lego.com/en-us/product/retro-radio-10334
+- type: ecommerce
+- styles: light, product-gallery, unavailable-state, product-facts
+- industry: ecommerce, collectibles, consumer-products
+- source: team
+- borrow: a preserved high-quality gallery and product facts with unmistakable retired status, instructions and alternative-product discovery
+- why: An unavailable item can still answer ownership and research questions instead of ending in an unhelpful dead end.
+- conv: 6
+- wow: 8
+- shot: shots/lego-product-desktop.jpg
+- by: Codex
+
 ### Casper trust-heavy product page
 - name: Casper trust-heavy product page
 - url: https://casper.com
