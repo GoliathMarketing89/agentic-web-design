@@ -2,6 +2,9 @@
   "counts": {
     "hero": 3,
     "bento": 3,
+    "pricing": 4,
+    "social-proof": 4,
+    "how-it-works": 4,
     "contact": 6,
     "faq": 6,
     "cta": 6
@@ -222,6 +225,114 @@
       "industry": "software, crm, b2b",
       "fit": "A complex product where one workflow can anchor two supporting capabilities. Works when product artifacts provide more meaning than decorative imagery.",
       "catalog": "patterns/hero-bento-2026-11-06.json"
+    },
+    {
+      "id": "linear-pricing",
+      "name": "Linear — restrained four-tier comparison",
+      "type": "pricing",
+      "styles": "dark, four-tiers, hairline-grid, billing-toggle",
+      "industry": "software, b2b",
+      "fit": "A product with meaningful feature and seat limits across three or four plans.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "resend-pricing",
+      "name": "Resend — usage-guided plan recommendation",
+      "type": "pricing",
+      "styles": "dark, usage-slider, recommended-tier, rounded-cards",
+      "industry": "software, developer-tools, metered-services",
+      "fit": "A metered product whose usage bands determine a suitable plan.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "lemon-pricing",
+      "name": "Lemon Squeezy — parallel billing models in pastel panels",
+      "type": "pricing",
+      "styles": "pastel, split-panels, transaction-fee, subscriber-slider",
+      "industry": "commerce, payments, creator-tools",
+      "fit": "Complementary products with different billing bases, such as transactions and subscribers.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "designjoy-pricing",
+      "name": "Designjoy — tangible membership beside one subscription",
+      "type": "pricing",
+      "styles": "light, single-offer, membership-object, dark-price-card",
+      "industry": "design-services, subscription-services",
+      "fit": "A recurring service with one primary package and a strong brand asset.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "linear-proof",
+      "name": "Linear — asymmetric quotes linked to customer stories",
+      "type": "social-proof",
+      "styles": "dark-surround, pastel, asymmetric-cards, story-links",
+      "industry": "software, b2b, platforms",
+      "fit": "Two strong attributed endorsements with relevant full customer stories.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "raycast-proof",
+      "name": "Raycast — profile selector with specific usage endorsements",
+      "type": "social-proof",
+      "styles": "dark, portrait-selector, feature-context, focused-quote",
+      "industry": "software, productivity, creator-tools",
+      "fit": "Several credible users with distinct use cases and usable portrait permissions.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "designjoy-proof",
+      "name": "Designjoy — two editorial endorsements without cards",
+      "type": "social-proof",
+      "styles": "light, editorial-serif, paired-quotes, minimal-chrome",
+      "industry": "design-services, creative-agency, professional-services",
+      "fit": "Two concise, legitimately attributed endorsements beside a strong portfolio.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "opendoor-proof",
+      "name": "Opendoor — family stories with inline video and location",
+      "type": "social-proof",
+      "styles": "light, customer-photography, video, horizontal-rail",
+      "industry": "home-services, real-estate, consumer-services",
+      "fit": "A considered consumer service with permissioned customer stories and video.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "designjoy-process",
+      "name": "Designjoy — three illustrated service steps",
+      "type": "how-it-works",
+      "styles": "colorful, three-steps, illustrated-cards, deliverable-led",
+      "industry": "design-services, subscription-services",
+      "fit": "A simple recurring service where the visitor needs to understand what to request and receive.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "framer-process",
+      "name": "Framer — product demonstration with three stage summaries",
+      "type": "how-it-works",
+      "styles": "dark, product-demo, three-stage-strip, minimal-icons",
+      "industry": "software, creator-tools, platforms",
+      "fit": "A visual software workflow with a useful demonstration and three meaningful phases.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "opendoor-process",
+      "name": "Opendoor — selectable steps with matching service visuals",
+      "type": "how-it-works",
+      "styles": "light, split, step-accordion, contextual-media",
+      "industry": "home-services, real-estate, consumer-services",
+      "fit": "A multi-stage service with distinct artifacts or actions at each step.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "lime-process",
+      "name": "Lime Studio — editorial numbered process with proof and next action",
+      "type": "how-it-works",
+      "styles": "dark-green, serif, numbered-rows, quote-backed",
+      "industry": "creative-agency, consultancy, professional-services",
+      "fit": "A consultative service with a clear first conversation, delivery stage and client outcome.",
+      "catalog": "patterns/pricing-proof-process-2026-11-06.json"
     }
   ]
 }

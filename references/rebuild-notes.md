@@ -340,6 +340,678 @@ The Build pipeline anchor was exercised and scrolled to the article. Mobile navi
 
 Live desktop/mobile inspection and complementary viewport captures. No complete rebuild or conversion measurement.
 
+## Linear — restrained four-tier comparison
+
+ID: `linear-pricing` · Type: pricing · Observed: 2026-11-06
+
+Source: [Linear — restrained four-tier comparison](https://linear.app/pricing)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: equal-width pricing columns with aligned prices, billing rows, benefits and bottom actions
+
+Editorial scores: conversion clarity 9/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/linear-pricing-desktop.jpg)
+
+Mobile: [view 1](shots/linear-pricing-mobile.jpg)
+
+### Use when
+
+A product with meaningful feature and seat limits across three or four plans.
+
+### Avoid when
+
+A single offer or tiers differentiated only by vague adjectives.
+
+### Content slots
+
+Plan; amount and billing unit; billing period; inherited benefits; distinguishing features; signup or sales action.
+
+### Desktop composition
+
+Four columns on black with faint vertical dividers. Headings, prices, billing rows and benefit lists share alignment. Buttons sit along the bottom; the Business signup has stronger contrast.
+
+### Observed mobile behavior
+
+Plans stack as full-width sections. The phone capture shows Basic with a feature list and action, then Business. A single-plan comparison selector appears below in the DOM; it was not exercised.
+
+### Rebuild recipe
+
+Model plans separately from billing state. Use consistent header, benefit and action regions; let benefit lists absorb height differences. Drive every billing checkbox from one shared value. Stack when benefit text becomes cramped.
+
+### Asset production
+
+Typography and check icons suffice. Prepare actual plan limits, inherited features and checkout/sales destinations.
+
+### Adaptation decisions
+
+State per-seat or per-account units explicitly. Explain annual commitment and total billing. Prioritize the distinctions customers actually compare.
+
+### Interaction evidence and gaps
+
+Unchecking one yearly checkbox updated both paid-plan controls and monthly amounts. Corrected desktop evidence shows the default yearly state; phone evidence shows monthly. Signup, sales and the lower comparison selector were not exercised.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Resend — usage-guided plan recommendation
+
+ID: `resend-pricing` · Type: pricing · Observed: 2026-11-06
+
+Source: [Resend — usage-guided plan recommendation](https://resend.com/pricing)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: usage slider above four plans, with a green recommendation badge on the matching plan
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/resend-pricing-desktop.jpg), [view 2](shots/resend-pricing-desktop-lower.jpg)
+
+Mobile: [view 1](shots/resend-pricing-mobile.jpg)
+
+### Use when
+
+A metered product whose usage bands determine a suitable plan.
+
+### Avoid when
+
+Recommendations requiring qualitative advice or unpredictable usage.
+
+### Content slots
+
+Product tabs; usage prompt; slider and value; tiers; price; quota; overage unit; benefits; recommendation; action.
+
+### Desktop composition
+
+A serif heading contrasts with utilitarian plan text. A centered volume slider precedes four rounded dark cards. The matching card gains a green badge; other cards recede.
+
+### Observed mobile behavior
+
+Cards become a vertical stack. The phone evidence isolates the recommended Pro card, with quota, extra cost, benefits and action readable.
+
+### Rebuild recipe
+
+Keep one usage value and a deterministic recommendation function. Use a keyboard-operable range input with visible output. Render recommendation as text and border treatment. Retain readable contrast and independent selection for every alternative.
+
+### Asset production
+
+Small product icons and true usage/fee data; no large visual asset required.
+
+### Adaptation decisions
+
+Add numeric entry if slider steps are too coarse. Verify boundary bands and overages. Preserve legibility on nonrecommended cards.
+
+### Interaction evidence and gaps
+
+ArrowRight moved the slider one band and visibly recommended Pro. Product tabs, remaining bands and checkout were not exercised.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Lemon Squeezy — parallel billing models in pastel panels
+
+ID: `lemon-pricing` · Type: pricing · Observed: 2026-11-06
+
+Source: [Lemon Squeezy — parallel billing models in pastel panels](https://www.lemonsqueezy.com/pricing)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: two colored product-family panels, each explaining its own billing unit and inclusions
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/lemon-pricing-desktop.jpg)
+
+Mobile: [view 1](shots/lemon-pricing-mobile.jpg)
+
+### Use when
+
+Complementary products with different billing bases, such as transactions and subscribers.
+
+### Avoid when
+
+Good/better/best tiers requiring direct feature comparison.
+
+### Content slots
+
+Product label; amount and unit; fee explanation; inclusions; exceptions; volume route; second product selector and billing period.
+
+### Desktop composition
+
+Mint and pink panels sit side by side with generous padding. Large amounts lead; hairline dividers separate short benefits. Exceptions and volume-contact links stay with the relevant offer.
+
+### Observed mobile behavior
+
+Panels stack. The captured phone view contains the transaction fee, benefit rows, volume route and extra-fee footnote.
+
+### Rebuild recipe
+
+Create independent offer modules with separate price models and contextual terms. Place them in two columns, then stack in reading order. Derive usage value and corresponding price from one state. Keep footnotes near the fee they qualify.
+
+### Asset production
+
+Optional small brand shapes. Supply current fee schedules and destinations; have the offer owner verify exceptions.
+
+### Adaptation decisions
+
+Use client colors with sufficient contrast. Keep billing scope, additional charges and commitments readable. Shorten benefits to distinctions rather than copying source copy.
+
+### Interaction evidence and gaps
+
+ArrowRight on the subscriber slider changed its displayed band and monthly amount. Annual discount, contact and signup were not exercised. Captures were taken after entry animation settled.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Designjoy — tangible membership beside one subscription
+
+ID: `designjoy-pricing` · Type: pricing · Observed: 2026-11-06
+
+Source: [Designjoy — tangible membership beside one subscription](https://www.designjoy.co/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: dark single-offer card paired with a colorful membership-object visual and explicit service limits
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/designjoy-pricing-desktop.jpg)
+
+Mobile: [view 1](shots/designjoy-pricing-mobile.jpg)
+
+### Use when
+
+A recurring service with one primary package and a strong brand asset.
+
+### Avoid when
+
+Complex seat/usage tiers or scope that cannot be stated concisely.
+
+### Content slots
+
+Headline; membership visual; availability; recurring amount; promotion conditions; included scope/capacity; action; pause/refund context.
+
+### Desktop composition
+
+Mixed sans and italic serif headline above a white illustrated panel and a wider black offer card. An inset two-column inclusion list sits between price and join action.
+
+### Observed mobile behavior
+
+The illustration panel precedes the offer card. Inclusions become one list; the phone capture includes the recurring amount, scope and action.
+
+### Rebuild recipe
+
+Separate the illustration and offer into a weighted two-column grid. Keep plan information in HTML. Define capacity, delivery and account limits explicitly. Stack the panels without squeezing the price card.
+
+### Asset production
+
+Create a client-specific membership object or branded 3D still with intentional overlap and a simple mobile crop. Prepare truthful capacity and cancellation terms.
+
+### Adaptation decisions
+
+Reduce the illustration's phone height if it delays the offer. Use strike-through promotions only with genuine conditions. Keep service capacity explicit.
+
+### Interaction evidence and gaps
+
+Pricing anchor navigation was used. Purchase and billing destinations were not opened or submitted.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Linear — asymmetric quotes linked to customer stories
+
+ID: `linear-proof` · Type: social-proof · Observed: 2026-11-06
+
+Source: [Linear — asymmetric quotes linked to customer stories](https://linear.app/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: two oversized pastel quote cards with bottom-aligned attribution and links to full customer stories
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/linear-proof-desktop.jpg)
+
+Mobile: [view 1](shots/linear-proof-mobile.jpg)
+
+### Use when
+
+Two strong attributed endorsements with relevant full customer stories.
+
+### Avoid when
+
+Many weak quotes, unattributed praise or audiences unfamiliar with the cited use case.
+
+### Content slots
+
+Short quote; person; role/company; customer mark; case-study destination; supporting customer count and story index.
+
+### Desktop composition
+
+A wide lavender card and narrower acid-yellow card occupy one horizontal row on black. Large quotes anchor the top; company marks and people sit along the bottom. A quieter story-index row follows.
+
+### Observed mobile behavior
+
+The two desktop cards become a horizontal rail with part of the next card visible. Attribution simplifies to person and company; the first quote and the following site CTA remain legible.
+
+### Rebuild recipe
+
+Model each endorsement as quote, attribution and story destination. Use a weighted desktop grid and a phone overflow rail with scroll snap and visible continuation. Use blockquote/cite semantics and clear focus states for story links.
+
+### Asset production
+
+Verified customer quotes, permissioned brand marks and published case studies. Recreate a faint background motif only with client-owned artwork.
+
+### Adaptation decisions
+
+Match card width to quote length; use two similarly strong endorsements. Provide a visible rail cue and keyboard access. Keep meaningful evidence accessible without requiring a story click.
+
+### Interaction evidence and gaps
+
+Story destinations were inspected but not opened. Mobile rail continuation was visible; horizontal scrolling and keyboard navigation were not exercised.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Raycast — profile selector with specific usage endorsements
+
+ID: `raycast-proof` · Type: social-proof · Observed: 2026-11-06
+
+Source: [Raycast — profile selector with specific usage endorsements](https://www.raycast.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a highlighted portrait profile above a quote and concrete favorite-feature context
+
+Editorial scores: conversion clarity 7/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/raycast-proof-desktop.jpg)
+
+Mobile: [view 1](shots/raycast-proof-mobile.jpg)
+
+### Use when
+
+Several credible users with distinct use cases and usable portrait permissions.
+
+### Avoid when
+
+A small proof set that would make an elaborate selector feel empty.
+
+### Content slots
+
+Proof heading; portrait; name; role/handle; selected quote; favorite feature; extension or workflow context.
+
+### Desktop composition
+
+A horizontal strip centers the selected portrait/name panel while neighbors fade. Below, feature and extension context sit left of a large quote, separated by a vertical rule.
+
+### Observed mobile behavior
+
+The profile strip remains horizontal. In the corrected saved phone frame, the selected quote comes before compact favorite-feature and extension rows; the richer explanatory descriptions from desktop are omitted.
+
+### Rebuild recipe
+
+Store each profile, quote and usage context together. Implement selection with real buttons or tabs, an accessible selected state and a single associated panel. Keep a static first quote available immediately. Use gentle opacity changes and honor reduced motion.
+
+### Asset production
+
+Permissioned portraits and verified quotes; small actual feature/extension icons where relevant. Avoid fabricated endorsements or generated customer faces.
+
+### Adaptation decisions
+
+Use recognizable roles rather than celebrity status alone. Preserve quote contrast instead of copying very dim inactive content. Supply controls and pause behavior if introducing automatic rotation.
+
+### Interaction evidence and gaps
+
+The first desktop state showed Guillermo Rauch. A click attempt on Marques Brownlee returned a timeout; subsequent mobile inspection showed his selected profile and changed quote. Selection change was observed, but click reliability, automatic cycling and keyboard behavior were not verified. Corrected final captures show Guillermo Rauch on both viewport sizes; the earlier alternate-profile state is described as observation only.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Designjoy — two editorial endorsements without cards
+
+ID: `designjoy-proof` · Type: social-proof · Observed: 2026-11-06
+
+Source: [Designjoy — two editorial endorsements without cards](https://www.designjoy.co/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: two short oversized serif endorsements with contrasting company-logo and portrait attribution
+
+Editorial scores: conversion clarity 7/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/designjoy-proof-desktop.jpg)
+
+Mobile: [view 1](shots/designjoy-proof-mobile.jpg)
+
+### Use when
+
+Two concise, legitimately attributed endorsements beside a strong portfolio.
+
+### Avoid when
+
+Long detailed case studies or proof that depends on quantitative context.
+
+### Content slots
+
+Two short quotes; company mark or portrait; person and role; neighboring work evidence.
+
+### Desktop composition
+
+Two equal quote columns on a warm light background. Tall condensed serif text supplies the visual character; a company mark under one quote and a portrait with identity under the other anchor attribution.
+
+### Observed mobile behavior
+
+The quotes stack, each followed by its attribution. The next work visual starts below. A horizontal overflow artifact from adjacent content appears at the top of the captured source viewport; it is not part of the pattern to reproduce.
+
+### Rebuild recipe
+
+Use a two-column semantic quote list with generous spacing and no extra cards. Cap quote width and keep attribution directly after its quote in DOM order. Stack to one column and size typography for comfortable line lengths.
+
+### Asset production
+
+Real short endorsements, a licensed/permissioned logo and portrait. Pair with client-owned portfolio evidence if relevant.
+
+### Adaptation decisions
+
+Prefer specific substantiated endorsements. Treat praise from a recognized person as an endorsement, not proof of a customer relationship or numerical results. Choose a licensed display face with a readable phone size.
+
+### Interaction evidence and gaps
+
+Static quotes and attributions inspected. No source attribution links or supporting interview were verified; the reference documents presentation, not independent validation of the endorsements.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Opendoor — family stories with inline video and location
+
+ID: `opendoor-proof` · Type: social-proof · Observed: 2026-11-06
+
+Source: [Opendoor — family stories with inline video and location](https://www.opendoor.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: one larger video story beside photo testimonials, with quotes, names and local context
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/opendoor-proof-desktop.jpg), [view 2](shots/opendoor-proof-desktop-playing.jpg)
+
+Mobile: [view 1](shots/opendoor-proof-mobile.jpg)
+
+### Use when
+
+A considered consumer service with permissioned customer stories and video.
+
+### Avoid when
+
+Stock-photo endorsements or video that hides all meaningful proof.
+
+### Content slots
+
+Section promise; poster/video; play/pause; quote; customer identity; location; rail navigation.
+
+### Desktop composition
+
+A large left story video and narrower portrait cards continue offscreen. Rounded media sits above plain text quotes, hairlines, names and locations. Desktop arrows appear near the heading.
+
+### Observed mobile behavior
+
+A swipe-style rail exposes the first story and a portion of the next. The poster, readable excerpt, identity and location remain in one card without opening a modal.
+
+### Rebuild recipe
+
+Make each story a data record with poster, media URL, text, identity and location. Use a horizontal scroll-snap list with desktop controls. Keep video inline with play/pause, captions, mute controls and a readable transcript/excerpt. Lazy-load video after interaction.
+
+### Asset production
+
+Client-owned interviews, high-quality posters and written quote approval. Preserve captions and a static alternative; source families and footage are study evidence.
+
+### Adaptation decisions
+
+Choose stories that cover different customer concerns. Use genuine local context when relevant. Maintain a readable quote and identity even if media fails or motion is reduced.
+
+### Interaction evidence and gaps
+
+Activating the first play affordance returned a locator timeout, but the next inspection confirmed inline playback, captions and a Pause video control. Pause was clicked before leaving. Full playback, caption toggle, audio and rail arrows were not tested.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Designjoy — three illustrated service steps
+
+ID: `designjoy-process` · Type: how-it-works · Observed: 2026-11-06
+
+Source: [Designjoy — three illustrated service steps](https://www.designjoy.co/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: three equally sized vivid cards that show subscription, request scope and delivered output
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/designjoy-process-desktop.jpg)
+
+Mobile: [view 1](shots/designjoy-process-mobile.jpg)
+
+### Use when
+
+A simple recurring service where the visitor needs to understand what to request and receive.
+
+### Avoid when
+
+A process with many exceptions or mandatory detailed compliance instructions.
+
+### Content slots
+
+Process heading; three action verbs; one explanation per stage; corresponding visual; delivery expectation.
+
+### Desktop composition
+
+A centered mixed sans/italic-serif heading introduces three tall rounded cards. Each has vivid gradient artwork, an illustrative object in the upper region and concise step text below. A client-logo strip follows.
+
+### Observed mobile behavior
+
+Cards stack vertically. The mobile view captures Subscribe and Request; the latter uses cropped moving labels as scope examples. Text remains HTML and readable.
+
+### Rebuild recipe
+
+Use an ordered three-item grid. Give illustrations consistent height and the same text baseline, with independent visual layers clipped within each card. Stack cards in order on phones. Keep essential instructions visible with motion disabled.
+
+### Asset production
+
+Produce a brand-specific membership mockup, request taxonomy illustration and delivered-work montage. Plan light/dark text contrast per card and a static poster for animated labels.
+
+### Adaptation decisions
+
+Name steps using the customer's actions and show the actual deliverable. Replace broad scope examples with supported requests. Add truthful delivery expectations and revision/capacity context nearby.
+
+### Interaction evidence and gaps
+
+Scroll-triggered card reveals and moving request labels were observed. No request workflow was entered. Capture followed settling of reveal animation; initial blank cards were rejected.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Framer — product demonstration with three stage summaries
+
+ID: `framer-process` · Type: how-it-works · Observed: 2026-11-06
+
+Source: [Framer — product demonstration with three stage summaries](https://www.framer.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: large product demonstration followed by a restrained three-column start/refine/publish summary
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/framer-process-desktop.jpg)
+
+Mobile: [view 1](shots/framer-process-mobile.jpg)
+
+### Use when
+
+A visual software workflow with a useful demonstration and three meaningful phases.
+
+### Avoid when
+
+Services where a fabricated application demo would be misleading.
+
+### Content slots
+
+Section heading; product demo/poster; three icons; stage verbs; compact explanation of input, refinement and output.
+
+### Desktop composition
+
+A wide dark product demonstration sits above one rounded outlined strip split into three equal columns. Each column contains a small line icon, short stage heading and compact gray explanation.
+
+### Observed mobile behavior
+
+The summary strip becomes three stacked rows with horizontal rules. All three stages fit in the saved phone viewport, followed by the next section.
+
+### Rebuild recipe
+
+Separate demonstration media from an ordered stage list. Use a three-column grid with shared padding and dividers, then a single column. Set an aspect ratio on media to prevent layout shift. Retain text stages outside the video.
+
+### Asset production
+
+Record the client's actual product at a deliberate pace; export optimized video and a legible poster. Use consistent line icons and original project content.
+
+### Adaptation decisions
+
+Show a real beginning, editing decision and finished result. Keep phone text concise; provide a reduced-motion poster and controls for long demonstrations. Avoid mimicking editor UI as if it were an interactive product.
+
+### Interaction evidence and gaps
+
+The product demonstration and text stages were inspected. No editor controls, signups or end-to-end publishing workflow were exercised.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Opendoor — selectable steps with matching service visuals
+
+ID: `opendoor-process` · Type: how-it-works · Observed: 2026-11-06
+
+Source: [Opendoor — selectable steps with matching service visuals](https://www.opendoor.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: four selectable service steps connected to a large contextual illustration, with one description expanded
+
+Editorial scores: conversion clarity 9/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/opendoor-process-desktop.jpg), [view 2](shots/opendoor-process-desktop-step2.jpg)
+
+Mobile: [view 1](shots/opendoor-process-mobile.jpg)
+
+### Use when
+
+A multi-stage service with distinct artifacts or actions at each step.
+
+### Avoid when
+
+Tiny processes where selection adds more effort than a static list.
+
+### Content slots
+
+Section heading; four step labels; short descriptions; icons; selected state/progress; matching visual or demo.
+
+### Desktop composition
+
+A large rounded media panel occupies the left half. On the right, a strong heading precedes four ruled step buttons with small icon boxes. One description is expanded, with a thin progress treatment.
+
+### Observed mobile behavior
+
+The heading and stage list become one column; the active illustration appears inside the first stage's expanded content. Later step labels remain below. Resizing reset the observed state to step one.
+
+### Rebuild recipe
+
+Keep steps and their media in one data model. Use semantic buttons with aria-expanded and controlled panels. On desktop display active media beside the list; on phones place it with the active step. Preserve readable instructions and stable dimensions while changing state.
+
+### Asset production
+
+Produce one real illustration, photo or short demo per stage. The source pairs a house image/address mockup with an app-guided photo tour; recreate only the client's actual process.
+
+### Adaptation decisions
+
+Keep the customer action distinct from the company's processing. Specify timing and commitments truthfully. If adding timed progression, pause on interaction and support reduced motion; a static ordered list should still explain the journey.
+
+### Interaction evidence and gaps
+
+Selecting Show us your home expanded its explanation and changed the desktop visual to an app-guided photo tour. Step one and step two were captured. Remaining selections, timer behavior and keyboard navigation were not tested. No home address was entered.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Lime Studio — editorial numbered process with proof and next action
+
+ID: `lime-process` · Type: how-it-works · Observed: 2026-11-06
+
+Source: [Lime Studio — editorial numbered process with proof and next action](https://limestud.io/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: three spacious numbered editorial rows followed by one supporting quote and a focused booking action
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/lime-process-desktop.jpg), [view 2](shots/lime-process-desktop-lower.jpg)
+
+Mobile: [view 1](shots/lime-process-mobile.jpg), [view 2](shots/lime-process-mobile-lower.jpg)
+
+### Use when
+
+A consultative service with a clear first conversation, delivery stage and client outcome.
+
+### Avoid when
+
+Operational instructions requiring precise individual tasks; the final outcome here is positioning rather than an operational step.
+
+### Content slots
+
+Process heading; number; stage title; short explanation; relevant attributed quote; next action.
+
+### Desktop composition
+
+Dark green background with a centered serif heading. Full-width rows use acid-yellow numbers, white serif titles, short sans explanations and fine separators. The lower section centers an attributed quote above a lime booking button.
+
+### Observed mobile behavior
+
+The same rows remain vertically ordered with narrow padding. Titles and paragraphs wrap naturally; a second phone capture includes the final outcome, quote and action.
+
+### Rebuild recipe
+
+Create a semantic ordered list with three rows and separate proof/action regions. Use typography, spacing and dividers for hierarchy. Keep quote attribution and action next to the sequence they support. Scale headings and row spacing with viewport width.
+
+### Asset production
+
+Licensed serif/sans pairing and one verified relevant customer quote; no large imagery necessary. Link to the client's real booking route.
+
+### Adaptation decisions
+
+Replace generic stages with concrete client decisions and deliverables. Distinguish the outcome from a guaranteed result. Retain the proof only if it supports this exact engagement process.
+
+### Interaction evidence and gaps
+
+Static stages, quote and booking affordance inspected. Booking was not opened and the source quote's claims were not independently verified.
+
+### Verification
+
+Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
 ## Attio — testimonial-backed sales inquiry
 
 ID: `attio-testimonial-contact` · Type: contact · Observed: 2026-11-06

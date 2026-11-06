@@ -163,6 +163,62 @@
 - by: Codex; observed 2026-11-06
 
 ## social-proof
+### Linear — asymmetric quotes linked to customer stories
+- name: Linear — asymmetric quotes linked to customer stories
+- url: https://linear.app/
+- type: social-proof
+- styles: dark-surround, pastel, asymmetric-cards, story-links
+- industry: software, b2b, platforms
+- source: team
+- borrow: two oversized pastel quote cards with bottom-aligned attribution and links to full customer stories
+- why: A short readable endorsement leads to deeper evidence instead of serving as an isolated decoration.
+- conv: 8
+- wow: 8
+- shot: shots/linear-proof-desktop.jpg
+- by: Codex
+
+### Raycast — profile selector with specific usage endorsements
+- name: Raycast — profile selector with specific usage endorsements
+- url: https://www.raycast.com/
+- type: social-proof
+- styles: dark, portrait-selector, feature-context, focused-quote
+- industry: software, productivity, creator-tools
+- source: team
+- borrow: a highlighted portrait profile above a quote and concrete favorite-feature context
+- why: Named people connect the endorsement to recognizable product use rather than generic praise.
+- conv: 7
+- wow: 8
+- shot: shots/raycast-proof-desktop.jpg
+- by: Codex
+
+### Designjoy — two editorial endorsements without cards
+- name: Designjoy — two editorial endorsements without cards
+- url: https://www.designjoy.co/
+- type: social-proof
+- styles: light, editorial-serif, paired-quotes, minimal-chrome
+- industry: design-services, creative-agency, professional-services
+- source: team
+- borrow: two short oversized serif endorsements with contrasting company-logo and portrait attribution
+- why: Brief praise remains scannable and the identity treatment carries the evidence without repeated card chrome.
+- conv: 7
+- wow: 8
+- shot: shots/designjoy-proof-desktop.jpg
+- by: Codex
+
+### Opendoor — family stories with inline video and location
+- name: Opendoor — family stories with inline video and location
+- url: https://www.opendoor.com/
+- type: social-proof
+- styles: light, customer-photography, video, horizontal-rail
+- industry: home-services, real-estate, consumer-services
+- source: team
+- borrow: one larger video story beside photo testimonials, with quotes, names and local context
+- why: People, their situations and locations make the evidence concrete; text remains useful without watching.
+- conv: 8
+- wow: 8
+- shot: shots/opendoor-proof-desktop.jpg
+- by: Codex
+
 ### AJ Alberts trust-signal stack
 - name: AJ Alberts trust-signal stack
 - url: https://www.ajalberts.com
@@ -190,6 +246,62 @@
 - by: Hermes
 
 ## pricing
+### Linear — restrained four-tier comparison
+- name: Linear — restrained four-tier comparison
+- url: https://linear.app/pricing
+- type: pricing
+- styles: dark, four-tiers, hairline-grid, billing-toggle
+- industry: software, b2b
+- source: team
+- borrow: equal-width pricing columns with aligned prices, billing rows, benefits and bottom actions
+- why: Matching hierarchy makes plan differences legible while a lighter primary action supplies emphasis.
+- conv: 9
+- wow: 7
+- shot: shots/linear-pricing-desktop.jpg
+- by: Codex
+
+### Resend — usage-guided plan recommendation
+- name: Resend — usage-guided plan recommendation
+- url: https://resend.com/pricing
+- type: pricing
+- styles: dark, usage-slider, recommended-tier, rounded-cards
+- industry: software, developer-tools, metered-services
+- source: team
+- borrow: usage slider above four plans, with a green recommendation badge on the matching plan
+- why: Expected usage has a direct visual relationship to a plan, its quota and its overage.
+- conv: 8
+- wow: 8
+- shot: shots/resend-pricing-desktop.jpg
+- by: Codex
+
+### Lemon Squeezy — parallel billing models in pastel panels
+- name: Lemon Squeezy — parallel billing models in pastel panels
+- url: https://www.lemonsqueezy.com/pricing
+- type: pricing
+- styles: pastel, split-panels, transaction-fee, subscriber-slider
+- industry: commerce, payments, creator-tools
+- source: team
+- borrow: two colored product-family panels, each explaining its own billing unit and inclusions
+- why: Different fee models remain understandable without being presented as interchangeable tiers.
+- conv: 8
+- wow: 8
+- shot: shots/lemon-pricing-desktop.jpg
+- by: Codex
+
+### Designjoy — tangible membership beside one subscription
+- name: Designjoy — tangible membership beside one subscription
+- url: https://www.designjoy.co/
+- type: pricing
+- styles: light, single-offer, membership-object, dark-price-card
+- industry: design-services, subscription-services
+- source: team
+- borrow: dark single-offer card paired with a colorful membership-object visual and explicit service limits
+- why: The visual gives an intangible service a recognizable object while one card explains the purchase.
+- conv: 8
+- wow: 9
+- shot: shots/designjoy-pricing-desktop.jpg
+- by: Codex
+
 ### Vercel pricing
 - name: Vercel pricing
 - url: https://vercel.com/pricing
@@ -204,18 +316,44 @@
 - by: Hermes
 
 ## faq
-### Studio Freight â€” inquiry-routing FAQ
-- name: Studio Freight â€” inquiry-routing FAQ
-- url: https://studiofreight.com/contact
+### AirOps dark FAQ pause
+- name: AirOps dark FAQ pause
+- url: https://www.webflow.com/blog/faq-pages
 - type: faq
-- styles: dark, serif, editorial, accordion, contact
-- industry: creative-agency, professional-services
-- source: team
-- borrow: a narrow serif FAQ below the project form, routing careers, press, and collaboration requests through expandable answers
-- why: The questions sort different kinds of correspondence without adding those choices to the main project form.
+- styles: dark, high-contrast, editorial
+- industry: saas, any
+- source: gallery
+- borrow: dark high-contrast FAQ block placed as a 'pause' near the end of a long product story, plus-symbol accordion that flips to minus, ends with a Book a Demo CTA
+- why: The color contrast and placement make the pause grab attention at the exact moment objections would otherwise stop a buyer
 - conv: 7
-- wow: 7
-- shot: shots/freight-faq-desktop.jpg
+- wow: 6
+- by: Hermes
+
+### AJ Alberts FAQ
+- name: AJ Alberts FAQ
+- url: https://www.ajalberts.com
+- type: faq
+- styles: home-service, plain
+- industry: plumbing, home-services
+- source: out-of-geo
+- borrow: accordion answering the exact objections (same-day? do I need this? how does pricing work?) with concrete answers like side-by-side repair-vs-replace pricing, no commissioned salespeople
+- why: Answers are specific and honest, and every question maps to a buying objection a homeowner actually has near the end of the page
+- conv: 8
+- wow: 3
+- by: Hermes
+
+### Framer â€” always-visible pricing answers
+- name: Framer â€” always-visible pricing answers
+- url: https://www.framer.com/pricing/
+- type: faq
+- styles: dark, open-answers, narrow-column, typographic
+- industry: software, subscriptions, services
+- source: team
+- borrow: an open question-and-answer list in a narrow centered column, using spacing rather than accordion controls to separate answers
+- why: Visitors can read and search pricing explanations without opening individual rows.
+- conv: 8
+- wow: 6
+- shot: shots/framer-faq-desktop.jpg
 - by: Codex; observed 2026-11-06
 
 ### KUBE Saint-Tropez â€” editorial practical FAQ
@@ -246,18 +384,18 @@
 - shot: shots/raycast-faq-desktop.jpg
 - by: Codex; observed 2026-11-06
 
-### Framer â€” always-visible pricing answers
-- name: Framer â€” always-visible pricing answers
-- url: https://www.framer.com/pricing/
+### Studio Freight â€” inquiry-routing FAQ
+- name: Studio Freight â€” inquiry-routing FAQ
+- url: https://studiofreight.com/contact
 - type: faq
-- styles: dark, open-answers, narrow-column, typographic
-- industry: software, subscriptions, services
+- styles: dark, serif, editorial, accordion, contact
+- industry: creative-agency, professional-services
 - source: team
-- borrow: an open question-and-answer list in a narrow centered column, using spacing rather than accordion controls to separate answers
-- why: Visitors can read and search pricing explanations without opening individual rows.
-- conv: 8
-- wow: 6
-- shot: shots/framer-faq-desktop.jpg
+- borrow: a narrow serif FAQ below the project form, routing careers, press, and collaboration requests through expandable answers
+- why: The questions sort different kinds of correspondence without adding those choices to the main project form.
+- conv: 7
+- wow: 7
+- shot: shots/freight-faq-desktop.jpg
 - by: Codex; observed 2026-11-06
 
 ### Switchyards â€” topic-linked document FAQ
@@ -288,33 +426,63 @@
 - shot: shots/typesafe-faq-desktop.jpg
 - by: Codex; observed 2026-11-06
 
-### AirOps dark FAQ pause
-- name: AirOps dark FAQ pause
-- url: https://www.webflow.com/blog/faq-pages
-- type: faq
-- styles: dark, high-contrast, editorial
-- industry: saas, any
-- source: gallery
-- borrow: dark high-contrast FAQ block placed as a 'pause' near the end of a long product story, plus-symbol accordion that flips to minus, ends with a Book a Demo CTA
-- why: The color contrast and placement make the pause grab attention at the exact moment objections would otherwise stop a buyer
-- conv: 7
-- wow: 6
-- by: Hermes
-
-### AJ Alberts FAQ
-- name: AJ Alberts FAQ
-- url: https://www.ajalberts.com
-- type: faq
-- styles: home-service, plain
-- industry: plumbing, home-services
-- source: out-of-geo
-- borrow: accordion answering the exact objections (same-day? do I need this? how does pricing work?) with concrete answers like side-by-side repair-vs-replace pricing, no commissioned salespeople
-- why: Answers are specific and honest, and every question maps to a buying objection a homeowner actually has near the end of the page
-- conv: 8
-- wow: 3
-- by: Hermes
-
 ## how-it-works
+### Designjoy — three illustrated service steps
+- name: Designjoy — three illustrated service steps
+- url: https://www.designjoy.co/
+- type: how-it-works
+- styles: colorful, three-steps, illustrated-cards, deliverable-led
+- industry: design-services, subscription-services
+- source: team
+- borrow: three equally sized vivid cards that show subscription, request scope and delivered output
+- why: The service sequence becomes tangible through a different visual metaphor for each stage.
+- conv: 8
+- wow: 9
+- shot: shots/designjoy-process-desktop.jpg
+- by: Codex
+
+### Framer — product demonstration with three stage summaries
+- name: Framer — product demonstration with three stage summaries
+- url: https://www.framer.com/
+- type: how-it-works
+- styles: dark, product-demo, three-stage-strip, minimal-icons
+- industry: software, creator-tools, platforms
+- source: team
+- borrow: large product demonstration followed by a restrained three-column start/refine/publish summary
+- why: The demonstration establishes what happens while the short stages give the viewer a memorable sequence.
+- conv: 8
+- wow: 8
+- shot: shots/framer-process-desktop.jpg
+- by: Codex
+
+### Opendoor — selectable steps with matching service visuals
+- name: Opendoor — selectable steps with matching service visuals
+- url: https://www.opendoor.com/
+- type: how-it-works
+- styles: light, split, step-accordion, contextual-media
+- industry: home-services, real-estate, consumer-services
+- source: team
+- borrow: four selectable service steps connected to a large contextual illustration, with one description expanded
+- why: Each stage answers what the customer does and shows the corresponding activity.
+- conv: 9
+- wow: 8
+- shot: shots/opendoor-process-desktop.jpg
+- by: Codex
+
+### Lime Studio — editorial numbered process with proof and next action
+- name: Lime Studio — editorial numbered process with proof and next action
+- url: https://limestud.io/
+- type: how-it-works
+- styles: dark-green, serif, numbered-rows, quote-backed
+- industry: creative-agency, consultancy, professional-services
+- source: team
+- borrow: three spacious numbered editorial rows followed by one supporting quote and a focused booking action
+- why: A simple sequence explains the engagement without requiring decorative assets or hidden interaction.
+- conv: 8
+- wow: 8
+- shot: shots/lime-process-desktop.jpg
+- by: Codex
+
 ### Hook Agency process section
 - name: Hook Agency process section
 - url: https://www.hookagency.com
@@ -357,6 +525,20 @@
 - shot: shots/attio-contact-desktop.jpg
 - by: Codex; observed 2026-11-06
 
+### KUBE Saint-Tropez â€” map and direct contact
+- name: KUBE Saint-Tropez â€” map and direct contact
+- url: https://www.kubehotel-saint-tropez.com/en/contact
+- type: contact
+- styles: light, map, editorial, direct-contact, hospitality
+- industry: hospitality, local-business, venues, property
+- source: team
+- borrow: an equal-width map and contact-details split with a serif title and clearly separated address, phone, and email roles
+- why: Location and ways to reach the team are presented together, without making visitors complete a form to ask a practical question.
+- conv: 8
+- wow: 7
+- shot: shots/kube-contact-desktop.jpg
+- by: Codex; observed 2026-11-06
+
 ### Linear â€” intent-routing contact cards
 - name: Linear â€” intent-routing contact cards
 - url: https://linear.app/contact
@@ -369,20 +551,6 @@
 - conv: 9
 - wow: 7
 - shot: shots/linear-contact-desktop.jpg
-- by: Codex; observed 2026-11-06
-
-### Studio Freight â€” editorial project brief form
-- name: Studio Freight â€” editorial project brief form
-- url: https://studiofreight.com/contact
-- type: contact
-- styles: dark, serif, editorial, underlined-form, agency
-- industry: creative-agency, branding, design-services
-- source: team
-- borrow: a narrow serif inquiry form with underlined fields and budget context, balanced by a capabilities visual and secondary links
-- why: The form feels like a concise project conversation and the surrounding material provides an agency-specific point of view.
-- conv: 7
-- wow: 8
-- shot: shots/freight-contact-desktop.jpg
 - by: Codex; observed 2026-11-06
 
 ### Stripe â€” staged sales-routing form
@@ -399,6 +567,20 @@
 - shot: shots/stripe-contact-desktop.jpg
 - by: Codex; observed 2026-11-06
 
+### Studio Freight â€” editorial project brief form
+- name: Studio Freight â€” editorial project brief form
+- url: https://studiofreight.com/contact
+- type: contact
+- styles: dark, serif, editorial, underlined-form, agency
+- industry: creative-agency, branding, design-services
+- source: team
+- borrow: a narrow serif inquiry form with underlined fields and budget context, balanced by a capabilities visual and secondary links
+- why: The form feels like a concise project conversation and the surrounding material provides an agency-specific point of view.
+- conv: 7
+- wow: 8
+- shot: shots/freight-contact-desktop.jpg
+- by: Codex; observed 2026-11-06
+
 ### Unseen Studio â€” scene-led direct contact
 - name: Unseen Studio â€” scene-led direct contact
 - url: https://unseen.co/contact/
@@ -413,61 +595,19 @@
 - shot: shots/unseen-contact-desktop.jpg
 - by: Codex; observed 2026-11-06
 
-### KUBE Saint-Tropez â€” map and direct contact
-- name: KUBE Saint-Tropez â€” map and direct contact
-- url: https://www.kubehotel-saint-tropez.com/en/contact
-- type: contact
-- styles: light, map, editorial, direct-contact, hospitality
-- industry: hospitality, local-business, venues, property
-- source: team
-- borrow: an equal-width map and contact-details split with a serif title and clearly separated address, phone, and email roles
-- why: Location and ways to reach the team are presented together, without making visitors complete a form to ask a practical question.
-- conv: 8
-- wow: 7
-- shot: shots/kube-contact-desktop.jpg
-- by: Codex; observed 2026-11-06
-
 ## cta
-### KUBE Saint-Tropez â€” restrained reservation close
-- name: KUBE Saint-Tropez â€” restrained reservation close
-- url: https://www.kubehotel-saint-tropez.com/en/contact
+### charity: water â€” illustrated newsletter signup
+- name: charity: water â€” illustrated newsletter signup
+- url: https://www.charitywater.org/
 - type: cta
-- styles: light, serif, single-action, hospitality, whitespace
-- industry: hospitality, appointments, venues
+- styles: light, illustrated, split-form, newsletter, yellow-accent
+- industry: nonprofit, community, editorial, membership
 - source: team
-- borrow: a centered serif invitation and one lime booking button in a quiet band immediately before the footer
-- why: A clear action and generous separation let the visitor act after practical questions have been answered.
-- conv: 8
-- wow: 6
-- shot: shots/kube-cta-desktop.jpg
-- by: Codex; observed 2026-11-06
-
-### Switchyards â€” membership offer and oversized join action
-- name: Switchyards â€” membership offer and oversized join action
-- url: https://www.switchyards.com/
-- type: cta
-- styles: light, serif, offer-led, oversized-button, membership
-- industry: membership, local-business, fitness, hospitality
-- source: team
-- borrow: an editorial price promise beside two billing choices inside one panel, anchored by a full-width pill-shaped join button
-- why: The offer and its billing distinction sit immediately next to one decisive action instead of dispersing the decision across several cards.
-- conv: 9
-- wow: 8
-- shot: shots/switchyards-cta-desktop.jpg
-- by: Codex; observed 2026-11-06
-
-### Linear â€” self-service and sales closing CTA
-- name: Linear â€” self-service and sales closing CTA
-- url: https://linear.app/
-- type: cta
-- styles: dark, centered, two-actions, typography-led, restrained
-- industry: software, subscriptions, b2b
-- source: team
-- borrow: a compact two-line promise above a bright self-service action and quieter sales action, separated from the footer by ample space
-- why: The hierarchy accommodates both ready-to-start users and buyers who need a conversation.
-- conv: 8
-- wow: 6
-- shot: shots/linear-cta-desktop.jpg
+- borrow: a small envelope illustration and benefit statement beside a signup form, with a wide yellow subscription action
+- why: A recognizable illustration connects the section to receiving updates while the split layout gives the form a clear place.
+- conv: 7
+- wow: 7
+- shot: shots/charity-newsletter-desktop.jpg
 - by: Codex; observed 2026-11-06
 
 ### Framer â€” product-start CTA with a mobile alternative
@@ -498,20 +638,6 @@
 - shot: shots/front-cta-desktop.jpg
 - by: Codex; observed 2026-11-06
 
-### charity: water â€” illustrated newsletter signup
-- name: charity: water â€” illustrated newsletter signup
-- url: https://www.charitywater.org/
-- type: cta
-- styles: light, illustrated, split-form, newsletter, yellow-accent
-- industry: nonprofit, community, editorial, membership
-- source: team
-- borrow: a small envelope illustration and benefit statement beside a signup form, with a wide yellow subscription action
-- why: A recognizable illustration connects the section to receiving updates while the split layout gives the form a clear place.
-- conv: 7
-- wow: 7
-- shot: shots/charity-newsletter-desktop.jpg
-- by: Codex; observed 2026-11-06
-
 ### Inline email-capture CTA pattern
 - name: Inline email-capture CTA pattern
 - url: https://www.webanatomy.ai/best-landing-pages/ux-best-practice/cta-inline-email-capture
@@ -524,6 +650,48 @@
 - conv: 9
 - wow: 4
 - by: Hermes
+
+### KUBE Saint-Tropez â€” restrained reservation close
+- name: KUBE Saint-Tropez â€” restrained reservation close
+- url: https://www.kubehotel-saint-tropez.com/en/contact
+- type: cta
+- styles: light, serif, single-action, hospitality, whitespace
+- industry: hospitality, appointments, venues
+- source: team
+- borrow: a centered serif invitation and one lime booking button in a quiet band immediately before the footer
+- why: A clear action and generous separation let the visitor act after practical questions have been answered.
+- conv: 8
+- wow: 6
+- shot: shots/kube-cta-desktop.jpg
+- by: Codex; observed 2026-11-06
+
+### Linear â€” self-service and sales closing CTA
+- name: Linear â€” self-service and sales closing CTA
+- url: https://linear.app/
+- type: cta
+- styles: dark, centered, two-actions, typography-led, restrained
+- industry: software, subscriptions, b2b
+- source: team
+- borrow: a compact two-line promise above a bright self-service action and quieter sales action, separated from the footer by ample space
+- why: The hierarchy accommodates both ready-to-start users and buyers who need a conversation.
+- conv: 8
+- wow: 6
+- shot: shots/linear-cta-desktop.jpg
+- by: Codex; observed 2026-11-06
+
+### Switchyards â€” membership offer and oversized join action
+- name: Switchyards â€” membership offer and oversized join action
+- url: https://www.switchyards.com/
+- type: cta
+- styles: light, serif, offer-led, oversized-button, membership
+- industry: membership, local-business, fitness, hospitality
+- source: team
+- borrow: an editorial price promise beside two billing choices inside one panel, anchored by a full-width pill-shaped join button
+- why: The offer and its billing distinction sit immediately next to one decisive action instead of dispersing the decision across several cards.
+- conv: 9
+- wow: 8
+- shot: shots/switchyards-cta-desktop.jpg
+- by: Codex; observed 2026-11-06
 
 ## nav
 ### Stripe split header nav

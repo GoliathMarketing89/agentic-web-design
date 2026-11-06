@@ -1,0 +1,379 @@
+[
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "linear-pricing",
+    "name": "Linear — restrained four-tier comparison",
+    "type": "pricing",
+    "url": "https://linear.app/pricing",
+    "styles": "dark, four-tiers, hairline-grid, billing-toggle",
+    "industry": "software, b2b",
+    "conv": 9,
+    "wow": 7,
+    "borrow": "equal-width pricing columns with aligned prices, billing rows, benefits and bottom actions",
+    "why": "Matching hierarchy makes plan differences legible while a lighter primary action supplies emphasis.",
+    "fit": "A product with meaningful feature and seat limits across three or four plans.",
+    "avoid": "A single offer or tiers differentiated only by vague adjectives.",
+    "slots": "Plan; amount and billing unit; billing period; inherited benefits; distinguishing features; signup or sales action.",
+    "composition": "Four columns on black with faint vertical dividers. Headings, prices, billing rows and benefit lists share alignment. Buttons sit along the bottom; the Business signup has stronger contrast.",
+    "mobile_behavior": "Plans stack as full-width sections. The phone capture shows Basic with a feature list and action, then Business. A single-plan comparison selector appears below in the DOM; it was not exercised.",
+    "rebuild": "Model plans separately from billing state. Use consistent header, benefit and action regions; let benefit lists absorb height differences. Drive every billing checkbox from one shared value. Stack when benefit text becomes cramped.",
+    "assets": "Typography and check icons suffice. Prepare actual plan limits, inherited features and checkout/sales destinations.",
+    "adapt": "State per-seat or per-account units explicitly. Explain annual commitment and total billing. Prioritize the distinctions customers actually compare.",
+    "interaction": "Unchecking one yearly checkbox updated both paid-plan controls and monthly amounts. Corrected desktop evidence shows the default yearly state; phone evidence shows monthly. Signup, sales and the lower comparison selector were not exercised.",
+    "desktop": [
+      "shots/linear-pricing-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/linear-pricing-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "resend-pricing",
+    "name": "Resend — usage-guided plan recommendation",
+    "type": "pricing",
+    "url": "https://resend.com/pricing",
+    "styles": "dark, usage-slider, recommended-tier, rounded-cards",
+    "industry": "software, developer-tools, metered-services",
+    "conv": 8,
+    "wow": 8,
+    "borrow": "usage slider above four plans, with a green recommendation badge on the matching plan",
+    "why": "Expected usage has a direct visual relationship to a plan, its quota and its overage.",
+    "fit": "A metered product whose usage bands determine a suitable plan.",
+    "avoid": "Recommendations requiring qualitative advice or unpredictable usage.",
+    "slots": "Product tabs; usage prompt; slider and value; tiers; price; quota; overage unit; benefits; recommendation; action.",
+    "composition": "A serif heading contrasts with utilitarian plan text. A centered volume slider precedes four rounded dark cards. The matching card gains a green badge; other cards recede.",
+    "mobile_behavior": "Cards become a vertical stack. The phone evidence isolates the recommended Pro card, with quota, extra cost, benefits and action readable.",
+    "rebuild": "Keep one usage value and a deterministic recommendation function. Use a keyboard-operable range input with visible output. Render recommendation as text and border treatment. Retain readable contrast and independent selection for every alternative.",
+    "assets": "Small product icons and true usage/fee data; no large visual asset required.",
+    "adapt": "Add numeric entry if slider steps are too coarse. Verify boundary bands and overages. Preserve legibility on nonrecommended cards.",
+    "interaction": "ArrowRight moved the slider one band and visibly recommended Pro. Product tabs, remaining bands and checkout were not exercised.",
+    "desktop": [
+      "shots/resend-pricing-desktop.jpg",
+      "shots/resend-pricing-desktop-lower.jpg"
+    ],
+    "mobile": [
+      "shots/resend-pricing-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "lemon-pricing",
+    "name": "Lemon Squeezy — parallel billing models in pastel panels",
+    "type": "pricing",
+    "url": "https://www.lemonsqueezy.com/pricing",
+    "styles": "pastel, split-panels, transaction-fee, subscriber-slider",
+    "industry": "commerce, payments, creator-tools",
+    "conv": 8,
+    "wow": 8,
+    "borrow": "two colored product-family panels, each explaining its own billing unit and inclusions",
+    "why": "Different fee models remain understandable without being presented as interchangeable tiers.",
+    "fit": "Complementary products with different billing bases, such as transactions and subscribers.",
+    "avoid": "Good/better/best tiers requiring direct feature comparison.",
+    "slots": "Product label; amount and unit; fee explanation; inclusions; exceptions; volume route; second product selector and billing period.",
+    "composition": "Mint and pink panels sit side by side with generous padding. Large amounts lead; hairline dividers separate short benefits. Exceptions and volume-contact links stay with the relevant offer.",
+    "mobile_behavior": "Panels stack. The captured phone view contains the transaction fee, benefit rows, volume route and extra-fee footnote.",
+    "rebuild": "Create independent offer modules with separate price models and contextual terms. Place them in two columns, then stack in reading order. Derive usage value and corresponding price from one state. Keep footnotes near the fee they qualify.",
+    "assets": "Optional small brand shapes. Supply current fee schedules and destinations; have the offer owner verify exceptions.",
+    "adapt": "Use client colors with sufficient contrast. Keep billing scope, additional charges and commitments readable. Shorten benefits to distinctions rather than copying source copy.",
+    "interaction": "ArrowRight on the subscriber slider changed its displayed band and monthly amount. Annual discount, contact and signup were not exercised. Captures were taken after entry animation settled.",
+    "desktop": [
+      "shots/lemon-pricing-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/lemon-pricing-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "designjoy-pricing",
+    "name": "Designjoy — tangible membership beside one subscription",
+    "type": "pricing",
+    "url": "https://www.designjoy.co/",
+    "styles": "light, single-offer, membership-object, dark-price-card",
+    "industry": "design-services, subscription-services",
+    "conv": 8,
+    "wow": 9,
+    "borrow": "dark single-offer card paired with a colorful membership-object visual and explicit service limits",
+    "why": "The visual gives an intangible service a recognizable object while one card explains the purchase.",
+    "fit": "A recurring service with one primary package and a strong brand asset.",
+    "avoid": "Complex seat/usage tiers or scope that cannot be stated concisely.",
+    "slots": "Headline; membership visual; availability; recurring amount; promotion conditions; included scope/capacity; action; pause/refund context.",
+    "composition": "Mixed sans and italic serif headline above a white illustrated panel and a wider black offer card. An inset two-column inclusion list sits between price and join action.",
+    "mobile_behavior": "The illustration panel precedes the offer card. Inclusions become one list; the phone capture includes the recurring amount, scope and action.",
+    "rebuild": "Separate the illustration and offer into a weighted two-column grid. Keep plan information in HTML. Define capacity, delivery and account limits explicitly. Stack the panels without squeezing the price card.",
+    "assets": "Create a client-specific membership object or branded 3D still with intentional overlap and a simple mobile crop. Prepare truthful capacity and cancellation terms.",
+    "adapt": "Reduce the illustration's phone height if it delays the offer. Use strike-through promotions only with genuine conditions. Keep service capacity explicit.",
+    "interaction": "Pricing anchor navigation was used. Purchase and billing destinations were not opened or submitted.",
+    "desktop": [
+      "shots/designjoy-pricing-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/designjoy-pricing-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "linear-proof",
+    "name": "Linear — asymmetric quotes linked to customer stories",
+    "type": "social-proof",
+    "url": "https://linear.app/",
+    "styles": "dark-surround, pastel, asymmetric-cards, story-links",
+    "industry": "software, b2b, platforms",
+    "conv": 8,
+    "wow": 8,
+    "borrow": "two oversized pastel quote cards with bottom-aligned attribution and links to full customer stories",
+    "why": "A short readable endorsement leads to deeper evidence instead of serving as an isolated decoration.",
+    "fit": "Two strong attributed endorsements with relevant full customer stories.",
+    "avoid": "Many weak quotes, unattributed praise or audiences unfamiliar with the cited use case.",
+    "slots": "Short quote; person; role/company; customer mark; case-study destination; supporting customer count and story index.",
+    "composition": "A wide lavender card and narrower acid-yellow card occupy one horizontal row on black. Large quotes anchor the top; company marks and people sit along the bottom. A quieter story-index row follows.",
+    "mobile_behavior": "The two desktop cards become a horizontal rail with part of the next card visible. Attribution simplifies to person and company; the first quote and the following site CTA remain legible.",
+    "rebuild": "Model each endorsement as quote, attribution and story destination. Use a weighted desktop grid and a phone overflow rail with scroll snap and visible continuation. Use blockquote/cite semantics and clear focus states for story links.",
+    "assets": "Verified customer quotes, permissioned brand marks and published case studies. Recreate a faint background motif only with client-owned artwork.",
+    "adapt": "Match card width to quote length; use two similarly strong endorsements. Provide a visible rail cue and keyboard access. Keep meaningful evidence accessible without requiring a story click.",
+    "interaction": "Story destinations were inspected but not opened. Mobile rail continuation was visible; horizontal scrolling and keyboard navigation were not exercised.",
+    "desktop": [
+      "shots/linear-proof-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/linear-proof-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "raycast-proof",
+    "name": "Raycast — profile selector with specific usage endorsements",
+    "type": "social-proof",
+    "url": "https://www.raycast.com/",
+    "styles": "dark, portrait-selector, feature-context, focused-quote",
+    "industry": "software, productivity, creator-tools",
+    "conv": 7,
+    "wow": 8,
+    "borrow": "a highlighted portrait profile above a quote and concrete favorite-feature context",
+    "why": "Named people connect the endorsement to recognizable product use rather than generic praise.",
+    "fit": "Several credible users with distinct use cases and usable portrait permissions.",
+    "avoid": "A small proof set that would make an elaborate selector feel empty.",
+    "slots": "Proof heading; portrait; name; role/handle; selected quote; favorite feature; extension or workflow context.",
+    "composition": "A horizontal strip centers the selected portrait/name panel while neighbors fade. Below, feature and extension context sit left of a large quote, separated by a vertical rule.",
+    "mobile_behavior": "The profile strip remains horizontal. In the corrected saved phone frame, the selected quote comes before compact favorite-feature and extension rows; the richer explanatory descriptions from desktop are omitted.",
+    "rebuild": "Store each profile, quote and usage context together. Implement selection with real buttons or tabs, an accessible selected state and a single associated panel. Keep a static first quote available immediately. Use gentle opacity changes and honor reduced motion.",
+    "assets": "Permissioned portraits and verified quotes; small actual feature/extension icons where relevant. Avoid fabricated endorsements or generated customer faces.",
+    "adapt": "Use recognizable roles rather than celebrity status alone. Preserve quote contrast instead of copying very dim inactive content. Supply controls and pause behavior if introducing automatic rotation.",
+    "interaction": "The first desktop state showed Guillermo Rauch. A click attempt on Marques Brownlee returned a timeout; subsequent mobile inspection showed his selected profile and changed quote. Selection change was observed, but click reliability, automatic cycling and keyboard behavior were not verified. Corrected final captures show Guillermo Rauch on both viewport sizes; the earlier alternate-profile state is described as observation only.",
+    "desktop": [
+      "shots/raycast-proof-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/raycast-proof-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "designjoy-proof",
+    "name": "Designjoy — two editorial endorsements without cards",
+    "type": "social-proof",
+    "url": "https://www.designjoy.co/",
+    "styles": "light, editorial-serif, paired-quotes, minimal-chrome",
+    "industry": "design-services, creative-agency, professional-services",
+    "conv": 7,
+    "wow": 8,
+    "borrow": "two short oversized serif endorsements with contrasting company-logo and portrait attribution",
+    "why": "Brief praise remains scannable and the identity treatment carries the evidence without repeated card chrome.",
+    "fit": "Two concise, legitimately attributed endorsements beside a strong portfolio.",
+    "avoid": "Long detailed case studies or proof that depends on quantitative context.",
+    "slots": "Two short quotes; company mark or portrait; person and role; neighboring work evidence.",
+    "composition": "Two equal quote columns on a warm light background. Tall condensed serif text supplies the visual character; a company mark under one quote and a portrait with identity under the other anchor attribution.",
+    "mobile_behavior": "The quotes stack, each followed by its attribution. The next work visual starts below. A horizontal overflow artifact from adjacent content appears at the top of the captured source viewport; it is not part of the pattern to reproduce.",
+    "rebuild": "Use a two-column semantic quote list with generous spacing and no extra cards. Cap quote width and keep attribution directly after its quote in DOM order. Stack to one column and size typography for comfortable line lengths.",
+    "assets": "Real short endorsements, a licensed/permissioned logo and portrait. Pair with client-owned portfolio evidence if relevant.",
+    "adapt": "Prefer specific substantiated endorsements. Treat praise from a recognized person as an endorsement, not proof of a customer relationship or numerical results. Choose a licensed display face with a readable phone size.",
+    "interaction": "Static quotes and attributions inspected. No source attribution links or supporting interview were verified; the reference documents presentation, not independent validation of the endorsements.",
+    "desktop": [
+      "shots/designjoy-proof-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/designjoy-proof-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "opendoor-proof",
+    "name": "Opendoor — family stories with inline video and location",
+    "type": "social-proof",
+    "url": "https://www.opendoor.com/",
+    "styles": "light, customer-photography, video, horizontal-rail",
+    "industry": "home-services, real-estate, consumer-services",
+    "conv": 8,
+    "wow": 8,
+    "borrow": "one larger video story beside photo testimonials, with quotes, names and local context",
+    "why": "People, their situations and locations make the evidence concrete; text remains useful without watching.",
+    "fit": "A considered consumer service with permissioned customer stories and video.",
+    "avoid": "Stock-photo endorsements or video that hides all meaningful proof.",
+    "slots": "Section promise; poster/video; play/pause; quote; customer identity; location; rail navigation.",
+    "composition": "A large left story video and narrower portrait cards continue offscreen. Rounded media sits above plain text quotes, hairlines, names and locations. Desktop arrows appear near the heading.",
+    "mobile_behavior": "A swipe-style rail exposes the first story and a portion of the next. The poster, readable excerpt, identity and location remain in one card without opening a modal.",
+    "rebuild": "Make each story a data record with poster, media URL, text, identity and location. Use a horizontal scroll-snap list with desktop controls. Keep video inline with play/pause, captions, mute controls and a readable transcript/excerpt. Lazy-load video after interaction.",
+    "assets": "Client-owned interviews, high-quality posters and written quote approval. Preserve captions and a static alternative; source families and footage are study evidence.",
+    "adapt": "Choose stories that cover different customer concerns. Use genuine local context when relevant. Maintain a readable quote and identity even if media fails or motion is reduced.",
+    "interaction": "Activating the first play affordance returned a locator timeout, but the next inspection confirmed inline playback, captions and a Pause video control. Pause was clicked before leaving. Full playback, caption toggle, audio and rail arrows were not tested.",
+    "desktop": [
+      "shots/opendoor-proof-desktop.jpg",
+      "shots/opendoor-proof-desktop-playing.jpg"
+    ],
+    "mobile": [
+      "shots/opendoor-proof-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "designjoy-process",
+    "name": "Designjoy — three illustrated service steps",
+    "type": "how-it-works",
+    "url": "https://www.designjoy.co/",
+    "styles": "colorful, three-steps, illustrated-cards, deliverable-led",
+    "industry": "design-services, subscription-services",
+    "conv": 8,
+    "wow": 9,
+    "borrow": "three equally sized vivid cards that show subscription, request scope and delivered output",
+    "why": "The service sequence becomes tangible through a different visual metaphor for each stage.",
+    "fit": "A simple recurring service where the visitor needs to understand what to request and receive.",
+    "avoid": "A process with many exceptions or mandatory detailed compliance instructions.",
+    "slots": "Process heading; three action verbs; one explanation per stage; corresponding visual; delivery expectation.",
+    "composition": "A centered mixed sans/italic-serif heading introduces three tall rounded cards. Each has vivid gradient artwork, an illustrative object in the upper region and concise step text below. A client-logo strip follows.",
+    "mobile_behavior": "Cards stack vertically. The mobile view captures Subscribe and Request; the latter uses cropped moving labels as scope examples. Text remains HTML and readable.",
+    "rebuild": "Use an ordered three-item grid. Give illustrations consistent height and the same text baseline, with independent visual layers clipped within each card. Stack cards in order on phones. Keep essential instructions visible with motion disabled.",
+    "assets": "Produce a brand-specific membership mockup, request taxonomy illustration and delivered-work montage. Plan light/dark text contrast per card and a static poster for animated labels.",
+    "adapt": "Name steps using the customer's actions and show the actual deliverable. Replace broad scope examples with supported requests. Add truthful delivery expectations and revision/capacity context nearby.",
+    "interaction": "Scroll-triggered card reveals and moving request labels were observed. No request workflow was entered. Capture followed settling of reveal animation; initial blank cards were rejected.",
+    "desktop": [
+      "shots/designjoy-process-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/designjoy-process-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "framer-process",
+    "name": "Framer — product demonstration with three stage summaries",
+    "type": "how-it-works",
+    "url": "https://www.framer.com/",
+    "styles": "dark, product-demo, three-stage-strip, minimal-icons",
+    "industry": "software, creator-tools, platforms",
+    "conv": 8,
+    "wow": 8,
+    "borrow": "large product demonstration followed by a restrained three-column start/refine/publish summary",
+    "why": "The demonstration establishes what happens while the short stages give the viewer a memorable sequence.",
+    "fit": "A visual software workflow with a useful demonstration and three meaningful phases.",
+    "avoid": "Services where a fabricated application demo would be misleading.",
+    "slots": "Section heading; product demo/poster; three icons; stage verbs; compact explanation of input, refinement and output.",
+    "composition": "A wide dark product demonstration sits above one rounded outlined strip split into three equal columns. Each column contains a small line icon, short stage heading and compact gray explanation.",
+    "mobile_behavior": "The summary strip becomes three stacked rows with horizontal rules. All three stages fit in the saved phone viewport, followed by the next section.",
+    "rebuild": "Separate demonstration media from an ordered stage list. Use a three-column grid with shared padding and dividers, then a single column. Set an aspect ratio on media to prevent layout shift. Retain text stages outside the video.",
+    "assets": "Record the client's actual product at a deliberate pace; export optimized video and a legible poster. Use consistent line icons and original project content.",
+    "adapt": "Show a real beginning, editing decision and finished result. Keep phone text concise; provide a reduced-motion poster and controls for long demonstrations. Avoid mimicking editor UI as if it were an interactive product.",
+    "interaction": "The product demonstration and text stages were inspected. No editor controls, signups or end-to-end publishing workflow were exercised.",
+    "desktop": [
+      "shots/framer-process-desktop.jpg"
+    ],
+    "mobile": [
+      "shots/framer-process-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "opendoor-process",
+    "name": "Opendoor — selectable steps with matching service visuals",
+    "type": "how-it-works",
+    "url": "https://www.opendoor.com/",
+    "styles": "light, split, step-accordion, contextual-media",
+    "industry": "home-services, real-estate, consumer-services",
+    "conv": 9,
+    "wow": 8,
+    "borrow": "four selectable service steps connected to a large contextual illustration, with one description expanded",
+    "why": "Each stage answers what the customer does and shows the corresponding activity.",
+    "fit": "A multi-stage service with distinct artifacts or actions at each step.",
+    "avoid": "Tiny processes where selection adds more effort than a static list.",
+    "slots": "Section heading; four step labels; short descriptions; icons; selected state/progress; matching visual or demo.",
+    "composition": "A large rounded media panel occupies the left half. On the right, a strong heading precedes four ruled step buttons with small icon boxes. One description is expanded, with a thin progress treatment.",
+    "mobile_behavior": "The heading and stage list become one column; the active illustration appears inside the first stage's expanded content. Later step labels remain below. Resizing reset the observed state to step one.",
+    "rebuild": "Keep steps and their media in one data model. Use semantic buttons with aria-expanded and controlled panels. On desktop display active media beside the list; on phones place it with the active step. Preserve readable instructions and stable dimensions while changing state.",
+    "assets": "Produce one real illustration, photo or short demo per stage. The source pairs a house image/address mockup with an app-guided photo tour; recreate only the client's actual process.",
+    "adapt": "Keep the customer action distinct from the company's processing. Specify timing and commitments truthfully. If adding timed progression, pause on interaction and support reduced motion; a static ordered list should still explain the journey.",
+    "interaction": "Selecting Show us your home expanded its explanation and changed the desktop visual to an app-guided photo tour. Step one and step two were captured. Remaining selections, timer behavior and keyboard navigation were not tested. No home address was entered.",
+    "desktop": [
+      "shots/opendoor-process-desktop.jpg",
+      "shots/opendoor-process-desktop-step2.jpg"
+    ],
+    "mobile": [
+      "shots/opendoor-process-mobile.jpg"
+    ]
+  },
+  {
+    "observed": "2026-11-06",
+    "status": "observed reference; not rebuild-validated",
+    "source": "team",
+    "verification": "Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.",
+    "id": "lime-process",
+    "name": "Lime Studio — editorial numbered process with proof and next action",
+    "type": "how-it-works",
+    "url": "https://limestud.io/",
+    "styles": "dark-green, serif, numbered-rows, quote-backed",
+    "industry": "creative-agency, consultancy, professional-services",
+    "conv": 8,
+    "wow": 8,
+    "borrow": "three spacious numbered editorial rows followed by one supporting quote and a focused booking action",
+    "why": "A simple sequence explains the engagement without requiring decorative assets or hidden interaction.",
+    "fit": "A consultative service with a clear first conversation, delivery stage and client outcome.",
+    "avoid": "Operational instructions requiring precise individual tasks; the final outcome here is positioning rather than an operational step.",
+    "slots": "Process heading; number; stage title; short explanation; relevant attributed quote; next action.",
+    "composition": "Dark green background with a centered serif heading. Full-width rows use acid-yellow numbers, white serif titles, short sans explanations and fine separators. The lower section centers an attributed quote above a lime booking button.",
+    "mobile_behavior": "The same rows remain vertically ordered with narrow padding. Titles and paragraphs wrap naturally; a second phone capture includes the final outcome, quote and action.",
+    "rebuild": "Create a semantic ordered list with three rows and separate proof/action regions. Use typography, spacing and dividers for hierarchy. Keep quote attribution and action next to the sequence they support. Scale headings and row spacing with viewport width.",
+    "assets": "Licensed serif/sans pairing and one verified relevant customer quote; no large imagery necessary. Link to the client's real booking route.",
+    "adapt": "Replace generic stages with concrete client decisions and deliverables. Distinguish the outcome from a guaranteed result. Retain the proof only if it supports this exact engagement process.",
+    "interaction": "Static stages, quote and booking affordance inspected. Booking was not opened and the source quote's claims were not independently verified.",
+    "desktop": [
+      "shots/lime-process-desktop.jpg",
+      "shots/lime-process-desktop-lower.jpg"
+    ],
+    "mobile": [
+      "shots/lime-process-mobile.jpg",
+      "shots/lime-process-mobile-lower.jpg"
+    ]
+  }
+]
