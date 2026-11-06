@@ -25,7 +25,7 @@ HERE = Path(__file__).resolve().parent
 DEFAULT_LIBRARY = HERE / "design-reference-library.md"
 
 VALID_TYPES = {
-    "hero", "bento", "social-proof", "pricing", "faq", "how-it-works",
+    "hero", "bento", "feature", "comparison", "integration", "social-proof", "pricing", "faq", "how-it-works",
     "about", "team", "services", "portfolio", "case-study", "contact", "cta", "nav", "3d", "ecommerce", "footer",
 }
 VALID_SOURCES = {"out-of-geo", "gallery", "team"}
@@ -189,7 +189,7 @@ def dedupe_key(e: dict) -> tuple[str, str] | None:
 def rebuild(entries: list[dict]) -> str:
     """Group entries by type in the canonical section order and render md."""
     order = [
-        "hero", "bento", "social-proof", "pricing", "faq", "how-it-works",
+        "hero", "bento", "feature", "comparison", "integration", "social-proof", "pricing", "faq", "how-it-works",
         "about", "team", "services", "portfolio", "case-study", "contact", "cta", "nav", "3d", "ecommerce", "footer",
     ]
     by_type = {}

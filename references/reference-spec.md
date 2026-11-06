@@ -34,6 +34,9 @@ Allowed values exactly:
 |---|---|
 | `hero` | Above-fold headline + CTA + visual. Sub-types recorded in `styles` (product / typography-led / service / video-bg / full-bleed / split) |
 | `bento` | Info grids, feature grids, bento boxes, bento grids |
+| `feature` | Focused capability explanations, product demonstrations, and feature selectors |
+| `comparison` | Alternatives, decision criteria, capability matrices, and competing service paths |
+| `integration` | Connected workflows, integration discovery, and app capability/setup context |
 | `social-proof` | Testimonials, reviews, logos, press mentions, ratings |
 | `pricing` | Pricing cards, tiers, cost tellers |
 | `faq` | FAQ / objection blocks |
@@ -49,6 +52,8 @@ Allowed values exactly:
 | `3d` | 3D, WebGL, scroll-driven, interactive |
 | `ecommerce` | Product pages, PDP layouts |
 | `footer` | Footer treatments |
+
+Choose the primary content job: `feature` for demonstrating a capability, `integration` for explaining or finding a connection, and `bento` when the mixed-grid composition itself is the main reference.
 
 ## Entry format (markdown block)
 

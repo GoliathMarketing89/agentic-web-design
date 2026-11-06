@@ -162,6 +162,135 @@
 - shot: shots/raycast-pro-bento-desktop.jpg
 - by: Codex; observed 2026-11-06
 
+## feature
+### Linear — layered product demo with a selectable visual state
+- name: Linear — layered product demo with a selectable visual state
+- url: https://linear.app/
+- type: feature
+- styles: dark, product-demo, layered-ui, theme-selector
+- industry: software, developer-tools, workflow-products
+- source: team
+- borrow: a concise feature promise above a layered work-list and code-diff demonstration with selectable themes
+- why: The product interface supplies concrete evidence for the feature rather than a generic illustration of speed or collaboration.
+- conv: 8
+- wow: 9
+- shot: shots/linear-feature-desktop.jpg
+- by: Codex
+
+### Raycast — task-language feature index beside a focused preview
+- name: Raycast — task-language feature index beside a focused preview
+- url: https://www.raycast.com/
+- type: feature
+- styles: dark, inline-task-index, product-preview, contextual-detail
+- industry: software, productivity, multi-feature-products
+- source: team
+- borrow: an inline list of recognizable tasks paired with one large product preview and a compact contextual explanation
+- why: The user can relate capabilities to things they want to do, while one preview keeps a broad feature set from becoming a wall of screenshots.
+- conv: 7
+- wow: 8
+- shot: shots/raycast-feature-desktop.jpg
+- by: Codex
+
+### Apple — synchronized product views with labeled color swatches
+- name: Apple — synchronized product views with labeled color swatches
+- url: https://www.apple.com/macbook-air/
+- type: feature
+- styles: light, product-photography, variant-selector, detail-crops
+- industry: consumer-products, ecommerce, hardware
+- source: team
+- borrow: a coordinated set of product angles and close-up details that all update from one labeled color selector
+- why: The feature makes product differences inspectable and shows the chosen finish consistently across details that matter.
+- conv: 9
+- wow: 9
+- shot: shots/apple-feature-desktop.jpg
+- by: Codex
+
+## comparison
+### Raycast — compact capability matrix with included and paid states
+- name: Raycast — compact capability matrix with included and paid states
+- url: https://www.raycast.com/raycast-vs-alfred
+- type: comparison
+- styles: dark, three-state-matrix, explanatory-intro, compact-table
+- industry: software, subscriptions, competitive-evaluation
+- source: team
+- borrow: a short explanation beside a compact matrix that distinguishes included, paid and unavailable capabilities
+- why: The layout makes a broad comparison scannable while the explanation gives context for different payment models.
+- conv: 7
+- wow: 7
+- shot: shots/raycast-comparison-desktop.jpg
+- by: Codex
+
+### Framer — decision-factor table with explicit choice guidance
+- name: Framer — decision-factor table with explicit choice guidance
+- url: https://www.framer.com/compare/framer-vs-webflow
+- type: comparison
+- styles: dark, qualitative-table, decision-guidance, horizontal-overflow
+- industry: software, platforms, considered-purchases
+- source: team
+- borrow: a four-column comparison pairing each decision factor with two product explanations and a choose-based-on interpretation
+- why: The final column helps buyers turn feature differences into a decision rather than counting favorable checkmarks.
+- conv: 8
+- wow: 7
+- shot: shots/framer-comparison-desktop.jpg
+- by: Codex
+
+### Opendoor — parallel service timelines focused on the customer milestone
+- name: Opendoor — parallel service timelines focused on the customer milestone
+- url: https://www.opendoor.com/
+- type: comparison
+- styles: light, parallel-timelines, milestone-led, service-method
+- industry: consumer-services, home-services, real-estate
+- source: team
+- borrow: two parallel service paths with an early customer milestone highlighted and later work separated from the customer's responsibility
+- why: The viewer can compare when their goal is reached and what work remains, instead of reading two unrelated feature lists.
+- conv: 8
+- wow: 9
+- shot: shots/opendoor-comparison-desktop.jpg
+- by: Codex
+
+## integration
+### Linear — integrations explained as input-to-work workflows
+- name: Linear — integrations explained as input-to-work workflows
+- url: https://linear.app/intake
+- type: integration
+- styles: dark, connected-workflow, layered-product, use-case-grid
+- industry: software, workflow-products, business-platforms
+- source: team
+- borrow: layered source-conversation and destination-issue views followed by integration examples organized around the work they automate
+- why: The section explains what changes when tools connect, rather than treating a row of logos as proof of useful integration.
+- conv: 8
+- wow: 9
+- shot: shots/linear-integration-desktop.jpg
+- by: Codex
+
+### Attio — categorized app catalog with contextual command search
+- name: Attio — categorized app catalog with contextual command search
+- url: https://attio.com/apps
+- type: integration
+- styles: white, app-directory, publisher-cues, command-search
+- industry: software, platforms, integration-marketplaces
+- source: team
+- borrow: a categorized app grid with publisher/status cues and a search dialog that shows why each integration is useful
+- why: Visitors can find a known tool or browse a task category while retaining developer and capability context.
+- conv: 9
+- wow: 8
+- shot: shots/attio-integration-desktop.jpg
+- by: Codex
+
+### Ramp / NetSuite — capability illustrations with app and support context
+- name: Ramp / NetSuite — capability illustrations with app and support context
+- url: https://ramp.com/integrations/netsuite
+- type: integration
+- styles: light, three-capability-illustrations, app-metadata, detail-page
+- industry: business-software, operations, integration-marketplaces
+- source: team
+- borrow: three concrete integration-capability illustrations followed by an explanatory body and a structured app-information card
+- why: The visitor can understand what is connected, what the integration does and where to find support or setup details.
+- conv: 9
+- wow: 8
+- shot: shots/ramp-integration-desktop.jpg
+- by: Codex
+
 ## social-proof
 ### AJ Alberts trust-signal stack
 - name: AJ Alberts trust-signal stack
@@ -596,20 +725,6 @@
 - by: Codex
 
 ## services
-### Instrument — service rows with directly relevant project proof
-- name: Instrument — service rows with directly relevant project proof
-- url: https://www.instrument.com/services/
-- type: services
-- styles: purple, serif-titles, offer-proof-pair, project-thumbnails
-- industry: creative-agency, professional-services
-- source: team
-- borrow: a service promise and learn-more route beside two relevant project thumbnails with concise case summaries
-- why: Visitors encounter evidence for the exact offer they are evaluating, instead of having to infer relevance from a separate logo wall.
-- conv: 9
-- wow: 8
-- shot: shots/instrument-services-desktop.jpg
-- by: Codex
-
 ### Humaan — six capability groups in a quiet type-led matrix
 - name: Humaan — six capability groups in a quiet type-led matrix
 - url: https://www.humaan.com/about
@@ -622,6 +737,20 @@
 - conv: 8
 - wow: 6
 - shot: shots/humaan-services-desktop.jpg
+- by: Codex
+
+### Instrument — service rows with directly relevant project proof
+- name: Instrument — service rows with directly relevant project proof
+- url: https://www.instrument.com/services/
+- type: services
+- styles: purple, serif-titles, offer-proof-pair, project-thumbnails
+- industry: creative-agency, professional-services
+- source: team
+- borrow: a service promise and learn-more route beside two relevant project thumbnails with concise case summaries
+- why: Visitors encounter evidence for the exact offer they are evaluating, instead of having to infer relevance from a separate logo wall.
+- conv: 9
+- wow: 8
+- shot: shots/instrument-services-desktop.jpg
 - by: Codex
 
 ### ustwo — engagement offers with activities, outcomes and proof
@@ -639,20 +768,6 @@
 - by: Codex
 
 ## portfolio
-### Instrument — filterable work grid with separate display modes
-- name: Instrument — filterable work grid with separate display modes
-- url: https://www.instrument.com/work/grid
-- type: portfolio
-- styles: white, filter-chips, two-column-grid, project-posters
-- industry: creative-agency, design-portfolio, professional-services
-- source: team
-- borrow: category chips and an independent grid/stack switch above large rounded project posters with compact labels
-- why: Visitors can narrow work by capability and choose a browsing density while keeping project identity clear.
-- conv: 8
-- wow: 8
-- shot: shots/instrument-portfolio-desktop.jpg
-- by: Codex
-
 ### Humaan — featured project followed by paired visual cards
 - name: Humaan — featured project followed by paired visual cards
 - url: https://www.humaan.com/work
@@ -665,6 +780,20 @@
 - conv: 8
 - wow: 9
 - shot: shots/humaan-portfolio-desktop.jpg
+- by: Codex
+
+### Instrument — filterable work grid with separate display modes
+- name: Instrument — filterable work grid with separate display modes
+- url: https://www.instrument.com/work/grid
+- type: portfolio
+- styles: white, filter-chips, two-column-grid, project-posters
+- industry: creative-agency, design-portfolio, professional-services
+- source: team
+- borrow: category chips and an independent grid/stack switch above large rounded project posters with compact labels
+- why: Visitors can narrow work by capability and choose a browsing density while keeping project identity clear.
+- conv: 8
+- wow: 8
+- shot: shots/instrument-portfolio-desktop.jpg
 - by: Codex
 
 ### Locomotive — project index with expandable rich previews
@@ -696,20 +825,6 @@
 - shot: shots/instrument-case-desktop-visual.jpg
 - by: Codex
 
-### ustwo / RVO Health — contextualized impact cards before the deeper story
-- name: ustwo / RVO Health — contextualized impact cards before the deeper story
-- url: https://ustwo.com/work/rvo-health/
-- type: case-study
-- styles: dark-impact-band, comparison-cards, product-context, editorial-story
-- industry: product-design, digital-services, health-technology
-- source: team
-- borrow: an early impact section with three comparable result cards, each keeping its baseline or timeframe next to the headline figure
-- why: Readers can assess the project stakes and reported change before committing to the longer challenge and approach narrative.
-- conv: 8
-- wow: 7
-- shot: shots/ustwo-case-desktop-intro.jpg
-- by: Codex
-
 ### Lime / TOKEN2049 — project facts, before/after evidence and an explained experiment
 - name: Lime / TOKEN2049 — project facts, before/after evidence and an explained experiment
 - url: https://limestud.io/work/token2049
@@ -722,6 +837,20 @@
 - conv: 9
 - wow: 8
 - shot: shots/lime-case-desktop-visual.jpg
+- by: Codex
+
+### ustwo / RVO Health — contextualized impact cards before the deeper story
+- name: ustwo / RVO Health — contextualized impact cards before the deeper story
+- url: https://ustwo.com/work/rvo-health/
+- type: case-study
+- styles: dark-impact-band, comparison-cards, product-context, editorial-story
+- industry: product-design, digital-services, health-technology
+- source: team
+- borrow: an early impact section with three comparable result cards, each keeping its baseline or timeframe next to the headline figure
+- why: Readers can assess the project stakes and reported change before committing to the longer challenge and approach narrative.
+- conv: 8
+- wow: 7
+- shot: shots/ustwo-case-desktop-intro.jpg
 - by: Codex
 
 ## contact

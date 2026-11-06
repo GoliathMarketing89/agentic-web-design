@@ -2,6 +2,9 @@
   "counts": {
     "hero": 3,
     "bento": 3,
+    "feature": 3,
+    "comparison": 3,
+    "integration": 3,
     "services": 3,
     "portfolio": 3,
     "case-study": 3,
@@ -258,6 +261,87 @@
       "industry": "nonprofit, community, editorial, membership",
       "fit": "An organization with a meaningful email program and enough reason for visitors to stay connected.",
       "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "linear-feature",
+      "name": "Linear — layered product demo with a selectable visual state",
+      "type": "feature",
+      "styles": "dark, product-demo, layered-ui, theme-selector",
+      "industry": "software, developer-tools, workflow-products",
+      "fit": "A software capability that becomes understandable through a small, self-contained demonstration.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
+    },
+    {
+      "id": "raycast-feature",
+      "name": "Raycast — task-language feature index beside a focused preview",
+      "type": "feature",
+      "styles": "dark, inline-task-index, product-preview, contextual-detail",
+      "industry": "software, productivity, multi-feature-products",
+      "fit": "A product with many short, recognizable tasks and useful visual demonstrations for a few of them.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
+    },
+    {
+      "id": "apple-feature",
+      "name": "Apple — synchronized product views with labeled color swatches",
+      "type": "feature",
+      "styles": "light, product-photography, variant-selector, detail-crops",
+      "industry": "consumer-products, ecommerce, hardware",
+      "fit": "A physical product with meaningful finishes, materials or configurations and high-quality consistent product imagery.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
+    },
+    {
+      "id": "raycast-comparison",
+      "name": "Raycast — compact capability matrix with included and paid states",
+      "type": "comparison",
+      "styles": "dark, three-state-matrix, explanatory-intro, compact-table",
+      "industry": "software, subscriptions, competitive-evaluation",
+      "fit": "A small number of alternatives sharing a meaningful set of comparable capabilities.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
+    },
+    {
+      "id": "framer-comparison",
+      "name": "Framer — decision-factor table with explicit choice guidance",
+      "type": "comparison",
+      "styles": "dark, qualitative-table, decision-guidance, horizontal-overflow",
+      "industry": "software, platforms, considered-purchases",
+      "fit": "A considered choice where different products suit different workflows and tradeoffs need explanation.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
+    },
+    {
+      "id": "opendoor-comparison",
+      "name": "Opendoor — parallel service timelines focused on the customer milestone",
+      "type": "comparison",
+      "styles": "light, parallel-timelines, milestone-led, service-method",
+      "industry": "consumer-services, home-services, real-estate",
+      "fit": "Two service methods with meaningful differences in timing, effort, handoff and completion.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
+    },
+    {
+      "id": "linear-integration",
+      "name": "Linear — integrations explained as input-to-work workflows",
+      "type": "integration",
+      "styles": "dark, connected-workflow, layered-product, use-case-grid",
+      "industry": "software, workflow-products, business-platforms",
+      "fit": "A platform whose integrations transform an input from another tool into a concrete work item or output.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
+    },
+    {
+      "id": "attio-integration",
+      "name": "Attio — categorized app catalog with contextual command search",
+      "type": "integration",
+      "styles": "white, app-directory, publisher-cues, command-search",
+      "industry": "software, platforms, integration-marketplaces",
+      "fit": "A platform with a substantial integration catalog whose apps have meaningful differences in purpose and publisher.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
+    },
+    {
+      "id": "ramp-integration",
+      "name": "Ramp / NetSuite — capability illustrations with app and support context",
+      "type": "integration",
+      "styles": "light, three-capability-illustrations, app-metadata, detail-page",
+      "industry": "business-software, operations, integration-marketplaces",
+      "fit": "An individual integration page where configuration, support and availability context matter to adoption.",
+      "catalog": "patterns/feature-comparison-integration-2026-11-06.json"
     },
     {
       "id": "raycast-atmospheric-hero",

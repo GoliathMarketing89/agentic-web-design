@@ -340,6 +340,510 @@ The Build pipeline anchor was exercised and scrolled to the article. Mobile navi
 
 Live desktop/mobile inspection and complementary viewport captures. No complete rebuild or conversion measurement.
 
+## Linear — layered product demo with a selectable visual state
+
+ID: `linear-feature` · Type: feature · Observed: 2026-11-06
+
+Source: [Linear — layered product demo with a selectable visual state](https://linear.app/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a concise feature promise above a layered work-list and code-diff demonstration with selectable themes
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/linear-feature-desktop.jpg), [view 2](shots/linear-feature-desktop-demo.jpg)
+
+Mobile: [view 1](shots/linear-feature-mobile.jpg)
+
+### Use when
+
+A software capability that becomes understandable through a small, self-contained demonstration.
+
+### Avoid when
+
+A product whose interface cannot be simplified without misleading users, or a mobile-first page with no useful small-screen representation.
+
+### Content slots
+
+Task-oriented heading; short benefit explanation; detail route; representative work list; main demonstration pane; optional state selector; secondary feature details.
+
+### Desktop composition
+
+The dark section uses a split heading/benefit row above an oversized layered demo. A work list sits behind a raised code-diff pane. Borders, soft shadows and edge fades give depth; a theme control belongs to the demo rather than the page chrome.
+
+### Observed mobile behavior
+
+In the observed phone layout, the complex demo and feature-detail list are omitted. The promise and learn-more route remain, followed by customer proof. Treat this as an observed simplification, not a requirement to remove all visual evidence.
+
+### Rebuild recipe
+
+Separate feature copy from a bounded demo component. Define one coherent sample dataset and keep decorative layers out of the reading order. Render a useful static state first, then add optional theme/state controls. Use a smaller annotated poster on phones if it communicates more than hiding the demo.
+
+### Asset production
+
+Create faithful client-owned interface fragments with consistent typography, icons and sample data. A lightweight HTML/SVG reconstruction can keep key labels sharp; use raster posters for complex visuals and as a reduced-motion fallback.
+
+### Adaptation decisions
+
+Demonstrate one task, not the entire app. Keep important labels readable despite edge fades. Make selectable state changes explicit and keyboard-operable. Add a clear route from the capability to deeper information or signup.
+
+### Interaction evidence and gaps
+
+The Theme combobox opened, and choosing GitHub Dark changed the selected label and code color treatment. Editing code, issue selection and secondary feature disclosures were not exercised. The phone view intentionally contains no demo.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
+## Raycast — task-language feature index beside a focused preview
+
+ID: `raycast-feature` · Type: feature · Observed: 2026-11-06
+
+Source: [Raycast — task-language feature index beside a focused preview](https://www.raycast.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: an inline list of recognizable tasks paired with one large product preview and a compact contextual explanation
+
+Editorial scores: conversion clarity 7/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/raycast-feature-desktop.jpg)
+
+Mobile: [view 1](shots/raycast-feature-mobile.jpg)
+
+### Use when
+
+A product with many short, recognizable tasks and useful visual demonstrations for a few of them.
+
+### Avoid when
+
+Complex capabilities requiring long explanation, or an index whose dimmed tasks would become hard to read.
+
+### Content slots
+
+Prompt heading; task labels; active task; product preview; feature identity; short contextual explanation; deeper detail route.
+
+### Desktop composition
+
+On black, a large paragraph-like cluster of task controls occupies the left region. One task is bright while the rest recede. A large application preview sits right; a small feature chip and short explanation appear below the task list.
+
+### Observed mobile behavior
+
+The saved phone view retains the task text and a feature identity chip, while the large product preview and explanatory detail are omitted. Task labels wrap into a narrow column. Preserve useful visual evidence in an adaptation if the feature needs it.
+
+### Rebuild recipe
+
+Model each task with its label, preview, summary and detail route. Use actual buttons with an explicit selected state and a single associated preview panel. Support click, keyboard and touch, and keep a stable default preview available immediately. Reflow or simplify the panel on phones rather than depending on hover.
+
+### Asset production
+
+Original interface posters for the client's actual tasks, with a shared crop and visual treatment. Keep the task index and labels as HTML. Use approved synthetic sample content inside demonstrations.
+
+### Adaptation decisions
+
+Write tasks in the user's language. Limit the index to scannable choices, increase inactive contrast, and retain a useful phone summary. A static list of three tasks may be better for a focused landing page.
+
+### Interaction evidence and gaps
+
+The default Notes preview and task controls were inspected. Clicking Manage your windows did not produce a persistent alternate state in subsequent captures; hover/focus behavior and keyboard selection were not established. The recipe proposes explicit accessible selection rather than claiming that behavior was verified.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
+## Apple — synchronized product views with labeled color swatches
+
+ID: `apple-feature` · Type: feature · Observed: 2026-11-06
+
+Source: [Apple — synchronized product views with labeled color swatches](https://www.apple.com/macbook-air/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a coordinated set of product angles and close-up details that all update from one labeled color selector
+
+Editorial scores: conversion clarity 9/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/apple-feature-desktop.jpg), [view 2](shots/apple-feature-desktop-selected.jpg)
+
+Mobile: [view 1](shots/apple-feature-mobile.jpg)
+
+### Use when
+
+A physical product with meaningful finishes, materials or configurations and high-quality consistent product imagery.
+
+### Avoid when
+
+Variants differing only in hidden specifications, or inconsistent photographs that make changes appear to alter product geometry.
+
+### Content slots
+
+Feature context; multiple product angles; close-up detail; variant swatches; visible selected name; supporting explanation; optional lifestyle proof.
+
+### Desktop composition
+
+A light rounded-tile composition pairs two cropped detail images on the left with a taller multi-angle product tile on the right. Swatches and the selected color name sit inside the main tile. Short explanatory copy follows; lifestyle imagery continues below.
+
+### Observed mobile behavior
+
+The main multi-angle selector tile takes the full phone width, followed by the remaining detail imagery. Swatches and the selected color name remain visible and readable. The phone capture shows the selected dark finish without shrinking the controls.
+
+### Rebuild recipe
+
+Create a variant model mapping each value to all required image angles and detail crops. Drive every view from the same selected value. Use accessible tabs or radios with text labels, stable image dimensions and preload the next likely asset. Define alternate phone ordering and crop rules.
+
+### Asset production
+
+Commission or render a consistent product image set for every variant, with identical camera, lighting and scale. Provide color-accurate swatches, neutral backgrounds and sharp detail crops. Source Apple product artwork is reference evidence, not client imagery.
+
+### Adaptation decisions
+
+Use the client's actual variants and names. Keep color selection understandable without color alone. Show the details that distinguish the offer and avoid decorative angles that delay a useful purchase decision.
+
+### Interaction evidence and gaps
+
+Selecting Midnight changed the visible selected label and all observed product/detail images to the dark finish. The corresponding phone state was captured. Other colors, purchase and technical-specification routes were not tested.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
+## Raycast — compact capability matrix with included and paid states
+
+ID: `raycast-comparison` · Type: comparison · Observed: 2026-11-06
+
+Source: [Raycast — compact capability matrix with included and paid states](https://www.raycast.com/raycast-vs-alfred)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a short explanation beside a compact matrix that distinguishes included, paid and unavailable capabilities
+
+Editorial scores: conversion clarity 7/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/raycast-comparison-desktop.jpg)
+
+Mobile: [view 1](shots/raycast-comparison-mobile.jpg)
+
+### Use when
+
+A small number of alternatives sharing a meaningful set of comparable capabilities.
+
+### Avoid when
+
+A comparison where nuanced support levels cannot be honestly reduced to a few status values.
+
+### Content slots
+
+Comparison heading; scope/payment context; criteria; named alternatives; included/paid/unavailable states; definitions and evidence links.
+
+### Desktop composition
+
+On black, a narrow explanation occupies the left side and a wider comparison matrix sits right. Brighter headers identify the two products; fine row rules and centered status glyphs keep the list compact.
+
+### Observed mobile behavior
+
+The explanation stacks above the matrix. Criteria and two status columns fit without horizontal scrolling. Product names become reduced or missing in the visible column headings, so retain clearer labels in an adaptation.
+
+### Rebuild recipe
+
+Use a semantic table with explicit column and row headers. Store status as an enum with an accessible text label, not a glyph alone. Keep scope notes near the table and add a visible legend. On phones preserve product names with compact headers or repeated labels.
+
+### Asset production
+
+Permissioned product marks and a dated, sourced comparison dataset. No large imagery is required. Verify competitor editions, paid add-ons and platform-specific differences before publishing.
+
+### Adaptation decisions
+
+Compare the same task, version and plan. Explain partial support and price-dependent availability instead of forcing a yes/no. Increase contrast on unavailable markers and avoid treating the vendor's claims as independently verified facts.
+
+### Interaction evidence and gaps
+
+Static table and responsive reflow inspected. No comparison controls were needed. Product/feature claims and payment-model descriptions were not independently checked; this record documents the presentation pattern.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
+## Framer — decision-factor table with explicit choice guidance
+
+ID: `framer-comparison` · Type: comparison · Observed: 2026-11-06
+
+Source: [Framer — decision-factor table with explicit choice guidance](https://www.framer.com/compare/framer-vs-webflow)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a four-column comparison pairing each decision factor with two product explanations and a choose-based-on interpretation
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/framer-comparison-desktop.jpg)
+
+Mobile: [view 1](shots/framer-comparison-mobile.jpg), [view 2](shots/framer-comparison-mobile-scroll.jpg)
+
+### Use when
+
+A considered choice where different products suit different workflows and tradeoffs need explanation.
+
+### Avoid when
+
+A phone-first quick decision with too much prose to scan, or a comparison lacking current supporting facts.
+
+### Content slots
+
+Comparison scope; decision factor; option A; option B; decision guidance; plan/version qualifiers; evidence and review date.
+
+### Desktop composition
+
+A large section heading precedes one broad dark table with a slightly lighter header and fine row rules. The first column is narrow, two middle columns describe the alternatives, and the final column translates the difference into a choice.
+
+### Observed mobile behavior
+
+The table retains its width inside a horizontally scrollable container. The default view shows criteria and the first product. Horizontal scrolling exposed the other product; row criteria move offscreen rather than staying pinned in the observed source.
+
+### Rebuild recipe
+
+Render a real table inside a labeled, keyboard-accessible overflow region. Define stable minimum column widths and readable paragraph lengths. Add a sticky criteria column and persistent or repeated headers if they improve comparison on phones. Keep horizontal scroll within the table.
+
+### Asset production
+
+A dated comparison dataset with current product/plan definitions and supporting links. Typography and information design supply the visual treatment.
+
+### Adaptation decisions
+
+Write each row around a buyer question. Acknowledge genuine fit differences and qualify quantitative limits. Do not copy source prices or product claims into a client site; verify them for the intended audience and publication date.
+
+### Interaction evidence and gaps
+
+Horizontal scrolling was exercised on the phone table and a second-column view captured. Pricing rows, FAQs and onward actions were not tested. Competitor capability statements were observed as vendor-authored claims, not independently validated.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
+## Opendoor — parallel service timelines focused on the customer milestone
+
+ID: `opendoor-comparison` · Type: comparison · Observed: 2026-11-06
+
+Source: [Opendoor — parallel service timelines focused on the customer milestone](https://www.opendoor.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: two parallel service paths with an early customer milestone highlighted and later work separated from the customer's responsibility
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/opendoor-comparison-desktop.jpg)
+
+Mobile: [view 1](shots/opendoor-comparison-mobile.jpg), [view 2](shots/opendoor-comparison-mobile-timeline.jpg)
+
+### Use when
+
+Two service methods with meaningful differences in timing, effort, handoff and completion.
+
+### Avoid when
+
+A process whose stages or duration cannot be compared fairly, or a chart that would imply a guaranteed outcome.
+
+### Content slots
+
+Specific service promise; qualified timing context; action; two named paths; stages and duration ranges; customer milestone; provider handoff; final outcome; optional human image.
+
+### Desktop composition
+
+A left-hand promise, blue action and family-photo/keys composition sit beside two tall timeline columns. The favored path highlights the first-payment/move milestone and separates provider-owned work below; the traditional path exposes several preparation and closing stages.
+
+### Observed mobile behavior
+
+The promise and action precede two compact side-by-side timelines. The family visual moves below the chart. The paired phone captures retain the method headers, early milestone and eventual completion without horizontal scrolling.
+
+### Rebuild recipe
+
+Define stages, duration context, responsible party and customer milestones as data. Use a two-column ordered sequence with clear method headings. Highlight the milestone with text and border treatment, not color alone. Keep an equivalent readable static sequence when animation is disabled.
+
+### Asset production
+
+Client-specific process data, a factual baseline, qualified timing ranges and optional original lifestyle photography. Use decorative objects only if they support the customer's real goal.
+
+### Adaptation decisions
+
+Explain which stages transfer to the provider and which remain the customer's responsibility. Label illustrative timing and avoid implying proportional time from arbitrary block heights. Verify any speed, payment or completion claim for the service actually offered.
+
+### Interaction evidence and gaps
+
+The two timeline paths and responsive order were inspected. Some provider stages remain visually faded during the source's reveal treatment, while their labels are present in the DOM. Offer, address and signup actions were not exercised; source timing claims were not independently validated.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
+## Linear — integrations explained as input-to-work workflows
+
+ID: `linear-integration` · Type: integration · Observed: 2026-11-06
+
+Source: [Linear — integrations explained as input-to-work workflows](https://linear.app/intake)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: layered source-conversation and destination-issue views followed by integration examples organized around the work they automate
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/linear-integration-desktop.jpg), [view 2](shots/linear-integration-desktop-apps.jpg)
+
+Mobile: [view 1](shots/linear-integration-mobile.jpg)
+
+### Use when
+
+A platform whose integrations transform an input from another tool into a concrete work item or output.
+
+### Avoid when
+
+A simple compatibility claim that does not justify a detailed workflow illustration.
+
+### Content slots
+
+Outcome heading; concise workflow explanation; source tool/context; transformed destination; workflow examples; named supported apps; deeper detail route.
+
+### Desktop composition
+
+A split heading/benefit row introduces a large gray-backed panel with overlapping conversation and issue views. A ruled two-column grid below pairs small workflow illustrations with specific input-to-output explanations, including chat and support-ticket examples.
+
+### Observed mobile behavior
+
+The main conversation/issue illustration remains as a narrow cropped product scene below the promise. The conversation stays visible instead of squeezing both full interfaces onto the screen. Supporting workflow cards continue beneath.
+
+### Rebuild recipe
+
+Model each workflow as source, trigger, transformation, destination and benefit. Build a simplified paired-view illustration using original sample content and explicit labels. Use a two-column use-case grid on desktop and one column on phones; choose a useful mobile crop or staged before/after sequence.
+
+### Asset production
+
+Faithful client-owned interface fragments, approved app marks and short synthetic conversations that demonstrate real supported behavior. Produce a sharp static poster before adding motion.
+
+### Adaptation decisions
+
+Name the action the integration performs and any required trigger. Show an actual handoff or output. Keep critical labels out of the crop, preserve readable contrast, and distinguish demonstration UI from a connected production account.
+
+### Interaction evidence and gaps
+
+Workflow scenes and supported-tool descriptions were inspected. No message was sent, issue created or external account connected. The detail page's phone illustration was checked separately because the homepage omits much of its demo content.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
+## Attio — categorized app catalog with contextual command search
+
+ID: `attio-integration` · Type: integration · Observed: 2026-11-06
+
+Source: [Attio — categorized app catalog with contextual command search](https://attio.com/apps)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a categorized app grid with publisher/status cues and a search dialog that shows why each integration is useful
+
+Editorial scores: conversion clarity 9/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/attio-integration-desktop.jpg), [view 2](shots/attio-integration-desktop-search.jpg)
+
+Mobile: [view 1](shots/attio-integration-mobile.jpg), [view 2](shots/attio-integration-mobile-search.jpg)
+
+### Use when
+
+A platform with a substantial integration catalog whose apps have meaningful differences in purpose and publisher.
+
+### Avoid when
+
+A small set of connections that could be explained more clearly in a short workflow section.
+
+### Content slots
+
+Discovery heading; search; category navigation; app icon; app name; developer; status badge; capability summary; app-detail destination.
+
+### Desktop composition
+
+A centered introduction and search control sit above a ruled directory. A left category rail accompanies two columns of lightly bordered cards. Each card uses a small icon, name/developer identity, optional official-app cue and one-line capability description.
+
+### Observed mobile behavior
+
+The category rail becomes a horizontal navigation strip, cards become one column, and search opens a nearly full-height sheet. The search sheet retains result icons, matched text, publisher, category and capability summary.
+
+### Rebuild recipe
+
+Use a catalog data model with app, publisher, category, status, summary and destination fields. Keep category navigation separate from search. Implement a dialog/combobox search with loading, results and empty states, focus management and keyboard selection. Reflow the catalog grid and search sheet for phones.
+
+### Asset production
+
+Permissioned app icons, current publisher/status information and concise descriptions of supported capabilities. Define what any official/verified badge actually means rather than inferring it from icon color.
+
+### Adaptation decisions
+
+Use task-oriented categories and summaries that distinguish similar apps. Show the publisher separately from official status. Keep search useful for capability phrases as well as exact names, and route to scope/setup information before connection actions.
+
+### Interaction evidence and gaps
+
+Search was opened, Slack entered, and settled results confirmed for Slack and related apps. Desktop dialog and phone sheet were captured. The desktop escape control closed search. Category navigation, result selection, installation and account connections were not exercised.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
+## Ramp / NetSuite — capability illustrations with app and support context
+
+ID: `ramp-integration` · Type: integration · Observed: 2026-11-06
+
+Source: [Ramp / NetSuite — capability illustrations with app and support context](https://ramp.com/integrations/netsuite)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: three concrete integration-capability illustrations followed by an explanatory body and a structured app-information card
+
+Editorial scores: conversion clarity 9/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/ramp-integration-desktop.jpg)
+
+Mobile: [view 1](shots/ramp-integration-mobile.jpg)
+
+### Use when
+
+An individual integration page where configuration, support and availability context matter to adoption.
+
+### Avoid when
+
+A generic partner-logo section or a connection with no accurate capability and setup information.
+
+### Content slots
+
+App identity; integration promise; action; three capability visuals/captions; detailed supported behavior; developer/category/support; plan context; documentation; relevant permissions/policy details.
+
+### Desktop composition
+
+A neutral feature band contains three landscape illustrations with captions: system-to-system synchronization, an operational interface and a multi-entity example. Below, a broad description/list sits beside a narrower bordered app-information card.
+
+### Observed mobile behavior
+
+Capability visuals become a horizontal rail with the next item partially visible. The app-information card moves before the longer description, keeping developer, support and resources easy to find. The first synchronization illustration remains legible.
+
+### Rebuild recipe
+
+Represent capabilities as labeled figures and app metadata as a definition list. Use three equal desktop cards, a clear phone rail or stacked alternative, and a two-column detail region that puts essential metadata first on phones. Provide explicit navigation for any rail rather than relying only on a clipped edge.
+
+### Asset production
+
+A simple original connection diagram, faithful sample interface fragments and icons explaining actual supported workflows. Supply current developer, documentation, support and availability data; use approved descriptions for access and policy details.
+
+### Adaptation decisions
+
+Describe sync direction, relevant data and operational limitations precisely. Keep edition/setup requirements visible. Replace decorative claims with concrete examples, and ensure rail interaction works with touch and keyboard.
+
+### Interaction evidence and gaps
+
+The detail page was opened from the integration catalog. Capability illustrations, metadata and policy-section headings were inspected. A horizontal wheel attempt did not move the phone rail; drag and keyboard behavior were not verified. No signup, agreement or connection action was performed.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Editorial scores describe clarity and visual impact, not measured conversion. No complete rebuild validation.
+
 ## Instrument — service rows with directly relevant project proof
 
 ID: `instrument-services` · Type: services · Observed: 2026-11-06
