@@ -163,33 +163,18 @@
 - by: Codex; observed 2026-11-06
 
 ## social-proof
-### Linear — asymmetric quotes linked to customer stories
-- name: Linear — asymmetric quotes linked to customer stories
-- url: https://linear.app/
+### AJ Alberts trust-signal stack
+- name: AJ Alberts trust-signal stack
+- url: https://www.ajalberts.com
 - type: social-proof
-- styles: dark-surround, pastel, asymmetric-cards, story-links
-- industry: software, b2b, platforms
-- source: team
-- borrow: two oversized pastel quote cards with bottom-aligned attribution and links to full customer stories
-- why: A short readable endorsement leads to deeper evidence instead of serving as an isolated decoration.
-- conv: 8
-- wow: 8
-- shot: shots/linear-proof-desktop.jpg
-- by: Codex
-
-### Raycast — profile selector with specific usage endorsements
-- name: Raycast — profile selector with specific usage endorsements
-- url: https://www.raycast.com/
-- type: social-proof
-- styles: dark, portrait-selector, feature-context, focused-quote
-- industry: software, productivity, creator-tools
-- source: team
-- borrow: a highlighted portrait profile above a quote and concrete favorite-feature context
-- why: Named people connect the endorsement to recognizable product use rather than generic praise.
-- conv: 7
-- wow: 8
-- shot: shots/raycast-proof-desktop.jpg
-- by: Codex
+- styles: home-service, trust-led
+- industry: plumbing, home-services
+- source: out-of-geo
+- borrow: 4.9/5 from 881 Google reviews shown as verbatim excerpts linked to originals, plus Best of Woodbury wins and license numbers (PC150039) in the body
+- why: Proof with receipts: real review quotes, real license numbers, real award names — not a generic '5 stars' claim
+- conv: 9
+- wow: 4
+- by: Hermes
 
 ### Designjoy — two editorial endorsements without cards
 - name: Designjoy — two editorial endorsements without cards
@@ -203,6 +188,33 @@
 - conv: 7
 - wow: 8
 - shot: shots/designjoy-proof-desktop.jpg
+- by: Codex
+
+### DTC home-services trust banner pattern
+- name: DTC home-services trust banner pattern
+- url: https://www.angi.com
+- type: social-proof
+- styles: local-service, trust-led
+- industry: home-services, any
+- source: team
+- borrow: Google-style star rating + review count at the top, badges for licensed/insured below the hero
+- why: The trust-signal stack that converts local-service visitors: proof above the fold, not buried
+- conv: 8
+- wow: 4
+- by: Hermes
+
+### Linear — asymmetric quotes linked to customer stories
+- name: Linear — asymmetric quotes linked to customer stories
+- url: https://linear.app/
+- type: social-proof
+- styles: dark-surround, pastel, asymmetric-cards, story-links
+- industry: software, b2b, platforms
+- source: team
+- borrow: two oversized pastel quote cards with bottom-aligned attribution and links to full customer stories
+- why: A short readable endorsement leads to deeper evidence instead of serving as an isolated decoration.
+- conv: 8
+- wow: 8
+- shot: shots/linear-proof-desktop.jpg
 - by: Codex
 
 ### Opendoor — family stories with inline video and location
@@ -219,33 +231,49 @@
 - shot: shots/opendoor-proof-desktop.jpg
 - by: Codex
 
-### AJ Alberts trust-signal stack
-- name: AJ Alberts trust-signal stack
-- url: https://www.ajalberts.com
+### Raycast — profile selector with specific usage endorsements
+- name: Raycast — profile selector with specific usage endorsements
+- url: https://www.raycast.com/
 - type: social-proof
-- styles: home-service, trust-led
-- industry: plumbing, home-services
-- source: out-of-geo
-- borrow: 4.9/5 from 881 Google reviews shown as verbatim excerpts linked to originals, plus Best of Woodbury wins and license numbers (PC150039) in the body
-- why: Proof with receipts: real review quotes, real license numbers, real award names — not a generic '5 stars' claim
-- conv: 9
-- wow: 4
-- by: Hermes
-
-### DTC home-services trust banner pattern
-- name: DTC home-services trust banner pattern
-- url: https://www.angi.com
-- type: social-proof
-- styles: local-service, trust-led
-- industry: home-services, any
+- styles: dark, portrait-selector, feature-context, focused-quote
+- industry: software, productivity, creator-tools
 - source: team
-- borrow: Google-style star rating + review count at the top, badges for licensed/insured below the hero
-- why: The trust-signal stack that converts local-service visitors: proof above the fold, not buried
-- conv: 8
-- wow: 4
-- by: Hermes
+- borrow: a highlighted portrait profile above a quote and concrete favorite-feature context
+- why: Named people connect the endorsement to recognizable product use rather than generic praise.
+- conv: 7
+- wow: 8
+- shot: shots/raycast-proof-desktop.jpg
+- by: Codex
 
 ## pricing
+### Designjoy — tangible membership beside one subscription
+- name: Designjoy — tangible membership beside one subscription
+- url: https://www.designjoy.co/
+- type: pricing
+- styles: light, single-offer, membership-object, dark-price-card
+- industry: design-services, subscription-services
+- source: team
+- borrow: dark single-offer card paired with a colorful membership-object visual and explicit service limits
+- why: The visual gives an intangible service a recognizable object while one card explains the purchase.
+- conv: 8
+- wow: 9
+- shot: shots/designjoy-pricing-desktop.jpg
+- by: Codex
+
+### Lemon Squeezy — parallel billing models in pastel panels
+- name: Lemon Squeezy — parallel billing models in pastel panels
+- url: https://www.lemonsqueezy.com/pricing
+- type: pricing
+- styles: pastel, split-panels, transaction-fee, subscriber-slider
+- industry: commerce, payments, creator-tools
+- source: team
+- borrow: two colored product-family panels, each explaining its own billing unit and inclusions
+- why: Different fee models remain understandable without being presented as interchangeable tiers.
+- conv: 8
+- wow: 8
+- shot: shots/lemon-pricing-desktop.jpg
+- by: Codex
+
 ### Linear — restrained four-tier comparison
 - name: Linear — restrained four-tier comparison
 - url: https://linear.app/pricing
@@ -272,34 +300,6 @@
 - conv: 8
 - wow: 8
 - shot: shots/resend-pricing-desktop.jpg
-- by: Codex
-
-### Lemon Squeezy — parallel billing models in pastel panels
-- name: Lemon Squeezy — parallel billing models in pastel panels
-- url: https://www.lemonsqueezy.com/pricing
-- type: pricing
-- styles: pastel, split-panels, transaction-fee, subscriber-slider
-- industry: commerce, payments, creator-tools
-- source: team
-- borrow: two colored product-family panels, each explaining its own billing unit and inclusions
-- why: Different fee models remain understandable without being presented as interchangeable tiers.
-- conv: 8
-- wow: 8
-- shot: shots/lemon-pricing-desktop.jpg
-- by: Codex
-
-### Designjoy — tangible membership beside one subscription
-- name: Designjoy — tangible membership beside one subscription
-- url: https://www.designjoy.co/
-- type: pricing
-- styles: light, single-offer, membership-object, dark-price-card
-- industry: design-services, subscription-services
-- source: team
-- borrow: dark single-offer card paired with a colorful membership-object visual and explicit service limits
-- why: The visual gives an intangible service a recognizable object while one card explains the purchase.
-- conv: 8
-- wow: 9
-- shot: shots/designjoy-pricing-desktop.jpg
 - by: Codex
 
 ### Vercel pricing
@@ -455,19 +455,18 @@
 - shot: shots/framer-process-desktop.jpg
 - by: Codex
 
-### Opendoor — selectable steps with matching service visuals
-- name: Opendoor — selectable steps with matching service visuals
-- url: https://www.opendoor.com/
+### Hook Agency process section
+- name: Hook Agency process section
+- url: https://www.hookagency.com
 - type: how-it-works
-- styles: light, split, step-accordion, contextual-media
-- industry: home-services, real-estate, consumer-services
-- source: team
-- borrow: four selectable service steps connected to a large contextual illustration, with one description expanded
-- why: Each stage answers what the customer does and shows the corresponding activity.
-- conv: 9
-- wow: 8
-- shot: shots/opendoor-process-desktop.jpg
-- by: Codex
+- styles: agency, numbered, minimal
+- industry: marketing, any
+- source: out-of-geo
+- borrow: three numbered steps (intro call → strategy+proposal → onboarding+kickoff) each with a verb-led heading and a timeframe, no fluff
+- why: Shows a process a nervous buyer can see themselves through; verb-led headings reduce cognitive friction
+- conv: 8
+- wow: 5
+- by: Hermes
 
 ### Lime Studio — editorial numbered process with proof and next action
 - name: Lime Studio — editorial numbered process with proof and next action
@@ -483,20 +482,63 @@
 - shot: shots/lime-process-desktop.jpg
 - by: Codex
 
-### Hook Agency process section
-- name: Hook Agency process section
-- url: https://www.hookagency.com
+### Opendoor — selectable steps with matching service visuals
+- name: Opendoor — selectable steps with matching service visuals
+- url: https://www.opendoor.com/
 - type: how-it-works
-- styles: agency, numbered, minimal
-- industry: marketing, any
-- source: out-of-geo
-- borrow: three numbered steps (intro call → strategy+proposal → onboarding+kickoff) each with a verb-led heading and a timeframe, no fluff
-- why: Shows a process a nervous buyer can see themselves through; verb-led headings reduce cognitive friction
-- conv: 8
-- wow: 5
-- by: Hermes
+- styles: light, split, step-accordion, contextual-media
+- industry: home-services, real-estate, consumer-services
+- source: team
+- borrow: four selectable service steps connected to a large contextual illustration, with one description expanded
+- why: Each stage answers what the customer does and shows the corresponding activity.
+- conv: 9
+- wow: 8
+- shot: shots/opendoor-process-desktop.jpg
+- by: Codex
 
 ## about
+### Humaan — staged culture photography and a large purpose statement
+- name: Humaan — staged culture photography and a large purpose statement
+- url: https://www.humaan.com/about
+- type: about
+- styles: light-blue, culture-photography, oversized-type, image-rail
+- industry: creative-agency, professional-services
+- source: team
+- borrow: a deliberately art-directed group scene followed by a large purpose statement and varied culture-image rail
+- why: The photography supplies personality, while the following statement connects that personality to the agency's way of working.
+- conv: 7
+- wow: 9
+- shot: shots/humaan-about-desktop.jpg
+- by: Codex
+
+### Linear — company thesis beside an editorial narrative
+- name: Linear — company thesis beside an editorial narrative
+- url: https://linear.app/about
+- type: about
+- styles: dark, split-editorial, founder-video, mission-story
+- industry: software, b2b, platforms
+- source: team
+- borrow: a wide founder-video context above a two-column company thesis and concise supporting narrative
+- why: A clear point of view leads into origin, adoption and team context without fragmenting the story into generic value cards.
+- conv: 8
+- wow: 7
+- shot: shots/linear-about-desktop.jpg
+- by: Codex
+
+### Stripe — illustrated company manifesto in a narrow reading column
+- name: Stripe — illustrated company manifesto in a narrow reading column
+- url: https://stripe.com/about
+- type: about
+- styles: white, editorial-essay, architectural-drawing, inline-proof
+- industry: technology, infrastructure, professional-services
+- source: team
+- borrow: a small architectural line drawing above a restrained company essay with evidence linked directly in the prose
+- why: The section supports a considered company explanation through reading rhythm and a distinctive original illustration instead of decorative metrics cards.
+- conv: 7
+- wow: 7
+- shot: shots/stripe-about-desktop.jpg
+- by: Codex
+
 ### Founder-letter about pattern
 - name: Founder-letter about pattern
 - url: https://www.webanatomy.ai/best-landing-pages/ux-best-practice/about-founder-story
@@ -509,6 +551,49 @@
 - conv: 8
 - wow: 6
 - by: Hermes
+
+## team
+### Humaan — staggered portrait grid with persistent role labels
+- name: Humaan — staggered portrait grid with persistent role labels
+- url: https://www.humaan.com/about
+- type: team
+- styles: light-blue, staggered-grid, portrait, pill-labels
+- industry: creative-agency, professional-services
+- source: team
+- borrow: four staggered portrait columns with small name-and-role pills that remain visible over each image
+- why: Consistent portrait treatment creates a coherent team, while the visible labels let visitors identify expertise without interaction.
+- conv: 8
+- wow: 9
+- shot: shots/humaan-team-desktop.jpg
+- by: Codex
+
+### Team Design — text directory with inline portrait biographies
+- name: Team Design — text directory with inline portrait biographies
+- url: https://team.design/about/
+- type: team
+- styles: white, editorial-directory, inline-bio, progressive-disclosure
+- industry: branding, consultancy, professional-services
+- source: team
+- borrow: a compact name-and-role directory whose selected row expands into a portrait and detailed biography
+- why: Visitors can scan expertise quickly and read the relevant person's history without loading a separate page.
+- conv: 8
+- wow: 7
+- shot: shots/teamdesign-team-desktop.jpg
+- by: Codex
+
+### Lime Studio — complementary founders with cinematic portraits
+- name: Lime Studio — complementary founders with cinematic portraits
+- url: https://limestud.io/
+- type: team
+- styles: dark-green, two-founders, cinematic-portraits, serif
+- industry: creative-agency, consultancy, founder-led-services
+- source: team
+- borrow: two equal cinematic portraits followed by separate practice labels and concise experience summaries
+- why: The team section explains both direct founder involvement and the complementary expertise each person brings.
+- conv: 8
+- wow: 9
+- shot: shots/lime-team-desktop.jpg
+- by: Codex
 
 ## contact
 ### Attio â€” testimonial-backed sales inquiry
@@ -747,3 +832,46 @@
 - conv: 8
 - wow: 7
 - by: Hermes
+
+## footer
+### Framer — large sitemap with a separate utility strip
+- name: Framer — large sitemap with a separate utility strip
+- url: https://www.framer.com/
+- type: footer
+- styles: black, dense-sitemap, multi-column, utility-strip
+- industry: software, platforms, large-content-sites
+- source: team
+- borrow: six aligned link columns above a quieter utility row for language, social, assurance and service status
+- why: A large destination set remains scannable because primary group labels and operational utilities have different visual jobs.
+- conv: 9
+- wow: 7
+- shot: shots/framer-footer-desktop.jpg
+- by: Codex
+
+### Mailchimp — warm resource directory and brand-family utility layer
+- name: Mailchimp — warm resource directory and brand-family utility layer
+- url: https://mailchimp.com/
+- type: footer
+- styles: mustard, resource-directory, brand-family, app-links
+- industry: software, commerce, multi-product-brands
+- source: team
+- borrow: a warm five-column directory separated from brand-family, app, social and legal utilities by a clear horizontal rule
+- why: The footer supports exploration and practical account needs while keeping ownership and compliance context together.
+- conv: 8
+- wow: 7
+- shot: shots/mailchimp-footer-desktop.jpg
+- by: Codex
+
+### Locomotive — ruled navigation and a typographic contact signature
+- name: Locomotive — ruled navigation and a typographic contact signature
+- url: https://locomotive.ca/en
+- type: footer
+- styles: white, large-type, graphic-contact, newsletter-disclosure
+- industry: creative-agency, architecture, design-services
+- source: team
+- borrow: ruled navigation groups above an oversized address/phone/email signature built from expressive type and symbols
+- why: The last screen is both useful contact access and a memorable brand composition, with secondary subscription kept behind disclosure.
+- conv: 8
+- wow: 9
+- shot: shots/locomotive-footer-desktop.jpg
+- by: Codex

@@ -39,6 +39,7 @@ Allowed values exactly:
 | `faq` | FAQ / objection blocks |
 | `how-it-works` | Steps, process, numbers-led workflows |
 | `about` | Founder / about / story sections |
+| `team` | People grids, founder profiles, leadership directories, and biographies |
 | `contact` | Inquiry forms, contact routing, direct contact details, map/access blocks |
 | `cta` | Final CTA, email capture, lead capture |
 | `nav` | Header / navigation treatment |

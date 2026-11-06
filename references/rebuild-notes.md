@@ -340,6 +340,342 @@ The Build pipeline anchor was exercised and scrolled to the article. Mobile navi
 
 Live desktop/mobile inspection and complementary viewport captures. No complete rebuild or conversion measurement.
 
+## Humaan — staged culture photography and a large purpose statement
+
+ID: `humaan-about` · Type: about · Observed: 2026-11-06
+
+Source: [Humaan — staged culture photography and a large purpose statement](https://www.humaan.com/about)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a deliberately art-directed group scene followed by a large purpose statement and varied culture-image rail
+
+Editorial scores: conversion clarity 7/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/humaan-about-desktop.jpg), [view 2](shots/humaan-about-desktop-lower.jpg)
+
+Mobile: [view 1](shots/humaan-about-mobile.jpg), [view 2](shots/humaan-about-mobile-lower.jpg)
+
+### Use when
+
+A people-led service business with a distinctive culture and budget for original photography.
+
+### Avoid when
+
+A company relying on stock team photos, or an urgent lead-generation page where a long introductory scene delays the task.
+
+### Content slots
+
+Short positioning statement; staged group photo; purpose paragraph; highlighted phrase; culture images; client proof below.
+
+### Desktop composition
+
+A pale blue full-width scene places the group against a coordinated set. Oversized introductory type belongs to the opening scene. Below, a large left-aligned purpose paragraph highlights its opening phrase in purple; rounded culture images create an offset horizontal strip.
+
+### Observed mobile behavior
+
+The headline wraps over the upper scene; the group becomes a panoramic band. Purpose text becomes a narrow large-type paragraph, followed by smaller cropped culture images. A floating bottom navigation overlaps the source content at times; it is not required for this section.
+
+### Rebuild recipe
+
+Separate positioning, group scene, purpose and culture media into modules. Use a deliberately composed responsive image rather than absolute-positioning individual people. Set a readable max width and fluid type for the purpose paragraph. Give culture images consistent corner radii but varied ratios, with scrollable overflow on phones.
+
+### Asset production
+
+Commission a real team shoot with a unified backdrop, wardrobe palette and props, plus candid working images. Plan a wide group composition and a mobile-safe crop; generate only supporting abstract artwork, never substitute invented staff for actual employees.
+
+### Adaptation decisions
+
+Tie the culture to a specific client benefit. Keep introductory copy concise and add a route to work/contact nearby if used on a conversion page. Use a static layout and poster when motion is reduced; check that floating UI does not cover text.
+
+### Interaction evidence and gaps
+
+Scroll-triggered scene changes and the culture-image strip were observed. No horizontal dragging, navigation or client links were exercised. Initial captures affected by the changing scene geometry were replaced.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
+## Linear — company thesis beside an editorial narrative
+
+ID: `linear-about` · Type: about · Observed: 2026-11-06
+
+Source: [Linear — company thesis beside an editorial narrative](https://linear.app/about)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a wide founder-video context above a two-column company thesis and concise supporting narrative
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/linear-about-desktop.jpg), [view 2](shots/linear-about-desktop-lower.jpg)
+
+Mobile: [view 1](shots/linear-about-mobile.jpg)
+
+### Use when
+
+A product company with a strong thesis and enough real history to support it.
+
+### Avoid when
+
+A company with little substantive narrative, or a short homepage block that cannot support the video and reading length.
+
+### Content slots
+
+Video/poster; thesis heading; opening argument; product purpose; founding/adoption context; team culture; next people section.
+
+### Desktop composition
+
+A wide video sits above the narrative. The lower section places a compact large heading in the left half and a narrower text column on the right. The opening paragraph is larger/brighter than the supporting paragraphs, with generous vertical spacing on black.
+
+### Observed mobile behavior
+
+Heading and narrative stack into one reading column. The selected phone view includes the full thesis and supporting paragraphs; the team heading begins below a faint separator. A sliver of video remains above.
+
+### Rebuild recipe
+
+Use an optional media block followed by a two-column section. Keep heading and prose independent, with a reading width around 50–65 characters for supporting text. Stack heading before text on phones; retain paragraph hierarchy and spacing.
+
+### Asset production
+
+A real founder/product interview with a deliberate poster, captions and transcript; otherwise use a relevant static image or omit media. Supply verified company milestones and proof.
+
+### Adaptation decisions
+
+Lead with the client's actual point of view. Replace adoption counts and named customers with verified evidence. Keep a short version for homepages and route longer history to an about page.
+
+### Interaction evidence and gaps
+
+Video controls were visible in a paused initial state. Playback, audio, captions and hiring/profile links were not tested. The reference records narrative layout, not the truth of every company claim.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
+## Stripe — illustrated company manifesto in a narrow reading column
+
+ID: `stripe-about` · Type: about · Observed: 2026-11-06
+
+Source: [Stripe — illustrated company manifesto in a narrow reading column](https://stripe.com/about)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a small architectural line drawing above a restrained company essay with evidence linked directly in the prose
+
+Editorial scores: conversion clarity 7/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/stripe-about-desktop.jpg)
+
+Mobile: [view 1](shots/stripe-about-mobile.jpg)
+
+### Use when
+
+An established organization explaining a substantive mission or investment philosophy to partners, recruits and informed buyers.
+
+### Avoid when
+
+A skim-first campaign page or an organization whose mission copy would be generic at essay length.
+
+### Content slots
+
+Original line illustration; concise opening position; purpose; linked customer evidence; operating principles; onward routes for inquiry, documentation and careers.
+
+### Desktop composition
+
+White space surrounds a modest monochrome architectural drawing. A centered narrow text column sits below with even paragraph rhythm and underlined evidence links. The top header retains a sales route; the essay ends with three intent-specific onward links.
+
+### Observed mobile behavior
+
+The illustration shrinks and the reading column expands within phone gutters. Paragraph hierarchy and underlined links remain; the opening mission, purpose and first proof paragraph are visible in the saved frame.
+
+### Rebuild recipe
+
+Use a semantic article with a fixed maximum reading width, consistent paragraph spacing and clearly distinguishable links. Place a responsive illustration above it with intrinsic dimensions. Keep onward actions as a separate navigation group after the essay.
+
+### Asset production
+
+Commission or license an illustration connected to the client's actual work. Write a specific, fact-checked manifesto and supply the evidence destinations. A drawing can be generated from original direction if reviewed for architectural coherence.
+
+### Adaptation decisions
+
+Use only enough prose to explain the real point of view. Turn unsupported scale claims into verified evidence or remove them. Provide a clear route to relevant work or inquiry so a reader has a next step.
+
+### Interaction evidence and gaps
+
+Inline link destinations and final sales/docs/careers routes were inspected in the DOM; they were not opened. This is the currently observed about-page layout, not an assumed historical Stripe design.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
+## Humaan — staggered portrait grid with persistent role labels
+
+ID: `humaan-team` · Type: team · Observed: 2026-11-06
+
+Source: [Humaan — staggered portrait grid with persistent role labels](https://www.humaan.com/about)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: four staggered portrait columns with small name-and-role pills that remain visible over each image
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/humaan-team-desktop.jpg), [view 2](shots/humaan-team-desktop-intro.jpg)
+
+Mobile: [view 1](shots/humaan-team-mobile.jpg)
+
+### Use when
+
+A sizable service team with comparable photos and clear individual roles.
+
+### Avoid when
+
+A tiny founding team, an incomplete directory, or inconsistent headshots that cannot support an aligned visual system.
+
+### Content slots
+
+Team introduction; group image; person portrait; name; role; optional hiring route after the directory.
+
+### Desktop composition
+
+A blue group image and large team headline introduce the people section. Below, four rounded portrait columns are vertically staggered against a pale blue background. Each portrait carries a white capsule with a dark name segment and a readable role segment.
+
+### Observed mobile behavior
+
+The multi-column grid becomes a single column of large rounded portraits. Name and role remain on the image. Floating bottom navigation can overlap nearby labels in the source capture; position such UI clear of content in a rebuild.
+
+### Rebuild recipe
+
+Model people as an ordered list with image, name and role. Use a four-column desktop grid with controlled offsets, retaining a logical DOM order. Collapse to one column at narrow widths. Make labels actual HTML and keep them readable without hover or animation.
+
+### Asset production
+
+Consistent real portraits with comparable background, lighting, pose scale and ample crop room. The source uses varied portrait media; prepare still posters and reserve any motion for optional enhancement.
+
+### Adaptation decisions
+
+Choose a layout density proportional to team size. Keep roles specific enough to explain who does what. Confirm consent, current titles and image rights. Never use generated faces as real staff.
+
+### Interaction evidence and gaps
+
+Static identity/role labels and responsive reflow were inspected. Portrait hover or playback behavior and hiring navigation were not exercised; motion should be treated as an optional proposed enhancement.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
+## Team Design — text directory with inline portrait biographies
+
+ID: `teamdesign-team` · Type: team · Observed: 2026-11-06
+
+Source: [Team Design — text directory with inline portrait biographies](https://team.design/about/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a compact name-and-role directory whose selected row expands into a portrait and detailed biography
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/teamdesign-team-desktop.jpg), [view 2](shots/teamdesign-team-desktop-bio.jpg)
+
+Mobile: [view 1](shots/teamdesign-team-mobile.jpg), [view 2](shots/teamdesign-team-mobile-bio.jpg)
+
+### Use when
+
+A consultancy whose individual backgrounds matter but whose full biographies would overwhelm an always-expanded grid.
+
+### Avoid when
+
+A very small team or a page needing immediate contact with named staff instead of longer biographies.
+
+### Content slots
+
+Directory heading; person; precise role; biography trigger; portrait; supporting biography; close control.
+
+### Desktop composition
+
+A spare white layout aligns names in a narrow left column and muted roles in a wider right column. Selecting a person inserts a large portrait below the name and the full biography beside it, pushing later rows down.
+
+### Observed mobile behavior
+
+Each name sits above its role. An expanded profile places the portrait before the biography in one column. The saved phone states show the compact directory and the expanded first profile; a full long-bio scroll was not captured.
+
+### Rebuild recipe
+
+Use one ordered people dataset and disclosure buttons with aria-expanded/aria-controls. Keep each biography adjacent to its trigger in DOM order. Expand an inline grid for portrait/prose on desktop and stack it on phones. Return focus sensibly on close and ensure content height follows text.
+
+### Asset production
+
+Real headshots, approved biographies and current roles. Portraits can be conventional; the typography and directory structure supply the character.
+
+### Adaptation decisions
+
+Lead biographies with expertise relevant to the client decision. Limit visible summaries and disclose detail on demand. Distinguish leadership from directory order if the business needs that hierarchy.
+
+### Interaction evidence and gaps
+
+Read more about Matt Basford expanded a portrait and biography inline. The visible Close control collapsed it. Keyboard activation, focus return, opening multiple profiles and all other people were not tested.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
+## Lime Studio — complementary founders with cinematic portraits
+
+ID: `lime-team` · Type: team · Observed: 2026-11-06
+
+Source: [Lime Studio — complementary founders with cinematic portraits](https://limestud.io/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: two equal cinematic portraits followed by separate practice labels and concise experience summaries
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/lime-team-desktop.jpg), [view 2](shots/lime-team-desktop-intro.jpg)
+
+Mobile: [view 1](shots/lime-team-mobile.jpg), [view 2](shots/lime-team-mobile-lower.jpg)
+
+### Use when
+
+A small partnership where customers actually work with both named principals.
+
+### Avoid when
+
+A larger organization whose delivery cannot truthfully promise direct founder involvement.
+
+### Content slots
+
+Working-relationship promise; role split; two portraits; names; disciplines; concise experience; optional professional profiles.
+
+### Desktop composition
+
+A wide serif relationship statement and short explanation precede two equal landscape portraits on dark green. Each portrait has a name, acid-green uppercase discipline, a narrow experience summary and a small social route.
+
+### Observed mobile behavior
+
+The two founder cards stack. Each keeps portrait, name, discipline, experience and profile route together. Complementary phone frames show both founders instead of squeezing them into a narrow pair.
+
+### Rebuild recipe
+
+Use a short intro followed by a two-item list in equal columns. Give portraits a shared aspect ratio and align identity fields. Stack whole person records on phones. Keep biographies short and profile icons properly labeled.
+
+### Asset production
+
+Commission real founders with coordinated lighting, wardrobe and background. Provide enough shadow detail for faces to stay recognizable; plan landscape desktop and portrait phone crops from high-resolution originals.
+
+### Adaptation decisions
+
+Explain how the roles affect delivery. Substitute actual credentials and working arrangements. Increase dark-image visibility if necessary; keep the cinematic treatment subordinate to recognition and identity.
+
+### Interaction evidence and gaps
+
+Portraits, identity text and external profile affordances inspected. Social destinations were not opened. No portrait interaction was needed to read the roles.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
 ## Linear — restrained four-tier comparison
 
 ID: `linear-pricing` · Type: pricing · Observed: 2026-11-06
@@ -2019,3 +2355,171 @@ Fields and the subscription control were inspected; no information was entered a
 ### Verification
 
 Desktop and complementary mobile captures inspected. The longer form is a design choice to assess, not a universal signup template.
+
+## Framer — large sitemap with a separate utility strip
+
+ID: `framer-footer` · Type: footer · Observed: 2026-11-06
+
+Source: [Framer — large sitemap with a separate utility strip](https://www.framer.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: six aligned link columns above a quieter utility row for language, social, assurance and service status
+
+Editorial scores: conversion clarity 9/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/framer-footer-desktop.jpg)
+
+Mobile: [view 1](shots/framer-footer-mobile.jpg), [view 2](shots/framer-footer-mobile-lower.jpg)
+
+### Use when
+
+A mature product or platform with many genuinely useful destinations.
+
+### Avoid when
+
+A small service site with fewer than a dozen meaningful pages; copying this density would create filler.
+
+### Content slots
+
+Product/resource/solution/company groups; descriptive links; occasional update badges; home mark; language; social routes; assurance marks; live status; copyright.
+
+### Desktop composition
+
+On black, six evenly spaced text columns use brighter group labels and subdued links. Some columns contain secondary subgroups. A bottom utility strip distributes the mark, locale, social icons, assurance marks, service status and copyright.
+
+### Observed mobile behavior
+
+The sitemap becomes two long columns with different group placement, followed by a stacked utility region. The phone views show both the upper link directory and the lower language/social/status area. No accordion is used in the observed layout.
+
+### Rebuild recipe
+
+Define navigation groups as data and render labeled semantic lists. Use desktop grid areas to organize long and short groups; preserve a sensible reading and keyboard order when reflowing to two phone columns. Put utilities in a separate region with flexible wrapping.
+
+### Asset production
+
+Brand mark, labeled social icons, real assurance permissions and an actual service-status destination. No stock imagery is needed.
+
+### Adaptation decisions
+
+Keep only destinations that earn their place. Match the group taxonomy to visitor tasks and maintain text contrast. Link assurance badges to evidence, and display live service state only when it has a real data source.
+
+### Interaction evidence and gaps
+
+Link destinations and language control were inspected. The status label settled from a checking state to an online state. Language changes, status destination and navigation links were not opened.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
+## Mailchimp — warm resource directory and brand-family utility layer
+
+ID: `mailchimp-footer` · Type: footer · Observed: 2026-11-06
+
+Source: [Mailchimp — warm resource directory and brand-family utility layer](https://mailchimp.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a warm five-column directory separated from brand-family, app, social and legal utilities by a clear horizontal rule
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/mailchimp-footer-desktop.jpg), [view 2](shots/mailchimp-footer-desktop-lower.jpg)
+
+Mobile: [view 1](shots/mailchimp-footer-mobile.jpg), [view 2](shots/mailchimp-footer-mobile-lower.jpg)
+
+### Use when
+
+A product with a real resource ecosystem, mobile apps and a broader company family.
+
+### Avoid when
+
+A local service business without that ecosystem, or a brand using unverified trust badges as decoration.
+
+### Content slots
+
+Related resources; five navigation groups; brand-family routes; app stores; social routes; assurance link; language selector; legal/cookie preferences.
+
+### Desktop composition
+
+A mustard field contains related resources above five evenly spaced link groups. A ruled lower band centers the brand family, app store badges, social icons and assurance mark, then places language beside small legal copy.
+
+### Observed mobile behavior
+
+All directory groups become a single vertical list rather than collapsible sections. The lower layer stacks brand-family marks, two app badges, social icons, assurance, a full-width language selector and legal text. A chat launcher remains visible near the lower edge.
+
+### Rebuild recipe
+
+Separate the resource directory from brand, app and policy utilities. Use semantic lists and underlined links. Collapse the five-column grid to one column when labels wrap; let each lower group wrap independently. Keep app badge ratios and legal text readable.
+
+### Asset production
+
+Permissioned company-family marks, official app badges, current social routes and documented assurance links. Provide the actual locale/policy destinations.
+
+### Adaptation decisions
+
+Trim secondary links for smaller inventories. Increase small source text where needed, retain contact/help visibility and keep chat widgets clear of the policy links. Show only relevant company-family and app assets.
+
+### Interaction evidence and gaps
+
+The personalization prompt was dismissed without supplying information; the cookie notice was closed. Footer links, app badges and language options were inspected, but no language change, chat, download or navigation flow was exercised.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
+## Locomotive — ruled navigation and a typographic contact signature
+
+ID: `locomotive-footer` · Type: footer · Observed: 2026-11-06
+
+Source: [Locomotive — ruled navigation and a typographic contact signature](https://locomotive.ca/en)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: ruled navigation groups above an oversized address/phone/email signature built from expressive type and symbols
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/locomotive-footer-desktop.jpg), [view 2](shots/locomotive-footer-desktop-newsletter.jpg)
+
+Mobile: [view 1](shots/locomotive-footer-mobile.jpg)
+
+### Use when
+
+A design-led studio with a few navigation groups, meaningful location details and room for a custom typographic treatment.
+
+### Avoid when
+
+Large compliance-heavy platforms or audiences who would struggle to decode decorative contact details.
+
+### Content slots
+
+Site routes; social links; related projects; locale; cookie preferences; newsletter trigger; address/map; telephone; email; copyright.
+
+### Desktop composition
+
+White space, thin black rules and large sans links organize menu, social and external groups. The lower address/contact block switches to a large editorial serif mixed with custom symbols and diagram-like details, with copyright at the edge.
+
+### Observed mobile behavior
+
+Social and external links form two compact columns. Primary menu links are omitted from the footer and remain available through the header menu. Locale and preferences sit below, then the large contact signature wraps into several lines with copyright last.
+
+### Rebuild recipe
+
+Use semantic navigation lists above a separate address element with map, tel and mailto links. Build decorative symbols as aria-hidden spans while retaining a clean accessible text label. Let the contact block wrap at intentional phrases. Keep newsletter disclosure independent from footer navigation.
+
+### Asset production
+
+A licensed serif/sans pair, client-specific graphic symbols, real address and contact routes. Use SVG or styled text for decoration rather than baking all contact information into an image.
+
+### Adaptation decisions
+
+Make phone/email unmistakable and selectable. Keep a plain-text fallback and ensure decorative glyphs do not pollute accessible names. Retain primary footer routes on mobile if header-menu dependence would harm task completion.
+
+### Interaction evidence and gaps
+
+Necessary cookies were accepted to clear the notice. Newsletter opened an inline email subscription panel and the visible Close control returned to navigation. No email was entered or submitted; map, phone, email, language and preference destinations were not exercised.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.

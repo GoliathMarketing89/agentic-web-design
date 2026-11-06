@@ -2,14 +2,98 @@
   "counts": {
     "hero": 3,
     "bento": 3,
+    "about": 3,
+    "team": 3,
     "pricing": 4,
     "social-proof": 4,
     "how-it-works": 4,
     "contact": 6,
     "faq": 6,
-    "cta": 6
+    "cta": 6,
+    "footer": 3
   },
   "patterns": [
+    {
+      "id": "humaan-about",
+      "name": "Humaan — staged culture photography and a large purpose statement",
+      "type": "about",
+      "styles": "light-blue, culture-photography, oversized-type, image-rail",
+      "industry": "creative-agency, professional-services",
+      "fit": "A people-led service business with a distinctive culture and budget for original photography.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
+    {
+      "id": "linear-about",
+      "name": "Linear — company thesis beside an editorial narrative",
+      "type": "about",
+      "styles": "dark, split-editorial, founder-video, mission-story",
+      "industry": "software, b2b, platforms",
+      "fit": "A product company with a strong thesis and enough real history to support it.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
+    {
+      "id": "stripe-about",
+      "name": "Stripe — illustrated company manifesto in a narrow reading column",
+      "type": "about",
+      "styles": "white, editorial-essay, architectural-drawing, inline-proof",
+      "industry": "technology, infrastructure, professional-services",
+      "fit": "An established organization explaining a substantive mission or investment philosophy to partners, recruits and informed buyers.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
+    {
+      "id": "humaan-team",
+      "name": "Humaan — staggered portrait grid with persistent role labels",
+      "type": "team",
+      "styles": "light-blue, staggered-grid, portrait, pill-labels",
+      "industry": "creative-agency, professional-services",
+      "fit": "A sizable service team with comparable photos and clear individual roles.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
+    {
+      "id": "teamdesign-team",
+      "name": "Team Design — text directory with inline portrait biographies",
+      "type": "team",
+      "styles": "white, editorial-directory, inline-bio, progressive-disclosure",
+      "industry": "branding, consultancy, professional-services",
+      "fit": "A consultancy whose individual backgrounds matter but whose full biographies would overwhelm an always-expanded grid.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
+    {
+      "id": "lime-team",
+      "name": "Lime Studio — complementary founders with cinematic portraits",
+      "type": "team",
+      "styles": "dark-green, two-founders, cinematic-portraits, serif",
+      "industry": "creative-agency, consultancy, founder-led-services",
+      "fit": "A small partnership where customers actually work with both named principals.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
+    {
+      "id": "framer-footer",
+      "name": "Framer — large sitemap with a separate utility strip",
+      "type": "footer",
+      "styles": "black, dense-sitemap, multi-column, utility-strip",
+      "industry": "software, platforms, large-content-sites",
+      "fit": "A mature product or platform with many genuinely useful destinations.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
+    {
+      "id": "mailchimp-footer",
+      "name": "Mailchimp — warm resource directory and brand-family utility layer",
+      "type": "footer",
+      "styles": "mustard, resource-directory, brand-family, app-links",
+      "industry": "software, commerce, multi-product-brands",
+      "fit": "A product with a real resource ecosystem, mobile apps and a broader company family.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
+    {
+      "id": "locomotive-footer",
+      "name": "Locomotive — ruled navigation and a typographic contact signature",
+      "type": "footer",
+      "styles": "white, large-type, graphic-contact, newsletter-disclosure",
+      "industry": "creative-agency, architecture, design-services",
+      "fit": "A design-led studio with a few navigation groups, meaningful location details and room for a custom typographic treatment.",
+      "catalog": "patterns/about-team-footer-2026-11-06.json"
+    },
     {
       "id": "attio-testimonial-contact",
       "name": "Attio — testimonial-backed sales inquiry",
