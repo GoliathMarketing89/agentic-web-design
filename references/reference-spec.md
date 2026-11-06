@@ -10,7 +10,11 @@ writes it.
 - **Library file:** `references/design-reference-library.md` (in this repo)
 - **This spec:** `references/reference-spec.md`
 - **Append script:** `references/append_reference.py` (run this to add entries)
-- **Screenshots:** `references/shots/<name>.png` (optional; reference by path)
+- **Screenshots:** `references/shots/<name>.png` or `.jpg` (reference by path)
+- **Rich pattern catalogs:** `references/patterns/*.json` contain observation dates, desktop/mobile captures, content slots, rebuild recipes, and verification limits. Keep these separate from the compact bank schema.
+- **Browsable gallery and agent notes:** run `python references/render_pattern_gallery.py` after editing rich catalogs. It generates `references/pattern-gallery.html` and `references/rebuild-notes.md` and verifies screenshot paths.
+
+For new visual-pattern mining, save desktop and mobile evidence and a rich recipe. Label a directly inspected reference as observed; reserve rebuild-validated for an example actually rebuilt and checked. Scores in this bank are editorial judgments of conversion clarity and visual impact, not measured conversion performance. Source screenshots are study material, not licensed client imagery.
 
 ## The one rule that governs everything
 

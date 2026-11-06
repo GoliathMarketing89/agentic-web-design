@@ -1,4 +1,46 @@
 ## hero
+### Raycast — atmospheric product hero
+- name: Raycast — atmospheric product hero
+- url: https://www.raycast.com/
+- type: hero
+- styles: dark, abstract-asset, centered, product
+- industry: software, productivity
+- source: team
+- borrow: centered white headline over diagonal red abstract imagery, with a floating dark navigation bar
+- why: The branded image supplies depth and identity while the typography stays simple and readable.
+- conv: 6
+- wow: 9
+- shot: shots/raycast-hero-desktop.jpg
+- by: Codex; observed 2026-11-06
+
+### KUBE Saint-Tropez — cinematic destination hero
+- name: KUBE Saint-Tropez — cinematic destination hero
+- url: https://www.kubehotel-saint-tropez.com/en
+- type: hero
+- styles: cinematic, video, hospitality, full-bleed, serif
+- industry: hospitality, travel, experiences
+- source: team
+- borrow: full-bleed destination video with lower centered serif headline and a pale-lime booking action
+- why: Actual location footage carries the atmosphere; sparse typography and a contrasting booking control preserve a clear next step.
+- conv: 8
+- wow: 9
+- shot: shots/kube-hero-desktop.jpg
+- by: Codex; observed 2026-11-06
+
+### Apple MacBook Air — product sculpture hero
+- name: Apple MacBook Air — product sculpture hero
+- url: https://www.apple.com/macbook-air/
+- type: hero
+- styles: light, product-render, sculptural, ecommerce
+- industry: hardware, premium-products, ecommerce
+- source: team
+- borrow: oversized paired product render above a compact left-aligned identity and price block, balanced by a blue purchase button
+- why: The product silhouette makes the visual argument while the adjacent commercial details keep the section actionable.
+- conv: 8
+- wow: 9
+- shot: shots/apple-hero-desktop.jpg
+- by: Codex; observed 2026-11-06
+
 ### A.J. Alberts Plumbing
 - name: A.J. Alberts Plumbing
 - url: https://www.ajalberts.com
@@ -52,6 +94,48 @@
 - by: Hermes
 
 ## bento
+### Raycast Pro — illustrated feature bento
+- name: Raycast Pro — illustrated feature bento
+- url: https://www.raycast.com/pro
+- type: bento
+- styles: dark, bento, diagrams, product-ui, accent-color
+- industry: software, productivity
+- source: team
+- borrow: three bordered feature cards with distinct colored schematic illustrations between wider product-demo rows
+- why: Illustration grammar unifies different capabilities while the change in module spans establishes rhythm and priority.
+- conv: 8
+- wow: 9
+- shot: shots/raycast-pro-bento-desktop.jpg
+- by: Codex; observed 2026-11-06
+
+### KUBE Saint-Tropez — photographic room bento
+- name: KUBE Saint-Tropez — photographic room bento
+- url: https://www.kubehotel-saint-tropez.com/en
+- type: bento
+- styles: photographic, bento, edge-to-edge, serif, hospitality
+- industry: hospitality, interiors, property
+- source: team
+- borrow: two half-width photographic room tiles above a full-width room tile, separated by fine light gutters with overlaid serif labels
+- why: The photographs are the content; mixed spans add hierarchy without the standard rounded software-card treatment.
+- conv: 8
+- wow: 8
+- shot: shots/kube-rooms-desktop.jpg
+- by: Codex; observed 2026-11-06
+
+### Attio — workflow demonstration bento
+- name: Attio — workflow demonstration bento
+- url: https://attio.com/#home-2026-generate-pipeline
+- type: bento
+- styles: light, bento, product-demo, hairline-grid, sticky-navigation
+- industry: software, crm, b2b
+- source: team
+- borrow: a dominant full-width product workflow demonstration above two supporting mechanism cards inside a hairline grid
+- why: The wide demo gives context first; two smaller supporting mechanisms explain how the outcome happens rather than listing disconnected features.
+- conv: 8
+- wow: 8
+- shot: shots/attio-bento-desktop.jpg
+- by: Codex; observed 2026-11-06
+
 ### Awwwards bento inspiration
 - name: Awwwards bento inspiration
 - url: https://www.awwwards.com/inspiration/bento-grids-eddie
@@ -120,19 +204,6 @@
 - by: Hermes
 
 ## faq
-### AJ Alberts FAQ
-- name: AJ Alberts FAQ
-- url: https://www.ajalberts.com
-- type: faq
-- styles: home-service, plain
-- industry: plumbing, home-services
-- source: out-of-geo
-- borrow: accordion answering the exact objections (same-day? do I need this? how does pricing work?) with concrete answers like side-by-side repair-vs-replace pricing, no commissioned salespeople
-- why: Answers are specific and honest, and every question maps to a buying objection a homeowner actually has near the end of the page
-- conv: 8
-- wow: 3
-- by: Hermes
-
 ### AirOps dark FAQ pause
 - name: AirOps dark FAQ pause
 - url: https://www.webflow.com/blog/faq-pages
@@ -144,6 +215,19 @@
 - why: The color contrast and placement make the pause grab attention at the exact moment objections would otherwise stop a buyer
 - conv: 7
 - wow: 6
+- by: Hermes
+
+### AJ Alberts FAQ
+- name: AJ Alberts FAQ
+- url: https://www.ajalberts.com
+- type: faq
+- styles: home-service, plain
+- industry: plumbing, home-services
+- source: out-of-geo
+- borrow: accordion answering the exact objections (same-day? do I need this? how does pricing work?) with concrete answers like side-by-side repair-vs-replace pricing, no commissioned salespeople
+- why: Answers are specific and honest, and every question maps to a buying objection a homeowner actually has near the end of the page
+- conv: 8
+- wow: 3
 - by: Hermes
 
 ## how-it-works
