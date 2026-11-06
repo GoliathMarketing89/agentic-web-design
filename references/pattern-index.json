@@ -1,5 +1,6 @@
 {
   "counts": {
+    "nav": 3,
     "hero": 3,
     "bento": 3,
     "feature": 3,
@@ -12,6 +13,8 @@
     "team": 3,
     "pricing": 4,
     "social-proof": 4,
+    "logo-cloud": 3,
+    "blog": 3,
     "how-it-works": 4,
     "contact": 6,
     "faq": 6,
@@ -396,6 +399,87 @@
       "industry": "software, crm, b2b",
       "fit": "A complex product where one workflow can anchor two supporting capabilities. Works when product artifacts provide more meaning than decorative imagery.",
       "catalog": "patterns/hero-bento-2026-11-06.json"
+    },
+    {
+      "id": "notion-nav",
+      "name": "Notion — illustrated discovery menu with persistent conversion routes",
+      "type": "nav",
+      "styles": "light, illustrated-menu, compact-disclosure, persistent-actions",
+      "industry": "software, multi-product, education",
+      "fit": "A brand with a few top-level destinations that benefit from brief explanations and recognizable illustrations.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
+    },
+    {
+      "id": "figma-nav",
+      "name": "Figma — task-led mega menu beside a grouped product directory",
+      "type": "nav",
+      "styles": "light, mega-menu, task-led, product-directory",
+      "industry": "software, platforms, multi-product",
+      "fit": "A mature platform with multiple products and both novice and returning visitors.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
+    },
+    {
+      "id": "locomotive-nav",
+      "name": "Locomotive — spare video-overlay header with a typographic mobile menu",
+      "type": "nav",
+      "styles": "agency, typography-led, video-overlay, full-screen-menu",
+      "industry": "creative-agencies, studios, portfolios",
+      "fit": "A creative studio with a few important pages and strong art direction.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
+    },
+    {
+      "id": "notion-logo",
+      "name": "Notion — broad monochrome logo cloud with selected customer-story links",
+      "type": "logo-cloud",
+      "styles": "light, monochrome, broad-cloud, customer-links",
+      "industry": "software, business-services, platforms",
+      "fit": "A business with permission to display a credible and varied set of customer relationships.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
+    },
+    {
+      "id": "linear-logo",
+      "name": "Linear — restrained dark customer strip with a collective evidence route",
+      "type": "logo-cloud",
+      "styles": "dark, monochrome, single-row, proof-bridge",
+      "industry": "software, developer-tools, b2b",
+      "fit": "A focused product story supported by a small number of highly relevant customers.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
+    },
+    {
+      "id": "webflow-logo",
+      "name": "Webflow — customer logo grid with story and outcome cues",
+      "type": "logo-cloud",
+      "styles": "dark, logo-grid, evidence-cues, customer-stories",
+      "industry": "software, enterprise, marketing-platforms",
+      "fit": "An established provider with customer stories and permissioned outcome claims for selected accounts.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
+    },
+    {
+      "id": "figma-blog",
+      "name": "Figma Shortcut — magazine lead with supporting stories and topic metadata",
+      "type": "blog",
+      "styles": "dark, editorial, asymmetric-lead, topic-tags",
+      "industry": "creative-tools, media, thought-leadership",
+      "fit": "A publication with original visual assets, a curated lead story and enough publishing cadence to support topic collections.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
+    },
+    {
+      "id": "linear-blog",
+      "name": "Linear Now — categorized journal grid with durable routes and compact metadata",
+      "type": "blog",
+      "styles": "dark, journal-grid, category-routes, consistent-thumbnails",
+      "industry": "software, engineering, company-journals",
+      "fit": "A company journal combining product launches, team writing and customer stories.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
+    },
+    {
+      "id": "stripe-blog",
+      "name": "Stripe — featured article card followed by a topic-filtered editorial feed",
+      "type": "blog",
+      "styles": "light, editorial-feed, featured-card, author-context",
+      "industry": "business-services, technology, professional-publishing",
+      "fit": "A business publication where expertise, explanation and substantial summaries matter more than maximum thumbnail density.",
+      "catalog": "patterns/nav-logo-blog-2026-11-06.json"
     },
     {
       "id": "linear-pricing",

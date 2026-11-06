@@ -163,6 +163,20 @@
 - by: Codex; observed 2026-11-06
 
 ## feature
+### Apple — synchronized product views with labeled color swatches
+- name: Apple — synchronized product views with labeled color swatches
+- url: https://www.apple.com/macbook-air/
+- type: feature
+- styles: light, product-photography, variant-selector, detail-crops
+- industry: consumer-products, ecommerce, hardware
+- source: team
+- borrow: a coordinated set of product angles and close-up details that all update from one labeled color selector
+- why: The feature makes product differences inspectable and shows the chosen finish consistently across details that matter.
+- conv: 9
+- wow: 9
+- shot: shots/apple-feature-desktop.jpg
+- by: Codex
+
 ### Linear — layered product demo with a selectable visual state
 - name: Linear — layered product demo with a selectable visual state
 - url: https://linear.app/
@@ -191,35 +205,7 @@
 - shot: shots/raycast-feature-desktop.jpg
 - by: Codex
 
-### Apple — synchronized product views with labeled color swatches
-- name: Apple — synchronized product views with labeled color swatches
-- url: https://www.apple.com/macbook-air/
-- type: feature
-- styles: light, product-photography, variant-selector, detail-crops
-- industry: consumer-products, ecommerce, hardware
-- source: team
-- borrow: a coordinated set of product angles and close-up details that all update from one labeled color selector
-- why: The feature makes product differences inspectable and shows the chosen finish consistently across details that matter.
-- conv: 9
-- wow: 9
-- shot: shots/apple-feature-desktop.jpg
-- by: Codex
-
 ## comparison
-### Raycast — compact capability matrix with included and paid states
-- name: Raycast — compact capability matrix with included and paid states
-- url: https://www.raycast.com/raycast-vs-alfred
-- type: comparison
-- styles: dark, three-state-matrix, explanatory-intro, compact-table
-- industry: software, subscriptions, competitive-evaluation
-- source: team
-- borrow: a short explanation beside a compact matrix that distinguishes included, paid and unavailable capabilities
-- why: The layout makes a broad comparison scannable while the explanation gives context for different payment models.
-- conv: 7
-- wow: 7
-- shot: shots/raycast-comparison-desktop.jpg
-- by: Codex
-
 ### Framer — decision-factor table with explicit choice guidance
 - name: Framer — decision-factor table with explicit choice guidance
 - url: https://www.framer.com/compare/framer-vs-webflow
@@ -248,21 +234,21 @@
 - shot: shots/opendoor-comparison-desktop.jpg
 - by: Codex
 
-## integration
-### Linear — integrations explained as input-to-work workflows
-- name: Linear — integrations explained as input-to-work workflows
-- url: https://linear.app/intake
-- type: integration
-- styles: dark, connected-workflow, layered-product, use-case-grid
-- industry: software, workflow-products, business-platforms
+### Raycast — compact capability matrix with included and paid states
+- name: Raycast — compact capability matrix with included and paid states
+- url: https://www.raycast.com/raycast-vs-alfred
+- type: comparison
+- styles: dark, three-state-matrix, explanatory-intro, compact-table
+- industry: software, subscriptions, competitive-evaluation
 - source: team
-- borrow: layered source-conversation and destination-issue views followed by integration examples organized around the work they automate
-- why: The section explains what changes when tools connect, rather than treating a row of logos as proof of useful integration.
-- conv: 8
-- wow: 9
-- shot: shots/linear-integration-desktop.jpg
+- borrow: a short explanation beside a compact matrix that distinguishes included, paid and unavailable capabilities
+- why: The layout makes a broad comparison scannable while the explanation gives context for different payment models.
+- conv: 7
+- wow: 7
+- shot: shots/raycast-comparison-desktop.jpg
 - by: Codex
 
+## integration
 ### Attio — categorized app catalog with contextual command search
 - name: Attio — categorized app catalog with contextual command search
 - url: https://attio.com/apps
@@ -277,6 +263,20 @@
 - shot: shots/attio-integration-desktop.jpg
 - by: Codex
 
+### Linear — integrations explained as input-to-work workflows
+- name: Linear — integrations explained as input-to-work workflows
+- url: https://linear.app/intake
+- type: integration
+- styles: dark, connected-workflow, layered-product, use-case-grid
+- industry: software, workflow-products, business-platforms
+- source: team
+- borrow: layered source-conversation and destination-issue views followed by integration examples organized around the work they automate
+- why: The section explains what changes when tools connect, rather than treating a row of logos as proof of useful integration.
+- conv: 8
+- wow: 9
+- shot: shots/linear-integration-desktop.jpg
+- by: Codex
+
 ### Ramp / NetSuite — capability illustrations with app and support context
 - name: Ramp / NetSuite — capability illustrations with app and support context
 - url: https://ramp.com/integrations/netsuite
@@ -289,6 +289,92 @@
 - conv: 9
 - wow: 8
 - shot: shots/ramp-integration-desktop.jpg
+- by: Codex
+
+## logo-cloud
+### Notion — broad monochrome logo cloud with selected customer-story links
+- name: Notion — broad monochrome logo cloud with selected customer-story links
+- url: https://www.notion.com/
+- type: logo-cloud
+- styles: light, monochrome, broad-cloud, customer-links
+- industry: software, business-services, platforms
+- source: team
+- borrow: a short trust statement above two optically balanced rows of monochrome customer marks
+- why: A wide variety of recognizable marks communicates breadth, and selected logos offer a route to supporting stories.
+- conv: 8
+- wow: 7
+- shot: shots/notion-logo-desktop.jpg
+- by: Codex
+
+### Linear — restrained dark customer strip with a collective evidence route
+- name: Linear — restrained dark customer strip with a collective evidence route
+- url: https://linear.app/
+- type: logo-cloud
+- styles: dark, monochrome, single-row, proof-bridge
+- industry: software, developer-tools, b2b
+- source: team
+- borrow: one evenly spaced row of bright customer marks with a tiny contextual caption and one collective customer route
+- why: A small proof layer bridges the product introduction and positioning statement without requiring another card section.
+- conv: 8
+- wow: 8
+- shot: shots/linear-logo-desktop.jpg
+- by: Codex
+
+### Webflow — customer logo grid with story and outcome cues
+- name: Webflow — customer logo grid with story and outcome cues
+- url: https://webflow.com/
+- type: logo-cloud
+- styles: dark, logo-grid, evidence-cues, customer-stories
+- industry: software, enterprise, marketing-platforms
+- source: team
+- borrow: a ruled two-row customer grid where selected marks carry subtle information cues and customer-story destinations
+- why: The cloud stays visually compact while its content model can connect recognition to concrete customer evidence.
+- conv: 8
+- wow: 8
+- shot: shots/webflow-logo-desktop.jpg
+- by: Codex
+
+## blog
+### Figma Shortcut — magazine lead with supporting stories and topic metadata
+- name: Figma Shortcut — magazine lead with supporting stories and topic metadata
+- url: https://www.figma.com/blog/
+- type: blog
+- styles: dark, editorial, asymmetric-lead, topic-tags
+- industry: creative-tools, media, thought-leadership
+- source: team
+- borrow: an oversized editorial lead beside two quieter supporting stories, with authorship, dates and outlined topic tags
+- why: A clear lead gives the publication an editorial point of view instead of treating every article as equally important.
+- conv: 7
+- wow: 9
+- shot: shots/figma-blog-desktop.jpg
+- by: Codex
+
+### Linear Now — categorized journal grid with durable routes and compact metadata
+- name: Linear Now — categorized journal grid with durable routes and compact metadata
+- url: https://linear.app/now
+- type: blog
+- styles: dark, journal-grid, category-routes, consistent-thumbnails
+- industry: software, engineering, company-journals
+- source: team
+- borrow: a restrained three-column journal grid beneath category routes, search and RSS, using consistent thumbnails and compact bylines
+- why: Visitors can scan by topic and date while a coherent visual system keeps varied product, engineering and customer stories together.
+- conv: 8
+- wow: 8
+- shot: shots/linear-blog-desktop.jpg
+- by: Codex
+
+### Stripe — featured article card followed by a topic-filtered editorial feed
+- name: Stripe — featured article card followed by a topic-filtered editorial feed
+- url: https://stripe.com/blog
+- type: blog
+- styles: light, editorial-feed, featured-card, author-context
+- industry: business-services, technology, professional-publishing
+- source: team
+- borrow: a split featured-story card above topic controls and generous article rows with visible author expertise
+- why: The lead creates a clear starting point while author roles and summaries make technical content easier to evaluate before opening it.
+- conv: 8
+- wow: 8
+- shot: shots/stripe-blog-desktop.jpg
 - by: Codex
 
 ## social-proof
@@ -1037,6 +1123,48 @@
 - by: Codex; observed 2026-11-06
 
 ## nav
+### Notion — illustrated discovery menu with persistent conversion routes
+- name: Notion — illustrated discovery menu with persistent conversion routes
+- url: https://www.notion.com/
+- type: nav
+- styles: light, illustrated-menu, compact-disclosure, persistent-actions
+- industry: software, multi-product, education
+- source: team
+- borrow: three illustrated product cards in a floating desktop menu that turn into compact mobile disclosure rows
+- why: A small set of visual choices makes product discovery approachable while self-service and sales routes remain obvious.
+- conv: 9
+- wow: 8
+- shot: shots/notion-nav-desktop.jpg
+- by: Codex
+
+### Figma — task-led mega menu beside a grouped product directory
+- name: Figma — task-led mega menu beside a grouped product directory
+- url: https://www.figma.com/
+- type: nav
+- styles: light, mega-menu, task-led, product-directory
+- industry: software, platforms, multi-product
+- source: team
+- borrow: a wide menu pairing two illustrated task routes with a labeled product directory and short capability summaries
+- why: Visitors can choose by intended job or by known product name without making those two mental models compete.
+- conv: 8
+- wow: 8
+- shot: shots/figma-nav-desktop.jpg
+- by: Codex
+
+### Locomotive — spare video-overlay header with a typographic mobile menu
+- name: Locomotive — spare video-overlay header with a typographic mobile menu
+- url: https://locomotive.ca/en
+- type: nav
+- styles: agency, typography-led, video-overlay, full-screen-menu
+- industry: creative-agencies, studios, portfolios
+- source: team
+- borrow: comma-separated desktop links over full-bleed media, transformed into a vivid full-screen typographic mobile index
+- why: A very small information architecture leaves the work in view and still exposes a direct inquiry route.
+- conv: 7
+- wow: 9
+- shot: shots/locomotive-nav-desktop.jpg
+- by: Codex
+
 ### Stripe split header nav
 - name: Stripe split header nav
 - url: https://stripe.com

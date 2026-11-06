@@ -49,6 +49,8 @@ Allowed values exactly:
 | `contact` | Inquiry forms, contact routing, direct contact details, map/access blocks |
 | `cta` | Final CTA, email capture, lead capture |
 | `nav` | Header / navigation treatment |
+| `logo-cloud` | Customer, partner or press mark groups with clearly scoped relationships |
+| `blog` | Editorial leads, article grids, journal feeds and topic discovery |
 | `3d` | 3D, WebGL, scroll-driven, interactive |
 | `ecommerce` | Product pages, PDP layouts |
 | `footer` | Footer treatments |

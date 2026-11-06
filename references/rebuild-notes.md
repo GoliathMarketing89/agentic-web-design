@@ -4,6 +4,174 @@ Generated from `patterns/*.json` by `render_pattern_gallery.py`.
 
 Screenshots are reference evidence, not reusable client assets. Scores describe editorial judgments of visual impact and conversion clarity, not measured performance. Observed references have not been validated through a complete rebuild.
 
+## Notion — illustrated discovery menu with persistent conversion routes
+
+ID: `notion-nav` · Type: nav · Observed: 2026-11-06
+
+Source: [Notion — illustrated discovery menu with persistent conversion routes](https://www.notion.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: three illustrated product cards in a floating desktop menu that turn into compact mobile disclosure rows
+
+Editorial scores: conversion clarity 9/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/notion-nav-desktop.jpg)
+
+Mobile: [view 1](shots/notion-nav-mobile.jpg), [view 2](shots/notion-nav-mobile-expanded.jpg)
+
+### Use when
+
+A brand with a few top-level destinations that benefit from brief explanations and recognizable illustrations.
+
+### Avoid when
+
+A deep catalog needing dozens of links, or a site whose menu artwork would compete with urgent tasks.
+
+### Content slots
+
+Brand/home; top-level menu triggers and links; three destination cards with title, summary and art; signup; sales; login; mobile close control.
+
+### Desktop composition
+
+A slim white header separates brand, primary links and account actions. The Product trigger opens a centered rounded floating panel. Three equal pale cards place large illustrations above short titles and one-line summaries. The page remains visible behind the panel.
+
+### Observed mobile behavior
+
+At 390 px the header retains brand and signup plus a menu trigger. The open full-height white menu uses bold category disclosures. Expanded product cards become horizontal rows with smaller art at right. Sales and login occupy a persistent bottom action area; remaining menu content must fit or scroll above it.
+
+### Rebuild recipe
+
+Define one navigation data model for destinations, summaries and optional art. Use links for destinations and buttons for disclosure. Render the desktop panel in a positioned layer below the header; on phones use a scrollable overlay and a separate action region. Manage expanded state, Escape, focus return, scroll locking and safe-area padding. Test long labels and short-height screens.
+
+### Asset production
+
+Commission three lightweight illustrations with a shared visual language, neutral backgrounds and consistent optical mass. Supply client-owned brand marks; keep labels as HTML rather than baking them into art.
+
+### Adaptation decisions
+
+Limit illustrated choices to genuinely important routes. Keep signup visible without making mobile rows crowded. Reserve space for the bottom actions so they never cover links. Preserve useful summaries at narrow sizes.
+
+### Interaction evidence and gaps
+
+Desktop Product opened the panel. Escape was sent before responsive inspection; exact dismissal behavior was not separately established. Mobile menu opened; Product collapsed and reopened with visible content. Full keyboard traversal, focus trap, destination navigation and close restoration were not audited.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
+
+## Figma — task-led mega menu beside a grouped product directory
+
+ID: `figma-nav` · Type: nav · Observed: 2026-11-06
+
+Source: [Figma — task-led mega menu beside a grouped product directory](https://www.figma.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a wide menu pairing two illustrated task routes with a labeled product directory and short capability summaries
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/figma-nav-desktop.jpg)
+
+Mobile: [view 1](shots/figma-nav-mobile.jpg)
+
+### Use when
+
+A mature platform with multiple products and both novice and returning visitors.
+
+### Avoid when
+
+A small business with four simple pages; this much hierarchy would create unnecessary work.
+
+### Content slots
+
+Brand; primary categories; account actions; task-group label; two task routes and thumbnails; product names, icons and summaries; release-status badges; secondary resources.
+
+### Desktop composition
+
+A full-width white panel opens below the header with a divider. The left half contains two illustrated job-oriented routes and utility resources. The right half groups a larger product directory in two columns, each row combining a colored icon, name, optional status badge and muted description.
+
+### Observed mobile behavior
+
+The header preserves the primary signup route. The menu opens as a named dialog with an explicit close button. The expanded Products section retains two side-by-side task thumbnails, then a single-column product directory. The long drawer scrolls; lower resources and actions extend beyond the first screen.
+
+### Rebuild recipe
+
+Separate task routes from product records in the content model. Lay out the panel with a desktop grid and keep product rows as semantic link lists. Use a modal drawer on phones with scrollable content, focus containment, accessible section disclosures, clear close and focus return. Avoid trapping actions outside the scrollable region.
+
+### Asset production
+
+Approved product icons and small original task collages. Normalize icon boxes rather than stretching marks. Store New/Beta text as content with expiry rules; do not inherit current source product claims.
+
+### Adaptation decisions
+
+Choose the hierarchy based on the client's actual product family. Keep descriptions short and visible; badges must not be the only indication of availability. A smaller version can use one task route and six products. Provide adequate contrast for muted summaries.
+
+### Interaction evidence and gaps
+
+Clicking Products opened the desktop mega menu. At phone width the navigation trigger opened a Navigation Menu dialog, Products expanded, and Close navigation menu dismissed it. Keyboard cycling and focus restoration were not audited. Some unrelated homepage media reported iframe playback restrictions; the menu itself rendered.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
+
+## Locomotive — spare video-overlay header with a typographic mobile menu
+
+ID: `locomotive-nav` · Type: nav · Observed: 2026-11-06
+
+Source: [Locomotive — spare video-overlay header with a typographic mobile menu](https://locomotive.ca/en)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: comma-separated desktop links over full-bleed media, transformed into a vivid full-screen typographic mobile index
+
+Editorial scores: conversion clarity 7/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/locomotive-nav-desktop.jpg)
+
+Mobile: [view 1](shots/locomotive-nav-mobile.jpg), [view 2](shots/locomotive-nav-mobile-open.jpg)
+
+### Use when
+
+A creative studio with a few important pages and strong art direction.
+
+### Avoid when
+
+A service catalog, high-frequency utility navigation, or media whose contrast varies too much for overlay text.
+
+### Content slots
+
+Brand/home; primary page links; inquiry route; mobile Menu/Close; language route; optional location/identity detail.
+
+### Desktop composition
+
+The brand sits left over full-bleed video, a short comma-separated link sentence sits toward the center/right, and the contact action anchors the far right. The type and logo carry the navigation without container chrome.
+
+### Observed mobile behavior
+
+The narrow header reduces to brand and Menu. The open menu uses a saturated blue field, very large serif destination links in a vertical stack, a Close label at top right, and a language route at the bottom. It replaces the busy media background with a stable reading surface.
+
+### Rebuild recipe
+
+Start with ordinary links in a transparent header and a separate mobile menu button. Add the overlay as an independent layer with an opaque brand color. Use fluid type, generous row hit areas and a scrollable link group. Provide Escape, focus return and background scroll locking. Keep a reliable header contrast strategy for every media frame.
+
+### Asset production
+
+Client logo, licensed typeface and original hero media with a poster fallback. The navigation does not require WebGL. The source's video and signature graphics are study material rather than reusable assets.
+
+### Adaptation decisions
+
+Keep the concise link sentence only when labels remain easy to scan. Surface contact as a normal destination. Use a fixed opaque header or scrim if video creates unreadable frames. Honor reduced motion and ensure the menu remains usable when video fails.
+
+### Interaction evidence and gaps
+
+Desktop links and phone closed state inspected. The mobile menu click stalled the browser-control call, but recovery showed the expanded menu and the saved screenshot confirms its open state. Exact opening timing, closing, keyboard traversal and focus containment were not verified. Media playback later reported unavailable.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
+
 ## Raycast — atmospheric product hero
 
 ID: `raycast-atmospheric-hero` · Type: hero · Observed: 2026-11-06
@@ -2131,6 +2299,342 @@ Activating the first play affordance returned a locator timeout, but the next in
 ### Verification
 
 Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
+
+## Notion — broad monochrome logo cloud with selected customer-story links
+
+ID: `notion-logo` · Type: logo-cloud · Observed: 2026-11-06
+
+Source: [Notion — broad monochrome logo cloud with selected customer-story links](https://www.notion.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a short trust statement above two optically balanced rows of monochrome customer marks
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/notion-logo-desktop.jpg)
+
+Mobile: [view 1](shots/notion-logo-mobile.jpg)
+
+### Use when
+
+A business with permission to display a credible and varied set of customer relationships.
+
+### Avoid when
+
+A young business with few customers, unclear endorsement rights, or recognizable names that are not relevant to the target buyer.
+
+### Content slots
+
+Precisely scoped trust statement; customer name and mark; optional story URL; permission/provenance metadata; order/priority.
+
+### Desktop composition
+
+On a white background a small centered statement precedes two low-density rows of charcoal marks. Logos share visual weight rather than identical visible dimensions. Generous whitespace separates this proof pause from the next feature heading.
+
+### Observed mobile behavior
+
+At phone width the proof area becomes a single clipped horizontal strip under the statement rather than retaining the full desktop grid. Different marks were visible across inspections, consistent with a moving rail. Motion timing, pause controls and touch manipulation were not established.
+
+### Rebuild recipe
+
+Build a semantic list from approved customer records. Normalize each mark into a fixed-height optical box with per-logo width tuning. Use a wrapping desktop grid. For phones prefer a static compact grid or accessible horizontal rail; if duplicating items for a loop, hide clones from assistive technology and offer a reduced-motion static state.
+
+### Asset production
+
+Permissioned SVG customer marks with clear-space rules and approved monochrome variants. Store the basis for relationship claims and story URLs. Do not redraw or recolor trademarks in ways the owner disallows.
+
+### Adaptation decisions
+
+Choose relevant names rather than the largest possible count. Make linked and unlinked marks distinguishable on focus. Keep alt text to the company name and explain what the relationship actually is. Provide visible access to customer evidence beyond a moving strip.
+
+### Interaction evidence and gaps
+
+Logo links and image names inspected in the live page. Selected marks point to individual customer stories; those destinations were not opened in this pass. Desktop grid and phone rail captured. Continuous-motion mechanics, hover pause and reduced-motion behavior were not tested.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
+
+## Linear — restrained dark customer strip with a collective evidence route
+
+ID: `linear-logo` · Type: logo-cloud · Observed: 2026-11-06
+
+Source: [Linear — restrained dark customer strip with a collective evidence route](https://linear.app/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: one evenly spaced row of bright customer marks with a tiny contextual caption and one collective customer route
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/linear-logo-desktop.jpg)
+
+Mobile: [view 1](shots/linear-logo-mobile.jpg)
+
+### Use when
+
+A focused product story supported by a small number of highly relevant customers.
+
+### Avoid when
+
+Unrelated marks needing long relationship explanations, or a phone audience that needs every customer visible immediately.
+
+### Content slots
+
+Five to seven customer marks; compact scoped caption; customer-directory destination; adjacent section boundary.
+
+### Desktop composition
+
+A single white-logo row stretches across the dark content width beneath the product demo. Marks vary in shape but sit on a consistent optical centerline. A small muted uppercase caption follows, then the larger positioning statement. There are no cards or testimonial quotations inside the strip.
+
+### Observed mobile behavior
+
+The strip remains horizontal and clipped at the viewport edge, showing a subset of the marks. Captures at different times showed different portions of the row. The caption stays below it and the positioning text wraps to a narrow column. The mechanism is not established as touch scrolling.
+
+### Rebuild recipe
+
+Use a semantic list of marks and a separate, clearly named customer-directory link. Size logos optically within consistent boxes. Keep the caption in normal flow. On phones use an intentional rail with a visible way to reach all customers, or a compact static grid. Do not make the only evidence route depend on hover.
+
+### Asset production
+
+Approved monochrome SVG marks, exact company names and a real customer evidence destination. Maintain intrinsic aspect ratios and sufficient contrast on the background.
+
+### Adaptation decisions
+
+Use fewer relevant marks when space is tight. Label a collective link with meaningful text instead of concatenating every customer name. Add a reduced-motion option if the strip moves; hide repeated clones from screen readers. Keep the caption legible.
+
+### Interaction evidence and gaps
+
+The entire source logo group is exposed as one link to /customers with all company names in its accessible name. No individual stories were opened. Responsive clipping observed; animation controls, pointer behavior and reduced motion were not verified.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
+
+## Webflow — customer logo grid with story and outcome cues
+
+ID: `webflow-logo` · Type: logo-cloud · Observed: 2026-11-06
+
+Source: [Webflow — customer logo grid with story and outcome cues](https://webflow.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a ruled two-row customer grid where selected marks carry subtle information cues and customer-story destinations
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/webflow-logo-desktop.jpg)
+
+Mobile: [view 1](shots/webflow-logo-mobile.jpg)
+
+### Use when
+
+An established provider with customer stories and permissioned outcome claims for selected accounts.
+
+### Avoid when
+
+A brand without substantiated outcomes or a layout that would reveal essential evidence only on hover.
+
+### Content slots
+
+Customer name/mark; optional story URL; optional information cue; qualified outcome and time period; source evidence.
+
+### Desktop composition
+
+Between thin horizontal rules on black, a broad grid holds white customer logos with consistent spacing. Small information symbols appear beside selected marks. Live DOM content associates those linked marks with an outcome, a short qualifier and a story route.
+
+### Observed mobile behavior
+
+The phone capture uses a denser multi-row layout showing a reduced selection of marks rather than squeezing the desktop eight-column arrangement into place. Some desktop marks were absent from the observed phone view. The cookie notice occupies the lower viewport but does not cover the logo grid.
+
+### Rebuild recipe
+
+Model plain customer marks separately from evidence-bearing records. Render a responsive grid with stable optical boxes. Give each evidence-bearing item an explicit link and a keyboard/touch-operable detail control if a popover is used. Keep any important metric available as readable content and ensure disclosure remains within the viewport.
+
+### Asset production
+
+Approved monochrome marks plus signed-off customer claims, source URLs and qualifiers. Use accessible HTML for metrics. Reference screenshots and vendor claims are not substitutes for permission or verification.
+
+### Adaptation decisions
+
+Retain a nearby heading or scoped trust statement to explain the relationship. Prefer a simple story link on phones over hover-only detail. Decide which marks to prioritize by buyer relevance, not visual convenience. Avoid copying the source's numerical claims.
+
+### Interaction evidence and gaps
+
+Desktop and phone logo grids inspected; story URLs and outcome text were present in the DOM. Popover activation and touch/keyboard details were not verified. Cookie controls were inaccessible to the available browser surface, so the saved contextual captures retain the notice below the target section. No claims were independently audited.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
+
+## Figma Shortcut — magazine lead with supporting stories and topic metadata
+
+ID: `figma-blog` · Type: blog · Observed: 2026-11-06
+
+Source: [Figma Shortcut — magazine lead with supporting stories and topic metadata](https://www.figma.com/blog/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: an oversized editorial lead beside two quieter supporting stories, with authorship, dates and outlined topic tags
+
+Editorial scores: conversion clarity 7/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/figma-blog-desktop.jpg)
+
+Mobile: [view 1](shots/figma-blog-mobile.jpg)
+
+### Use when
+
+A publication with original visual assets, a curated lead story and enough publishing cadence to support topic collections.
+
+### Avoid when
+
+A sparse archive, repetitive stock thumbnails, or urgent support content that needs a plain searchable index.
+
+### Content slots
+
+Publication masthead; topic routes; search; lead media/title/excerpt; author/date; related story previews; topic tags; optional thematic carousel.
+
+### Desktop composition
+
+A distinct Shortcut masthead sits on a near-black publication surface. A wide feature image precedes a large left lead story and two narrower right-hand previews. Dates, authors, excerpts and outlined tags expose article context. The saved desktop view shows supporting stories receding relative to the lead.
+
+### Observed mobile behavior
+
+The masthead condenses to publication identity, search and Menu. The feature media, headline, date, author, excerpt and tags stack into one column. The large headline remains expressive but wraps substantially; supporting stories follow rather than staying beside it.
+
+### Rebuild recipe
+
+Create an editorial content model with lead priority separate from publication date. Use a desktop grid with a dominant lead and two secondary records. Keep article links, tag links and overflow controls separate semantic elements. Stack in logical reading order on phones. Reserve image dimensions and generate appropriate responsive crops.
+
+### Asset production
+
+Original article photography, illustration or product visual with editorial alt text, focal-point metadata and rights records. Use poster images for motion media; retain a useful lead when an embed fails. Publication identity should be client-specific.
+
+### Adaptation decisions
+
+Only introduce asymmetry when there is a real editorial lead. Keep supporting headlines readable and avoid excessive dimming. Set excerpt lengths deliberately; preserve author/date metadata. Add visible topic discovery and search without letting the masthead consume the phone screen.
+
+### Interaction evidence and gaps
+
+Desktop/mobile story hierarchy and tag routes inspected. Search, topic toggles, carousel controls and tag overflow were not exercised. Some embedded video reported a connection restriction, while the lead visual and text rendered. No subscription action was submitted.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
+
+## Linear Now — categorized journal grid with durable routes and compact metadata
+
+ID: `linear-blog` · Type: blog · Observed: 2026-11-06
+
+Source: [Linear Now — categorized journal grid with durable routes and compact metadata](https://linear.app/now)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a restrained three-column journal grid beneath category routes, search and RSS, using consistent thumbnails and compact bylines
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/linear-blog-desktop.jpg), [view 2](shots/linear-blog-desktop-filter.jpg)
+
+Mobile: [view 1](shots/linear-blog-mobile.jpg)
+
+### Use when
+
+A company journal combining product launches, team writing and customer stories.
+
+### Avoid when
+
+A publication needing a highly curated magazine cover or an image-heavy lifestyle feed with little supporting text.
+
+### Content slots
+
+Journal title; category routes; selected category; search; RSS; article thumbnail/title/excerpt; author or content-kind; date; optional changelog module.
+
+### Desktop composition
+
+A large journal title leads into a horizontal category row, with a pill search control and RSS at right. Three equal-width article columns use consistent landscape thumbnails, clear titles, muted excerpts and low-positioned bylines/dates. Borders are restrained and whitespace supplies structure.
+
+### Observed mobile behavior
+
+Articles become one column with full-width landscape images. Categories remain in a horizontally overflowing row; later categories extend offscreen. Search and RSS are not present in the observed phone top section. Metadata follows the excerpt and must not rely on desktop equal-height alignment.
+
+### Rebuild recipe
+
+Use real category URLs so the state can be linked, refreshed and indexed. Define article image ratio and excerpt policy in the CMS. Build a responsive grid with logical reading order and an explicit current-category state. Add pagination or load-more with preserved navigation state. Keep a useful search route on phones if discovery matters.
+
+### Asset production
+
+Original coherent thumbnail system covering product diagrams, photography and conceptual graphics. Store responsive crops, accessible titles, dates and authors/content-kind. Do not fabricate customer outcomes or republish article artwork.
+
+### Adaptation decisions
+
+A short blog section can use three curated entries and a View all route from this pattern. For a full archive, prioritize usable categories and mobile search. Avoid excessively faint excerpts; keep metadata format consistent even when a record is a customer story.
+
+### Interaction evidence and gaps
+
+Clicking From the team changed the route to /now/team and replaced the leading article set; the filtered state was captured. Clicking All restored the full journal before phone capture. Search, RSS consumption, pagination and horizontal category scrolling were not tested.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
+
+## Stripe — featured article card followed by a topic-filtered editorial feed
+
+ID: `stripe-blog` · Type: blog · Observed: 2026-11-06
+
+Source: [Stripe — featured article card followed by a topic-filtered editorial feed](https://stripe.com/blog)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a split featured-story card above topic controls and generous article rows with visible author expertise
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/stripe-blog-desktop.jpg), [view 2](shots/stripe-blog-desktop-feed.jpg), [view 3](shots/stripe-blog-desktop-filter.jpg)
+
+Mobile: [view 1](shots/stripe-blog-mobile.jpg), [view 2](shots/stripe-blog-mobile-feed.jpg)
+
+### Use when
+
+A business publication where expertise, explanation and substantial summaries matter more than maximum thumbnail density.
+
+### Avoid when
+
+A very large daily-news archive or a compact homepage block where these generous rows would become too long.
+
+### Content slots
+
+Publication/breadcrumb identity; featured category/title/excerpt; author photo/name/role; media; read-more; topic buttons; dated article rows; category archive route.
+
+### Desktop composition
+
+A raised white feature card spans a light ruled page, with story copy and author information at left and large media at right. A diagonal color band adds identity behind it. Below, pill-like topic controls precede spacious article rows that separate title/excerpt from date, contributors and media.
+
+### Observed mobile behavior
+
+The featured card becomes one column: category, headline, author identity, excerpt, read-more, then media. Feed rows similarly stack title, author blocks, date and media. Topic controls remain in a clipped horizontal line rather than wrapping all categories into a tall block.
+
+### Rebuild recipe
+
+Model the featured article independently from the filtered feed. Keep author role and portrait optional and handle multiple authors without breaking alignment. Use a two-column desktop grid and a single logical reading order on phones. Give category buttons explicit selected state and a durable archive URL; preserve the current filter on refresh when possible.
+
+### Asset production
+
+Permissioned author portraits, accurate roles, original article images and custom brand background treatment. Generate smaller responsive media for phones. Keep headlines, summaries and metadata in HTML; source article claims are not client copy.
+
+### Adaptation decisions
+
+Use a more compact version for homepage insights sections. Keep the first useful article near the topic controls and avoid large empty gaps. Provide keyboard-operable horizontal category navigation or a phone select. Use a sensible heading hierarchy rather than copying repeated source h1 levels.
+
+### Interaction evidence and gaps
+
+Selecting Engineering changed the visible feed to engineering posts while the featured story remained unchanged; All restored the feed. Desktop selected state and phone filtered feed captured. Read-more, category archive, subscription and pagination actions were not exercised. No form was submitted.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
 
 ## Designjoy — three illustrated service steps
 
