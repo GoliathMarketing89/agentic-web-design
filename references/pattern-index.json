@@ -15,6 +15,8 @@
     "social-proof": 4,
     "logo-cloud": 3,
     "blog": 3,
+    "article": 3,
+    "location": 3,
     "search": 3,
     "ecommerce": 3,
     "how-it-works": 4,
@@ -401,6 +403,60 @@
       "industry": "software, crm, b2b",
       "fit": "A complex product where one workflow can anchor two supporting capabilities. Works when product artifacts provide more meaning than decorative imagery.",
       "catalog": "patterns/hero-bento-2026-11-06.json"
+    },
+    {
+      "id": "bluebottle-location",
+      "name": "Blue Bottle — branded map beside address and weekly hours",
+      "type": "location",
+      "styles": "light, branded-map, weekly-hours, venue-photography",
+      "industry": "cafes, retail, local-services",
+      "fit": "A walk-in venue or local branch whose address and opening schedule are the primary visit-planning questions.",
+      "catalog": "patterns/location-article-2026-11-06.json"
+    },
+    {
+      "id": "nationaltrust-location",
+      "name": "National Trust — date-specific visit information with facility-level opening times",
+      "type": "location",
+      "styles": "light, visit-planning, calendar, practical-disclosures",
+      "industry": "attractions, cultural-venues, destinations",
+      "fit": "A destination with seasonal dates and different schedules for grounds, buildings, food, shops or activities.",
+      "catalog": "patterns/location-article-2026-11-06.json"
+    },
+    {
+      "id": "hoxton-location",
+      "name": "The Hoxton — curated neighborhood places with photographic discovery cards",
+      "type": "location",
+      "styles": "warm, neighborhood-guide, staggered-photography, horizontal-phone-rail",
+      "industry": "hospitality, destinations, property-marketing",
+      "fit": "A hotel, residential development, campus or venue where the surrounding neighborhood materially influences the decision.",
+      "catalog": "patterns/location-article-2026-11-06.json"
+    },
+    {
+      "id": "nng-article",
+      "name": "Nielsen Norman Group — educational article with summary, contents and dense tables",
+      "type": "article",
+      "styles": "light, educational, serif-body, contents-navigation",
+      "industry": "education, professional-services, knowledge-publishing",
+      "fit": "An evergreen educational article with headings, structured lists, supporting links and potentially dense comparison tables.",
+      "catalog": "patterns/location-article-2026-11-06.json"
+    },
+    {
+      "id": "stripe-article",
+      "name": "Stripe — technical article with an author rail and inline demonstration",
+      "type": "article",
+      "styles": "light, technical-editorial, author-rail, inline-media",
+      "industry": "technology, b2b, professional-publishing",
+      "fit": "A product explanation or expert announcement with substantive text, a demonstration and a clear next information route.",
+      "catalog": "patterns/location-article-2026-11-06.json"
+    },
+    {
+      "id": "figma-article",
+      "name": "Figma Shortcut — illustrated research article with captioned evidence pairs",
+      "type": "article",
+      "styles": "yellow, editorial, illustrated, captioned-comparison",
+      "industry": "creative-tools, research, thought-leadership",
+      "fit": "An original research or thought-leadership article with substantive evidence and a budget for editorial visual assets.",
+      "catalog": "patterns/location-article-2026-11-06.json"
     },
     {
       "id": "notion-nav",

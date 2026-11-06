@@ -47,7 +47,7 @@ def main():
     notes = ["# Observed section references", "",
              "Generated from `patterns/*.json` by `render_pattern_gallery.py`.", "",
              "Screenshots are reference evidence, not reusable client assets. Scores describe editorial judgments of visual impact and conversion clarity, not measured performance. Observed references have not been validated through a complete rebuild.", ""]
-    preferred = ["nav", "hero", "bento", "feature", "comparison", "integration", "services", "portfolio", "case-study", "about", "team", "pricing", "social-proof", "logo-cloud", "blog", "search", "ecommerce", "how-it-works", "contact", "faq", "cta", "footer"]
+    preferred = ["nav", "hero", "bento", "feature", "comparison", "integration", "services", "portfolio", "case-study", "about", "team", "pricing", "social-proof", "logo-cloud", "blog", "article", "location", "search", "ecommerce", "how-it-works", "contact", "faq", "cta", "footer"]
     kinds = [kind for kind in preferred if any(e["type"] == kind for e in entries)]
     kinds += sorted({e["type"] for e in entries} - set(kinds))
     counts = {kind: sum(e["type"] == kind for e in entries) for kind in kinds}
@@ -56,7 +56,7 @@ def main():
         | {"catalog": catalogs[e["id"]]} for e in entries
     ]}
     (ROOT / "pattern-index.json").write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    labels = {"search": "Search and discovery", "ecommerce": "Product details", "nav": "Navigation", "logo-cloud": "Logo clouds", "blog": "Blogs", "hero": "Heroes", "bento": "Bento layouts", "feature": "Features", "comparison": "Comparisons", "integration": "Integrations", "services": "Services", "portfolio": "Portfolios", "case-study": "Case studies", "about": "About", "team": "Team", "pricing": "Pricing", "social-proof": "Testimonials", "how-it-works": "How it works", "contact": "Contact", "faq": "FAQs", "cta": "Calls to action", "footer": "Footers"}
+    labels = {"location": "Locations and visits", "article": "Article layouts", "search": "Search and discovery", "ecommerce": "Product details", "nav": "Navigation", "logo-cloud": "Logo clouds", "blog": "Blogs", "hero": "Heroes", "bento": "Bento layouts", "feature": "Features", "comparison": "Comparisons", "integration": "Integrations", "services": "Services", "portfolio": "Portfolios", "case-study": "Case studies", "about": "About", "team": "Team", "pricing": "Pricing", "social-proof": "Testimonials", "how-it-works": "How it works", "contact": "Contact", "faq": "FAQs", "cta": "Calls to action", "footer": "Footers"}
     for kind in kinds:
         cards.append(f'<h2 class="group" data-group="{esc(kind)}" id="{esc(kind)}">{labels.get(kind, kind.title())} · {counts[kind]}</h2>')
         for e in (v for v in entries if v["type"] == kind):

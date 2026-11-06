@@ -52,6 +52,8 @@ Allowed values exactly:
 | `logo-cloud` | Customer, partner or press mark groups with clearly scoped relationships |
 | `blog` | Editorial leads, article grids, journal feeds and topic discovery |
 | `search` | Query entry, result lists, facets, empty states and discovery controls |
+| `location` | Branch details, visit planning, opening schedules and neighborhood discovery |
+| `article` | Individual editorial reading layouts, contents navigation and explanatory figures |
 | `3d` | 3D, WebGL, scroll-driven, interactive |
 | `ecommerce` | Product pages, PDP layouts |
 | `footer` | Footer treatments |

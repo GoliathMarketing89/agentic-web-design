@@ -392,6 +392,20 @@
 - shot: shots/linear-search-desktop.jpg
 - by: Codex
 
+### Pexels — visual results with durable facets and a dedicated phone filter panel
+- name: Pexels — visual results with durable facets and a dedicated phone filter panel
+- url: https://www.pexels.com/search/coastal%20architecture/
+- type: search
+- styles: light, visual-search, facets, masonry-results
+- industry: asset-libraries, catalogs, visual-marketplaces
+- source: team
+- borrow: a visual result grid paired with explicit facets, an active-filter count and URL-persisted orientation state
+- why: Search refinement remains visible and shareable while the results themselves carry the main visual comparison task.
+- conv: 8
+- wow: 8
+- shot: shots/pexels-search-desktop.jpg
+- by: Codex
+
 ### Stripe Docs — contextual results with breadcrumbs and separate AI suggestions
 - name: Stripe Docs — contextual results with breadcrumbs and separate AI suggestions
 - url: https://docs.stripe.com/
@@ -406,18 +420,90 @@
 - shot: shots/stripe-search-desktop.jpg
 - by: Codex
 
-### Pexels — visual results with durable facets and a dedicated phone filter panel
-- name: Pexels — visual results with durable facets and a dedicated phone filter panel
-- url: https://www.pexels.com/search/coastal%20architecture/
-- type: search
-- styles: light, visual-search, facets, masonry-results
-- industry: asset-libraries, catalogs, visual-marketplaces
+## location
+### Blue Bottle — branded map beside address and weekly hours
+- name: Blue Bottle — branded map beside address and weekly hours
+- url: https://bluebottlecoffee.com/cafes/bryant-park
+- type: location
+- styles: light, branded-map, weekly-hours, venue-photography
+- industry: cafes, retail, local-services
 - source: team
-- borrow: a visual result grid paired with explicit facets, an active-filter count and URL-persisted orientation state
-- why: Search refinement remains visible and shareable while the results themselves carry the main visual comparison task.
+- borrow: a quiet split map-and-hours panel followed by large venue photography and nearby-location routes
+- why: Visitors can answer where and when before exploring the atmosphere of the place.
 - conv: 8
 - wow: 8
-- shot: shots/pexels-search-desktop.jpg
+- shot: shots/bluebottle-location-desktop.jpg
+- by: Codex
+
+### National Trust — date-specific visit information with facility-level opening times
+- name: National Trust — date-specific visit information with facility-level opening times
+- url: https://www.nationaltrust.org.uk/visit/kent/sissinghurst-castle-garden
+- type: location
+- styles: light, visit-planning, calendar, practical-disclosures
+- industry: attractions, cultural-venues, destinations
+- source: team
+- borrow: a selectable visit calendar paired with opening times for individual facilities inside a practical-information disclosure
+- why: Visitors can distinguish which parts of a destination are open on their intended day instead of relying on one misleading global time.
+- conv: 9
+- wow: 7
+- shot: shots/nationaltrust-location-desktop.jpg
+- by: Codex
+
+### The Hoxton — curated neighborhood places with photographic discovery cards
+- name: The Hoxton — curated neighborhood places with photographic discovery cards
+- url: https://thehoxton.com/amsterdam/herengracht/
+- type: location
+- styles: warm, neighborhood-guide, staggered-photography, horizontal-phone-rail
+- industry: hospitality, destinations, property-marketing
+- source: team
+- borrow: an editorial neighborhood introduction leading into staggered place photographs with practical recommendation copy
+- why: The surrounding area becomes a tangible reason to choose the location, supported by specific places and onward routes.
+- conv: 7
+- wow: 9
+- shot: shots/hoxton-location-desktop.jpg
+- by: Codex
+
+## article
+### Nielsen Norman Group — educational article with summary, contents and dense tables
+- name: Nielsen Norman Group — educational article with summary, contents and dense tables
+- url: https://www.nngroup.com/articles/progressive-disclosure/
+- type: article
+- styles: light, educational, serif-body, contents-navigation
+- industry: education, professional-services, knowledge-publishing
+- source: team
+- borrow: a prominent summary and author/date block above a readable essay, with contents navigation and related resources beside the body
+- why: Readers can judge relevance quickly and navigate substantial explanatory material without losing the author's context.
+- conv: 8
+- wow: 7
+- shot: shots/nng-article-desktop.jpg
+- by: Codex
+
+### Stripe — technical article with an author rail and inline demonstration
+- name: Stripe — technical article with an author rail and inline demonstration
+- url: https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent
+- type: article
+- styles: light, technical-editorial, author-rail, inline-media
+- industry: technology, b2b, professional-publishing
+- source: team
+- borrow: an offset reading column with a separate author-expertise rail, clear section headings and an inline demonstration poster
+- why: The article presents its author and practical explanation without requiring a large decorative hero before readers reach useful content.
+- conv: 8
+- wow: 8
+- shot: shots/stripe-article-desktop.jpg
+- by: Codex
+
+### Figma Shortcut — illustrated research article with captioned evidence pairs
+- name: Figma Shortcut — illustrated research article with captioned evidence pairs
+- url: https://www.figma.com/blog/training-a-figma-fluent-editing-model/
+- type: article
+- styles: yellow, editorial, illustrated, captioned-comparison
+- industry: creative-tools, research, thought-leadership
+- source: team
+- borrow: a bold colored article lead followed by a narrower reading column and paired visual evidence with separate explanatory captions
+- why: The visual system gives a technical story character while figures explain specific points rather than acting as decoration.
+- conv: 7
+- wow: 9
+- shot: shots/figma-article-desktop.jpg
 - by: Codex
 
 ## social-proof
@@ -1236,6 +1322,46 @@
 - by: Hermes
 
 ## ecommerce
+### Casper trust-heavy product page
+- name: Casper trust-heavy product page
+- url: https://casper.com
+- type: ecommerce
+- styles: editorial, trust-led, warm
+- industry: ecommerce, any
+- source: team
+- borrow: trial-period details and return policy placed prominently so the buying decision feels low-risk, sleep-science and reviews supporting it
+- why: For a try-before-you-buy product, addressing the risk objection front-of-mind is the conversion lever — the layout carries it
+- conv: 8
+- wow: 6
+- by: Hermes
+
+### Dr. Squatch playful product page
+- name: Dr. Squatch playful product page
+- url: https://drsquatch.com
+- type: ecommerce
+- styles: playful, bold, lifestyle
+- industry: ecommerce, cpg
+- source: team
+- borrow: humorous copy with bold lifestyle imagery, subscription bundle to drive repeat purchase, clear comparison to mass-market competitors
+- why: Turns a bland category into a personality-driven page; the subscription bundle raises AOV without feeling like upsell pressure
+- conv: 8
+- wow: 7
+- by: Hermes
+
+### LEGO — useful product detail after an item is retired
+- name: LEGO — useful product detail after an item is retired
+- url: https://www.lego.com/en-us/product/retro-radio-10334
+- type: ecommerce
+- styles: light, product-gallery, unavailable-state, product-facts
+- industry: ecommerce, collectibles, consumer-products
+- source: team
+- borrow: a preserved high-quality gallery and product facts with unmistakable retired status, instructions and alternative-product discovery
+- why: An unavailable item can still answer ownership and research questions instead of ending in an unhelpful dead end.
+- conv: 6
+- wow: 8
+- shot: shots/lego-product-desktop.jpg
+- by: Codex
+
 ### Peak Design — visual variant selection with practical size support
 - name: Peak Design — visual variant selection with practical size support
 - url: https://www.peakdesign.com/global/products/everyday-backpack
@@ -1263,46 +1389,6 @@
 - wow: 9
 - shot: shots/ugmonk-product-desktop.jpg
 - by: Codex
-
-### LEGO — useful product detail after an item is retired
-- name: LEGO — useful product detail after an item is retired
-- url: https://www.lego.com/en-us/product/retro-radio-10334
-- type: ecommerce
-- styles: light, product-gallery, unavailable-state, product-facts
-- industry: ecommerce, collectibles, consumer-products
-- source: team
-- borrow: a preserved high-quality gallery and product facts with unmistakable retired status, instructions and alternative-product discovery
-- why: An unavailable item can still answer ownership and research questions instead of ending in an unhelpful dead end.
-- conv: 6
-- wow: 8
-- shot: shots/lego-product-desktop.jpg
-- by: Codex
-
-### Casper trust-heavy product page
-- name: Casper trust-heavy product page
-- url: https://casper.com
-- type: ecommerce
-- styles: editorial, trust-led, warm
-- industry: ecommerce, any
-- source: team
-- borrow: trial-period details and return policy placed prominently so the buying decision feels low-risk, sleep-science and reviews supporting it
-- why: For a try-before-you-buy product, addressing the risk objection front-of-mind is the conversion lever — the layout carries it
-- conv: 8
-- wow: 6
-- by: Hermes
-
-### Dr. Squatch playful product page
-- name: Dr. Squatch playful product page
-- url: https://drsquatch.com
-- type: ecommerce
-- styles: playful, bold, lifestyle
-- industry: ecommerce, cpg
-- source: team
-- borrow: humorous copy with bold lifestyle imagery, subscription bundle to drive repeat purchase, clear comparison to mass-market competitors
-- why: Turns a bland category into a personality-driven page; the subscription bundle raises AOV without feeling like upsell pressure
-- conv: 8
-- wow: 7
-- by: Hermes
 
 ## footer
 ### Framer — large sitemap with a separate utility strip

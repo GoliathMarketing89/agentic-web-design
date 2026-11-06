@@ -2636,6 +2636,342 @@ Selecting Engineering changed the visible feed to engineering posts while the fe
 
 Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
 
+## Nielsen Norman Group — educational article with summary, contents and dense tables
+
+ID: `nng-article` · Type: article · Observed: 2026-11-06
+
+Source: [Nielsen Norman Group — educational article with summary, contents and dense tables](https://www.nngroup.com/articles/progressive-disclosure/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a prominent summary and author/date block above a readable essay, with contents navigation and related resources beside the body
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/nng-article-desktop.jpg), [view 2](shots/nng-article-desktop-body.jpg)
+
+Mobile: [view 1](shots/nng-article-mobile.jpg), [view 2](shots/nng-article-mobile-body.jpg)
+
+### Use when
+
+An evergreen educational article with headings, structured lists, supporting links and potentially dense comparison tables.
+
+### Avoid when
+
+A primarily photographic narrative or an extremely short announcement where a contents mechanism adds unnecessary complexity.
+
+### Content slots
+
+Article title; linked author and portrait; publication date; summary; body headings/paragraphs/lists; contents links; tables; related courses/topics; sharing route.
+
+### Desktop composition
+
+A bold sans-serif title and compact author/date row lead into a large serif summary marked by a light vertical rule. The main reading column uses generous line height and paragraph spacing. A narrower right rail presents related learning and topic routes. Body tables are ruled and retain row/column relationships.
+
+### Observed mobile behavior
+
+The title, author and summary stack at full content width. The right rail leaves the initial reading view. While scrolled within a later section, an In This Article strip stays at the top and displays the current section with a disclosure cue. The comparison table fits narrow columns but wraps into tall, dense cells.
+
+### Rebuild recipe
+
+Use a structured article body supporting headings, ordered/unordered lists, callouts and semantic tables. Generate contents anchors from stable heading IDs. Keep author metadata and summary separate from body content. Use a constrained reading measure, fluid type and an optional desktop related-content rail. Provide an accessible mobile contents disclosure and offset anchored headings for sticky controls.
+
+### Asset production
+
+Approved author portrait, reliable author/date metadata and original educational diagrams when needed. Use HTML for tables and summaries so text remains selectable and accessible. The source essay and tables are reference content, not copy to republish.
+
+### Adaptation decisions
+
+Keep the summary short enough to earn its prominent treatment. For wide tables, choose horizontal overflow with persistent headers or a deliberate alternative instead of crushing columns. Distinguish publication and updated dates when both exist. Ensure related commercial content stays secondary to reading.
+
+### Interaction evidence and gaps
+
+Article header, body/table and phone layout inspected. Selecting a contents link was attempted while a privacy notice appeared, so direct contents-jump behavior is not claimed. Manual scrolling exposed the phone current-section contents strip. Its disclosure, sharing, related resources and full keyboard behavior were not tested. Privacy notice dismissed without form submission.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Editorial scores describe conversion clarity and visual impact, not measured results. No complete rebuild or accessibility audit performed. Source screenshots are study material rather than reusable client assets.
+
+## Stripe — technical article with an author rail and inline demonstration
+
+ID: `stripe-article` · Type: article · Observed: 2026-11-06
+
+Source: [Stripe — technical article with an author rail and inline demonstration](https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: an offset reading column with a separate author-expertise rail, clear section headings and an inline demonstration poster
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/stripe-article-desktop.jpg), [view 2](shots/stripe-article-desktop-body.jpg)
+
+Mobile: [view 1](shots/stripe-article-mobile.jpg), [view 2](shots/stripe-article-mobile-body.jpg)
+
+### Use when
+
+A product explanation or expert announcement with substantive text, a demonstration and a clear next information route.
+
+### Avoid when
+
+A deeply nested reference manual or a story whose meaning depends on large immersive photography.
+
+### Content slots
+
+Publication/category breadcrumb; title; date; author name/portrait/role; introductory paragraphs; section headings; demonstration poster/video; structured examples; documentation routes; optional post-article subscription.
+
+### Desktop composition
+
+A light ruled page grid aligns a large headline and date over the main reading column, offset to the right. The author portrait, name and role occupy a smaller left rail at the beginning of the body. Inline links use a distinct accent. A wide colored video poster interrupts the text at the relevant explanation point.
+
+### Observed mobile behavior
+
+The title, date and author block move into one reading column before the body. Sections retain clear heading scale and paragraph rhythm. The inline media shrinks to the content width with a visible play control and stays after its explanatory text. The desktop side-rail spacing is removed.
+
+### Rebuild recipe
+
+Store author expertise, date, category and body as separate fields. Use a desktop grid with a constrained reading column and a metadata rail, then flatten to logical mobile order. Support headings, lists and media figures as reusable body blocks. Load a poster first, reserve aspect ratio and only initialize video when requested. Add captions/transcript and a useful static fallback.
+
+### Asset production
+
+Client-approved author portrait/role, original product demonstration and a purpose-made poster that remains understandable at phone width. Keep sample data synthetic and hide private account information. Do not reuse source pricing, product claims or example prompts as client content.
+
+### Adaptation decisions
+
+Move documentation or action links to the point where the reader can use them. Add a contents list only when length warrants it. Prefer 60–75-character reading measures rather than reproducing overly wide text lines. Keep newsletter and recruiting prompts after the article rather than inside its core explanation.
+
+### Interaction evidence and gaps
+
+Desktop and phone article header/body inspected; media poster and play control were visible. Video playback, transcript controls and documentation routes were not activated. No connection, subscription or other form action was submitted. Product/API claims were not independently verified; this record documents the presentation and content structure.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Editorial scores describe conversion clarity and visual impact, not measured results. No complete rebuild or accessibility audit performed. Source screenshots are study material rather than reusable client assets.
+
+## Figma Shortcut — illustrated research article with captioned evidence pairs
+
+ID: `figma-article` · Type: article · Observed: 2026-11-06
+
+Source: [Figma Shortcut — illustrated research article with captioned evidence pairs](https://www.figma.com/blog/training-a-figma-fluent-editing-model/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a bold colored article lead followed by a narrower reading column and paired visual evidence with separate explanatory captions
+
+Editorial scores: conversion clarity 7/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/figma-article-desktop.jpg), [view 2](shots/figma-article-desktop-body.jpg)
+
+Mobile: [view 1](shots/figma-article-mobile.jpg), [view 2](shots/figma-article-mobile-body.jpg)
+
+### Use when
+
+An original research or thought-leadership article with substantive evidence and a budget for editorial visual assets.
+
+### Avoid when
+
+A thin post with generic artwork, or a client unable to supply accurate examples and meaningful figure captions.
+
+### Content slots
+
+Publication masthead; date; large title; author/role; topic tags; lead illustration; standfirst; art credit; body headings/links; comparison figures and captions; diagrams; share controls.
+
+### Desktop composition
+
+A pale yellow surface extends from the oversized headline into the article. Author information and outlined tags form a metadata row before a wide illustration. The body narrows to a reading column; selected figures extend wider. A before/after pair uses two equal images, each with its own caption describing the input and observed output.
+
+### Observed mobile behavior
+
+The title becomes a large multi-line block; author/role and tags wrap below it. The lead illustration crops into the content width. Body text stays in one column, and the evidence pair stacks vertically with each caption following its corresponding image. This preserves association at the cost of simultaneous side-by-side comparison.
+
+### Rebuild recipe
+
+Define article blocks for prose, linked headings, full-width artwork, standard figures, paired figures and diagrams. Use figure/figcaption semantics and meaningful alt text that complements captions. Give section headings stable anchors. Keep wide visual blocks on a separate grid track from prose, with a single-column phone order. Reserve media dimensions to prevent anchor drift.
+
+### Asset production
+
+Original commissioned editorial illustration with artist credit, client-owned screenshots, and diagrams produced from accurate evidence. Ensure figure text is legible at the intended crop. Publish accessible text equivalents for charts or complex pipeline drawings; do not reuse the source illustrations or experimental claims.
+
+### Adaptation decisions
+
+Use a quieter surface or neutral body region if a long colored page harms reading comfort. Caption the difference a reader should inspect; avoid unsupported success claims. For comparison tasks needing simultaneous views on phones, offer an accessible alternate arrangement or a concise annotated composite.
+
+### Interaction evidence and gaps
+
+The heading link Teaching a model to edit in Figma updated the URL to its matching fragment, establishing a linkable section route. Desktop side-by-side and phone stacked comparison figures inspected. Share actions, tag overflow, lightbox behavior and full keyboard traversal were not exercised. No newsletter or social-sharing action was submitted.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Editorial scores describe conversion clarity and visual impact, not measured results. No complete rebuild or accessibility audit performed. Source screenshots are study material rather than reusable client assets.
+
+## Blue Bottle — branded map beside address and weekly hours
+
+ID: `bluebottle-location` · Type: location · Observed: 2026-11-06
+
+Source: [Blue Bottle — branded map beside address and weekly hours](https://bluebottlecoffee.com/cafes/bryant-park)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a quiet split map-and-hours panel followed by large venue photography and nearby-location routes
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/bluebottle-location-desktop.jpg), [view 2](shots/bluebottle-location-desktop-photo.jpg)
+
+Mobile: [view 1](shots/bluebottle-location-mobile.jpg), [view 2](shots/bluebottle-location-mobile-photo.jpg)
+
+### Use when
+
+A walk-in venue or local branch whose address and opening schedule are the primary visit-planning questions.
+
+### Avoid when
+
+A destination with complex seasonal admission rules that cannot be represented by a weekly schedule alone.
+
+### Content slots
+
+Venue name; linked full address; map/pin; weekly hours; local pickup/delivery route if relevant; venue photograph and caption; nearby locations.
+
+### Desktop composition
+
+On a warm pale background, a large low-saturation map with a branded pin fills the left half. The right half centers the place name, underlined address and a vertically spaced seven-day schedule. A large environmental photograph follows, with a small location caption and related venue content below.
+
+### Observed mobile behavior
+
+At 390 px the map stacks before the place identity, address and full schedule. The venue photo becomes a narrower portrait-like crop. A persistent pickup/delivery control sits at the bottom and can reduce available reading space; the hours continue below the initial capture.
+
+### Rebuild recipe
+
+Use a structured branch record containing address, coordinates, timezone, weekly hours, holiday exceptions and service URLs. Render address and hours as accessible HTML independently of the map. Use a map provider or a properly attributed static map with a directions link. Supply a useful fallback when maps are blocked. Keep branch photography and related-location links in separate components.
+
+### Asset production
+
+Licensed map output with required attribution, approved brand pin, and original exterior/interior photographs. Include an entrance-identification photo when useful. Maintain accurate branch data and a named owner for updates.
+
+### Adaptation decisions
+
+Prioritize the address and today's hours above the map on phones when speed matters. Include step-free entrance, transit or parking guidance where needed. Add date-specific exceptions and avoid showing Closed as a loading default. Keep sticky actions clear of the final schedule rows.
+
+### Interaction evidence and gaps
+
+The settled live page exposed a linked address and a full seven-day schedule; initial loading briefly showed closed values before real hours arrived. Desktop and phone information/photo views inspected. Address destinations and pickup/delivery were not activated; map panning, geolocation, related-location navigation and holiday handling were not tested. An unsolicited newsletter overlay was dismissed without submitting data.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Editorial scores describe conversion clarity and visual impact, not measured results. No complete rebuild or accessibility audit performed. Source screenshots are study material rather than reusable client assets.
+
+## National Trust — date-specific visit information with facility-level opening times
+
+ID: `nationaltrust-location` · Type: location · Observed: 2026-11-06
+
+Source: [National Trust — date-specific visit information with facility-level opening times](https://www.nationaltrust.org.uk/visit/kent/sissinghurst-castle-garden)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a selectable visit calendar paired with opening times for individual facilities inside a practical-information disclosure
+
+Editorial scores: conversion clarity 9/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/nationaltrust-location-desktop.jpg)
+
+Mobile: [view 1](shots/nationaltrust-location-mobile.jpg), [view 2](shots/nationaltrust-location-mobile-times.jpg)
+
+### Use when
+
+A destination with seasonal dates and different schedules for grounds, buildings, food, shops or activities.
+
+### Avoid when
+
+A simple appointment-only service or a venue that cannot keep date-specific operational data current.
+
+### Content slots
+
+Destination identity/address; opening/prices/map shortcuts; visitor-information tabs; practical section disclosures; date picker; open/closed legend; facility/time table; last-entry exceptions; planning/accessibility routes.
+
+### Desktop composition
+
+A place introduction and landscape image precede a tabbed information area. The expanded Opening times disclosure uses a large pale panel: a ruled facility/time table occupies the left, while a month selector and calendar sit right. Operational caveats appear directly below the table. Other practical categories remain as distinct disclosures.
+
+### Observed mobile behavior
+
+The information tabs form a horizontal strip. Inside the expanded section, calendar and open/closed legend move above the date-labeled facility table. The table fits the narrow width with clear row rules. Last-entry and closure notes remain next to the schedule rather than disappearing into a separate FAQ.
+
+### Rebuild recipe
+
+Define a destination/facility calendar model with timezone, date ranges, exceptions, closed days and last-entry notes. Derive the selected date heading and table from one state source. Build a semantic calendar with accessible day labels and keyboard operation, plus a semantic table for facilities. Use disclosure buttons with expanded state. Keep the selected date visible and provide a non-calendar route for assistive technology.
+
+### Asset production
+
+Original destination photography, reliable facility data and a content update process. The calendar needs accurate business rules more than decorative artwork. Maps and access documents should remain separately available.
+
+### Adaptation decisions
+
+Do not present event booking or ticket availability as equivalent to opening hours. Retain dates in accessible labels and textual headings; do not encode open/closed state only in color. Put urgent closures and access limitations before promotional copy. A simpler location can use the same table without a calendar.
+
+### Interaction evidence and gaps
+
+Opening times disclosure opened. Selecting 7 November 2026 changed the selected day and table heading from 6 to 7 November; the coffee-shop closing time also changed. Phone layout retained the chosen date and stacked calendar above table. The initial shortcut click occurred while a cookie overlay was present, so successful shortcut scrolling is not claimed. Other tabs, month changes, booking, maps and accessibility disclosures were not exercised.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Editorial scores describe conversion clarity and visual impact, not measured results. No complete rebuild or accessibility audit performed. Source screenshots are study material rather than reusable client assets.
+
+## The Hoxton — curated neighborhood places with photographic discovery cards
+
+ID: `hoxton-location` · Type: location · Observed: 2026-11-06
+
+Source: [The Hoxton — curated neighborhood places with photographic discovery cards](https://thehoxton.com/amsterdam/herengracht/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: an editorial neighborhood introduction leading into staggered place photographs with practical recommendation copy
+
+Editorial scores: conversion clarity 7/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/hoxton-location-desktop.jpg), [view 2](shots/hoxton-location-desktop-cards.jpg)
+
+Mobile: [view 1](shots/hoxton-location-mobile.jpg), [view 2](shots/hoxton-location-mobile-cards.jpg)
+
+### Use when
+
+A hotel, residential development, campus or venue where the surrounding neighborhood materially influences the decision.
+
+### Avoid when
+
+A local service whose visitors only need directions, or a location guide without maintained recommendations and valid destination links.
+
+### Content slots
+
+Neighborhood title and introduction; place name; permissioned photo; reason to visit; contextual tip; destination URL; category/distance when available; persistent host-location conversion route.
+
+### Desktop composition
+
+A warm cream section centers a short heading above a narrower serif introduction. Below, tall photographic place cards sit in staggered columns. A coral text face was visible on one desktop card, carrying its name, recommendation and onward action. The introduction remains visually behind the moving card composition at some scroll positions.
+
+### Observed mobile behavior
+
+The centered introduction wraps into a narrow readable column. Place cards become a horizontal rail with a partial next card visible. Each visible phone card shows the image followed by name, recommendation text and a normal onward link; this makes the copy available without a hover dependency. The hotel booking action remains in the compact header.
+
+### Rebuild recipe
+
+Model recommendations as maintained records with name, category, image, description, contextual advice and URL. Build ordinary linked cards first, then add staggered desktop placement or an optional reveal treatment. On phones use a reachable horizontal list with snap points or a simpler stacked list. Preserve full text and links for touch, keyboard and reduced-motion users.
+
+### Asset production
+
+Original or licensed neighborhood photographs with consistent crops, current destination URLs and genuinely local editorial recommendations. Do not reuse source partner imagery or borrow unverified claims about a venue.
+
+### Adaptation decisions
+
+Add walking distance, transit and accessibility context where the client can substantiate it. Keep the neighborhood introduction readable instead of letting animation obstruct it. Avoid making the full card a link with an excessively long accessible name. Supply explicit carousel controls or a non-carousel list if users cannot discover all places easily.
+
+### Interaction evidence and gaps
+
+Desktop and phone layouts inspected. A desktop card's text face was visible while the pointer was in its area, but the hover/focus trigger was not isolated or keyboard-tested. Phone text and links were visibly available below photographs. Horizontal swipe behavior and external destination navigation were not exercised. Newsletter/cookie overlays were dismissed without signup; no room search or booking was submitted.
+
+### Verification
+
+Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Editorial scores describe conversion clarity and visual impact, not measured results. No complete rebuild or accessibility audit performed. Source screenshots are study material rather than reusable client assets.
+
 ## Linear — compact journal command search with an explicit empty state
 
 ID: `linear-search` · Type: search · Observed: 2026-11-06
