@@ -1,0 +1,227 @@
+{
+  "counts": {
+    "hero": 3,
+    "bento": 3,
+    "contact": 6,
+    "faq": 6,
+    "cta": 6
+  },
+  "patterns": [
+    {
+      "id": "attio-testimonial-contact",
+      "name": "Attio — testimonial-backed sales inquiry",
+      "type": "contact",
+      "styles": "light, split, qualification-form, testimonial",
+      "industry": "software, b2b, professional-services",
+      "fit": "A consultative sale where team size and region affect the response, and a genuine customer endorsement can reduce uncertainty.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "linear-contact-router",
+      "name": "Linear — intent-routing contact cards",
+      "type": "contact",
+      "styles": "dark, routing-cards, support, self-service",
+      "industry": "software, platforms, membership",
+      "fit": "An organization with different teams or workflows for sales, support, press, partnerships, and product help.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "freight-editorial-contact",
+      "name": "Studio Freight — editorial project brief form",
+      "type": "contact",
+      "styles": "dark, serif, editorial, underlined-form, agency",
+      "industry": "creative-agency, branding, design-services",
+      "fit": "A studio or consultancy qualifying substantial projects with meaningful scope and budget requirements.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "stripe-staged-contact",
+      "name": "Stripe — staged sales-routing form",
+      "type": "contact",
+      "styles": "light, staged-form, progress, abstract-asset, centered",
+      "industry": "b2b, platforms, financial-services",
+      "fit": "A genuine multi-stage inquiry where early answers route the visitor to a relevant next step.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "unseen-scene-contact",
+      "name": "Unseen Studio — scene-led direct contact",
+      "type": "contact",
+      "styles": "scene-led, pastel, serif, direct-email, creative",
+      "industry": "creative-agency, art-direction, design",
+      "fit": "A creative practice selling distinctive visual judgment and working through direct conversations rather than structured qualification.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "kube-map-contact",
+      "name": "KUBE Saint-Tropez — map and direct contact",
+      "type": "contact",
+      "styles": "light, map, editorial, direct-contact, hospitality",
+      "industry": "hospitality, local-business, venues, property",
+      "fit": "A place-based business where finding the location and contacting staff are the main tasks.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "freight-inquiry-faq",
+      "name": "Studio Freight — inquiry-routing FAQ",
+      "type": "faq",
+      "styles": "dark, serif, editorial, accordion, contact",
+      "industry": "creative-agency, professional-services",
+      "fit": "A project inquiry page receiving several kinds of non-client correspondence.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "kube-editorial-faq",
+      "name": "KUBE Saint-Tropez — editorial practical FAQ",
+      "type": "faq",
+      "styles": "light, serif, full-width, accordion, lime-accent",
+      "industry": "hospitality, local-business, venues",
+      "fit": "Practical access, appointment, arrival, and service questions near a contact or booking decision.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "raycast-centered-faq",
+      "name": "Raycast Pro — centered dark accordion",
+      "type": "faq",
+      "styles": "dark, centered, accordion, product, restrained",
+      "industry": "software, subscriptions, b2b",
+      "fit": "A product or subscription page with a handful of real buying objections and moderate answer lengths.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "framer-open-answer-faq",
+      "name": "Framer — always-visible pricing answers",
+      "type": "faq",
+      "styles": "dark, open-answers, narrow-column, typographic",
+      "industry": "software, subscriptions, services",
+      "fit": "A manageable set of concise pricing explanations that should remain visible together.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "switchyards-topic-faq",
+      "name": "Switchyards — topic-linked document FAQ",
+      "type": "faq",
+      "styles": "light, editorial, serif, topic-links, open-answers",
+      "industry": "membership, hospitality, coworking, local-business",
+      "fit": "Membership or venue information covering several distinct practical themes.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "typesafe-terminal-faq",
+      "name": "TypeSafe AI — terminal-inspired technical accordion",
+      "type": "faq",
+      "styles": "dark, terminal, monospace, accordion, technical",
+      "industry": "developer-tools, infrastructure, technical-products",
+      "fit": "A technically fluent audience evaluating mechanism, reliability, or integration questions.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "kube-reservation-close",
+      "name": "KUBE Saint-Tropez — restrained reservation close",
+      "type": "cta",
+      "styles": "light, serif, single-action, hospitality, whitespace",
+      "industry": "hospitality, appointments, venues",
+      "fit": "A page that has already established the offer and resolved objections, leaving one obvious next step.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "switchyards-membership-offer",
+      "name": "Switchyards — membership offer and oversized join action",
+      "type": "cta",
+      "styles": "light, serif, offer-led, oversized-button, membership",
+      "industry": "membership, local-business, fitness, hospitality",
+      "fit": "One membership with a small number of billing choices and a clear entry path.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "linear-two-route-close",
+      "name": "Linear — self-service and sales closing CTA",
+      "type": "cta",
+      "styles": "dark, centered, two-actions, typography-led, restrained",
+      "industry": "software, subscriptions, b2b",
+      "fit": "A product with genuinely useful self-service and assisted-sales entry points.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "framer-inline-start-cta",
+      "name": "Framer — product-start CTA with a mobile alternative",
+      "type": "cta",
+      "styles": "dark, inline-product, prompt-input, responsive-art-direction",
+      "industry": "creative-tools, ai-products, software",
+      "fit": "A product whose first meaningful action can be initiated in a small inline interaction.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "front-branded-demo-cta",
+      "name": "Front — branded demo panel with people imagery",
+      "type": "cta",
+      "styles": "purple, photographic, inset-panel, high-contrast, demo",
+      "industry": "b2b, software, professional-services",
+      "fit": "An assisted-sale offer that needs a distinctive final invitation and credible human context.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "charity-illustrated-newsletter",
+      "name": "charity: water — illustrated newsletter signup",
+      "type": "cta",
+      "styles": "light, illustrated, split-form, newsletter, yellow-accent",
+      "industry": "nonprofit, community, editorial, membership",
+      "fit": "An organization with a meaningful email program and enough reason for visitors to stay connected.",
+      "catalog": "patterns/contact-faq-cta-2026-11-06.json"
+    },
+    {
+      "id": "raycast-atmospheric-hero",
+      "name": "Raycast — atmospheric product hero",
+      "type": "hero",
+      "styles": "dark, abstract-asset, centered, product",
+      "industry": "software, productivity",
+      "fit": "A single product or offer with a distinctive visual world and a short promise. Useful for software, creative tools, or a bold brand launch.",
+      "catalog": "patterns/hero-bento-2026-11-06.json"
+    },
+    {
+      "id": "kube-cinematic-hero",
+      "name": "KUBE Saint-Tropez — cinematic destination hero",
+      "type": "hero",
+      "styles": "cinematic, video, hospitality, full-bleed, serif",
+      "industry": "hospitality, travel, experiences",
+      "fit": "A destination, venue, retreat, property, or experience whose visual reality is central to the buying decision.",
+      "catalog": "patterns/hero-bento-2026-11-06.json"
+    },
+    {
+      "id": "apple-product-sculpture-hero",
+      "name": "Apple MacBook Air — product sculpture hero",
+      "type": "hero",
+      "styles": "light, product-render, sculptural, ecommerce",
+      "industry": "hardware, premium-products, ecommerce",
+      "fit": "A physical product with a recognizable silhouette, meaningful material/detail, and excellent rendering or photography.",
+      "catalog": "patterns/hero-bento-2026-11-06.json"
+    },
+    {
+      "id": "raycast-pro-feature-bento",
+      "name": "Raycast Pro — illustrated feature bento",
+      "type": "bento",
+      "styles": "dark, bento, diagrams, product-ui, accent-color",
+      "industry": "software, productivity",
+      "fit": "Several capabilities with distinct mechanisms that can each be explained through a small diagram or cropped UI demonstration.",
+      "catalog": "patterns/hero-bento-2026-11-06.json"
+    },
+    {
+      "id": "kube-photographic-room-bento",
+      "name": "KUBE Saint-Tropez — photographic room bento",
+      "type": "bento",
+      "styles": "photographic, bento, edge-to-edge, serif, hospitality",
+      "industry": "hospitality, interiors, property",
+      "fit": "A small set of spaces, destinations, projects, or product categories with strong authentic imagery and short labels.",
+      "catalog": "patterns/hero-bento-2026-11-06.json"
+    },
+    {
+      "id": "attio-workflow-bento",
+      "name": "Attio — workflow demonstration bento",
+      "type": "bento",
+      "styles": "light, bento, product-demo, hairline-grid, sticky-navigation",
+      "industry": "software, crm, b2b",
+      "fit": "A complex product where one workflow can anchor two supporting capabilities. Works when product artifacts provide more meaning than decorative imagery.",
+      "catalog": "patterns/hero-bento-2026-11-06.json"
+    }
+  ]
+}

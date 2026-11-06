@@ -13,6 +13,7 @@ writes it.
 - **Screenshots:** `references/shots/<name>.png` or `.jpg` (reference by path)
 - **Rich pattern catalogs:** `references/patterns/*.json` contain observation dates, desktop/mobile captures, content slots, rebuild recipes, and verification limits. Keep these separate from the compact bank schema.
 - **Browsable gallery and agent notes:** run `python references/render_pattern_gallery.py` after editing rich catalogs. It generates `references/pattern-gallery.html` and `references/rebuild-notes.md` and verifies screenshot paths.
+- **Agent selection index:** the same renderer generates `references/pattern-index.json`. Filter its compact records by type, style, industry, or fit; then read the selected ID in its named catalog and inspect the linked screenshots. Load detailed recipes for shortlisted examples rather than every catalog at once.
 
 For new visual-pattern mining, save desktop and mobile evidence and a rich recipe. Label a directly inspected reference as observed; reserve rebuild-validated for an example actually rebuilt and checked. Scores in this bank are editorial judgments of conversion clarity and visual impact, not measured conversion performance. Source screenshots are study material, not licensed client imagery.
 
@@ -38,6 +39,7 @@ Allowed values exactly:
 | `faq` | FAQ / objection blocks |
 | `how-it-works` | Steps, process, numbers-led workflows |
 | `about` | Founder / about / story sections |
+| `contact` | Inquiry forms, contact routing, direct contact details, map/access blocks |
 | `cta` | Final CTA, email capture, lead capture |
 | `nav` | Header / navigation treatment |
 | `3d` | 3D, WebGL, scroll-driven, interactive |
