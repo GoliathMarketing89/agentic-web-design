@@ -497,6 +497,19 @@
 - by: Codex
 
 ## about
+### Founder-letter about pattern
+- name: Founder-letter about pattern
+- url: https://www.webanatomy.ai/best-landing-pages/ux-best-practice/about-founder-story
+- type: about
+- styles: founder-led, personal
+- industry: saas, personal-brand
+- source: gallery
+- borrow: signed founder letter with a real photo, a specific origin (not 'we cared'), and a hard number or milestone a reader can check
+- why: Names the person behind the brand and makes the mission accountable; a face + signature beats a faceless mission statement
+- conv: 8
+- wow: 6
+- by: Hermes
+
 ### Humaan — staged culture photography and a large purpose statement
 - name: Humaan — staged culture photography and a large purpose statement
 - url: https://www.humaan.com/about
@@ -539,19 +552,6 @@
 - shot: shots/stripe-about-desktop.jpg
 - by: Codex
 
-### Founder-letter about pattern
-- name: Founder-letter about pattern
-- url: https://www.webanatomy.ai/best-landing-pages/ux-best-practice/about-founder-story
-- type: about
-- styles: founder-led, personal
-- industry: saas, personal-brand
-- source: gallery
-- borrow: signed founder letter with a real photo, a specific origin (not 'we cared'), and a hard number or milestone a reader can check
-- why: Names the person behind the brand and makes the mission accountable; a face + signature beats a faceless mission statement
-- conv: 8
-- wow: 6
-- by: Hermes
-
 ## team
 ### Humaan — staggered portrait grid with persistent role labels
 - name: Humaan — staggered portrait grid with persistent role labels
@@ -565,6 +565,20 @@
 - conv: 8
 - wow: 9
 - shot: shots/humaan-team-desktop.jpg
+- by: Codex
+
+### Lime Studio — complementary founders with cinematic portraits
+- name: Lime Studio — complementary founders with cinematic portraits
+- url: https://limestud.io/
+- type: team
+- styles: dark-green, two-founders, cinematic-portraits, serif
+- industry: creative-agency, consultancy, founder-led-services
+- source: team
+- borrow: two equal cinematic portraits followed by separate practice labels and concise experience summaries
+- why: The team section explains both direct founder involvement and the complementary expertise each person brings.
+- conv: 8
+- wow: 9
+- shot: shots/lime-team-desktop.jpg
 - by: Codex
 
 ### Team Design — text directory with inline portrait biographies
@@ -581,18 +595,133 @@
 - shot: shots/teamdesign-team-desktop.jpg
 - by: Codex
 
-### Lime Studio — complementary founders with cinematic portraits
-- name: Lime Studio — complementary founders with cinematic portraits
-- url: https://limestud.io/
-- type: team
-- styles: dark-green, two-founders, cinematic-portraits, serif
-- industry: creative-agency, consultancy, founder-led-services
+## services
+### Instrument — service rows with directly relevant project proof
+- name: Instrument — service rows with directly relevant project proof
+- url: https://www.instrument.com/services/
+- type: services
+- styles: purple, serif-titles, offer-proof-pair, project-thumbnails
+- industry: creative-agency, professional-services
 - source: team
-- borrow: two equal cinematic portraits followed by separate practice labels and concise experience summaries
-- why: The team section explains both direct founder involvement and the complementary expertise each person brings.
+- borrow: a service promise and learn-more route beside two relevant project thumbnails with concise case summaries
+- why: Visitors encounter evidence for the exact offer they are evaluating, instead of having to infer relevance from a separate logo wall.
+- conv: 9
+- wow: 8
+- shot: shots/instrument-services-desktop.jpg
+- by: Codex
+
+### Humaan — six capability groups in a quiet type-led matrix
+- name: Humaan — six capability groups in a quiet type-led matrix
+- url: https://www.humaan.com/about
+- type: services
+- styles: pale-blue, typography-led, capability-matrix, three-columns
+- industry: creative-agency, digital-services, consultancy
+- source: team
+- borrow: six clearly titled capability lists arranged in a three-by-two matrix without decorative card chrome
+- why: A concise grouping lets a buyer verify coverage across strategy, delivery and support without scanning repetitive marketing paragraphs.
+- conv: 8
+- wow: 6
+- shot: shots/humaan-services-desktop.jpg
+- by: Codex
+
+### ustwo — engagement offers with activities, outcomes and proof
+- name: ustwo — engagement offers with activities, outcomes and proof
+- url: https://ustwo.com/services/
+- type: services
+- styles: white, engagement-duration, scope-outcome-split, quote-backed
+- industry: product-design, consultancy, professional-services
+- source: team
+- borrow: an outcome-led service module with engagement timing, representative clients, explicit activities, outcomes and a relevant quote
+- why: The buyer can understand why to engage, what the work involves and what they should receive in one coherent module.
+- conv: 9
+- wow: 7
+- shot: shots/ustwo-services-desktop.jpg
+- by: Codex
+
+## portfolio
+### Instrument — filterable work grid with separate display modes
+- name: Instrument — filterable work grid with separate display modes
+- url: https://www.instrument.com/work/grid
+- type: portfolio
+- styles: white, filter-chips, two-column-grid, project-posters
+- industry: creative-agency, design-portfolio, professional-services
+- source: team
+- borrow: category chips and an independent grid/stack switch above large rounded project posters with compact labels
+- why: Visitors can narrow work by capability and choose a browsing density while keeping project identity clear.
+- conv: 8
+- wow: 8
+- shot: shots/instrument-portfolio-desktop.jpg
+- by: Codex
+
+### Humaan — featured project followed by paired visual cards
+- name: Humaan — featured project followed by paired visual cards
+- url: https://www.humaan.com/work
+- type: portfolio
+- styles: cream, featured-project, mixed-span-grid, image-led
+- industry: creative-agency, design-portfolio, digital-services
+- source: team
+- borrow: one wide flagship project leading into paired portrait-like project cards, with captions moved below images on phones
+- why: A clear visual priority gives the flagship room while the following pairs demonstrate breadth without identical repetitive tiles.
 - conv: 8
 - wow: 9
-- shot: shots/lime-team-desktop.jpg
+- shot: shots/humaan-portfolio-desktop.jpg
+- by: Codex
+
+### Locomotive — project index with expandable rich previews
+- name: Locomotive — project index with expandable rich previews
+- url: https://locomotive.ca/en/work
+- type: portfolio
+- styles: white, metadata-index, inline-preview, project-disclosure
+- industry: creative-agency, architecture-portfolio, professional-services
+- source: team
+- borrow: a scannable name/industry/location index that expands one project into imagery, scope and clear case-study/live-site routes
+- why: The compact list supports comparison, while optional rich previews let visitors inspect relevant work without leaving the index.
+- conv: 8
+- wow: 9
+- shot: shots/locomotive-portfolio-desktop.jpg
+- by: Codex
+
+## case-study
+### Instrument / Oura — rationale, paired deliverables and a time-bounded impact block
+- name: Instrument / Oura — rationale, paired deliverables and a time-bounded impact block
+- url: https://www.instrument.com/work/oura-smart-ring
+- type: case-study
+- styles: slate, editorial-rationale, paired-visuals, impact-summary
+- industry: creative-agency, commerce, product-design
+- source: team
+- borrow: a case-study sequence that connects design rationale to paired product/site visuals and a concise post-launch impact list
+- why: The sequence gives the viewer a reason for the design choices, concrete work to inspect and a clearly time-bounded result claim.
+- conv: 8
+- wow: 8
+- shot: shots/instrument-case-desktop-visual.jpg
+- by: Codex
+
+### ustwo / RVO Health — contextualized impact cards before the deeper story
+- name: ustwo / RVO Health — contextualized impact cards before the deeper story
+- url: https://ustwo.com/work/rvo-health/
+- type: case-study
+- styles: dark-impact-band, comparison-cards, product-context, editorial-story
+- industry: product-design, digital-services, health-technology
+- source: team
+- borrow: an early impact section with three comparable result cards, each keeping its baseline or timeframe next to the headline figure
+- why: Readers can assess the project stakes and reported change before committing to the longer challenge and approach narrative.
+- conv: 8
+- wow: 7
+- shot: shots/ustwo-case-desktop-intro.jpg
+- by: Codex
+
+### Lime / TOKEN2049 — project facts, before/after evidence and an explained experiment
+- name: Lime / TOKEN2049 — project facts, before/after evidence and an explained experiment
+- url: https://limestud.io/work/token2049
+- type: case-study
+- styles: white-and-green, project-facts, before-after, evidence-led
+- industry: branding, creative-agency, event-commerce
+- source: team
+- borrow: a concise scope table and visual A/B comparison connected to a result explanation that includes timeframe and sample sizes
+- why: The narrative makes the project accountable: visitors can understand the brief, inspect what changed and see the basis of the reported result.
+- conv: 9
+- wow: 8
+- shot: shots/lime-case-desktop-visual.jpg
 - by: Codex
 
 ## contact
@@ -848,20 +977,6 @@
 - shot: shots/framer-footer-desktop.jpg
 - by: Codex
 
-### Mailchimp — warm resource directory and brand-family utility layer
-- name: Mailchimp — warm resource directory and brand-family utility layer
-- url: https://mailchimp.com/
-- type: footer
-- styles: mustard, resource-directory, brand-family, app-links
-- industry: software, commerce, multi-product-brands
-- source: team
-- borrow: a warm five-column directory separated from brand-family, app, social and legal utilities by a clear horizontal rule
-- why: The footer supports exploration and practical account needs while keeping ownership and compliance context together.
-- conv: 8
-- wow: 7
-- shot: shots/mailchimp-footer-desktop.jpg
-- by: Codex
-
 ### Locomotive — ruled navigation and a typographic contact signature
 - name: Locomotive — ruled navigation and a typographic contact signature
 - url: https://locomotive.ca/en
@@ -874,4 +989,18 @@
 - conv: 8
 - wow: 9
 - shot: shots/locomotive-footer-desktop.jpg
+- by: Codex
+
+### Mailchimp — warm resource directory and brand-family utility layer
+- name: Mailchimp — warm resource directory and brand-family utility layer
+- url: https://mailchimp.com/
+- type: footer
+- styles: mustard, resource-directory, brand-family, app-links
+- industry: software, commerce, multi-product-brands
+- source: team
+- borrow: a warm five-column directory separated from brand-family, app, social and legal utilities by a clear horizontal rule
+- why: The footer supports exploration and practical account needs while keeping ownership and compliance context together.
+- conv: 8
+- wow: 7
+- shot: shots/mailchimp-footer-desktop.jpg
 - by: Codex

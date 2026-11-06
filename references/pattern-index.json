@@ -2,6 +2,9 @@
   "counts": {
     "hero": 3,
     "bento": 3,
+    "services": 3,
+    "portfolio": 3,
+    "case-study": 3,
     "about": 3,
     "team": 3,
     "pricing": 4,
@@ -417,6 +420,87 @@
       "industry": "creative-agency, consultancy, professional-services",
       "fit": "A consultative service with a clear first conversation, delivery stage and client outcome.",
       "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "instrument-services",
+      "name": "Instrument — service rows with directly relevant project proof",
+      "type": "services",
+      "styles": "purple, serif-titles, offer-proof-pair, project-thumbnails",
+      "industry": "creative-agency, professional-services",
+      "fit": "A studio with a few clearly differentiated service families and two strong projects for each.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "humaan-services",
+      "name": "Humaan — six capability groups in a quiet type-led matrix",
+      "type": "services",
+      "styles": "pale-blue, typography-led, capability-matrix, three-columns",
+      "industry": "creative-agency, digital-services, consultancy",
+      "fit": "An established provider with a broad, concrete capability set that buyers need to check.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "ustwo-services",
+      "name": "ustwo — engagement offers with activities, outcomes and proof",
+      "type": "services",
+      "styles": "white, engagement-duration, scope-outcome-split, quote-backed",
+      "industry": "product-design, consultancy, professional-services",
+      "fit": "A considered consulting engagement whose scope and outputs materially affect purchase decisions.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "instrument-portfolio",
+      "name": "Instrument — filterable work grid with separate display modes",
+      "type": "portfolio",
+      "styles": "white, filter-chips, two-column-grid, project-posters",
+      "industry": "creative-agency, design-portfolio, professional-services",
+      "fit": "A substantial project archive with a small meaningful set of service categories.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "humaan-portfolio",
+      "name": "Humaan — featured project followed by paired visual cards",
+      "type": "portfolio",
+      "styles": "cream, featured-project, mixed-span-grid, image-led",
+      "industry": "creative-agency, design-portfolio, digital-services",
+      "fit": "A curated portfolio with one strong lead project and enough distinctive finished work to support varied crops.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "locomotive-portfolio",
+      "name": "Locomotive — project index with expandable rich previews",
+      "type": "portfolio",
+      "styles": "white, metadata-index, inline-preview, project-disclosure",
+      "industry": "creative-agency, architecture-portfolio, professional-services",
+      "fit": "A larger project archive whose industries and geography meaningfully help visitors select work.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "instrument-case",
+      "name": "Instrument / Oura — rationale, paired deliverables and a time-bounded impact block",
+      "type": "case-study",
+      "styles": "slate, editorial-rationale, paired-visuals, impact-summary",
+      "industry": "creative-agency, commerce, product-design",
+      "fit": "A substantial redesign with documented research, finished artifacts and credible post-launch evidence.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "ustwo-case",
+      "name": "ustwo / RVO Health — contextualized impact cards before the deeper story",
+      "type": "case-study",
+      "styles": "dark-impact-band, comparison-cards, product-context, editorial-story",
+      "industry": "product-design, digital-services, health-technology",
+      "fit": "A product or service case with a few comparable, well-defined outcomes and a deeper explanation available below.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "lime-case",
+      "name": "Lime / TOKEN2049 — project facts, before/after evidence and an explained experiment",
+      "type": "case-study",
+      "styles": "white-and-green, project-facts, before-after, evidence-led",
+      "industry": "branding, creative-agency, event-commerce",
+      "fit": "A design engagement with real strategic tradeoffs, visible deliverables and publishable comparison evidence.",
+      "catalog": "patterns/services-portfolio-case-2026-11-06.json"
     }
   ]
 }

@@ -40,6 +40,9 @@ Allowed values exactly:
 | `how-it-works` | Steps, process, numbers-led workflows |
 | `about` | Founder / about / story sections |
 | `team` | People grids, founder profiles, leadership directories, and biographies |
+| `services` | Offerings, capabilities, scope, and service selection sections |
+| `portfolio` | Selected-work grids, project indexes, filters, and project previews |
+| `case-study` | Project context, rationale, deliverables, before/after evidence, and outcomes |
 | `contact` | Inquiry forms, contact routing, direct contact details, map/access blocks |
 | `cta` | Final CTA, email capture, lead capture |
 | `nav` | Header / navigation treatment |

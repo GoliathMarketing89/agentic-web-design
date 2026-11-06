@@ -26,7 +26,7 @@ DEFAULT_LIBRARY = HERE / "design-reference-library.md"
 
 VALID_TYPES = {
     "hero", "bento", "social-proof", "pricing", "faq", "how-it-works",
-    "about", "team", "contact", "cta", "nav", "3d", "ecommerce", "footer",
+    "about", "team", "services", "portfolio", "case-study", "contact", "cta", "nav", "3d", "ecommerce", "footer",
 }
 VALID_SOURCES = {"out-of-geo", "gallery", "team"}
 REQUIRED_KEYS = {"url", "type", "borrow", "conv", "wow"}
@@ -190,7 +190,7 @@ def rebuild(entries: list[dict]) -> str:
     """Group entries by type in the canonical section order and render md."""
     order = [
         "hero", "bento", "social-proof", "pricing", "faq", "how-it-works",
-        "about", "team", "contact", "cta", "nav", "3d", "ecommerce", "footer",
+        "about", "team", "services", "portfolio", "case-study", "contact", "cta", "nav", "3d", "ecommerce", "footer",
     ]
     by_type = {}
     for e in entries:

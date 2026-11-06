@@ -340,6 +340,510 @@ The Build pipeline anchor was exercised and scrolled to the article. Mobile navi
 
 Live desktop/mobile inspection and complementary viewport captures. No complete rebuild or conversion measurement.
 
+## Instrument — service rows with directly relevant project proof
+
+ID: `instrument-services` · Type: services · Observed: 2026-11-06
+
+Source: [Instrument — service rows with directly relevant project proof](https://www.instrument.com/services/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a service promise and learn-more route beside two relevant project thumbnails with concise case summaries
+
+Editorial scores: conversion clarity 9/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/instrument-services-desktop.jpg)
+
+Mobile: [view 1](shots/instrument-services-mobile.jpg)
+
+### Use when
+
+A studio with a few clearly differentiated service families and two strong projects for each.
+
+### Avoid when
+
+A new business without relevant work, or a large catalog whose offers require functional comparison rather than repeated editorial rows.
+
+### Content slots
+
+Service name; outcome promise; detail route; two project visuals; client names; short project summaries; case-study destinations.
+
+### Desktop composition
+
+A deep purple section introduces each service in a generous horizontal row. The left column uses a large serif name, short sans promise and pale pill action; the right has two rounded landscape thumbnails with names and descriptions below.
+
+### Observed mobile behavior
+
+The service heading, promise and action precede a vertical sequence of project cards. Project captions remain below imagery and a visible View Case Study action appears in the saved phone view.
+
+### Rebuild recipe
+
+Store each service with its promise, detail destination and selected project records. Use a weighted two-region desktop grid with a two-column proof subgrid. Stack service content before proofs on phones. Keep thumbnail, title and action tied to the same destination without duplicate confusing tab stops.
+
+### Asset production
+
+Use two actual client project posters per service, with consistent crop ratios and color treatment. Supply real project summaries and destinations. Prepare static posters before adding video; source project media is study material.
+
+### Adaptation decisions
+
+Name services in customer language and make the promise distinct. Show only projects that demonstrate that capability. Reduce repetition if several services share the same two projects, and keep any qualification or scope details on the linked service page.
+
+### Interaction evidence and gaps
+
+Service rows and project destinations inspected. The service-detail and case-study routes were not opened from these cards; no hover or media playback behavior was validated.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
+## Humaan — six capability groups in a quiet type-led matrix
+
+ID: `humaan-services` · Type: services · Observed: 2026-11-06
+
+Source: [Humaan — six capability groups in a quiet type-led matrix](https://www.humaan.com/about)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: six clearly titled capability lists arranged in a three-by-two matrix without decorative card chrome
+
+Editorial scores: conversion clarity 8/9; visual impact 6/9. No measured uplift.
+
+Desktop: [view 1](shots/humaan-services-desktop.jpg)
+
+Mobile: [view 1](shots/humaan-services-mobile.jpg)
+
+### Use when
+
+An established provider with a broad, concrete capability set that buyers need to check.
+
+### Avoid when
+
+A primary offer that needs differentiation or persuasion; the matrix is supporting scope, not a complete service pitch.
+
+### Content slots
+
+Capability introduction; six meaningful group names; short capability labels; relevant next route elsewhere on the page.
+
+### Desktop composition
+
+Six evenly spaced groups sit on a pale blue field in three columns and two rows. Bold dark headings and left-aligned text lists supply hierarchy. Generous gutters and row spacing keep the dense inventory calm.
+
+### Observed mobile behavior
+
+The groups become one vertical column, preserving their reading order. The phone view shows the first two complete groups and the start of the third. The source bottom navigation overlaps lower content at times.
+
+### Rebuild recipe
+
+Model groups and items as semantic heading/list pairs. Use a three-column grid with consistent group gaps; collapse to one column when labels wrap awkwardly. Keep actual list text selectable and avoid individual cards unless the items need navigation.
+
+### Asset production
+
+A considered type system and accurate capability inventory suffice. This pattern requires no decorative stock or generated imagery.
+
+### Adaptation decisions
+
+Use buyer-recognizable group labels, prune overlapping items and distinguish ongoing support from initial delivery. Pair the matrix with a concise offer and proof. Provide a nearby inquiry or service-detail route and keep sticky UI clear of content.
+
+### Interaction evidence and gaps
+
+Static capability groups and responsive reflow inspected. No list interaction exists in the observed matrix; expertise navigation and inquiry routes were not exercised. Initial captures affected by the page's scroll animation were replaced.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
+## ustwo — engagement offers with activities, outcomes and proof
+
+ID: `ustwo-services` · Type: services · Observed: 2026-11-06
+
+Source: [ustwo — engagement offers with activities, outcomes and proof](https://ustwo.com/services/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: an outcome-led service module with engagement timing, representative clients, explicit activities, outcomes and a relevant quote
+
+Editorial scores: conversion clarity 9/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/ustwo-services-desktop.jpg)
+
+Mobile: [view 1](shots/ustwo-services-mobile.jpg), [view 2](shots/ustwo-services-mobile-proof.jpg)
+
+### Use when
+
+A considered consulting engagement whose scope and outputs materially affect purchase decisions.
+
+### Avoid when
+
+A quick commodity service or an offer with insufficient evidence to support lengthy scope and proof.
+
+### Content slots
+
+Engagement phase; indicative duration; buyer goal; relevant client marks; short explanation; activities; expected artifacts/outcomes; attributed quote.
+
+### Desktop composition
+
+A restrained white module divides a large goal statement and client marks on the left from explanation and paired activities/outcomes lists on the right. Phase and duration sit above. A large italic testimonial with an orange quotation mark follows.
+
+### Observed mobile behavior
+
+The module becomes phase/duration, goal, marks, explanation, activities, then outcomes in one column. The supporting quote follows with attribution before the next offer begins; complementary phone views capture both portions.
+
+### Rebuild recipe
+
+Create a repeated engagement module with scope and outcome fields separated in the data. Use a two-column desktop layout, then a small internal list grid. Stack in logical reading order on phones. Keep duration as a qualified expectation, not an unexplained guarantee.
+
+### Asset production
+
+Approved client marks, a relevant attributed quote and a precise engagement definition. Typography and spacing carry the visual design; no large hero image is necessary.
+
+### Adaptation decisions
+
+Express the service as the customer's goal. Make activities concrete and outputs useful enough to inform a buying decision. Replace generic outcome promises with deliverables or success criteria that the team can actually commit to.
+
+### Interaction evidence and gaps
+
+Services navigation and cookie dismissal were used. Scope lists, proof links and responsive order inspected; linked client stories, inquiry submission and any sales qualification flow were not tested.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
+## Instrument — filterable work grid with separate display modes
+
+ID: `instrument-portfolio` · Type: portfolio · Observed: 2026-11-06
+
+Source: [Instrument — filterable work grid with separate display modes](https://www.instrument.com/work/grid)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: category chips and an independent grid/stack switch above large rounded project posters with compact labels
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/instrument-portfolio-desktop.jpg), [view 2](shots/instrument-portfolio-desktop-filter.jpg)
+
+Mobile: [view 1](shots/instrument-portfolio-mobile.jpg)
+
+### Use when
+
+A substantial project archive with a small meaningful set of service categories.
+
+### Avoid when
+
+A small portfolio where filters hide scarce evidence or categories overlap so much that the selection adds little value.
+
+### Content slots
+
+Portfolio introduction; category controls; current selection; display control; project poster; client/project name; category tags; project destination.
+
+### Desktop composition
+
+A large brand heading precedes a thin rule and controls, with filters left and display mode right. In grid mode, two equally sized rounded image blocks sit in each row, with short client names and uppercase category labels below.
+
+### Observed mobile behavior
+
+Grid cards become one column. The filter area condenses to a Filter control plus the selected category and a small Grid control. Project images keep generous size and names remain below them.
+
+### Rebuild recipe
+
+Separate category and display state. Use real links with URL state when filtered pages are addressable; preserve category when changing display. Render project cards from one dataset and reserve image aspect ratios. Provide a meaningful no-results state and selected-control semantics.
+
+### Asset production
+
+Original project posters with consistent crops, current project metadata and actual case-study destinations. Use static imagery as a dependable base; animated previews should have posters and reduced-motion alternatives.
+
+### Adaptation decisions
+
+Choose categories customers can use to assess relevance. Add a one-line project result if client names alone are insufficient. Reduce the source's large control-to-grid gap for a compact homepage version.
+
+### Interaction evidence and gaps
+
+Grid mode was opened from the display control, then the product category selected; the resulting route retained /grid and the product chip was visibly selected. Phone controls were inspected but not opened. Several Vimeo embeds in stack mode were unavailable; grid posters loaded.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
+## Humaan — featured project followed by paired visual cards
+
+ID: `humaan-portfolio` · Type: portfolio · Observed: 2026-11-06
+
+Source: [Humaan — featured project followed by paired visual cards](https://www.humaan.com/work)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: one wide flagship project leading into paired portrait-like project cards, with captions moved below images on phones
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/humaan-portfolio-desktop.jpg), [view 2](shots/humaan-portfolio-desktop-grid.jpg)
+
+Mobile: [view 1](shots/humaan-portfolio-mobile.jpg)
+
+### Use when
+
+A curated portfolio with one strong lead project and enough distinctive finished work to support varied crops.
+
+### Avoid when
+
+An exhaustive archive where consistent compact scanning matters more than curation, or imagery too weak to carry large cards.
+
+### Content slots
+
+Short work promise; sector/category routes; flagship poster; subsequent project posters; persistent project names; case-study destinations.
+
+### Desktop composition
+
+On a warm light background, a nearly full-width rounded flagship card is followed by two large rounded cards per row. Website mockups and photography are composed as project-specific posters. Names sit at the bottom-left of desktop imagery.
+
+### Observed mobile behavior
+
+Category routes wrap as pills. All projects become one column; the first project's name sits outside the image below, improving readability at small size. Floating bottom navigation can overlap the next card.
+
+### Rebuild recipe
+
+Use a two-column grid with an explicit featured item spanning both columns. Define project-specific desktop and phone crops; move captions into normal flow at the mobile breakpoint. Keep each card a clearly named link with focus treatment independent of image motion.
+
+### Asset production
+
+High-quality finished-work posters combining actual product views, brand graphics or photography. Prepare alternate crops and sufficient contrast behind desktop captions. Avoid manufacturing client work or implying unperformed projects.
+
+### Adaptation decisions
+
+Choose the flagship based on relevance to the buyer, not just visual spectacle. Add discipline or outcome captions where project names lack context. Keep captions visible on touch devices and position persistent navigation away from them.
+
+### Interaction evidence and gaps
+
+Category destinations and project links inspected; category navigation, hover previews and project detail pages were not exercised. Featured remained the active route; the bright Education chip in the phone capture is a pointer-hover treatment.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
+## Locomotive — project index with expandable rich previews
+
+ID: `locomotive-portfolio` · Type: portfolio · Observed: 2026-11-06
+
+Source: [Locomotive — project index with expandable rich previews](https://locomotive.ca/en/work)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a scannable name/industry/location index that expands one project into imagery, scope and clear case-study/live-site routes
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/locomotive-portfolio-desktop.jpg), [view 2](shots/locomotive-portfolio-desktop-preview.jpg)
+
+Mobile: [view 1](shots/locomotive-portfolio-mobile.jpg), [view 2](shots/locomotive-portfolio-mobile-preview.jpg)
+
+### Use when
+
+A larger project archive whose industries and geography meaningfully help visitors select work.
+
+### Avoid when
+
+A short portfolio that would be better shown immediately or a gallery where hidden imagery adds unnecessary friction.
+
+### Content slots
+
+Portfolio promise; project count/filter; project name; industry; location; expand/collapse; preview image; scope; summary; year; case-study and live-site destinations.
+
+### Desktop composition
+
+A white typographic index aligns names, industries and locations in three broad columns. Opening a row inserts scope/thumbnail at left, a large project visual in the center and summary/actions at right, with later rows pushed below.
+
+### Observed mobile behavior
+
+Rows show name and industry beside a thumbnail and plus/minus control; location drops from the visible row. The expanded project stacks scope, summary and actions before the large visual. A native category selector appears in the DOM.
+
+### Rebuild recipe
+
+Store row metadata and preview content together. Use explicit disclosure buttons with expanded state, controlled panels and keyboard support. Preserve the row's location during expansion. Build desktop preview grid areas and a deliberate phone order instead of shrinking the desktop layout.
+
+### Asset production
+
+Real project thumbnails and larger preview images, concise scope/summary, year and correct detail/live destinations. Supply optimized small previews and replace loading placeholders with useful posters.
+
+### Adaptation decisions
+
+Use metadata relevant to the buyer; a local contractor might show service/location/year instead of creative discipline. Keep the case-study route distinct from the external live site. Maintain accessible names even when the visual affordance is a plus sign.
+
+### Interaction evidence and gaps
+
+FinalFinal was opened from its row, revealing a named preview and two destination links. Close collapsed it. Filter selection, keyboard behavior and onward links were not tested. Some later phone thumbnails were still low-resolution loading placeholders.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
+## Instrument / Oura — rationale, paired deliverables and a time-bounded impact block
+
+ID: `instrument-case` · Type: case-study · Observed: 2026-11-06
+
+Source: [Instrument / Oura — rationale, paired deliverables and a time-bounded impact block](https://www.instrument.com/work/oura-smart-ring)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a case-study sequence that connects design rationale to paired product/site visuals and a concise post-launch impact list
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/instrument-case-desktop-visual.jpg), [view 2](shots/instrument-case-desktop-approach.jpg), [view 3](shots/instrument-case-desktop.jpg)
+
+Mobile: [view 1](shots/instrument-case-mobile.jpg)
+
+### Use when
+
+A substantial redesign with documented research, finished artifacts and credible post-launch evidence.
+
+### Avoid when
+
+A project with attractive mockups but no support for its claimed outcomes, or a case where a simple before/after image is sufficient.
+
+### Content slots
+
+Client and challenge; design rationale; implementation principles; paired deliverable visuals; impact time window; result measures; attributed client proof; project roles.
+
+### Desktop composition
+
+The case uses a dark slate field with light editorial prose in a narrower centered column. Two tall rounded visual panels show the product treatment beside its mobile website context. A later full-width impact heading and large bullet list state results with a post-launch window.
+
+### Observed mobile behavior
+
+The impact heading and large result bullets become a single readable column. The saved phone frame includes the following media container, which failed to load in this environment. Desktop stills provide the usable visual evidence.
+
+### Rebuild recipe
+
+Build the story from distinct context, decision, artifact and impact modules. Alternate reading-width text with wider media pairs. Store result value, unit, definition, period and evidence separately from visual styling. Stack media on phones and use explicit static posters if video cannot play.
+
+### Asset production
+
+Client-owned finished product/site images, original rationale and verified analytics with permission to publish. Prepare paired crops that explain the relationship between product and experience, plus video posters and accessible descriptions.
+
+### Adaptation decisions
+
+Use only the client's actual results. Specify baseline, metric definition and observation period; the source's mobile-performance percentage is ambiguous and should not be copied as a complete measurement. Distinguish correlation from demonstrated causal impact.
+
+### Interaction evidence and gaps
+
+Rationale, paired visuals, impact text and project roles inspected. No video was played, and some embedded media was unavailable. The results are source-reported claims, not independently verified conversion evidence.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
+## ustwo / RVO Health — contextualized impact cards before the deeper story
+
+ID: `ustwo-case` · Type: case-study · Observed: 2026-11-06
+
+Source: [ustwo / RVO Health — contextualized impact cards before the deeper story](https://ustwo.com/work/rvo-health/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: an early impact section with three comparable result cards, each keeping its baseline or timeframe next to the headline figure
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/ustwo-case-desktop-intro.jpg), [view 2](shots/ustwo-case-desktop.jpg)
+
+Mobile: [view 1](shots/ustwo-case-mobile.jpg)
+
+### Use when
+
+A product or service case with a few comparable, well-defined outcomes and a deeper explanation available below.
+
+### Avoid when
+
+Results without denominators, baseline or timeframe, or an engagement story being misrepresented as a validated clinical outcome.
+
+### Content slots
+
+Project identity and deliverable image; plain-language purpose; impact intro/timeframe; three result cards; comparison context; explanation; attributed proof; challenge; partnership; approach; next steps.
+
+### Desktop composition
+
+A large product illustration introduces the case. The later dark impact band uses a centered reading-width heading/introduction, a wider row of three navy cards, then supporting prose. Bright figure labels and larger explanatory text separate the measure from its context.
+
+### Observed mobile behavior
+
+The three impact cards stack in a single column with their comparison text intact. The explanatory narrative follows. The source uses very small condensed metric labels even on desktop; increase their size in an adaptation.
+
+### Rebuild recipe
+
+Use a case-study article with separate context, impact, challenge and approach sections. Render impact cards from value/unit/baseline/period/evidence records. Set a shared desktop card grid and one-column phone layout; use actual text rather than embedding metrics into images.
+
+### Asset production
+
+A real product poster with approved sample content, permissioned customer quote and documented measurement definitions. Protect user data in product captures; use synthetic examples for sensitive content while keeping the actual product design faithful.
+
+### Adaptation decisions
+
+Retain comparison and timeframe beside each number. Treat engagement measures as engagement, and specify the actual outcome being claimed. Review any clinical or regulated assertion with the evidence owner. Update dated future-tense rollout language rather than copying it.
+
+### Interaction evidence and gaps
+
+The case was opened through the studio's work card. Context, impact cards and the challenge/approach structure were inspected. Video and inquiry routes were not exercised. Reported results and rollout claims were not independently verified.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
+## Lime / TOKEN2049 — project facts, before/after evidence and an explained experiment
+
+ID: `lime-case` · Type: case-study · Observed: 2026-11-06
+
+Source: [Lime / TOKEN2049 — project facts, before/after evidence and an explained experiment](https://limestud.io/work/token2049)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a concise scope table and visual A/B comparison connected to a result explanation that includes timeframe and sample sizes
+
+Editorial scores: conversion clarity 9/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/lime-case-desktop-visual.jpg), [view 2](shots/lime-case-desktop.jpg), [view 3](shots/lime-case-desktop-outcomes.jpg)
+
+Mobile: [view 1](shots/lime-case-mobile.jpg), [view 2](shots/lime-case-mobile-outcomes.jpg)
+
+### Use when
+
+A design engagement with real strategic tradeoffs, visible deliverables and publishable comparison evidence.
+
+### Avoid when
+
+Uncontrolled projects presented as experiments, or a case with no permission to show the previous design or its performance data.
+
+### Content slots
+
+Project identity; brief; duration/status; category; scope; attributed customer proof; strategic decision and tradeoff; approach; before/after artifact; result method; lasting operational outcome; inquiry route.
+
+### Desktop composition
+
+The white overview uses a serif heading, short context paragraph and thin ruled fact rows with labels left and values right. Dark green proof and visual regions interrupt the narrative. A large side-by-side A/B checkout image provides visual evidence; a later outcome section explains the comparison before the final inquiry band.
+
+### Observed mobile behavior
+
+Overview facts become label/value stacks within ruled rows. Outcome prose becomes a narrow reading column with the reported timeframe and comparison counts kept together. Complementary phone views capture brief and results separately.
+
+### Rebuild recipe
+
+Create a reusable case schema for context, project facts, decisions, artifacts and evidence. Use a definition list for project facts, reading-width narrative sections and a dedicated comparison figure with captions. Keep outcome method next to its claimed result; let phones open or zoom dense comparison artwork.
+
+### Asset production
+
+Approved project artifacts, permission to show earlier/new designs, an actual experiment summary and an attributed quote. Provide legible individual comparison images for phones instead of relying solely on a dense combined screenshot.
+
+### Adaptation decisions
+
+Explain what the team chose and what it gave up. Report dates, sample sizes and outcome definitions when available. Only claim statistical significance when the client can supply the analysis; the source's test and uplift are reported, not independently audited here.
+
+### Interaction evidence and gaps
+
+Overview, strategy, approach, comparison artwork and outcome explanation inspected. No checkout, booking or experiment was executed. The screenshot's image alt describes an older partnership-page visual, while the observed artwork is an A/B checkout comparison; the recipe follows the observed image.
+
+### Verification
+
+Live desktop and phone layouts inspected; saved screenshots reviewed. Scores describe editorial conversion clarity and visual impact, not measured performance. No complete rebuild validation.
+
 ## Humaan — staged culture photography and a large purpose statement
 
 ID: `humaan-about` · Type: about · Observed: 2026-11-06
