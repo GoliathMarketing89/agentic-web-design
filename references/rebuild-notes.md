@@ -900,6 +900,566 @@ A browser screenshot of a public X video poster was inspected. Visible controls 
 
 Original post: https://x.com/r0melus/status/2119580885951320550. Original X post inspected: @r0melus credits Codex generally, without a model version. The claimed motion and login-card behavior were not tested. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2119580868469493760/pu/img/KGHzLXm5Q2zohV6W?format=webp&name=medium. Discovered on the public creator profile. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
 
+## Detent — exploded keyboard switch
+
+ID: `x2-florence-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Detent — exploded keyboard switch](https://x.com/flxrnc/status/2108607635230446004)
+
+Status: observed shared-media concept; not rebuild-validated.
+
+Borrow: An exploded key switch balances a giant two-line headline, with price inside the preorder action and a row of technical chips.
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x2-florence.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A premium physical product with meaningful internal engineering and a short preorder proposition.
+
+### Avoid when
+
+Offers without meaningful hardware detail; a decorative exploded view could suggest engineering the product does not have.
+
+### Content slots
+
+Minimal navigation; new-product/category eyebrow; short headline; two-line product description; purchase action with price; teardown link; four factual spec chips; exploded product render.
+
+### Desktop composition
+
+An off-white field carries large black left-aligned typography and a small terracotta punctuation accent. The right half contains a terracotta keycap lifted above a silver plate, spring and black base. Purchase and teardown actions align beneath copy; outlined spec pills form the bottom row.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: place headline and purchase action first, then a smaller exploded diagram and a wrapping spec list. Give the teardown a normal link rather than relying on scroll instructions.
+
+### Rebuild recipe
+
+Start with a semantic header and 45/55 hero grid, 64–80px desktop gutters and a 500px text measure. Use an accurately rendered transparent product image in the right track. Start with a 96–128px heavy headline and 16–20px body. Add a purchase link containing a real price and a separate teardown anchor. Only after the static composition works, animate the assembly layers against bounded scroll progress.
+
+### Asset production
+
+Produce an accurate CAD/Blender render of the real product with separate keycap, plate, spring and base layers; match one lighting setup across them. Keep text, price and spec labels in HTML. A still is sufficient for this hero; the source post does not establish its runtime asset technique.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Preserve the relationship between the asset and the visitor action.
+
+### Interaction evidence and gaps
+
+Shared media visually inspected; controls in the screenshot are pixels, not validated UI. Browser-rendered public X poster inspected. Runtime interaction, keyboard behavior, responsiveness and reduced motion remain untested.
+
+### Verification
+
+Creator: Florence (@flxrnc). Original post inspected; creator reports Opus 5.5. Model provenance is a creator claim, not independently verified. Original post: https://x.com/flxrnc/status/2108607635230446004. Evidence is shared video media, not an inspected responsive website. Mobile notes are proposals. Discovery: https://oneshotted.io/v/claude-opus-55-is-insane-for-landing-page. Poster: https://pbs.twimg.com/amplify_video_thumb/2108606324204322816/img/XUMhT7sL47Z0_qed?format=webp&name=medium. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## UnifiedChat — calm inbox with floating messages
+
+ID: `x2-dhruval-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [UnifiedChat — calm inbox with floating messages](https://x.com/dhruvalgolakiya/status/2102802914024845385)
+
+Status: observed shared-media concept; not rebuild-validated.
+
+Borrow: A restrained serif promise and email signup sit opposite floating message cards, with actual inbox UI entering at the bottom.
+
+Editorial scores: conversion clarity 7/9; visual impact 8/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x2-dhruval.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A productivity app consolidating several inputs into one understandable workflow.
+
+### Avoid when
+
+A product with no working UI or unverified integration support; placeholder messages must not become false customer evidence.
+
+### Content slots
+
+Floating navigation bar; two-line outcome; short platform/product explanation; email and early-access action; small offer qualifier; floating message cards; product UI preview.
+
+### Desktop composition
+
+A white canvas has a very soft peach/pink glow behind the right-side message layer. Left-aligned serif heading and compact body sit above a horizontal email/action pair. A rounded application window begins near the lower edge. The saved opening frame shows one floating message; later playback showed the inbox and feature sections.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: stack heading, description and labeled form before the preview. Retain at most two short message cards below the action and use a vertically stacked email/button pair.
+
+### Rebuild recipe
+
+Build a two-column hero with a 480px left text measure and a positioned decorative message group on the right. Start with a 48–60px serif heading, 18px body and 12px form gap. Keep message fragments as small inert components, not a second functioning inbox. Put a genuine UI screenshot or HTML preview directly below. Implement real labels, validation and success/error states for signup.
+
+### Asset production
+
+Use original or consented demonstration messages, avatar placeholders and accurate product UI. Create the glow with CSS radial gradients. Source logos are conceptual integration references; verify actual supported platforms before listing them.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Preserve the relationship between the asset and the visitor action.
+
+### Interaction evidence and gaps
+
+Shared media visually inspected; controls in the screenshot are pixels, not validated UI. Video playback was inspected in a public archive. Runtime interaction, keyboard behavior, responsiveness and reduced motion remain untested.
+
+### Verification
+
+Creator: Dhruval (@dhruvalgolakiya). Original post inspected; creator reports Opus 5.5. Model provenance is a creator claim, not independently verified. Original post: https://x.com/dhruvalgolakiya/status/2102802914024845385. Evidence is shared video media, not an inspected responsive website. Mobile notes are proposals. Discovery: https://oneshotted.io/v/landing-page-built-with-color-and-animation. Public playback: https://r2.oneshotted.io/media/2102802914024845385/full.mp4. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## Verdant — valley-to-underground cloud
+
+ID: `x2-verdant-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Verdant — valley-to-underground cloud](https://x.com/viktoroddy/status/2109984169845821651)
+
+Status: observed shared-media concept; not rebuild-validated.
+
+Borrow: A lush valley and floating glass emblem frame a low-centered mixed-serif headline, setting up an underground scroll journey.
+
+Editorial scores: conversion clarity 3/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x2-verdant.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A brand campaign with a defensible connection between the landscape journey and the product story.
+
+### Avoid when
+
+Acquisition pages that cannot afford a slow scenic intro, or projects where the visual metaphor obscures the actual offer.
+
+### Content slots
+
+Small wordmark; compact menu; scenic environment; floating emblem; short mixed-type headline; supporting paragraph; add a visible product action.
+
+### Desktop composition
+
+Mossy rocks and grass fill the foreground beneath a pale green/gold horizon. A translucent cross-like emblem floats over the central path. Large white italic/upright serif words sit low in the frame. The source paragraph visibly discusses crowd-control weapons rather than cloud infrastructure; this is a concept-content mismatch, not useful product copy.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: use the static valley with a shorter heading and solid action row. Replace the deep camera descent with ordinary stacked story sections.
+
+### Rebuild recipe
+
+Get the still composition right using a licensed or original valley render and a live HTML headline. Add a legible text overlay and a primary action. If a scroll descent is justified, define a camera spline and a few stable content stops, then damp scroll progress and test clipping. Use instanced vegetation and conservative device pixel ratio. Provide a static scene when WebGL fails or reduced motion is requested.
+
+### Asset production
+
+Render a coherent green valley, mossy rocks, path and a separate frosted emblem. Three.js is an implementation option consistent with the post context, but this capture does not prove the exact source technique. Deliver a strong still before commissioning camera movement.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Keep an immediate primary action and a static scene fallback.
+
+### Interaction evidence and gaps
+
+Shared media visually inspected; controls in the screenshot are pixels, not validated UI. Browser-rendered public X poster inspected. Runtime interaction, keyboard behavior, responsiveness and reduced motion remain untested.
+
+### Verification
+
+Creator: Viktor Oddy (@viktoroddy). Original post inspected; creator reports Opus 5.5. Model provenance is a creator claim, not independently verified. Original post: https://x.com/viktoroddy/status/2109984169845821651. Evidence is shared video media, not an inspected responsive website. Mobile notes are proposals. Discovery: https://comotion.design/v/verdant. Poster: https://pbs.twimg.com/amplify_video_thumb/2109984095912792065/img/kHzbWz0ZUksR1v9F?format=webp&name=medium. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## Sunseto — solar home at dusk
+
+ID: `x2-mengto-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Sunseto — solar home at dusk](https://x.com/MengTo/status/2103491024287084744)
+
+Status: observed live desktop/mobile concept; not rebuild-validated.
+
+Borrow: A warm Japanese home scene joins the solar promise to an address-check form, while a floating panel makes the system tangible.
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/x2-sunseto-desktop.jpg)
+
+Mobile: [view 1](shots/x2-sunseto-mobile.jpg)
+
+### Use when
+
+A geographically constrained home service where eligibility depends on a property address.
+
+### Avoid when
+
+A local contractor whose real premises or installed systems would be misrepresented by a fictional generated scene.
+
+### Content slots
+
+Floating brand/navigation; service/category line; large serif benefit; concise monthly-plan explanation; address field and eligibility button; panel illustration and energy annotations.
+
+### Desktop composition
+
+The live desktop hero fills the viewport with a warm dusk house and roof panels. An amber translucent navigation bar floats above. White serif type and address form occupy the left; a framed solar panel and energy labels occupy the right. Thin guide lines and drifting petals unify the scene.
+
+### Observed mobile behavior
+
+Observed at requested 390×844 (saved raster 375×812): header becomes wordmark plus hamburger; panel remains near the top right; the house crops vertically; category, two-line heading, description and address/button row move into the lower portion. The mobile form remains visible in the saved viewport.
+
+### Rebuild recipe
+
+Use a full-bleed scene/poster, local darkening gradient, floating header and two-column content grid. Start with a 650px left heading measure, 72–88px serif title and 18px body. Keep the address form semantic and connected to a real eligibility flow. Treat the right panel and energy labels as explanatory visuals, backed by real product data where presented as facts. Wait for art loading only behind a usable poster and visible text.
+
+### Asset production
+
+Produce original dusk house art, roof panels, an isolated panel render and optional lightweight particles. The creator explicitly describes Three.js scenes and reference-led design. That report does not license their scene or prove any solar performance claim. Use authentic client installation imagery where premises or outcomes need to be factual.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Preserve the relationship between the asset and the visitor action.
+
+### Interaction evidence and gaps
+
+Live page inspected at desktop and requested 390×844 mobile. Navigation/form controls were observed, but no form was submitted and no transaction was attempted. Keyboard flows, errors, reduced motion, loading performance and full scroll interactions remain untested.
+
+### Verification
+
+Creator: Meng To (@MengTo). Original post inspected; creator reports Opus 5.5. Model provenance is a creator claim, not independently verified. Original post: https://x.com/MengTo/status/2103491024287084744. Live page: https://sunset.mengto.here.now. Discovery: https://oneshotted.io/v/threejs-landing-page-scene-design-tutorial. Poster: https://pbs.twimg.com/amplify_video_thumb/2103485640809848832/img/tagZj2CKCZV8h34w?format=webp&name=medium. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## WithLore — chrome sculpture agency
+
+ID: `x2-nicholas-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [WithLore — chrome sculpture agency](https://x.com/itsnicholash/status/2064809351211078019)
+
+Status: observed shared-media concept; not rebuild-validated.
+
+Borrow: An iridescent chrome sculpture floats over a giant condensed headline, while two compact project/work actions stay beneath it.
+
+Editorial scores: conversion clarity 5/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x2-nicholas.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A creative studio whose portfolio can substantiate an experimental visual identity.
+
+### Avoid when
+
+A service offer that needs instant clarity or cannot provide a strong real portfolio.
+
+### Content slots
+
+Tiny brand and three-link navigation; studio eyebrow; short oversized headline; one-sentence positioning; project inquiry and portfolio actions; decorative central object; location/footer metadata.
+
+### Desktop composition
+
+The pale canvas uses a hairline top/bottom frame. A large heavy uppercase headline is centered behind a lumpy black/chrome object with rainbow edge highlights; a clear sphere floats upper left. Small body copy and black/outlined pills sit under the object. The overlap obscures part of the promise in the saved frame.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: put a smaller sculpture between a readable headline and the action row. Remove the foreground overlap and use a static image for modest devices.
+
+### Rebuild recipe
+
+Build the headline and action region in normal HTML, with an isolated decorative canvas/image layer over a reserved visual band. Start with a 100–140px condensed heading and 12–14px tracked metadata. Restrict the object bounds so it cannot hide essential words or controls. If draggable, constrain rotation and offer a keyboard-operable equivalent; do not make dragging necessary to understand the page.
+
+### Asset production
+
+Create an original chrome organic form in Blender or Three.js, with a restrained environment map and a still fallback. Audit licenses of any shader or mesh used. The creator says the agent searched for open-source Three.js projects; this does not grant reuse rights to those projects.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Keep an immediate primary action and a static scene fallback.
+
+### Interaction evidence and gaps
+
+Shared media visually inspected; controls in the screenshot are pixels, not validated UI. Browser-rendered public X poster inspected. Runtime interaction, keyboard behavior, responsiveness and reduced motion remain untested.
+
+### Verification
+
+Creator: Nicholas H (@itsnicholash). Original post inspected; creator reports Fable (creator names family; archive labels 5.1). Model provenance is a creator claim, not independently verified. Original post: https://x.com/itsnicholash/status/2064809351211078019. Evidence is shared video media, not an inspected responsive website. Mobile notes are proposals. Discovery: https://oneshotted.io/v/threejs-agency-website-hero-section. Poster: https://pbs.twimg.com/amplify_video_thumb/2064809141768507393/img/mcQUwz60DJWp6-Zq?format=webp&name=medium. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## KYNTRA Raven-X — quiet product sculpture
+
+ID: `x2-washoku-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [KYNTRA Raven-X — quiet product sculpture](https://x.com/EWashoku/status/2104211672370201053)
+
+Status: observed live desktop/mobile concept; not rebuild-validated.
+
+Borrow: A precisely lit bicycle floats above an extremely light product name and sparse chapter metadata in a white gallery.
+
+Editorial scores: conversion clarity 4/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/x2-bicycle-desktop.jpg)
+
+Mobile: [view 1](shots/x2-bicycle-mobile.jpg)
+
+### Use when
+
+A concept product or premium object with a high-quality model and a guided technical story.
+
+### Avoid when
+
+A purchase-first page where price, availability and an obvious action must be visible immediately.
+
+### Content slots
+
+Wordmark/model identifier; restrained section navigation; category line; large product model; light-weight product name and short descriptor; chapter number and scroll cue; inquiry route.
+
+### Desktop composition
+
+The live desktop scene centers a large black suspension bike against white, with a soft contact shadow. Small navigation runs across the top. The oversized thin model name anchors lower left; chapter notation and a thin rule close the frame. It is explicitly a fictional model, not for sale.
+
+### Observed mobile behavior
+
+Observed at requested 390×844 (raster 375×812): top links collapse to a hamburger; the full bicycle scales down into the middle of a tall white stage; product name and chapter metadata move to the lower screen. Large vertical whitespace remains. A primary inquiry action is not visible in the saved mobile hero.
+
+### Rebuild recipe
+
+Start with a plain white product-stage hero, accurate model or transparent render, semantic title and real inquiry route. Use a wide object stage above a lower metadata grid, 48–64px desktop gutters and a 72–100px light-weight model title. If implementing the six-chapter progression, provide ordinary section links as well as scroll movement. Add a visible inquiry action near the model name for a commercial adaptation.
+
+### Asset production
+
+Produce a licensed accurate bike model with sensible polygon count, baked textures and a shadow catcher. The post names Opus 5.5 and 3D product demos. The live footer says specifications are explanatory and no capacity/output/weight/price claims are defined; replace concept specs with verified real data.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Keep an immediate primary action and a static scene fallback.
+
+### Interaction evidence and gaps
+
+Live page inspected at desktop and requested 390×844 mobile. Navigation/form controls were observed, but no form was submitted and no transaction was attempted. Keyboard flows, errors, reduced motion, loading performance and full scroll interactions remain untested.
+
+### Verification
+
+Creator: Washoku (@EWashoku). Original post inspected; creator reports Opus 5.5. Model provenance is a creator claim, not independently verified. Original post: https://x.com/EWashoku/status/2104211672370201053. Live page: https://bicycle.washoku.dev. Discovery: https://oneshotted.io/v/3d-bicycle-product-demo-site. Poster: https://pbs.twimg.com/amplify_video_thumb/2104211578589736960/img/34Q1BrRQ4hbVllrr?format=webp&name=medium. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## Pulse — portrait and sound-wave rings
+
+ID: `x2-pulse-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Pulse — portrait and sound-wave rings](https://x.com/HamidoFx1/status/2102758260529082524)
+
+Status: observed shared-media concept; not rebuild-validated.
+
+Borrow: A headphone portrait is wrapped by thin concentric sound-wave arcs beside a bold promise and white listening action.
+
+Editorial scores: conversion clarity 7/9; visual impact 8/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x2-pulse.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A music, audio or listening experience with one clear play or trial action.
+
+### Avoid when
+
+An audio service without a real playable preview or licensed catalog.
+
+### Content slots
+
+Brand; small top navigation; category line; two-line promise; short supporting copy; listening action and artist-discovery link; portrait; decorative waves; featured-artist strip.
+
+### Desktop composition
+
+In the completed dark-mode video frame, white headline and actions occupy the left; a large headphone-wearing portrait fills the center-right. Thin white arc strokes surround the subject. A horizontal artist strip sits near the bottom. Playback also showed a light-mode entrance; the saved evidence is a paused dark hero at about 3.8 seconds.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: put the text and listening action above a shorter portrait crop, keep arcs outside the face and reduce the artist strip to a wrapping list.
+
+### Rebuild recipe
+
+Use a split grid with a live text/action column and a separately composited portrait. Draw wave arcs as SVG behind the person; keep their stroke weight around 1–2px at final size. Start with 64–80px headline type and 18px supporting text. Provide a real listening destination. If using a mode transition, render a complete first frame and keep motion optional.
+
+### Asset production
+
+License a portrait with headphone use rights and quiet left space, or commission original photography. Make arcs and flourishes as vector decoration. Use actual licensed artist content and verified names; source placeholder spellings and implied catalog availability should not be inherited.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Preserve the relationship between the asset and the visitor action.
+
+### Interaction evidence and gaps
+
+Shared media visually inspected; controls in the screenshot are pixels, not validated UI. Video playback was inspected in a public archive. Runtime interaction, keyboard behavior, responsiveness and reduced motion remain untested.
+
+### Verification
+
+Creator: Hamido Teck (@HamidoFx1). Original post inspected; creator reports GPT 6 Sol (creator wording). Model provenance is a creator claim, not independently verified. Original post: https://x.com/HamidoFx1/status/2102758260529082524. Evidence is shared video media, not an inspected responsive website. Mobile notes are proposals. Discovery: https://oneshotted.io/v/motion-piece-by-at-hamidofx1. Public playback: https://r2.oneshotted.io/media/2102758260529082524/full.mp4. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## Kveld — halo-lit guitar showroom
+
+ID: `x2-kveld-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Kveld — halo-lit guitar showroom](https://x.com/SammmAing/status/2117660269451063314)
+
+Status: observed shared-media concept; not rebuild-validated.
+
+Borrow: A central guitar stands inside a luminous gold ring, with dim neighboring instruments establishing a selectable collection.
+
+Editorial scores: conversion clarity 6/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x2-kveld.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A curated product collection where material, silhouette and sound deserve close attention.
+
+### Avoid when
+
+A broad catalog requiring fast comparison or an experience that assumes sound is enabled.
+
+### Content slots
+
+Brand; chapter navigation; sound control; visit action; short collection promise and explanation; three visible product positions; selected product name/index; detail action.
+
+### Desktop composition
+
+A black showroom contains a bright central guitar and two dim side instruments on reflective circular plinths. A gold halo outlines the selected object. Copy sits upper left; chapter progress spans the header; a visit control sits upper right. Small arrows flank the active item.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: show one guitar, one product name and a large detail action; replace distant side objects with thumbnails or next/previous buttons. Make the chapter menu a compact disclosure.
+
+### Rebuild recipe
+
+First implement an accessible product selector with one large product render and adjacent thumbnails. Add an original halo and reflective base in the art layer. Keep product name and detail action in HTML. If upgraded to Three.js, use one selected model at full detail, low-detail neighbors, bounded camera movement and a static fallback. Provide keyboard next/previous controls and an explicit sound opt-in.
+
+### Asset production
+
+The creator reports seven fictional guitars built in Blender from classic-model specifications and code-generated sound. Rebuild using client-owned or licensed models, original materials and cleared audio. Obtain a consistent front/three-quarter render for a lighter still-based implementation.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Preserve the relationship between the asset and the visitor action.
+
+### Interaction evidence and gaps
+
+Shared media visually inspected; controls in the screenshot are pixels, not validated UI. Browser-rendered public X poster inspected. Runtime interaction, keyboard behavior, responsiveness and reduced motion remain untested.
+
+### Verification
+
+Creator: Samnang Aing (@SammmAing). Original post inspected; creator reports Opus 5.5. Model provenance is a creator claim, not independently verified. Original post: https://x.com/SammmAing/status/2117660269451063314. Evidence is shared video media, not an inspected responsive website. Mobile notes are proposals. Discovered on the public creator profile. Poster: https://pbs.twimg.com/amplify_video_thumb/2117660118569439232/img/-W0ejMgL_262YPM-?format=webp&name=medium. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## Veloce Prive — portal to a private collection
+
+ID: `x2-veloce-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Veloce Prive — portal to a private collection](https://x.com/SammmAing/status/2118727033337327724)
+
+Status: observed live desktop/mobile concept; not rebuild-validated.
+
+Borrow: An inset doorway opens onto a reflective car gallery, turning the hero into an architectural invitation.
+
+Editorial scores: conversion clarity 3/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/x2-veloce-desktop.jpg)
+
+Mobile: [view 1](shots/x2-veloce-mobile.jpg)
+
+### Use when
+
+A small high-value collection with an appointment or concierge-led buying process.
+
+### Avoid when
+
+High-intent visitors needing immediate availability, rental terms or a visible booking control.
+
+### Content slots
+
+Large collection name; category line; illuminated doorway; featured vehicle; accessible collection/loan description; add an immediate inquiry action.
+
+### Desktop composition
+
+The live opening is a dark burgundy wall with a low-contrast large serif name and small category line. A centered tall doorway reveals a red car, reflective floor and receding rectangular portals. The captured opening has weak name contrast and no obvious visible action; the source video poster shows a later, closer gallery view.
+
+### Observed mobile behavior
+
+Observed at requested 390×844 (raster 381×812): the large name wraps into two lines above a taller centered doorway; the red car stays visible in the portal; the low-contrast name and absence of a visible hero action persist. Improve contrast and place an inquiry action before the portal in adaptation.
+
+### Rebuild recipe
+
+Implement the entrance as a progressive visual enhancement around an ordinary heading, offer summary and inquiry link. Start with a still architectural composition and live high-contrast text. For a 3D version, separate doorway, room and product; tie a short camera move to scroll and keep a skip-to-collection link. Ensure the collection and inquiry remain accessible without canvas or animation.
+
+### Asset production
+
+Use licensed car models and warm wall/floor materials. The live footer lists multiple model sources and different licenses, including attribution/share-alike terms; independently inspect each license before adaptation. Use client-owned product photography or approved models where possible. The source is a creator showroom concept, not verified rental inventory.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Keep an immediate primary action and a static scene fallback.
+
+### Interaction evidence and gaps
+
+Live page inspected at desktop and requested 390×844 mobile. Navigation/form controls were observed, but no form was submitted and no transaction was attempted. Keyboard flows, errors, reduced motion, loading performance and full scroll interactions remain untested.
+
+### Verification
+
+Creator: Samnang Aing (@SammmAing). Original post inspected; creator reports Opus 5.5. Model provenance is a creator claim, not independently verified. Original post: https://x.com/SammmAing/status/2118727033337327724. Live page: https://sam1983aing.github.io/veloce-prive. Discovered on the public creator profile. Poster: https://pbs.twimg.com/amplify_video_thumb/2118722741729660928/img/RdwsTDNT-Y0TrivM?format=webp&name=medium. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
+## Ethan Vale — orbiting wildlife archive
+
+ID: `x2-wildlife-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Ethan Vale — orbiting wildlife archive](https://x.com/viktoroddy/status/2102986525185343563)
+
+Status: observed shared-media concept; not rebuild-validated.
+
+Borrow: Photographic panels form an open rotating sphere around a centered serif portfolio promise.
+
+Editorial scores: conversion clarity 4/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x2-wildlife.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A photographer or visual artist with a cohesive body of excellent original work.
+
+### Avoid when
+
+Work with only a few mediocre images, or portfolios where fast image scanning matters more than spectacle.
+
+### Content slots
+
+Small identity/menu; centered editorial promise; orbiting image panels; short author bio; drag cue; field-notes/date marker; add direct archive/contact routes.
+
+### Desktop composition
+
+A black field holds rectangular wildlife photographs at different angles around a spherical volume. White serif promise sits across its center. Tiny identity/menu elements anchor the top corners, a portrait and bio occupy lower left, and a drag-to-rotate hint sits at the bottom. The saved video frame follows an eye-image preloader, which was rejected as the main evidence.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: use a static arrangement of three or four images above a readable promise and archive action. Keep a conventional image grid below; avoid a touch-only rotating sphere.
+
+### Rebuild recipe
+
+Build a usable portfolio grid and direct contact link first. For the hero, distribute image planes on a sphere using a deterministic layout and a perspective camera, leaving a clear central text band. Limit yaw/pitch, supply next/previous controls and avoid requiring drag. Keep headline/bio as HTML and offer the static archive grid when WebGL or motion is unavailable.
+
+### Asset production
+
+Use 12–20 licensed original photographs with consistent color treatment and pre-generated thumbnails. Load a small initial subset, reuse materials where possible and cap GPU texture sizes. The source claim that wildlife was captured without intervention is concept text; only make it for real documented work.
+
+### Adaptation decisions
+
+Use the composition as a starting point, then replace identity, copy, assets, numerical claims and proof with client-specific material. Keep an immediate primary action and a static scene fallback.
+
+### Interaction evidence and gaps
+
+Shared media visually inspected; controls in the screenshot are pixels, not validated UI. Video playback was inspected in a public archive. Runtime interaction, keyboard behavior, responsiveness and reduced motion remain untested.
+
+### Verification
+
+Creator: Viktor Oddy (@viktoroddy). Original post inspected; creator reports Opus 5.5. Model provenance is a creator claim, not independently verified. Original post: https://x.com/viktoroddy/status/2102986525185343563. Evidence is shared video media, not an inspected responsive website. Mobile notes are proposals. Discovery: https://oneshotted.io/v/nature-portfolio-website-animation. Public playback: https://r2.oneshotted.io/media/2102986525185343563/full.mp4. Saved images inspected; playback controls, cursors, letterboxing or source cropping may remain. Rebuild instructions and sizing are our proposals, not the creator prompt. Screenshots are study evidence, not licensed client assets. Verify the adapted component at 1440, 768, 390 and 320px.
+
 ## Raycast Pro — illustrated feature bento
 
 ID: `raycast-pro-feature-bento` · Type: bento · Observed: 2026-11-06

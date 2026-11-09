@@ -1,7 +1,7 @@
 {
   "counts": {
     "nav": 3,
-    "hero": 13,
+    "hero": 23,
     "bento": 3,
     "feature": 3,
     "comparison": 3,
@@ -880,6 +880,106 @@
       "industry": "developer tools, authentication",
       "fit": "A focused developer-product launch with a short name and a concrete product demo nearby.",
       "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x2-florence-hero",
+      "name": "Detent — exploded keyboard switch",
+      "type": "hero",
+      "styles": "light, industrial, product-render, x-sourced, ai-assisted-concept",
+      "industry": "hardware, ecommerce",
+      "fit": "A premium physical product with meaningful internal engineering and a short preorder proposition.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x2-dhruval-hero",
+      "name": "UnifiedChat — calm inbox with floating messages",
+      "type": "hero",
+      "styles": "light, pastel, serif, product-ui, x-sourced, ai-assisted-concept",
+      "industry": "software, productivity",
+      "fit": "A productivity app consolidating several inputs into one understandable workflow.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x2-verdant-hero",
+      "name": "Verdant — valley-to-underground cloud",
+      "type": "hero",
+      "styles": "green, landscape, 3d-scene, editorial, x-sourced, ai-assisted-concept",
+      "industry": "infrastructure, software",
+      "fit": "A brand campaign with a defensible connection between the landscape journey and the product story.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x2-mengto-hero",
+      "name": "Sunseto — solar home at dusk",
+      "type": "hero",
+      "styles": "warm, environmental, solar, serif, x-sourced, ai-assisted-concept",
+      "industry": "energy, home-services",
+      "fit": "A geographically constrained home service where eligibility depends on a property address.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "live-responsive"
+    },
+    {
+      "id": "x2-nicholas-hero",
+      "name": "WithLore — chrome sculpture agency",
+      "type": "hero",
+      "styles": "ivory, chrome, sculptural, bold-type, x-sourced, ai-assisted-concept",
+      "industry": "creative-agency, design",
+      "fit": "A creative studio whose portfolio can substantiate an experimental visual identity.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x2-washoku-hero",
+      "name": "KYNTRA Raven-X — quiet product sculpture",
+      "type": "hero",
+      "styles": "white, industrial, minimal, 3d-product, x-sourced, ai-assisted-concept",
+      "industry": "bicycles, hardware",
+      "fit": "A concept product or premium object with a high-quality model and a guided technical story.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "live-responsive"
+    },
+    {
+      "id": "x2-pulse-hero",
+      "name": "Pulse — portrait and sound-wave rings",
+      "type": "hero",
+      "styles": "dark, photographic, sound-waves, x-sourced, ai-assisted-concept",
+      "industry": "music, entertainment",
+      "fit": "A music, audio or listening experience with one clear play or trial action.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x2-kveld-hero",
+      "name": "Kveld — halo-lit guitar showroom",
+      "type": "hero",
+      "styles": "dark, gold, product-showroom, 3d, x-sourced, ai-assisted-concept",
+      "industry": "musical-instruments, luxury-products",
+      "fit": "A curated product collection where material, silhouette and sound deserve close attention.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x2-veloce-hero",
+      "name": "Veloce Prive — portal to a private collection",
+      "type": "hero",
+      "styles": "burgundy, architectural, luxury, 3d, x-sourced, ai-assisted-concept",
+      "industry": "automotive, luxury-rental",
+      "fit": "A small high-value collection with an appointment or concierge-led buying process.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
+      "evidence_scope": "live-responsive"
+    },
+    {
+      "id": "x2-wildlife-hero",
+      "name": "Ethan Vale — orbiting wildlife archive",
+      "type": "hero",
+      "styles": "black, photographic, 3d-gallery, serif, x-sourced, ai-assisted-concept",
+      "industry": "photography, portfolio",
+      "fit": "A photographer or visual artist with a cohesive body of excellent original work.",
+      "catalog": "patterns/x-heroes-diverse-2026-11-09.json",
       "evidence_scope": "source-media-only"
     }
   ]

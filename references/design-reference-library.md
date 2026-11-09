@@ -1,142 +1,142 @@
 ## hero
-### The Meteor — midnight cinema
-- name: The Meteor — midnight cinema
-- url: https://x.com/FellMentKE/status/2117653276309241952
+### Detent — exploded keyboard switch
+- name: Detent — exploded keyboard switch
+- url: https://x.com/flxrnc/status/2108607635230446004
 - type: hero
-- styles: dark, gold, typographic, x-sourced, ai-assisted-concept
-- industry: cinema, entertainment
+- styles: light, industrial, product-render, x-sourced, ai-assisted-concept
+- industry: hardware, ecommerce
 - source: gallery
-- borrow: Gold editorial masthead and two ticket-related actions over a near-black star field.
-- why: Gold editorial masthead and two ticket-related actions over a near-black star field. Conversion score reflects visible clarity only.
-- conv: 6
-- wow: 8
-- shot: shots/x-the-meteor.jpg
-- by: Codex
-
-### Drift — sunlit portrait
-- name: Drift — sunlit portrait
-- url: https://x.com/r0melus/status/2117768889832505636
-- type: hero
-- styles: photographic, warm, centered, x-sourced, ai-assisted-concept
-- industry: wellness, productivity
-- source: gallery
-- borrow: Sunlit portrait fills the scene while a mixed sans/italic headline sits across the lower face and shoulders.
-- why: Sunlit portrait fills the scene while a mixed sans/italic headline sits across the lower face and shoulders. Conversion score reflects visible clarity only.
-- conv: 6
-- wow: 8
-- shot: shots/x-drift.jpg
-- by: Codex
-
-### Denta — annotated smile
-- name: Denta — annotated smile
-- url: https://x.com/r0melus/status/2116266505520181439
-- type: hero
-- styles: photographic, annotation, full-bleed, x-sourced, ai-assisted-concept
-- industry: dentistry, aesthetic services
-- source: gallery
-- borrow: A fine connector pins a translucent treatment annotation to a tooth inside a full-bleed smile photograph.
-- why: A fine connector pins a translucent treatment annotation to a tooth inside a full-bleed smile photograph. Conversion score reflects visible clarity only.
-- conv: 7
+- borrow: An exploded key switch balances a giant two-line headline, with price inside the preorder action and a row of technical chips.
+- why: One hero explains the mechanical construction, price and next action without burying the product behind abstract art.
+- conv: 8
 - wow: 9
-- shot: shots/x-denta.jpg
+- shot: shots/x2-florence.jpg
 - by: Codex
 
-### Bionova — biotech bento hero
-- name: Bionova — biotech bento hero
-- url: https://x.com/r0melus/status/2116726977960767756
+### UnifiedChat — calm inbox with floating messages
+- name: UnifiedChat — calm inbox with floating messages
+- url: https://x.com/dhruvalgolakiya/status/2102802914024845385
 - type: hero
-- styles: light, pastel, bento, x-sourced, ai-assisted-concept
-- industry: biotech, consulting
+- styles: light, pastel, serif, product-ui, x-sourced, ai-assisted-concept
+- industry: software, productivity
 - source: gallery
-- borrow: A large left headline with an inline process pill balances a three-tile pastel scientific asset grid.
-- why: A large left headline with an inline process pill balances a three-tile pastel scientific asset grid. Conversion score reflects visible clarity only.
+- borrow: A restrained serif promise and email signup sit opposite floating message cards, with actual inbox UI entering at the bottom.
+- why: The layout connects a calm emotional benefit to recognizable message fragments and a concrete product preview.
 - conv: 7
 - wow: 8
-- shot: shots/x-bionova.jpg
+- shot: shots/x2-dhruval.jpg
 - by: Codex
 
-### Imperial / Legion VPN — armored sculpture
-- name: Imperial / Legion VPN — armored sculpture
-- url: https://x.com/r0melus/status/2118078425277649030
+### Verdant — valley-to-underground cloud
+- name: Verdant — valley-to-underground cloud
+- url: https://x.com/viktoroddy/status/2109984169845821651
 - type: hero
-- styles: ivory, sculptural, editorial, x-sourced, ai-assisted-concept
-- industry: security, software
+- styles: green, landscape, 3d-scene, editorial, x-sourced, ai-assisted-concept
+- industry: infrastructure, software
 - source: gallery
-- borrow: A central armored figure and sweeping pale fabric leave a narrow condensed-serif promise on the left.
-- why: A central armored figure and sweeping pale fabric leave a narrow condensed-serif promise on the left. Conversion score reflects visible clarity only.
-- conv: 4
+- borrow: A lush valley and floating glass emblem frame a low-centered mixed-serif headline, setting up an underground scroll journey.
+- why: A coherent physical world gives an invisible infrastructure offer a memorable spatial metaphor.
+- conv: 3
 - wow: 9
-- shot: shots/x-imperial-vpn.jpg
+- shot: shots/x2-verdant.jpg
 - by: Codex
 
-### Luxury Botanical — product garden
-- name: Luxury Botanical — product garden
-- url: https://x.com/r0melus/status/2116628841774907856
+### Sunseto — solar home at dusk
+- name: Sunseto — solar home at dusk
+- url: https://x.com/MengTo/status/2103491024287084744
 - type: hero
-- styles: botanical, product, warm, x-sourced, ai-assisted-concept
-- industry: fragrance, ecommerce
+- styles: warm, environmental, solar, serif, x-sourced, ai-assisted-concept
+- industry: energy, home-services
 - source: gallery
-- borrow: A fragrance bottle stands on a plinth inside a moss garden with tall flowers framing the text space.
-- why: A fragrance bottle stands on a plinth inside a moss garden with tall flowers framing the text space. Conversion score reflects visible clarity only.
-- conv: 6
+- borrow: A warm Japanese home scene joins the solar promise to an address-check form, while a floating panel makes the system tangible.
+- why: The environment communicates the evening benefit and the address field turns that atmosphere into a specific next step.
+- conv: 8
 - wow: 9
-- shot: shots/x-luxury-botanical.jpg
+- shot: shots/x2-sunseto-desktop.jpg
 - by: Codex
 
-### LinkFlow — landscape workflow metaphor
-- name: LinkFlow — landscape workflow metaphor
-- url: https://x.com/r0melus/status/2119218381383426327
+### WithLore — chrome sculpture agency
+- name: WithLore — chrome sculpture agency
+- url: https://x.com/itsnicholash/status/2064809351211078019
 - type: hero
-- styles: landscape, warm, metaphor, x-sourced, ai-assisted-concept
-- industry: automation, software
+- styles: ivory, chrome, sculptural, bold-type, x-sourced, ai-assisted-concept
+- industry: creative-agency, design
 - source: gallery
-- borrow: A moss-covered bridge literally connects two cliffs beneath the workflow promise, with tiny people adding scale.
-- why: A moss-covered bridge literally connects two cliffs beneath the workflow promise, with tiny people adding scale. Conversion score reflects visible clarity only.
-- conv: 6
-- wow: 9
-- shot: shots/x-stone-workflow.jpg
-- by: Codex
-
-### NHM concept — specimen as exhibit
-- name: NHM concept — specimen as exhibit
-- url: https://x.com/r0melus/status/2119263750851047654
-- type: hero
-- styles: monochrome, specimen, editorial, x-sourced, ai-assisted-concept
-- industry: museum, education
-- source: gallery
-- borrow: An oversized dinosaur skeleton crosses a sparse editorial grid beneath a nearly full-width letterform masthead.
-- why: An oversized dinosaur skeleton crosses a sparse editorial grid beneath a nearly full-width letterform masthead. Conversion score reflects visible clarity only.
+- borrow: An iridescent chrome sculpture floats over a giant condensed headline, while two compact project/work actions stay beneath it.
+- why: One strong shader-like object supplies personality in an otherwise disciplined monochrome composition.
 - conv: 5
 - wow: 9
-- shot: shots/x-museum.jpg
+- shot: shots/x2-nicholas.jpg
 - by: Codex
 
-### Davyos — modular enterprise sculpture
-- name: Davyos — modular enterprise sculpture
-- url: https://x.com/r0melus/status/2119527938546626946
+### KYNTRA Raven-X — quiet product sculpture
+- name: KYNTRA Raven-X — quiet product sculpture
+- url: https://x.com/EWashoku/status/2104211672370201053
 - type: hero
-- styles: light, bold-type, 3d-object, x-sourced, ai-assisted-concept
-- industry: enterprise, automation
+- styles: white, industrial, minimal, 3d-product, x-sourced, ai-assisted-concept
+- industry: bicycles, hardware
 - source: gallery
-- borrow: A huge stacked condensed headline balances a robot-like sculpture assembled from differently colored blocks.
-- why: A huge stacked condensed headline balances a robot-like sculpture assembled from differently colored blocks. Conversion score reflects visible clarity only.
-- conv: 6
-- wow: 8
-- shot: shots/x-foam-robot.jpg
-- by: Codex
-
-### AuthKit concept — stage spotlight
-- name: AuthKit concept — stage spotlight
-- url: https://x.com/r0melus/status/2119580885951320550
-- type: hero
-- styles: dark, spotlight, typography, x-sourced, ai-assisted-concept
-- industry: developer tools, authentication
-- source: gallery
-- borrow: Soft cone-shaped light makes a short product name feel like a physical object on a dark stage.
-- why: Soft cone-shaped light makes a short product name feel like a physical object on a dark stage. Conversion score reflects visible clarity only.
+- borrow: A precisely lit bicycle floats above an extremely light product name and sparse chapter metadata in a white gallery.
+- why: The product silhouette and material detail receive almost all the attention, making the composition useful for considered product exploration.
 - conv: 4
 - wow: 8
-- shot: shots/x-authkit.jpg
+- shot: shots/x2-bicycle-desktop.jpg
+- by: Codex
+
+### Pulse — portrait and sound-wave rings
+- name: Pulse — portrait and sound-wave rings
+- url: https://x.com/HamidoFx1/status/2102758260529082524
+- type: hero
+- styles: dark, photographic, sound-waves, x-sourced, ai-assisted-concept
+- industry: music, entertainment
+- source: gallery
+- borrow: A headphone portrait is wrapped by thin concentric sound-wave arcs beside a bold promise and white listening action.
+- why: The human subject makes the emotional outcome immediate while the rings link the asset to the product category.
+- conv: 7
+- wow: 8
+- shot: shots/x2-pulse.jpg
+- by: Codex
+
+### Kveld — halo-lit guitar showroom
+- name: Kveld — halo-lit guitar showroom
+- url: https://x.com/SammmAing/status/2117660269451063314
+- type: hero
+- styles: dark, gold, product-showroom, 3d, x-sourced, ai-assisted-concept
+- industry: musical-instruments, luxury-products
+- source: gallery
+- borrow: A central guitar stands inside a luminous gold ring, with dim neighboring instruments establishing a selectable collection.
+- why: Lighting establishes a clear featured object while adjacent products suggest a deeper collection.
+- conv: 6
+- wow: 9
+- shot: shots/x2-kveld.jpg
+- by: Codex
+
+### Veloce Prive — portal to a private collection
+- name: Veloce Prive — portal to a private collection
+- url: https://x.com/SammmAing/status/2118727033337327724
+- type: hero
+- styles: burgundy, architectural, luxury, 3d, x-sourced, ai-assisted-concept
+- industry: automotive, luxury-rental
+- source: gallery
+- borrow: An inset doorway opens onto a reflective car gallery, turning the hero into an architectural invitation.
+- why: The receding portals, warm material and controlled reflections make the product feel exhibited rather than listed.
+- conv: 3
+- wow: 9
+- shot: shots/x2-veloce-desktop.jpg
+- by: Codex
+
+### Ethan Vale — orbiting wildlife archive
+- name: Ethan Vale — orbiting wildlife archive
+- url: https://x.com/viktoroddy/status/2102986525185343563
+- type: hero
+- styles: black, photographic, 3d-gallery, serif, x-sourced, ai-assisted-concept
+- industry: photography, portfolio
+- source: gallery
+- borrow: Photographic panels form an open rotating sphere around a centered serif portfolio promise.
+- why: The archive itself becomes the visual asset and communicates range without a conventional grid.
+- conv: 4
+- wow: 9
+- shot: shots/x2-wildlife.jpg
 - by: Codex
 
 ### A.J. Alberts Plumbing
@@ -166,6 +166,90 @@
 - shot: shots/apple-hero-desktop.jpg
 - by: Codex; observed 2026-11-06
 
+### AuthKit concept — stage spotlight
+- name: AuthKit concept — stage spotlight
+- url: https://x.com/r0melus/status/2119580885951320550
+- type: hero
+- styles: dark, spotlight, typography, x-sourced, ai-assisted-concept
+- industry: developer tools, authentication
+- source: gallery
+- borrow: Soft cone-shaped light makes a short product name feel like a physical object on a dark stage.
+- why: Soft cone-shaped light makes a short product name feel like a physical object on a dark stage. Conversion score reflects visible clarity only.
+- conv: 4
+- wow: 8
+- shot: shots/x-authkit.jpg
+- by: Codex
+
+### Bionova — biotech bento hero
+- name: Bionova — biotech bento hero
+- url: https://x.com/r0melus/status/2116726977960767756
+- type: hero
+- styles: light, pastel, bento, x-sourced, ai-assisted-concept
+- industry: biotech, consulting
+- source: gallery
+- borrow: A large left headline with an inline process pill balances a three-tile pastel scientific asset grid.
+- why: A large left headline with an inline process pill balances a three-tile pastel scientific asset grid. Conversion score reflects visible clarity only.
+- conv: 7
+- wow: 8
+- shot: shots/x-bionova.jpg
+- by: Codex
+
+### Davyos — modular enterprise sculpture
+- name: Davyos — modular enterprise sculpture
+- url: https://x.com/r0melus/status/2119527938546626946
+- type: hero
+- styles: light, bold-type, 3d-object, x-sourced, ai-assisted-concept
+- industry: enterprise, automation
+- source: gallery
+- borrow: A huge stacked condensed headline balances a robot-like sculpture assembled from differently colored blocks.
+- why: A huge stacked condensed headline balances a robot-like sculpture assembled from differently colored blocks. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 8
+- shot: shots/x-foam-robot.jpg
+- by: Codex
+
+### Denta — annotated smile
+- name: Denta — annotated smile
+- url: https://x.com/r0melus/status/2116266505520181439
+- type: hero
+- styles: photographic, annotation, full-bleed, x-sourced, ai-assisted-concept
+- industry: dentistry, aesthetic services
+- source: gallery
+- borrow: A fine connector pins a translucent treatment annotation to a tooth inside a full-bleed smile photograph.
+- why: A fine connector pins a translucent treatment annotation to a tooth inside a full-bleed smile photograph. Conversion score reflects visible clarity only.
+- conv: 7
+- wow: 9
+- shot: shots/x-denta.jpg
+- by: Codex
+
+### Drift — sunlit portrait
+- name: Drift — sunlit portrait
+- url: https://x.com/r0melus/status/2117768889832505636
+- type: hero
+- styles: photographic, warm, centered, x-sourced, ai-assisted-concept
+- industry: wellness, productivity
+- source: gallery
+- borrow: Sunlit portrait fills the scene while a mixed sans/italic headline sits across the lower face and shoulders.
+- why: Sunlit portrait fills the scene while a mixed sans/italic headline sits across the lower face and shoulders. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 8
+- shot: shots/x-drift.jpg
+- by: Codex
+
+### Imperial / Legion VPN — armored sculpture
+- name: Imperial / Legion VPN — armored sculpture
+- url: https://x.com/r0melus/status/2118078425277649030
+- type: hero
+- styles: ivory, sculptural, editorial, x-sourced, ai-assisted-concept
+- industry: security, software
+- source: gallery
+- borrow: A central armored figure and sweeping pale fabric leave a narrow condensed-serif promise on the left.
+- why: A central armored figure and sweeping pale fabric leave a narrow condensed-serif promise on the left. Conversion score reflects visible clarity only.
+- conv: 4
+- wow: 9
+- shot: shots/x-imperial-vpn.jpg
+- by: Codex
+
 ### KUBE Saint-Tropez — cinematic destination hero
 - name: KUBE Saint-Tropez — cinematic destination hero
 - url: https://www.kubehotel-saint-tropez.com/en
@@ -193,6 +277,48 @@
 - wow: 9
 - by: Hermes
 
+### LinkFlow — landscape workflow metaphor
+- name: LinkFlow — landscape workflow metaphor
+- url: https://x.com/r0melus/status/2119218381383426327
+- type: hero
+- styles: landscape, warm, metaphor, x-sourced, ai-assisted-concept
+- industry: automation, software
+- source: gallery
+- borrow: A moss-covered bridge literally connects two cliffs beneath the workflow promise, with tiny people adding scale.
+- why: A moss-covered bridge literally connects two cliffs beneath the workflow promise, with tiny people adding scale. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 9
+- shot: shots/x-stone-workflow.jpg
+- by: Codex
+
+### Luxury Botanical — product garden
+- name: Luxury Botanical — product garden
+- url: https://x.com/r0melus/status/2116628841774907856
+- type: hero
+- styles: botanical, product, warm, x-sourced, ai-assisted-concept
+- industry: fragrance, ecommerce
+- source: gallery
+- borrow: A fragrance bottle stands on a plinth inside a moss garden with tall flowers framing the text space.
+- why: A fragrance bottle stands on a plinth inside a moss garden with tall flowers framing the text space. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 9
+- shot: shots/x-luxury-botanical.jpg
+- by: Codex
+
+### NHM concept — specimen as exhibit
+- name: NHM concept — specimen as exhibit
+- url: https://x.com/r0melus/status/2119263750851047654
+- type: hero
+- styles: monochrome, specimen, editorial, x-sourced, ai-assisted-concept
+- industry: museum, education
+- source: gallery
+- borrow: An oversized dinosaur skeleton crosses a sparse editorial grid beneath a nearly full-width letterform masthead.
+- why: An oversized dinosaur skeleton crosses a sparse editorial grid beneath a nearly full-width letterform masthead. Conversion score reflects visible clarity only.
+- conv: 5
+- wow: 9
+- shot: shots/x-museum.jpg
+- by: Codex
+
 ### Raycast — atmospheric product hero
 - name: Raycast — atmospheric product hero
 - url: https://www.raycast.com/
@@ -219,6 +345,20 @@
 - conv: 8
 - wow: 7
 - by: Hermes
+
+### The Meteor — midnight cinema
+- name: The Meteor — midnight cinema
+- url: https://x.com/FellMentKE/status/2117653276309241952
+- type: hero
+- styles: dark, gold, typographic, x-sourced, ai-assisted-concept
+- industry: cinema, entertainment
+- source: gallery
+- borrow: Gold editorial masthead and two ticket-related actions over a near-black star field.
+- why: Gold editorial masthead and two ticket-related actions over a near-black star field. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 8
+- shot: shots/x-the-meteor.jpg
+- by: Codex
 
 ### Vercel
 - name: Vercel
