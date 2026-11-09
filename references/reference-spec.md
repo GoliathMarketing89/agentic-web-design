@@ -19,6 +19,16 @@ For new visual-pattern mining, save desktop and mobile evidence and a rich recip
 
 ## The one rule that governs everything
 
+For X/social concepts without an inspectable responsive website, use rich-record
+`evidence_scope: source-media-only`. Put a browser capture of the shared media in
+`desktop`, leave `mobile` empty, and explicitly label `mobile_behavior` as a
+proposed adaptation. Record the original post, creator attribution, public media
+URL, discovery page, and model-claim provenance in the recipe. A social video or
+poster establishes visual composition only; it does not establish functional
+controls, responsiveness, asset technique, or model provenance. Keep model names
+as creator/curator claims with the source identified. The renderer labels these
+records separately from live desktop/mobile evidence.
+
 Websites convert, they don't impress for their own sake. Every entry must carry
 two independent scores — **conv** (does it convert) and **wow** (does it
 impress) — because awwwards-style sites are routinely art-over-conversion and a

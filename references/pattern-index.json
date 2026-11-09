@@ -1,7 +1,7 @@
 {
   "counts": {
     "nav": 3,
-    "hero": 3,
+    "hero": 13,
     "bento": 3,
     "feature": 3,
     "comparison": 3,
@@ -781,6 +781,106 @@
       "industry": "branding, creative-agency, event-commerce",
       "fit": "A design engagement with real strategic tradeoffs, visible deliverables and publishable comparison evidence.",
       "catalog": "patterns/services-portfolio-case-2026-11-06.json"
+    },
+    {
+      "id": "x-the-meteor-hero",
+      "name": "The Meteor — midnight cinema",
+      "type": "hero",
+      "styles": "dark, gold, typographic, x-sourced, ai-assisted-concept",
+      "industry": "cinema, entertainment",
+      "fit": "Film lovers choosing a screening or membership; the small dated program creates an immediate next step.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-drift-hero",
+      "name": "Drift — sunlit portrait",
+      "type": "hero",
+      "styles": "photographic, warm, centered, x-sourced, ai-assisted-concept",
+      "industry": "wellness, productivity",
+      "fit": "A human-centered wellness or productivity offer with one simple signup action.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-denta-hero",
+      "name": "Denta — annotated smile",
+      "type": "hero",
+      "styles": "photographic, annotation, full-bleed, x-sourced, ai-assisted-concept",
+      "industry": "dentistry, aesthetic services",
+      "fit": "A visual service where one precise detail explains the offer and booking is the primary job.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-bionova-hero",
+      "name": "Bionova — biotech bento hero",
+      "type": "hero",
+      "styles": "light, pastel, bento, x-sourced, ai-assisted-concept",
+      "industry": "biotech, consulting",
+      "fit": "An advisory offer that needs both a clear promise and a small amount of structured credibility.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-imperial-vpn-hero",
+      "name": "Imperial / Legion VPN — armored sculpture",
+      "type": "hero",
+      "styles": "ivory, sculptural, editorial, x-sourced, ai-assisted-concept",
+      "industry": "security, software",
+      "fit": "A brand campaign that can support a strong visual metaphor with concrete product proof immediately below.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-luxury-botanical-hero",
+      "name": "Luxury Botanical — product garden",
+      "type": "hero",
+      "styles": "botanical, product, warm, x-sourced, ai-assisted-concept",
+      "industry": "fragrance, ecommerce",
+      "fit": "A single premium product or collection whose physical form is the main selling image.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-stone-workflow-hero",
+      "name": "LinkFlow — landscape workflow metaphor",
+      "type": "hero",
+      "styles": "landscape, warm, metaphor, x-sourced, ai-assisted-concept",
+      "industry": "automation, software",
+      "fit": "An integration or workflow product whose benefit can be expressed as connection across a gap.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-museum-hero",
+      "name": "NHM concept — specimen as exhibit",
+      "type": "hero",
+      "styles": "monochrome, specimen, editorial, x-sourced, ai-assisted-concept",
+      "industry": "museum, education",
+      "fit": "A museum, exhibition or archive where one authentic object can introduce the collection.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-foam-robot-hero",
+      "name": "Davyos — modular enterprise sculpture",
+      "type": "hero",
+      "styles": "light, bold-type, 3d-object, x-sourced, ai-assisted-concept",
+      "industry": "enterprise, automation",
+      "fit": "An enterprise offer with a simple positioning statement and a tangible metaphor for systems working together.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
+    },
+    {
+      "id": "x-authkit-hero",
+      "name": "AuthKit concept — stage spotlight",
+      "type": "hero",
+      "styles": "dark, spotlight, typography, x-sourced, ai-assisted-concept",
+      "industry": "developer tools, authentication",
+      "fit": "A focused developer-product launch with a short name and a concrete product demo nearby.",
+      "catalog": "patterns/x-heroes-2026-11-09.json",
+      "evidence_scope": "source-media-only"
     }
   ]
 }

@@ -32,7 +32,7 @@ def main():
             raise ValueError(f"Duplicate pattern ID: {entry['id']}")
         ids.add(entry["id"])
         for group in ("desktop", "mobile"):
-            if not entry[group]:
+            if not entry[group] and not (group == "mobile" and entry.get("evidence_scope") == "source-media-only"):
                 raise ValueError(f"Missing {group} evidence: {entry['id']}")
             for shot in entry[group]:
                 path = (ROOT / shot).resolve()
@@ -53,7 +53,8 @@ def main():
     counts = {kind: sum(e["type"] == kind for e in entries) for kind in kinds}
     index = {"counts": counts, "patterns": [
         {key: e[key] for key in ("id", "name", "type", "styles", "industry", "fit")}
-        | {"catalog": catalogs[e["id"]]} for e in entries
+        | {"catalog": catalogs[e["id"]]}
+        | ({"evidence_scope": e["evidence_scope"]} if "evidence_scope" in e else {}) for e in entries
     ]}
     (ROOT / "pattern-index.json").write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     labels = {"location": "Locations and visits", "article": "Article layouts", "search": "Search and discovery", "ecommerce": "Product details", "nav": "Navigation", "logo-cloud": "Logo clouds", "blog": "Blogs", "hero": "Heroes", "bento": "Bento layouts", "feature": "Features", "comparison": "Comparisons", "integration": "Integrations", "services": "Services", "portfolio": "Portfolios", "case-study": "Case studies", "about": "About", "team": "Team", "pricing": "Pricing", "social-proof": "Testimonials", "how-it-works": "How it works", "contact": "Contact", "faq": "FAQs", "cta": "Calls to action", "footer": "Footers"}
@@ -61,12 +62,17 @@ def main():
         cards.append(f'<h2 class="group" data-group="{esc(kind)}" id="{esc(kind)}">{labels.get(kind, kind.title())} · {counts[kind]}</h2>')
         for e in (v for v in entries if v["type"] == kind):
             media = []
+            source_only = e.get("evidence_scope") == "source-media-only"
             for group in ("desktop", "mobile"):
                 images = ''.join(
                     f'<a href="{esc(s)}"><img loading="lazy" src="{esc(s)}" alt="{esc(e["name"])} — {group} view {i+1}"></a>'
                     for i, s in enumerate(e[group]))
-                media.append(f'<details {"open" if group == "desktop" else ""}><summary>{group.title()} evidence · {len(e[group])} view(s)</summary><div class="screens {group}">{images}</div></details>')
-            details = ''.join(f'<h4>{label}</h4><p>{esc(e[key])}</p>' for key, label in FIELDS)
+                label = "Shared hero media" if source_only and group == "desktop" else group.title() + " evidence"
+                if not e[group]:
+                    media.append('<p class="meta">Mobile website not observed; recipe proposes an adaptation.</p>')
+                else:
+                    media.append(f'<details {"open" if group == "desktop" else ""}><summary>{label} · {len(e[group])} view(s)</summary><div class="screens {group}">{images}</div></details>')
+            details = ''.join(f'<h4>{"Proposed mobile adaptation" if source_only and key == "mobile_behavior" else label}</h4><p>{esc(e[key])}</p>' for key, label in FIELDS)
             cards.append(
                 f'<article id="{esc(e["id"])}" data-kind="{esc(kind)}" data-search="{esc(" ".join(str(e.get(k, "")) for k in ("name", "styles", "industry", "fit")).lower())}"><div class="label">{esc(e["styles"])}</div>'
                 f'<h3>{esc(e["name"])}</h3><p>{esc(e["why"])}</p>'
@@ -78,10 +84,11 @@ def main():
                           f'Borrow: {e["borrow"]}', "",
                           f'Editorial scores: conversion clarity {e["conv"]}/9; visual impact {e["wow"]}/9. No measured uplift.', ""])
             for group in ("desktop", "mobile"):
-                notes.append(group.title()+': '+', '.join(f'[view {i+1}]({s})' for i,s in enumerate(e[group])))
+                label = "Shared hero media" if source_only and group == "desktop" else group.title()
+                notes.append(label+': '+(', '.join(f'[view {i+1}]({s})' for i,s in enumerate(e[group])) or 'Not observed; proposed adaptation below.'))
                 notes.append("")
             for key, label in FIELDS:
-                notes.extend([f'### {label}', "", e[key], ""])
+                notes.extend([f'### {"Proposed mobile adaptation" if source_only and key == "mobile_behavior" else label}', "", e[key], ""])
     style = """
 *{box-sizing:border-box}body{margin:0;background:#f4f2ee;color:#232323;font:16px/1.55 system-ui,sans-serif}
 header,main,footer{max-width:1440px;margin:auto;padding:32px}header{padding-top:64px}h1{font-size:clamp(32px,5vw,64px);line-height:1.05;letter-spacing:-.05em;margin:16px 0}header p{max-width:820px;color:#555}
@@ -116,7 +123,7 @@ for(const button of buttons) button.addEventListener('click',()=>{
 });
 '''
     page = f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Goliath — real section references</title><style>{style}</style>
-<header><div class="label">Goliath / observed section library</div><h1>Real sections.<br>Ideas you can rebuild.</h1><p>{len(entries)} inspected sections across {len(kinds)} categories, with desktop and mobile evidence, content requirements, asset direction, and adaptation recipes. Images belong to their original creators and are provided as study references.</p><label for="search">Find a layout, style, industry, or use case</label><input id="search" type="search" placeholder="Try: photographic, inquiry, membership, software"><nav aria-label="Section categories">{navigation}</nav><p id="result-count" role="status">{len(entries)} sections shown</p><a href="rebuild-notes.md">Read agent rebuild notes ↗</a></header><main>{''.join(cards)}</main><footer>Clarity and visual-impact scores are editorial judgments, not measured conversion results. Each example is observed, not rebuild-validated. Click an image for its original capture; additional views scroll horizontally.</footer><script>{script}</script></html>'''
+<header><div class="label">Goliath / observed section library</div><h1>Real sections.<br>Ideas you can rebuild.</h1><p>{len(entries)} inspected sections across {len(kinds)} categories, with content requirements, asset direction, and adaptation recipes. Live-site entries include desktop and mobile captures; social concepts identify source-media evidence and proposed mobile adaptations. Images belong to their original creators and are provided as study references.</p><label for="search">Find a layout, style, industry, or use case</label><input id="search" type="search" placeholder="Try: photographic, inquiry, membership, software"><nav aria-label="Section categories">{navigation}</nav><p id="result-count" role="status">{len(entries)} sections shown</p><a href="rebuild-notes.md">Read agent rebuild notes ↗</a></header><main>{''.join(cards)}</main><footer>Clarity and visual-impact scores are editorial judgments, not measured conversion results. Each example is observed, not rebuild-validated. Click an image for its original capture; additional views scroll horizontally.</footer><script>{script}</script></html>'''
     (ROOT / "pattern-gallery.html").write_text(page, encoding="utf-8")
     (ROOT / "rebuild-notes.md").write_text('\n'.join(notes), encoding="utf-8")
     print(f"Rendered {len(entries)} patterns with verified screenshot paths")

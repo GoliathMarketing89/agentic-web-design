@@ -340,6 +340,566 @@ Animated product framing was observed. Purchase destinations were visible but ch
 
 Desktop crop and mobile viewport capture inspected. Prices and device specifications are not reusable client content.
 
+## The Meteor — midnight cinema
+
+ID: `x-the-meteor-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [The Meteor — midnight cinema](https://x.com/FellMentKE/status/2117653276309241952)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: Gold editorial masthead and two ticket-related actions over a near-black star field.
+
+Editorial scores: conversion clarity 6/9; visual impact 8/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-the-meteor.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+Film lovers choosing a screening or membership; the small dated program creates an immediate next step.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Keep supporting detail subordinate to the main promise.
+
+### Desktop composition
+
+A centered, widely tracked gold serif title dominates the top; italic supporting text and a date line sit above a filled gold program button and outlined price button. A thin ticker closes the scene. The shared frame clips the title beneath the header.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Stack the two actions below a readable date; use a 44–64px title and remove the ticker if it creates overflow.
+
+### Rebuild recipe
+
+Use a semantic heading, program date, two links and a decorative star layer. Start with a static textured background; make the main title fully visible below the header. Use roughly 80px desktop side gutters, a 700px text measure and 20–32px between text groups.
+
+### Asset production
+
+Create a low-contrast star/grain texture or small CSS dots; source appropriate film stills separately for the program. Gold lettering supplies most of the identity.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. Archive attributes the post to FELIX (@FellMentKE) and reports LongCat 2.5; model use and authorship were not independently verified.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/FellMentKE/status/2117653276309241952. Archive attributes the post to FELIX (@FellMentKE) and reports LongCat 2.5; model use and authorship were not independently verified. Media URL: https://pbs.twimg.com/amplify_video_thumb/2117653260421218305/img/wQFfliKWjoo_PSti.jpg. Discovery page: https://dropday.ai/c/the-meteor. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## Drift — sunlit portrait
+
+ID: `x-drift-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Drift — sunlit portrait](https://x.com/r0melus/status/2117768889832505636)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: Sunlit portrait fills the scene while a mixed sans/italic headline sits across the lower face and shoulders.
+
+Editorial scores: conversion clarity 6/9; visual impact 8/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-drift.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A human-centered wellness or productivity offer with one simple signup action.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Keep supporting detail subordinate to the main promise.
+
+### Desktop composition
+
+A small floating brand/menu pill sits at top center. A warm portrait fills the viewport. White two-line typography, a tiny supporting paragraph and a translucent bottom strip containing the signup button overlap the lower image.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Use a taller portrait crop, a 36–44px heading and a solid action surface; allow content height to grow beyond the viewport.
+
+### Rebuild recipe
+
+Build an image layer, local contrast overlay and centered HTML content. Start with a 48–64px desktop heading, a 450px text measure and a bottom action row constrained to the content width. Preserve the face focal point without putting essential copy over the eyes.
+
+### Asset production
+
+Commission or license a warm backlit portrait. Request negative space around the lower torso and crop options; generate fictional lifestyle imagery only where appropriate. Supply a compressed still before considering video.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. Dropday reports Charles Romelus (@r0melus) crediting Opus 5.5. This is a curator-reported attribution, not an independently verified build history.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2117768889832505636. Dropday reports Charles Romelus (@r0melus) crediting Opus 5.5. This is a curator-reported attribution, not an independently verified build history. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2117768877815848960/pu/img/C2mCDAHmIExPjQfL.jpg. Discovery page: https://dropday.ai/c/drift. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## Denta — annotated smile
+
+ID: `x-denta-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Denta — annotated smile](https://x.com/r0melus/status/2116266505520181439)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: A fine connector pins a translucent treatment annotation to a tooth inside a full-bleed smile photograph.
+
+Editorial scores: conversion clarity 7/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-denta.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A visual service where one precise detail explains the offer and booking is the primary job.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Specimen or treatment annotations.
+
+### Desktop composition
+
+White navigation overlays a close-up smile. A technical callout occupies the upper-left image area. Large white type spreads across the bottom, with a small review cluster and black appointment pill nearby.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Move the title and booking control onto an opaque surface below the image; keep one short annotation and remove the decorative connector if cropping breaks its target.
+
+### Rebuild recipe
+
+Use an image with a known focal point and a separately positioned annotation layer. Place title and appointment link in a bottom grid with a contrast gradient. Define annotation coordinates relative to the image wrapper; test every crop rather than pinning to viewport pixels.
+
+### Asset production
+
+Source consented, licensed photography appropriate to the actual service. Draw the tooth diagram and connector as SVG. Generated imagery can be concept art but must not imply a real patient result. The observed review count and avatars are concept content, not reusable proof.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. Dropday reports @r0melus naming Opus 5.5 and Higgsfield. The screenshot does not establish which tool made each layer.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2116266505520181439. Dropday reports @r0melus naming Opus 5.5 and Higgsfield. The screenshot does not establish which tool made each layer. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2116266498431787008/pu/img/HDuQpFKIPZxSRxyB.jpg. Discovery page: https://dropday.ai/c/denta. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## Bionova — biotech bento hero
+
+ID: `x-bionova-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Bionova — biotech bento hero](https://x.com/r0melus/status/2116726977960767756)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: A large left headline with an inline process pill balances a three-tile pastel scientific asset grid.
+
+Editorial scores: conversion clarity 7/9; visual impact 8/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-bionova.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+An advisory offer that needs both a clear promise and a small amount of structured credibility.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Keep supporting detail subordinate to the main promise.
+
+### Desktop composition
+
+The left half carries the black headline, outlined inline process control, two contact actions and a bottom logo strip. The right half has one wide purple glass-object card over two small blue/lime cards, all sharing large corner radii.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Stack promise and contact action above the tile grid; keep the two lower cards only if their text remains legible at 320px. Move the process action below the heading.
+
+### Rebuild recipe
+
+Use a two-column grid with roughly equal tracks and a 40px gap. Nest a two-column tile grid on the right; span the top tile across both columns. Start with 24–32px card radii. Keep the inline control in text flow only while it remains readable; otherwise give it a separate row.
+
+### Asset production
+
+Make one iridescent translucent object and two coordinated abstract renders with consistent light direction. A rendered still is sufficient; Three.js is optional and was not established by this capture. Replace logo and scientist-count placeholders with substantiated content.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. Dropday attributes the design to @r0melus and reports Sonnet 5. It is included for composition, not as an Opus example.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2116726977960767756. Dropday attributes the design to @r0melus and reports Sonnet 5. It is included for composition, not as an Opus example. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2116726969861574656/pu/img/tDAFYkKXKOt1GWsZ.jpg. Discovery page: https://dropday.ai/c/bionova. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## Imperial / Legion VPN — armored sculpture
+
+ID: `x-imperial-vpn-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Imperial / Legion VPN — armored sculpture](https://x.com/r0melus/status/2118078425277649030)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: A central armored figure and sweeping pale fabric leave a narrow condensed-serif promise on the left.
+
+Editorial scores: conversion clarity 4/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-imperial-vpn.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A brand campaign that can support a strong visual metaphor with concrete product proof immediately below.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Keep supporting detail subordinate to the main promise.
+
+### Desktop composition
+
+An ivory scene holds a gold-and-silver armored figure, long spear and flowing white cape. A compact serif headline sits upper left, tiny explanatory copy lower left, and a translucent secondary card lower right. The archive calls it Imperial; visible branding says Legion VPN.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Use a portrait crop focused on the helmet above the copy; remove the overlapping glass card and keep the primary action on a solid background.
+
+### Rebuild recipe
+
+Separate decorative artwork from live headline, navigation and product action. Use a wide image with controlled left negative space and explicit focal coordinates. Keep a narrow title measure around 8–12 characters per line; add a clear primary product action beside supporting copy instead of relying on the header contact link.
+
+### Asset production
+
+Art-direct an original armored sculpture with gold accents, white fabric and ivory lighting. Deliver a still, mask and alternate phone crop. If motion is commissioned, request a subtle fabric loop and reduced-motion poster; the source technique is unverified.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. The original X post was inspected and @r0melus explicitly claims Opus 5.5. That is a creator claim; the capture cannot verify the production pipeline.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2118078425277649030. The original X post was inspected and @r0melus explicitly claims Opus 5.5. That is a creator claim; the capture cannot verify the production pipeline. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2118078417761435648/pu/img/t_5InA_q_ly_L4r7.jpg. Discovery page: https://dropday.ai/c/imperial-vpn. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## Luxury Botanical — product garden
+
+ID: `x-luxury-botanical-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Luxury Botanical — product garden](https://x.com/r0melus/status/2116628841774907856)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: A fragrance bottle stands on a plinth inside a moss garden with tall flowers framing the text space.
+
+Editorial scores: conversion clarity 6/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-luxury-botanical.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A single premium product or collection whose physical form is the main selling image.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Keep supporting detail subordinate to the main promise.
+
+### Desktop composition
+
+Warm yellow fills the upper field; moss, flowers and white pebbles form a dense foreground around a centered bottle. A compact mixed serif/sans title sits upper left, brand mark above it, and black collection action upper right. Visible branding belongs to Bentley; this is a shared concept, not verified brand work.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Place the bottle in the lower two-thirds, headline above, and a full-width shop action below the short descriptor. Request a dedicated vertical scene rather than a destructive center crop.
+
+### Rebuild recipe
+
+Create a layered still-life image with a clean upper-left text zone. Overlay a semantic header, short headline and one collection link. Start with a 60/40 split between visual foreground and quiet upper field; keep the product label unobscured. Add a product descriptor so a new visitor knows what is being sold.
+
+### Asset production
+
+Shoot or render the actual client product with coordinated moss, flowers and warm studio light. For AI staging, composite an accurate licensed packshot and check label fidelity. Develop original scenery; source artwork and brand marks are not reusable.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. The original post URL and shared media were identified through Dropday, which attributes it to @r0melus. Model provenance has not been established for this entry.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2116628841774907856. The original post URL and shared media were identified through Dropday, which attributes it to @r0melus. Model provenance has not been established for this entry. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2116628829695365120/pu/img/jQZWKgG_R9Bqui_b.jpg. Discovery page: https://dropday.ai/c/luxury-botanical. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## LinkFlow — landscape workflow metaphor
+
+ID: `x-stone-workflow-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [LinkFlow — landscape workflow metaphor](https://x.com/r0melus/status/2119218381383426327)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: A moss-covered bridge literally connects two cliffs beneath the workflow promise, with tiny people adding scale.
+
+Editorial scores: conversion clarity 6/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-stone-workflow.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+An integration or workflow product whose benefit can be expressed as connection across a gap.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Keep supporting detail subordinate to the main promise.
+
+### Desktop composition
+
+Cream sky provides quiet space for a centered green two-line headline and short description. Misty cliffs frame the edges; the bridge crosses the lower third. A product summary and primary action sit lower left and a small demo link lower right.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Keep headline and action above a smaller bridge image; move the bottom utility text into document flow. Preserve the bridge span rather than cropping out one end.
+
+### Rebuild recipe
+
+Use a scenic image layer with the bridge below the text baseline. Lay out header, centered promise and bottom utility row as independent grid regions. Start with a 760px heading measure and 64px desktop heading. Add real workflow UI immediately below the hero to substantiate the metaphor.
+
+### Asset production
+
+Generate or render an original bridge-and-cliff scene with a cream sky, green moss and tiny scale figures; specify generous clear sky for live text. Produce a matching still and optional short environmental loop through an available image/video tool such as Sume. Source tool use is not verified.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. Original X post inspected: @r0melus claims Opus 5.5. No independent model or code verification.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2119218381383426327. Original X post inspected: @r0melus claims Opus 5.5. No independent model or code verification. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2119218364316844032/pu/img/Y-bHBcriRpw2-1t6?format=webp&name=medium. Discovered on the public creator profile. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## NHM concept — specimen as exhibit
+
+ID: `x-museum-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [NHM concept — specimen as exhibit](https://x.com/r0melus/status/2119263750851047654)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: An oversized dinosaur skeleton crosses a sparse editorial grid beneath a nearly full-width letterform masthead.
+
+Editorial scores: conversion clarity 5/9; visual impact 9/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-museum.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A museum, exhibition or archive where one authentic object can introduce the collection.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Specimen or treatment annotations.
+
+### Desktop composition
+
+A giant black letterform masthead spans the top of a pale background. Tiny uppercase metadata aligns in columns. A dark T. rex skeleton dominates the middle and overlaps the left headline; a black exploration action remains lower left. Fine specimen annotations appear on the right.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Reduce the masthead to a normal header, show the full specimen above a readable title, and move technical metadata below the action.
+
+### Rebuild recipe
+
+Build a pale scene, oversized brand treatment, semantic headline/action column and transparent specimen layer. Keep the object decorative if nearby text already identifies it. Constrain the object overlap to empty space; the observed overlap obscures part of the headline, which should be corrected in adaptation.
+
+### Asset production
+
+License a high-resolution specimen cutout or build an accurate 3D scan/render. For educational work, verify anatomy and label facts with the institution. A still with a transparent background can create the composition without WebGL.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. Original X post inspected: @r0melus claims GPT-5.6 Sol. This entry is a visual concept, not evidence of affiliation with a museum.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2119263750851047654. Original X post inspected: @r0melus claims GPT-5.6 Sol. This entry is a visual concept, not evidence of affiliation with a museum. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2119263738796662784/pu/img/lcMuNrsqa3jhKoNV?format=webp&name=medium. Discovered on the public creator profile. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## Davyos — modular enterprise sculpture
+
+ID: `x-foam-robot-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [Davyos — modular enterprise sculpture](https://x.com/r0melus/status/2119527938546626946)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: A huge stacked condensed headline balances a robot-like sculpture assembled from differently colored blocks.
+
+Editorial scores: conversion clarity 6/9; visual impact 8/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-foam-robot.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+An enterprise offer with a simple positioning statement and a tangible metaphor for systems working together.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Keep supporting detail subordinate to the main promise.
+
+### Desktop composition
+
+A white pill navigation sits between a compact left brand and black demo button. Heavy black uppercase type fills the left half. A soft, faceted block figure occupies the right, with a small paragraph aligned beneath the heading. Several blocks show third-party software marks.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Set a 44–56px heading, put the product action directly beneath it, and reduce the sculpture to one clear object below. Collapse long navigation.
+
+### Rebuild recipe
+
+Use equal text/art columns with a 48px gap, 80–110px condensed heading and compact supporting text. Keep the demo action both in the header and beside the description. Build the sculpture as a transparent still first; add 3D only if interactive manipulation helps explain the offer.
+
+### Asset production
+
+Render an original modular figure with a limited accent palette and soft shadows. Use neutral module labels or properly scoped integration marks. Replace source speed, ROI and security statements with verified client claims; decorative modules are not proof of integration.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. Original X post inspected: @r0melus claims Opus 5.5. The asset method and runtime implementation remain unknown.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2119527938546626946. Original X post inspected: @r0melus claims Opus 5.5. The asset method and runtime implementation remain unknown. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2119527926186070016/pu/img/RvjXyjntXmXhq3Uh?format=webp&name=medium. Discovered on the public creator profile. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
+## AuthKit concept — stage spotlight
+
+ID: `x-authkit-hero` · Type: hero · Observed: 2026-11-09
+
+Source: [AuthKit concept — stage spotlight](https://x.com/r0melus/status/2119580885951320550)
+
+Status: observed shared-media concept; responsive website and interactions unverified; not rebuild-validated.
+
+Borrow: Soft cone-shaped light makes a short product name feel like a physical object on a dark stage.
+
+Editorial scores: conversion clarity 4/9; visual impact 8/9. No measured uplift.
+
+Shared hero media: [view 1](shots/x-authkit.jpg)
+
+Mobile: Not observed; proposed adaptation below.
+
+### Use when
+
+A focused developer-product launch with a short name and a concrete product demo nearby.
+
+### Avoid when
+
+Use only when the brief supports this visual metaphor and the required assets can be produced. Do not inherit source placeholder claims or brand identity.
+
+### Content slots
+
+Brand/navigation; short promise; one explanatory paragraph; primary action; art-directed hero asset; optional factual proof. Keep supporting detail subordinate to the main promise.
+
+### Desktop composition
+
+A dark navy scene has restrained top navigation and a small top-right action. A large pale-blue product title sits centered under a tiny introduction line; short supporting text sits beneath. Faint beams and vertical highlights form a theatrical background. The saved poster does not show the login card mentioned in the post.
+
+### Proposed mobile adaptation
+
+Proposed, not observed: Use a 48–64px title, shorten the beam field and put the action within the first content group. Test text contrast on the brightest beam frame.
+
+### Rebuild recipe
+
+Build a dark hero with centered HTML title and description over layered radial/conic gradients or a compressed lighting still. Start with a 72–96px title and 560px measure. Put a clear primary action below the description and a real product demo immediately after it; the source poster action is too remote.
+
+### Asset production
+
+Make an original blue stage-light texture with quiet center space; CSS gradients may suffice. If adding moving beams, animate opacity/transform slowly, keep a static fallback and test reduced motion. Visible WorkOS/AuthKit branding identifies concept subject, not an endorsement or proven original design.
+
+### Adaptation decisions
+
+Borrow the composition and asset-to-copy relationship. Replace brand, wording, imagery, metrics and proof with client-specific material. Original X post inspected: @r0melus credits Codex generally, without a model version. The claimed motion and login-card behavior were not tested.
+
+### Interaction evidence and gaps
+
+A browser screenshot of a public X video poster was inspected. Visible controls are reference pixels, not tested links. Autoplay, hover effects, keyboard behavior, loading, reduced motion and responsive behavior remain unverified.
+
+### Verification
+
+Original post: https://x.com/r0melus/status/2119580885951320550. Original X post inspected: @r0melus credits Codex generally, without a model version. The claimed motion and login-card behavior were not tested. Media URL: https://pbs.twimg.com/ext_tw_video_thumb/2119580868469493760/pu/img/KGHzLXm5Q2zohV6W?format=webp&name=medium. Discovered on the public creator profile. Screenshot preserves the browser-rendered poster, including any baked-in cursor, crop and letterboxing. No source assets or code are licensed for reuse. Rebuild and verify at 1440, 768, 390 and 320px before client use.
+
 ## Raycast Pro — illustrated feature bento
 
 ID: `raycast-pro-feature-bento` · Type: bento · Observed: 2026-11-06

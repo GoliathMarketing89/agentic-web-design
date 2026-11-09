@@ -1,4 +1,144 @@
 ## hero
+### The Meteor — midnight cinema
+- name: The Meteor — midnight cinema
+- url: https://x.com/FellMentKE/status/2117653276309241952
+- type: hero
+- styles: dark, gold, typographic, x-sourced, ai-assisted-concept
+- industry: cinema, entertainment
+- source: gallery
+- borrow: Gold editorial masthead and two ticket-related actions over a near-black star field.
+- why: Gold editorial masthead and two ticket-related actions over a near-black star field. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 8
+- shot: shots/x-the-meteor.jpg
+- by: Codex
+
+### Drift — sunlit portrait
+- name: Drift — sunlit portrait
+- url: https://x.com/r0melus/status/2117768889832505636
+- type: hero
+- styles: photographic, warm, centered, x-sourced, ai-assisted-concept
+- industry: wellness, productivity
+- source: gallery
+- borrow: Sunlit portrait fills the scene while a mixed sans/italic headline sits across the lower face and shoulders.
+- why: Sunlit portrait fills the scene while a mixed sans/italic headline sits across the lower face and shoulders. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 8
+- shot: shots/x-drift.jpg
+- by: Codex
+
+### Denta — annotated smile
+- name: Denta — annotated smile
+- url: https://x.com/r0melus/status/2116266505520181439
+- type: hero
+- styles: photographic, annotation, full-bleed, x-sourced, ai-assisted-concept
+- industry: dentistry, aesthetic services
+- source: gallery
+- borrow: A fine connector pins a translucent treatment annotation to a tooth inside a full-bleed smile photograph.
+- why: A fine connector pins a translucent treatment annotation to a tooth inside a full-bleed smile photograph. Conversion score reflects visible clarity only.
+- conv: 7
+- wow: 9
+- shot: shots/x-denta.jpg
+- by: Codex
+
+### Bionova — biotech bento hero
+- name: Bionova — biotech bento hero
+- url: https://x.com/r0melus/status/2116726977960767756
+- type: hero
+- styles: light, pastel, bento, x-sourced, ai-assisted-concept
+- industry: biotech, consulting
+- source: gallery
+- borrow: A large left headline with an inline process pill balances a three-tile pastel scientific asset grid.
+- why: A large left headline with an inline process pill balances a three-tile pastel scientific asset grid. Conversion score reflects visible clarity only.
+- conv: 7
+- wow: 8
+- shot: shots/x-bionova.jpg
+- by: Codex
+
+### Imperial / Legion VPN — armored sculpture
+- name: Imperial / Legion VPN — armored sculpture
+- url: https://x.com/r0melus/status/2118078425277649030
+- type: hero
+- styles: ivory, sculptural, editorial, x-sourced, ai-assisted-concept
+- industry: security, software
+- source: gallery
+- borrow: A central armored figure and sweeping pale fabric leave a narrow condensed-serif promise on the left.
+- why: A central armored figure and sweeping pale fabric leave a narrow condensed-serif promise on the left. Conversion score reflects visible clarity only.
+- conv: 4
+- wow: 9
+- shot: shots/x-imperial-vpn.jpg
+- by: Codex
+
+### Luxury Botanical — product garden
+- name: Luxury Botanical — product garden
+- url: https://x.com/r0melus/status/2116628841774907856
+- type: hero
+- styles: botanical, product, warm, x-sourced, ai-assisted-concept
+- industry: fragrance, ecommerce
+- source: gallery
+- borrow: A fragrance bottle stands on a plinth inside a moss garden with tall flowers framing the text space.
+- why: A fragrance bottle stands on a plinth inside a moss garden with tall flowers framing the text space. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 9
+- shot: shots/x-luxury-botanical.jpg
+- by: Codex
+
+### LinkFlow — landscape workflow metaphor
+- name: LinkFlow — landscape workflow metaphor
+- url: https://x.com/r0melus/status/2119218381383426327
+- type: hero
+- styles: landscape, warm, metaphor, x-sourced, ai-assisted-concept
+- industry: automation, software
+- source: gallery
+- borrow: A moss-covered bridge literally connects two cliffs beneath the workflow promise, with tiny people adding scale.
+- why: A moss-covered bridge literally connects two cliffs beneath the workflow promise, with tiny people adding scale. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 9
+- shot: shots/x-stone-workflow.jpg
+- by: Codex
+
+### NHM concept — specimen as exhibit
+- name: NHM concept — specimen as exhibit
+- url: https://x.com/r0melus/status/2119263750851047654
+- type: hero
+- styles: monochrome, specimen, editorial, x-sourced, ai-assisted-concept
+- industry: museum, education
+- source: gallery
+- borrow: An oversized dinosaur skeleton crosses a sparse editorial grid beneath a nearly full-width letterform masthead.
+- why: An oversized dinosaur skeleton crosses a sparse editorial grid beneath a nearly full-width letterform masthead. Conversion score reflects visible clarity only.
+- conv: 5
+- wow: 9
+- shot: shots/x-museum.jpg
+- by: Codex
+
+### Davyos — modular enterprise sculpture
+- name: Davyos — modular enterprise sculpture
+- url: https://x.com/r0melus/status/2119527938546626946
+- type: hero
+- styles: light, bold-type, 3d-object, x-sourced, ai-assisted-concept
+- industry: enterprise, automation
+- source: gallery
+- borrow: A huge stacked condensed headline balances a robot-like sculpture assembled from differently colored blocks.
+- why: A huge stacked condensed headline balances a robot-like sculpture assembled from differently colored blocks. Conversion score reflects visible clarity only.
+- conv: 6
+- wow: 8
+- shot: shots/x-foam-robot.jpg
+- by: Codex
+
+### AuthKit concept — stage spotlight
+- name: AuthKit concept — stage spotlight
+- url: https://x.com/r0melus/status/2119580885951320550
+- type: hero
+- styles: dark, spotlight, typography, x-sourced, ai-assisted-concept
+- industry: developer tools, authentication
+- source: gallery
+- borrow: Soft cone-shaped light makes a short product name feel like a physical object on a dark stage.
+- why: Soft cone-shaped light makes a short product name feel like a physical object on a dark stage. Conversion score reflects visible clarity only.
+- conv: 4
+- wow: 8
+- shot: shots/x-authkit.jpg
+- by: Codex
+
 ### A.J. Alberts Plumbing
 - name: A.J. Alberts Plumbing
 - url: https://www.ajalberts.com
@@ -464,6 +604,20 @@
 - by: Codex
 
 ## article
+### Figma Shortcut — illustrated research article with captioned evidence pairs
+- name: Figma Shortcut — illustrated research article with captioned evidence pairs
+- url: https://www.figma.com/blog/training-a-figma-fluent-editing-model/
+- type: article
+- styles: yellow, editorial, illustrated, captioned-comparison
+- industry: creative-tools, research, thought-leadership
+- source: team
+- borrow: a bold colored article lead followed by a narrower reading column and paired visual evidence with separate explanatory captions
+- why: The visual system gives a technical story character while figures explain specific points rather than acting as decoration.
+- conv: 7
+- wow: 9
+- shot: shots/figma-article-desktop.jpg
+- by: Codex
+
 ### Nielsen Norman Group — educational article with summary, contents and dense tables
 - name: Nielsen Norman Group — educational article with summary, contents and dense tables
 - url: https://www.nngroup.com/articles/progressive-disclosure/
@@ -490,20 +644,6 @@
 - conv: 8
 - wow: 8
 - shot: shots/stripe-article-desktop.jpg
-- by: Codex
-
-### Figma Shortcut — illustrated research article with captioned evidence pairs
-- name: Figma Shortcut — illustrated research article with captioned evidence pairs
-- url: https://www.figma.com/blog/training-a-figma-fluent-editing-model/
-- type: article
-- styles: yellow, editorial, illustrated, captioned-comparison
-- industry: creative-tools, research, thought-leadership
-- source: team
-- borrow: a bold colored article lead followed by a narrower reading column and paired visual evidence with separate explanatory captions
-- why: The visual system gives a technical story character while figures explain specific points rather than acting as decoration.
-- conv: 7
-- wow: 9
-- shot: shots/figma-article-desktop.jpg
 - by: Codex
 
 ## social-proof
