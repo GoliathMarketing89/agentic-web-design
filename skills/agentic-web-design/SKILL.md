@@ -1,7 +1,7 @@
 ---
 name: agentic-web-design
 description: Get good, converting design out of an AI coding agent. Use when building or redesigning a website, landing page, or web app with an agent — a mandatory taste-and-verify workflow that stops the agent from shipping generic AI output. Built by Goliath Marketing (goliathmarketing.io).
-version: 2.0.0
+version: 2.1.0
 author: Goliath Marketing
 license: MIT
 tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic, astro]
@@ -83,7 +83,7 @@ Save the references (URLs + what to borrow from each) in `design.md`. The build 
 
 Build each section by adapting its design reference to the copy and the brand. Do not invent a generic layout — take the structure, spacing, and visual idea from the reference and fill it with the copy from Gate 1 and the brand from `design.md`.
 
-**Grab real assets — images and video — as part of the build.** A site with real imagery beats one built from code-based shapes and gradients. For each section that needs a visual, source it: generate it (image/video gen), pull from a stock library, or use a client-provided asset. A hero background video, real product photos, or a genuine portrait transforms a design. Do not leave a section as empty boxes or code-only decoration when a real asset would carry it.
+**Resolve asset direction before production.** Follow [asset-direction.md](asset-direction.md) for substantial site visuals: define the visitor meaning, brainstorm distinct concepts with the designer, choose a suitable route and scope paid production, then review a still with the real copy on desktop and mobile before expanding the asset set. Reuse existing approvals and caps. An unresolved concept needs feedback unless asset direction was explicitly delegated. Paid video is a separate motion and spending decision; neither a site-build request nor an approved still supplies an unlimited media budget.
 
 **Pick the framework for the project, not for the skill.** The workflow is the same in any stack; only the components change.
 
