@@ -1,25 +1,26 @@
 ---
 name: agentic-web-design
-description: Get good, converting design out of an AI coding agent. Use when building or redesigning a website, landing page, or web app with an agent — a mandatory taste-and-verify workflow that stops the agent from shipping generic AI output. Built by Goliath Marketing (goliathmarketing.io).
-version: 2.1.0
-author: Goliath Marketing
+description: Build or redesign websites through agreed UX and copy, visual section reference boards, a full-page storyboard, and iterative implementation and review.
 license: MIT
-tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic, astro]
-platforms: [linux, macos, windows]
-triggers:
-  - build a website
-  - design a landing page
-  - make a page that converts
-  - vibe code
-  - web design
-  - redesign my site
-  - landing page that sells
-  - agentic web design
+metadata:
+  version: 2.2.0
+  author: Goliath Marketing
+  tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic, astro]
+  platforms: [linux, macos, windows]
+  triggers:
+    - build a website
+    - design a landing page
+    - make a page that converts
+    - vibe code
+    - web design
+    - redesign my site
+    - landing page that sells
+    - agentic web design
 ---
 
 # Agentic Web Design
 
-The problem with AI-built sites is **taste**: agents default to generic, committee-pleasing output. This skill is a mandatory workflow that stops that. It runs the build through seven gates, and the gates that matter most — feeding the agent taste and critiquing its own work — are not optional.
+The problem with AI-built sites is **taste**: agents default to generic, committee-pleasing output. This skill is a mandatory workflow that stops that. It runs the build through a visible, collaborative process: agree the UX and copy, compare section references, agree a full-page storyboard, then implement and review.
 
 **The rule that governs everything:** websites need to *convert*, not impress. Cinematic styling is garnish; conversion structure is the meal. Every creative decision gets checked against the conversion structure before it ships.
 
@@ -37,51 +38,43 @@ The toolbox lives in [resources.md](resources.md). The loop below is the operati
 
 Run these gates in order. A gate is a hard stop: you do not move to the next step until the current one passes. The two gates agents skip — writing the copy first and pulling real design references per section — are the ones that separate a bespoke site from an AI template.
 
-### Gate 0 — Goal & UX outline (decide before anything)
+### Gate 0 — Establish the brief and proposed UX
 
-1. **Name the one goal of the site.** What are we trying to get the visitor to do? Most sites have one: buy, generate a lead, contact, book. It's the big CTA in the top-right corner. Write it down.
-2. **Map the homepage and nav.** Section by section, top to bottom: what is the hero's goal, what is the next section's goal, and the next. Each section has a job. The standard arc: hero → problem → solution → proof → how it works → about → pricing → FAQ → final CTA → footer (or an email-capture block, depending on the goal).
-3. **Discuss the look with the user — back and forth, not a one-shot.** Before building, ask what they want it to feel like: references they like, a mood, a direction. Push back and refine until you both agree on the direction. Do not pump out a build and hope. This conversation is where the taste gets set.
-4. Write the outline as a list of sections, each with its goal. Get it approved before writing copy.
+Inspect the project folder, research, existing drafts, supplied material and working site before asking questions. Record audience, visitor task, primary action, required pages, brand, stack, content and asset constraints. Preserve decisions already made.
 
-### Gate 1 — Copy first (write the words before the design)
+Propose the page and navigation structure for this visitor. Each section needs a job; select its place in the sequence from that job rather than applying a universal page formula. Resolve material gaps in the brief, then prepare the complete content outline in Gate 1.
 
-Once the outline is decided, write the proposed copy for each section. It does not have to be final or amazing — but you must know what goes in each section before you design it. The design adapts to the copy, not the other way around.
+### Gate 1 — Agree the full UX and copy
 
-- Write the headline, subhead, section intros, and CTA for each section from the outline.
-- Run it through the `copywriting-master` skill if it needs to convert.
-- The copy is the content the design will carry. Do not design empty boxes and fill them later.
+Present the complete page in reading order, with stable section IDs. For every section show:
 
-### Gate 2 — Design references per section (the step that kills the AI look)
+- The visitor question, section purpose and reason for its position.
+- Proposed headline, body copy, proof/content slots and image role.
+- CTA label, destination and what happens after activation.
 
-This is the gate that was missing. **Do not design from memory or from a generic template.** For EACH section in the outline, find 1-2 interesting design references for that *type* of section — not "DJ websites" or "plumbing sites," but interesting heroes, interesting testimonial sections, interesting pricing sections, interesting FAQ sections.
+Draft usable copy before detailed layout, preserving good existing material. Use `copywriting-master` when available for persuasion and voice. Identify missing evidence rather than inventing reviews, credentials or results.
 
-**Pull from the shared library first, browse only when it's thin.** The
-reference library at `references/design-reference-library.md` (in this repo) is
-a vetted, per-section bank of real sites with what-to-borrow notes and conv/wow
-scores. Check it before you touch a gallery. For each section type in your
-outline, grep the matching `## <type>` block and shortlist 1-2 entries that fit
-the brief. Then **show the owner the shortlist — names/URLs and what you'd
-borrow — and get them agreed before building.** This is the reference
-conversation; never quietly pick references and build. If the library has
-nothing that fits a section type, run the `web-design-reference-miner` skill to
-find and vet some (that skill mines out-of-geography competitors and galleries,
-then appends vetted entries back through `references/append_reference.py`).
+**Done when:** the designer has seen and agreed the complete UX/copy outline. Combine this into one useful review, not separate approvals for every sentence. Reuse explicit existing approvals; a broad mood or approved hero does not settle the rest of the page.
 
-Only after the library is checked do you reach for the inspiration galleries
-(`resources.md` §2): awwwards, siteinspire, land-book, refero, minimal.gallery,
-supahero (heroes), cta.gallery, pageflows, etc.
+### Gate 2 — Agree visual references section by section
 
-- **Hero** → find an interesting hero layout, not a DJ hero.
-- **Testimonials** → find an interesting testimonial section.
-- **Pricing** → find an interesting pricing section.
-- And so on for every section.
+Read [section-review.md](section-review.md) for the required board and storyboard format.
 
-Save the references (URLs + what to borrow from each) in `design.md`. The build adapts these references to the copy and the brand — it does not invent a layout from scratch.
+**Use the library as visible choices.** Start with `references/design-reference-library.md` and its linked screenshots, gallery and rebuild notes. For each substantial section, prepare two or three meaningfully different, relevant examples using the proposed content. Select by visitor job, content shape and responsive behavior. Use `web-design-reference-miner` when available to fill genuine gaps; if the shared bank is unavailable, inspect suitable sources and record them in the project.
 
-### Gate 3 — Build to the references
+Show actual section screenshots, a short adaptation explanation and a recommendation. Include desktop and mobile evidence where available. Source links support the visuals; a list of URLs, style labels or private agent notes is not a visual review. Explain what structural idea a bento, editorial split, comparison or other pattern contributes to this content.
 
-Build each section by adapting its design reference to the copy and the brand. Do not invent a generic layout — take the structure, spacing, and visual idea from the reference and fill it with the copy from Gate 1 and the brand from `design.md`.
+Let the designer choose and refine in a short round: for example, “services A, process B, make the case study more editorial.” Bring back only unresolved choices. Give sections below the hero the same deliberate selection treatment as the hero.
+
+Assemble the selected directions into a full-page storyboard with the real copy, image roles and rough proportions. Check repetition, visual rhythm, light/dark balance, density, transitions and mobile order before implementation.
+
+**Done when:** all required section jobs are covered and the designer has seen and agreed the visual boards and combined storyboard. Record selected example IDs, adaptations and approval scope in `design.md`. Explicit delegated direction can replace a human choice; still produce the boards/storyboard and document the recommendation used. Silence, a reference name or a hero-only approval is not approval of unseen sections.
+
+### Gate 3 — Implement the agreed storyboard in small groups
+
+Build selected section compositions around the agreed copy and brand. Translate the reference's hierarchy, proportions and asset role; changing colors on a stock card grid does not establish adaptation.
+
+Start with a representative slice, then extend in small section groups, usually two or three. Show actual rendered desktop/mobile screenshots as groups are completed and compare them with their selected references. Keep these progress reviews lightweight. Routine spacing and execution fixes stay within existing authorization; a material layout, asset or content departure returns to a visible design choice before extending it across the site.
 
 **Resolve asset direction before production.** Follow [asset-direction.md](asset-direction.md) for substantial site visuals: define the visitor meaning, brainstorm distinct concepts with the designer, choose a suitable route and scope paid production, then review a still with the real copy on desktop and mobile before expanding the asset set. Reuse existing approvals and caps. An unresolved concept needs feedback unless asset direction was explicitly delegated. Paid video is a separate motion and spending decision; neither a site-build request nor an approved still supplies an unlimited media budget.
 
@@ -97,10 +90,11 @@ Only after the design is built do you add motion. Animation is the polish layer,
 
 ### Gate 5 — Critic loop (mandatory)
 
-The coding agent cannot critique its own work. Spawn a **fresh design-critic subagent** in a new context, given only a screenshot of the build AND the design references it was built from. Ask it to score the design 1-10 against the references and the conversion structure. Loop until it independently scores **9/10 or higher**. Do not ship before it passes.
+Use a fresh independent design critic when delegation is available and authorized. Provide the agreed UX/copy outline, selected section screenshots, storyboard, and rendered desktop/mobile page captures. If independent review is unavailable, label the separate self-review accordingly.
 
-- Use a big, expensive model as the critic (executive judgment).
-- Use a cheap, fast model as the implementer.
+Judge each section against its chosen reference and the visitor task, then assess the page as a whole. Check distinctive composition, content-specific hierarchy, asset meaning, and variety that still feels like one site. A strong hero, clean typography or consistent colors cannot compensate for generic sections below it.
+
+Record concrete findings, make a small batch of changes, and review fresh evidence. Retain the **9/10** target as a review bar, not a number to negotiate: unresolved material findings stay visible even when a score is high. After two passes without improvement, revisit the design choice with the designer instead of repeating cosmetic changes or encouraging a higher score. Distinguish draft visual quality from production readiness; a critic score does not establish Marketplace acceptance, functional correctness or conversion results.
 
 ### Gate 6 — Conversion check (mandatory)
 
@@ -124,9 +118,9 @@ Strip every AI tell before shipping:
 
 | Job | Reach for |
 |---|---|
-| Map the UX outline (Gate 0) | the standard arc: hero → problem → solution → proof → how it works → about → pricing → FAQ → CTA |
+| Map the UX outline (Gate 0) | visitor questions, navigation and section jobs; agree the full UX/copy at Gate 1 |
 | Write the copy first (Gate 1) | the `copywriting-master` skill |
-| Find per-section design references (Gate 2) | `resources.md` §2 — awwwards, siteinspire, land-book, refero, minimal.gallery, supahero, cta.gallery, pageflows |
+| Find per-section design references (Gate 2) | visual section boards and the full-page storyboard in `section-review.md` |
 | Build to the references (Gate 3) | `resources.md` §3 — shadcn/ui, Aceternity, Magic UI, Motion Primitives |
 | Add 3D / scroll-driven wow | `resources.md` §3 — ThreeUI, Scrolltide, Spline, Canvas UI |
 | Add motion / icons / illustration (Gate 4) | `resources.md` §3 — LottieFiles, Anime.js, 3D Icons, Kitbitz |
@@ -144,3 +138,4 @@ Strip every AI tell before shipping:
 ## Scope and limits
 
 This skill produces the workflow and the toolbox for building converting sites with an agent. It does not guarantee a specific visual outcome — taste is enforced by the gates, not by the resources. The resources in `resources.md` are third-party tools; verify licenses and terms before shipping a client build. For regulated categories, have the copy and claims reviewed before publishing.
+
