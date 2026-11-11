@@ -12,6 +12,20 @@ Use the [design interview](design-intake.md) across all three touchpoints. Each 
 
 Intermediate section progress is visible, but does not create a new approval gate for every group. Reopen decisions for material changes, unresolved dependencies or changes to spend. Use explicit existing delegation within its scope; silence never supplies a decision or budget.
 
+## Shared visual vocabulary
+
+Derive a small vocabulary from the designer's chosen references and reactions in the existing design record; no separate glossary workshop. Capture only terms that would otherwise be ambiguous, usually three to five. For each, link an approved example and describe the visible treatment and its boundary. For example: “Editorial: large expressive headings, asymmetric image/copy groupings and generous margins; body copy remains easy to scan.” A word such as “premium” alone is not a definition.
+
+Use these meanings when proposing sections, writing implementation notes and reviewing results. Extend the vocabulary only when feedback exposes ambiguity; show a concrete interpretation within the current review. Preserve project-specific meanings rather than applying one house style to every site.
+
+## Visual prototypes for unresolved choices
+
+When references and discussion leave a consequential composition or interaction unresolved, state the question and build the smallest comparison that answers it. Usually show two or three meaningfully different versions of that section with the same representative copy, brand constraints and available assets. Use a single review page with switchable variants or a readable side-by-side comparison, whichever is cheaper. Include narrow-screen behavior when it affects the choice; add a short recording for motion decisions.
+
+Keep this exploration inside the current touchpoint and recommend a winner with the tradeoff. Use existing media or uncharged placeholders; paid generation still follows the asset budget. Reuse an already adequate board or approved choice instead of prototyping every section. Code only enough to judge the decision; production integrations, reusable architecture and a full alternate homepage are unnecessary.
+
+Record the selected variant and reason in the design record, then implement the validated choice in the project's stack. Prototype status belongs in review documentation, and temporary comparison controls stay out of the customer-facing site. The designer reacts to the prepared comparison; the agent owns setup, captures and routine refinement.
+
 ## Voice specimen
 
 Read `copywriting-master` before drafting customer-facing website copy. Record audience, positioning, promise, desired action and evidence available. Propose concrete voice attributes with writing examples: a hero headline and supporting sentence, a service paragraph and a CTA. Include wording to avoid so terms such as “confident,” “premium” or “friendly” have an observable meaning.
@@ -48,9 +62,16 @@ Use motion to reveal relationships, direct attention or express the brand. Avoid
 
 For Webflow, implement reusable native styles/interactions and editable assets where practical. For Astro, use shared components/tokens and the lightest suitable CSS or motion code, verifying initialization across navigation when relevant. Neither stack changes the visual bar. Follow `asset-direction.md` for generated video/3D and costs; a motion plan does not authorize production spend.
 
-## Review evidence
+## Separate review axes
 
-Review the complete page and representative sibling pages, not only the strongest hero. Check voice and sales argument, image/icon coverage, section and page repetition, button hierarchy, navigation/hover behavior and motion variety against the agreed package. Watch actual motion, including a phone and reduced-motion pass. Fix routine defects before involving the designer.
+Before the rendered-site touchpoint, review the same work in three distinct passes. Use an independent reviewer when available and authorized, otherwise separate self-review passes. Three axes do not require three agents or designer meetings.
 
-Clean spacing and correct responsiveness are necessary but insufficient for an impressive template. Record concrete gaps against the references and fix them; do not use a high subjective score to dismiss visible generic composition. Template-store acceptance remains a separate outcome that requires the store's actual review.
+| Axis | Question and evidence |
+| --- | --- |
+| Fidelity | Does the rendered work implement the agreed UX/copy, storyboard, visual vocabulary, assets, buttons and motion? Compare to the recorded decisions and selected references. |
+| Design quality | Is the result compelling, coherent and specific to this business? Inspect hierarchy, imagery/icon coverage, lower sections, page rhythm and repetition across sibling pages. Watch actual motion. Faithful execution of a weak composition can still fail here. |
+| Implementation | Does the experience work? Exercise navigation, CTA destinations, forms and relevant states; check desktop/mobile layouts, keyboard/focus, reduced motion and media loading. Measure performance when making performance claims. A beautiful screenshot cannot establish this pass. |
 
+Record each axis as ready, changes needed or not verified, with concrete findings and evidence in the existing review log. Do not average scores or let one successful axis cancel another's unresolved material findings. Fix routine defects and inspect fresh evidence before asking the designer to review. Bring back only a material direction change, missing input or a preference decision, with a recommendation.
+
+At the existing final touchpoint show one concise status summary, the complete preview and any meaningful remaining choices. Clean spacing and correct responsiveness alone do not establish an impressive template; a subjective score does not establish store acceptance or conversion results.

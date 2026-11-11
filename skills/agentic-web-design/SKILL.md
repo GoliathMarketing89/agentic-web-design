@@ -3,7 +3,7 @@ name: agentic-web-design
 description: Build or redesign websites through an adaptive design interview, reference-led art direction, agreed copy and section storyboards, asset production, and rendered refinement.
 license: MIT
 metadata:
-  version: 2.3.1
+  version: 2.4.0
   author: Goliath Marketing
   tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic, astro]
   platforms: [linux, macos, windows]
@@ -48,6 +48,8 @@ Propose the page and navigation structure for this visitor. Each section needs a
 
 Run the [design interview](design-intake.md) throughout the workflow. Begin with a prefilled brief and use the 21-question bank as starting prompts. At each consequential unresolved decision, consult the relevant design references, copywriting or asset workflow, show a proposal, ask a focused question and use the designer's reaction to determine the next question or revision. Continue within the three touchpoints through section design, asset concepts and rendered refinement. Agree voice samples and a creative direction at the first touchpoint before drafting the full site. Show three distinct direction boards when direction is open, each with a hero and two supporting sections; refine an existing approved direction instead when available.
 
+Derive a small shared visual vocabulary from approved references and feedback using [creative-review.md](creative-review.md). Record concrete meanings in the existing design document; this adds no glossary workshop.
+
 ### Gate 1 — Agree the full UX and copy
 
 Present the complete page in reading order, with stable section IDs. For every section show:
@@ -76,6 +78,8 @@ Assemble the selected directions into a full-page storyboard with the real copy,
 
 Follow [creative-review.md](creative-review.md) for the image/icon plan, distinctive lower sections, button/link specimen and motion examples. Agree primary CTA versions for light/dark surfaces, secondary CTA, ordinary links, navigation and interaction states before building. Avoid wrapping every URL in an outlined box or pill. Plan relevant imagery throughout the page; repeated layout families require a content reason.
 
+When an important choice remains unresolved, use the lightweight visual-prototype method in [creative-review.md](creative-review.md) within the current touchpoint. Compare only the variants needed to answer the question; reuse adequate boards and settled choices.
+
 **Done when:** all required section jobs are covered and the designer has seen and agreed the visual boards and combined storyboard. Record selected example IDs, adaptations and approval scope in `design.md`. Explicit delegated direction can replace a human choice; still produce the boards/storyboard and document the recommendation used. Silence, a reference name or a hero-only approval is not approval of unseen sections.
 
 ### Gate 3 — Implement the agreed storyboard in small groups
@@ -99,6 +103,8 @@ Plan motion with the storyboard in Gate 2, then implement the agreed behavior as
 ### Gate 5 — Critic loop (mandatory)
 
 Use a fresh independent design critic when delegation is available and authorized. Provide the agreed UX/copy outline, selected section screenshots, storyboard, and rendered desktop/mobile page captures. If independent review is unavailable, label the separate self-review accordingly.
+
+Run the separate fidelity, design-quality and implementation passes in [creative-review.md](creative-review.md) before the existing final designer review. Report each axis independently; fix routine findings yourself and bring back only meaningful decisions. These are agent review passes, not extra meetings.
 
 Judge each section against its chosen reference and the visitor task, then assess the page as a whole. Check distinctive composition, content-specific hierarchy, asset meaning, and variety that still feels like one site. A strong hero, clean typography or consistent colors cannot compensate for generic sections below it. Audit imagery/icon coverage, repeated compositions across sibling pages, persuasive voice, button hierarchy and actual navigation/hover/motion behavior against the agreed package. Fix routine defects before involving the designer.
 
