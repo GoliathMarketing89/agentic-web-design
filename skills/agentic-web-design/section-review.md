@@ -2,6 +2,8 @@
 
 Use before implementing a new page or materially redesigning a section. The agent does the reference legwork and prepares concrete recommendations; the designer spends time choosing and refining. Scale to the requested scope and reuse decisions already made.
 
+For full marketing sites, fit these deliverables into [creative-review.md](creative-review.md)'s three touchpoints. Agree voice and creative direction first; combine the complete outline, section options and storyboard into the second review package, resolving the outline before finalizing the storyboard. Intermediate rendered progress informs the designer without requiring a decision on every section group.
+
 ## 1. One complete UX/copy outline
 
 Read project research and drafts first. Give sections stable IDs such as S01 Hero, S02 Services and S03 Process. Present the complete reading order, including navigation and footer. For each section, list the visitor question, purpose, headline, body text, proof/content slots, intended image role, CTA and actual destination or behavior. Mark missing evidence and provisional copy.

@@ -29,6 +29,13 @@ variations. For each, give:
   video or Three.js; include a cheaper route where it can serve the same job.
 - Main tradeoff, likely production cost and whether motion adds useful information.
 
+Package each concept as a visible card: reference imagery for composition and
+lighting/treatment, a rough hero with the actual headline/CTA, subject and copy
+placement, desktop/mobile crops, production route, expected output and attempt
+limit. Explain what to borrow from each reference. A prompt alone is not a concept
+card. Use existing assets or uncharged sketches to reject poor compositions
+before commissioning new media; any paid preview follows the spend plan below.
+
 Recommend one and ask a focused question the designer can react to. Incorporate
 their response and show the revised idea when the meaning changes. Use existing
 assets, references and uncharged sketches for this discussion. Paid concept

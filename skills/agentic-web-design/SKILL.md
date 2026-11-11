@@ -1,9 +1,9 @@
 ---
 name: agentic-web-design
-description: Build or redesign websites through agreed UX and copy, visual section reference boards, a full-page storyboard, and iterative implementation and review.
+description: Build or redesign websites through efficient designer intake, agreed voice and art direction, visual section storyboards, reference-led assets, and iterative implementation and review.
 license: MIT
 metadata:
-  version: 2.2.0
+  version: 2.3.0
   author: Goliath Marketing
   tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic, astro]
   platforms: [linux, macos, windows]
@@ -22,7 +22,7 @@ metadata:
 
 The problem with AI-built sites is **taste**: agents default to generic, committee-pleasing output. This skill is a mandatory workflow that stops that. It runs the build through a visible, collaborative process: agree the UX and copy, compare section references, agree a full-page storyboard, then implement and review.
 
-**The rule that governs everything:** websites need to *convert*, not impress. Cinematic styling is garnish; conversion structure is the meal. Every creative decision gets checked against the conversion structure before it ships.
+**The design bar:** deliver a distinctive, visually impressive site with a persuasive offer and clear visitor journey. Judge visual character and conversion clarity together; clean spacing or a strong hero cannot compensate for generic lower sections.
 
 ## How to use this skill
 
@@ -31,6 +31,8 @@ The problem with AI-built sites is **taste**: agents default to generic, committ
 - **With a resource need**: load `resources.md` and read only the section the current gate points to. Do not read the whole shelf up front.
 
 The toolbox lives in [resources.md](resources.md). The loop below is the operating procedure; the resources are what each step reaches for.
+
+For full marketing sites, use [creative-review.md](creative-review.md) to batch decisions into three planned designer touchpoints: direction/voice, complete UX/copy/storyboard and production plan, then rendered site. Intermediate progress stays visible without adding approval gates for routine execution. Reuse existing approvals and explicit delegation; reopen only consequential changes or unresolved choices.
 
 ---
 
@@ -44,6 +46,8 @@ Inspect the project folder, research, existing drafts, supplied material and wor
 
 Propose the page and navigation structure for this visitor. Each section needs a job; select its place in the sequence from that job rather than applying a universal page formula. Resolve material gaps in the brief, then prepare the complete content outline in Gate 1.
 
+Follow [design-intake.md](design-intake.md): prefill the brief from available evidence, use the 21-question bank for coverage, and ask only consequential gaps. Default to a short adaptive interview plus visual choices; offer the full questionnaire on request. Agree voice samples and a creative direction at the first touchpoint before drafting the full site. Show three distinct direction boards when direction is open, each with a hero and two supporting sections; refine an existing approved direction instead when available.
+
 ### Gate 1 — Agree the full UX and copy
 
 Present the complete page in reading order, with stable section IDs. For every section show:
@@ -52,13 +56,15 @@ Present the complete page in reading order, with stable section IDs. For every s
 - Proposed headline, body copy, proof/content slots and image role.
 - CTA label, destination and what happens after activation.
 
-Draft usable copy before detailed layout, preserving good existing material. Use `copywriting-master` when available for persuasion and voice. Identify missing evidence rather than inventing reviews, credentials or results.
+Read and use `copywriting-master` for website copy and revisions, preserving good existing material. Write persuasive headlines, benefits and CTAs in the agreed voice before detailed layout. If the skill is unavailable, identify that dependency and use the recorded positioning/voice brief for provisional work.
+
+Keep draft status, fictional-brand explanations, missing-input notes and asset provenance in project/review documentation. Do not insert unsolicited website disclaimers such as “example page,” “not a real business” or “for demonstration only.” Use supported benefit/process copy where proof is missing; never invent reviews, credentials, statistics or results. Include specifically required disclosures in their intended locations.
 
 **Done when:** the designer has seen and agreed the complete UX/copy outline. Combine this into one useful review, not separate approvals for every sentence. Reuse explicit existing approvals; a broad mood or approved hero does not settle the rest of the page.
 
 ### Gate 2 — Agree visual references section by section
 
-Read [section-review.md](section-review.md) for the required board and storyboard format.
+Read [section-review.md](section-review.md) for the required board and storyboard format. Prepare Gates 1 and 2 as one review package: resolve the outline before finalizing the storyboard, in the same designer review round. Lead with the recommended whole-page proposal; keep all section options visible and accept feedback by exception.
 
 **Use the library as visible choices.** Start with `references/design-reference-library.md` and its linked screenshots, gallery and rebuild notes. For each substantial section, prepare two or three meaningfully different, relevant examples using the proposed content. Select by visitor job, content shape and responsive behavior. Use `web-design-reference-miner` when available to fill genuine gaps; if the shared bank is unavailable, inspect suitable sources and record them in the project.
 
@@ -67,6 +73,8 @@ Show actual section screenshots, a short adaptation explanation and a recommenda
 Let the designer choose and refine in a short round: for example, “services A, process B, make the case study more editorial.” Bring back only unresolved choices. Give sections below the hero the same deliberate selection treatment as the hero.
 
 Assemble the selected directions into a full-page storyboard with the real copy, image roles and rough proportions. Check repetition, visual rhythm, light/dark balance, density, transitions and mobile order before implementation.
+
+Follow [creative-review.md](creative-review.md) for the image/icon plan, distinctive lower sections, button/link specimen and motion examples. Agree primary CTA versions for light/dark surfaces, secondary CTA, ordinary links, navigation and interaction states before building. Avoid wrapping every URL in an outlined box or pill. Plan relevant imagery throughout the page; repeated layout families require a content reason.
 
 **Done when:** all required section jobs are covered and the designer has seen and agreed the visual boards and combined storyboard. Record selected example IDs, adaptations and approval scope in `design.md`. Explicit delegated direction can replace a human choice; still produce the boards/storyboard and document the recommendation used. Silence, a reference name or a hero-only approval is not approval of unseen sections.
 
@@ -84,15 +92,15 @@ Start with a representative slice, then extend in small section groups, usually 
 - **Webflow** — build the sections as Webflow sections. Use the design system for the style guide before you lay out sections. Keep interactions transform/opacity-only for performance.
 - **React / Next** — shadcn/ui plus the component stack, same section mapping.
 
-### Gate 4 — Animations (make it impressive, last)
+### Gate 4 — Implement and verify the agreed motion
 
-Only after the design is built do you add motion. Animation is the polish layer, not the structure. Add it where it earns its place: a hero entrance, a scroll reveal, a hover state. Keep it transform/opacity-only for performance. Do not animate everything.
+Plan motion with the storyboard in Gate 2, then implement the agreed behavior as the layout stabilizes. Use the motion plan in [creative-review.md](creative-review.md): show triggers, choreography and timing, navigation/hover behavior, mobile adaptation and reduced-motion alternatives. Create distinctive moments suited to the concept with consistent supporting behavior; repeating one reveal or card effect across the whole site is insufficient. Prefer performant transforms/opacity where appropriate and verify actual runtime behavior. Inspect recordings and exercise interactions; static screenshots do not prove motion quality. Generated video/3D follows the separate asset concept and budget workflow.
 
 ### Gate 5 — Critic loop (mandatory)
 
 Use a fresh independent design critic when delegation is available and authorized. Provide the agreed UX/copy outline, selected section screenshots, storyboard, and rendered desktop/mobile page captures. If independent review is unavailable, label the separate self-review accordingly.
 
-Judge each section against its chosen reference and the visitor task, then assess the page as a whole. Check distinctive composition, content-specific hierarchy, asset meaning, and variety that still feels like one site. A strong hero, clean typography or consistent colors cannot compensate for generic sections below it.
+Judge each section against its chosen reference and the visitor task, then assess the page as a whole. Check distinctive composition, content-specific hierarchy, asset meaning, and variety that still feels like one site. A strong hero, clean typography or consistent colors cannot compensate for generic sections below it. Audit imagery/icon coverage, repeated compositions across sibling pages, persuasive voice, button hierarchy and actual navigation/hover/motion behavior against the agreed package. Fix routine defects before involving the designer.
 
 Record concrete findings, make a small batch of changes, and review fresh evidence. Retain the **9/10** target as a review bar, not a number to negotiate: unresolved material findings stay visible even when a score is high. After two passes without improvement, revisit the design choice with the designer instead of repeating cosmetic changes or encouraging a higher score. Distinguish draft visual quality from production readiness; a critic score does not establish Marketplace acceptance, functional correctness or conversion results.
 
@@ -105,10 +113,10 @@ Run the 25-point conversion audit (`resources.md` §4). **Do not ship a page tha
 Strip every AI tell before shipping:
 
 - Overdone effects and excessive decoration.
-- Blue/purple gradients (the industry default) — use warm palettes, one accent color for CTAs, high contrast.
+- Default palettes or effects that ignore the agreed brand direction — use the selected color roles and maintain contrast.
 - Code-based gradients and shapes where a real image would do.
 - Generic structure and padding — if a section looks like a template, it is not adapted enough to its reference.
-- **Hand-rewrite the copy** — AI copy is a tell and lacks human voice.
+- **Review copy with `copywriting-master`** against the agreed voice, specific benefits, evidence and CTA path; remove generic filler and unsolicited demo/disclaimer text.
 
 **Human review before ship.** Put the build in front of the user and get their read before calling it done. The critic loop scores it against references; the human decides if it actually feels right. Iterate on their feedback, then ship. The build is done when it passes Gates 5, 6, and 7, not when the code compiles.
 
