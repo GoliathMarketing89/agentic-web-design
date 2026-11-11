@@ -1,9 +1,9 @@
 ---
 name: agentic-web-design
-description: Build or redesign websites through efficient designer intake, agreed voice and art direction, visual section storyboards, reference-led assets, and iterative implementation and review.
+description: Build or redesign websites through an adaptive design interview, reference-led art direction, agreed copy and section storyboards, asset production, and rendered refinement.
 license: MIT
 metadata:
-  version: 2.3.0
+  version: 2.3.1
   author: Goliath Marketing
   tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic, astro]
   platforms: [linux, macos, windows]
@@ -46,7 +46,7 @@ Inspect the project folder, research, existing drafts, supplied material and wor
 
 Propose the page and navigation structure for this visitor. Each section needs a job; select its place in the sequence from that job rather than applying a universal page formula. Resolve material gaps in the brief, then prepare the complete content outline in Gate 1.
 
-Follow [design-intake.md](design-intake.md): prefill the brief from available evidence, use the 21-question bank for coverage, and ask only consequential gaps. Default to a short adaptive interview plus visual choices; offer the full questionnaire on request. Agree voice samples and a creative direction at the first touchpoint before drafting the full site. Show three distinct direction boards when direction is open, each with a hero and two supporting sections; refine an existing approved direction instead when available.
+Run the [design interview](design-intake.md) throughout the workflow. Begin with a prefilled brief and use the 21-question bank as starting prompts. At each consequential unresolved decision, consult the relevant design references, copywriting or asset workflow, show a proposal, ask a focused question and use the designer's reaction to determine the next question or revision. Continue within the three touchpoints through section design, asset concepts and rendered refinement. Agree voice samples and a creative direction at the first touchpoint before drafting the full site. Show three distinct direction boards when direction is open, each with a hero and two supporting sections; refine an existing approved direction instead when available.
 
 ### Gate 1 — Agree the full UX and copy
 
@@ -146,4 +146,5 @@ Strip every AI tell before shipping:
 ## Scope and limits
 
 This skill produces the workflow and the toolbox for building converting sites with an agent. It does not guarantee a specific visual outcome — taste is enforced by the gates, not by the resources. The resources in `resources.md` are third-party tools; verify licenses and terms before shipping a client build. For regulated categories, have the copy and claims reviewed before publishing.
+
 

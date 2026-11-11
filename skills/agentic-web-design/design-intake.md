@@ -1,8 +1,40 @@
-# Fast design intake
+# Design interview
 
-Use before preparing a new site's direction boards, or when an existing build has unresolved creative direction. This is part of the first designer touchpoint, not an additional workshop. The agent prepares the evidence and recommendations; the designer supplies intent and judgment.
+Use throughout discovery, art direction, section design, asset development and refinement whenever a consequential design decision is unresolved. This is the conversational operating method of the web-design workflow: the agent brings design judgment, references and visible proposals; the designer reacts, and that reaction shapes the next question and iteration. The existing filename is retained for compatibility; this resource covers more than initial intake.
 
-## Choose an intake mode
+## Run a design interview throughout the build
+
+Treat the site as connected design decisions: audience/offer → positioning and voice → art direction and narrative → section composition → assets and interactions → rendered experience. Each answer changes which decisions are ready to explore. An existing project enters at its first unresolved decision.
+
+The three touchpoints organize designer time. Each is a short back-and-forth with visible proposals, not a one-shot presentation. Reuse this method whenever consequential feedback reopens a branch; preserve settled direction elsewhere.
+
+1. Identify the highest-impact unresolved decision whose prerequisites are known. Research factual gaps independently; resolve routine implementation details yourself.
+2. Consult the relevant design knowledge below. Prepare a proposal supported by a reference screenshot, voice sample, rough composition, control specimen, motion preview or rendered section.
+3. Ask the smallest useful question, recommend a direction and explain its design/visitor consequence. Group independent choices when efficient; ask dependent questions after the prerequisite answer.
+4. Wait where a designer decision is required. Interpret what they liked or rejected: composition, density, subject, tone, hierarchy or motion. Clarify ambiguous reactions that would materially change production.
+5. Revise the artifact and decision record, then determine the next unresolved branch. A selected reference needs an adaptation for this content; “more premium” needs a visible interpretation. Do not restart the interview.
+6. Execute and self-review within settled direction or explicit delegation. Return with evidence when a meaningful choice remains, rather than asking permission for routine adjustments.
+
+Stop a round when its consequential choices are resolved or delegated and the next useful work belongs to the agent. Resume when another human decision becomes ready. Completion depends on decision readiness, not a fixed question count or an exhaustive interview about every pixel.
+
+## Use the design knowledge behind the interview
+
+Bring judgment and recommendations, rather than asking the designer to invent the site. Route unresolved decisions to relevant resources:
+
+| Decision | Design knowledge | Evidence to show |
+| --- | --- | --- |
+| Positioning, narrative and voice | Project research and `copywriting-master` | Positioning recommendation, voice samples and section copy |
+| Art direction and composition | Shared reference library, desktop/mobile captures, gallery and rebuild notes; miner for gaps | Shortlisted screenshots and adaptations using actual content |
+| Hero and supporting assets | `asset-direction.md`, brand material and visual references | Distinct concepts, in-layout still/crops and bounded production plan |
+| Controls, navigation and motion | `creative-review.md` and observed interaction examples | Light/dark control specimens and behavior previews |
+| Coherence and distinctiveness | `section-review.md`, selected references and storyboard | Full-page sequence, cross-page repetition findings and revisions |
+| Implementation and refinement | Project's Webflow/Astro conventions and rendered evidence | Editable sections, desktop/mobile checks and interaction recordings |
+
+Webflow and Astro share this design judgment; implementation mechanics follow the chosen platform. If a resource is unavailable, inspect suitable references directly and record the limitation.
+
+Example: the designer says services feel dull. Inspect the content and composition, then show two relevant alternatives: an image-led service index and asymmetric grouping with a featured service. Recommend one based on hierarchy and available imagery. Ask which hierarchy feels right; adapt the section, inspect the page rhythm, and then determine whether new imagery or motion is needed. Adding the same reveal animation to the existing cards does not answer that feedback.
+
+## Choose a response format
 
 These are workflow tradeoffs, not measured time or quality results.
 
@@ -14,7 +46,7 @@ These are workflow tradeoffs, not measured time or quality results.
 | Prefilled brief to correct | Existing research, brand work or a familiar client provides context | Designer can overlook unsupported assumptions | Default starting artifact; distinguish known facts from proposals |
 | Dictated brief / freeform reply | Designer thinks faster aloud than in forms | Answers arrive out of order and can conflict | Accept one response, organize it, return only unresolved decisions |
 
-**Default:** prefilled brief → short adaptive interview → visual choice. Do not ask the designer to select an intake process before doing useful preparation. Accept their preferred response format when supplied.
+**Default:** begin with a prefilled brief, then conduct the design interview using short questions and visible proposals as needed. These formats support the same ongoing conversation. Do not ask the designer to select a process before doing useful preparation. Accept their preferred response format when supplied.
 
 ## Prepare before asking
 
@@ -26,7 +58,7 @@ Use the bank below as a coverage checklist. Skip answered questions. Defer quest
 
 ## The 21-question bank
 
-Adapt the wording to the brief; these are decision prompts, not a form to recite.
+Use these as starting prompts and coverage checks. Follow-up questions come from the designer's answers, project evidence and design judgment; the bank neither determines the order nor limits the interview to 21 questions.
 
 | ID | Question | Drives |
 | --- | --- | --- |
@@ -78,4 +110,4 @@ Record the number of unanswered questions sent, review rounds, late direction ch
 
 ## Source note
 
-Matt Pocock's [grilling skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) is a reference for grouping questions whose prerequisite decisions are settled and separating research from human decisions. This web-design intake uses a bounded question bank and visual selection to reduce designer effort. The specific brand-program example mentioned in discussion was not verified; the 21-question bank here is our own web-design proposal.
+Matt Pocock's [grilling skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) is a reference for grouping questions whose prerequisite decisions are settled and separating research from human decisions. This web-design adaptation uses the iterative interview principle with references, copywriting, art direction and rendered critique as its domain knowledge. The 21-question bank is our own set of starting prompts.

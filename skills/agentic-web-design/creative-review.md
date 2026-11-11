@@ -4,7 +4,7 @@ Use for full marketing-site builds in Webflow or Astro. The agent researches, pr
 
 ## Three planned touchpoints
 
-Use [design-intake.md](design-intake.md) for the first touchpoint: prefill the brief, ask only consequential gaps from the 21-question bank, and settle visual preferences with examples. The question bank supplies coverage; completing all 21 is optional. Lead each review with the recommended package and invite corrections or exceptions instead of requiring dozens of individual selections.
+Use the [design interview](design-intake.md) across all three touchpoints. Each is a short back-and-forth: prepare a visible proposal, hear the designer's reaction, revise the relevant decision and artifact, then explore the next consequential gap. Continue through section design, assets and rendered refinement. The 21-question bank supplies starting prompts, not a fixed script. Lead with recommendations and invite corrections or exceptions instead of requiring dozens of individual selections.
 
 1. **Direction and voice.** Inspect the brief and existing approvals. When direction is open, show three distinct boards, each with a hero, typography/palette, image treatment and two supporting section references. Recommend one. Show a proposed voice specimen alongside it. Agree direction and voice before drafting the full site.
 2. **Complete page and production plan.** Present the full UX/copy outline, visible section options, recommended scrollable storyboard, button/link specimen, motion examples and asset concept cards together. Agree UX/copy before finalizing the storyboard; resolve changes in this same review round. Obtain any uncovered media budget before paid production. Include desktop composition and mobile behavior. A designer can accept the recommended package in one response or identify only the exceptions.
@@ -53,3 +53,4 @@ For Webflow, implement reusable native styles/interactions and editable assets w
 Review the complete page and representative sibling pages, not only the strongest hero. Check voice and sales argument, image/icon coverage, section and page repetition, button hierarchy, navigation/hover behavior and motion variety against the agreed package. Watch actual motion, including a phone and reduced-motion pass. Fix routine defects before involving the designer.
 
 Clean spacing and correct responsiveness are necessary but insufficient for an impressive template. Record concrete gaps against the references and fix them; do not use a high subjective score to dismiss visible generic composition. Template-store acceptance remains a separate outcome that requires the store's actual review.
+
