@@ -3,7 +3,7 @@ name: agentic-web-design
 description: Build or redesign websites through an adaptive design interview, reference-led art direction, agreed copy and section storyboards, asset production, and rendered refinement.
 license: MIT
 metadata:
-  version: 2.4.0
+  version: 2.5.0
   author: Goliath Marketing
   tags: [web-design, ui, landing-page, conversion, vibe-coding, cro, design-systems, agentic, astro]
   platforms: [linux, macos, windows]
@@ -44,6 +44,8 @@ Run these gates in order. A gate is a hard stop: you do not move to the next ste
 
 Inspect the project folder, research, existing drafts, supplied material and working site before asking questions. Record audience, visitor task, primary action, required pages, brand, stack, content and asset constraints. Preserve decisions already made.
 
+Follow [goal-driven-design.md](goal-driven-design.md) before writing or selecting layouts: define the site's primary outcome, each page's role and each section's contribution. Review the actual journey through to its intended result. Goal alignment governs copy, UX, imagery and interactions; topical relevance alone does not justify a page or section. Reuse this map in the existing reviews, with no added designer workshop.
+
 Propose the page and navigation structure for this visitor. Each section needs a job; select its place in the sequence from that job rather than applying a universal page formula. Resolve material gaps in the brief, then prepare the complete content outline in Gate 1.
 
 Run the [design interview](design-intake.md) throughout the workflow. Begin with a prefilled brief and use the 21-question bank as starting prompts. At each consequential unresolved decision, consult the relevant design references, copywriting or asset workflow, show a proposal, ask a focused question and use the designer's reaction to determine the next question or revision. Continue within the three touchpoints through section design, asset concepts and rendered refinement. Agree voice samples and a creative direction at the first touchpoint before drafting the full site. Show three distinct direction boards when direction is open, each with a hero and two supporting sections; refine an existing approved direction instead when available.
@@ -52,7 +54,11 @@ Derive a small shared visual vocabulary from approved references and feedback us
 
 ### Gate 1 — Agree the full UX and copy
 
-Present the complete page in reading order, with stable section IDs. For every section show:
+Present the complete page in reading order, with stable section IDs.
+
+First record the page type, visitor arrival intent/awareness, provider or offer being chosen, doubts to resolve and primary action. State the decision this page must advance. For commercial service pages, substantial sections must explain this provider's solution/process, establish a relevant reason to choose it, resolve a buying objection or enable action. A topic such as “Signs of termites” is not by itself a commercial job; secondary education can be a compact linked callout or article. Review this mapping in the existing UX/copy round, without an added designer checkpoint.
+
+For every section show:
 
 - The visitor question, section purpose and reason for its position.
 - Proposed headline, body copy, proof/content slots and image role.

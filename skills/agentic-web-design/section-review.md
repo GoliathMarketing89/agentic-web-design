@@ -10,6 +10,10 @@ Read project research and drafts first. Give sections stable IDs such as S01 Her
 
 Agree this outline as a whole before selecting layouts. An approved business goal or hero is not approval of every lower section. Avoid imposing the same marketing arc on sites with different visitor tasks.
 
+Test each proposed section against the page's recorded decision and visitor arrival intent. On a commercial page, name the buyer question/objection, this provider's supported answer and the contribution to choosing the offer. General subject relevance alone is insufficient. Remove, shorten or link out educational detours that displace the service argument. Apply the same test to proposed layouts and imagery before selecting an attractive reference.
+
+Use [goal-driven-design.md](goal-driven-design.md) for the site-to-page-to-section mapping and journey checks. Add the purpose and visual-plan fields to this existing outline; the agent prepares the rows and brings only consequential gaps to the designer.
+
 ## 2. A visible board for every substantial section
 
 Search the shared real-example bank, linked gallery, screenshots and rebuild notes before mining more. Shortlist two or three distinct candidates per section. A compact footer or repeated utility component can share a board; substantive sections below the hero still need visible decisions. An already-selected reference can be carried forward with its approval recorded.
@@ -61,3 +65,4 @@ Implement a representative slice, then small groups of sections. Show actual ren
 A material change to composition, imagery meaning, copy purpose or interaction gets a concrete revised proposal before it is repeated across the site. Reuse a proven shared section on other pages when the agreement covers that reuse.
 
 Give the critic the full UX, selected reference screenshots, storyboard and rendered evidence for both major sections and the full page. Review section-specific design quality and overall distinctiveness, not just visual cleanliness. Keep scores separate from concrete findings and designer preference. Approval to build, a draft visual score, production verification and publication authorization are different decisions.
+
