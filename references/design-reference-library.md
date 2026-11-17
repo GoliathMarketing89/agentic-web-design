@@ -1,143 +1,16 @@
 ## hero
-### Detent — exploded keyboard switch
-- name: Detent — exploded keyboard switch
-- url: https://x.com/flxrnc/status/2108607635230446004
+### Print Phuket hero
+- name: Print Phuket hero
+- url: https://printphuket.com/
 - type: hero
-- styles: light, industrial, product-render, x-sourced, ai-assisted-concept
-- industry: hardware, ecommerce
-- source: gallery
-- borrow: An exploded key switch balances a giant two-line headline, with price inside the preorder action and a row of technical chips.
-- why: One hero explains the mechanical construction, price and next action without burying the product behind abstract art.
+- styles: local-service, type-led, trust-pill
+- industry: printing, local-service, ecommerce
+- source: out-of-geo
+- borrow: dual primary CTAs (Shop all products / Get a quote) plus a trust-pill strip under the hero (free delivery, free pickup, express, design service) plus live chat channels (LINE/WhatsApp) above the fold
+- why: local-service site puts proof and a way to talk before the decision, not after; the tucked pill row converts without a bulky trust section
 - conv: 8
-- wow: 9
-- shot: shots/x2-florence.jpg
-- by: Codex
-
-### UnifiedChat — calm inbox with floating messages
-- name: UnifiedChat — calm inbox with floating messages
-- url: https://x.com/dhruvalgolakiya/status/2102802914024845385
-- type: hero
-- styles: light, pastel, serif, product-ui, x-sourced, ai-assisted-concept
-- industry: software, productivity
-- source: gallery
-- borrow: A restrained serif promise and email signup sit opposite floating message cards, with actual inbox UI entering at the bottom.
-- why: The layout connects a calm emotional benefit to recognizable message fragments and a concrete product preview.
-- conv: 7
-- wow: 8
-- shot: shots/x2-dhruval.jpg
-- by: Codex
-
-### Verdant — valley-to-underground cloud
-- name: Verdant — valley-to-underground cloud
-- url: https://x.com/viktoroddy/status/2109984169845821651
-- type: hero
-- styles: green, landscape, 3d-scene, editorial, x-sourced, ai-assisted-concept
-- industry: infrastructure, software
-- source: gallery
-- borrow: A lush valley and floating glass emblem frame a low-centered mixed-serif headline, setting up an underground scroll journey.
-- why: A coherent physical world gives an invisible infrastructure offer a memorable spatial metaphor.
-- conv: 3
-- wow: 9
-- shot: shots/x2-verdant.jpg
-- by: Codex
-
-### Sunseto — solar home at dusk
-- name: Sunseto — solar home at dusk
-- url: https://x.com/MengTo/status/2103491024287084744
-- type: hero
-- styles: warm, environmental, solar, serif, x-sourced, ai-assisted-concept
-- industry: energy, home-services
-- source: gallery
-- borrow: A warm Japanese home scene joins the solar promise to an address-check form, while a floating panel makes the system tangible.
-- why: The environment communicates the evening benefit and the address field turns that atmosphere into a specific next step.
-- conv: 8
-- wow: 9
-- shot: shots/x2-sunseto-desktop.jpg
-- by: Codex
-
-### WithLore — chrome sculpture agency
-- name: WithLore — chrome sculpture agency
-- url: https://x.com/itsnicholash/status/2064809351211078019
-- type: hero
-- styles: ivory, chrome, sculptural, bold-type, x-sourced, ai-assisted-concept
-- industry: creative-agency, design
-- source: gallery
-- borrow: An iridescent chrome sculpture floats over a giant condensed headline, while two compact project/work actions stay beneath it.
-- why: One strong shader-like object supplies personality in an otherwise disciplined monochrome composition.
-- conv: 5
-- wow: 9
-- shot: shots/x2-nicholas.jpg
-- by: Codex
-
-### KYNTRA Raven-X — quiet product sculpture
-- name: KYNTRA Raven-X — quiet product sculpture
-- url: https://x.com/EWashoku/status/2104211672370201053
-- type: hero
-- styles: white, industrial, minimal, 3d-product, x-sourced, ai-assisted-concept
-- industry: bicycles, hardware
-- source: gallery
-- borrow: A precisely lit bicycle floats above an extremely light product name and sparse chapter metadata in a white gallery.
-- why: The product silhouette and material detail receive almost all the attention, making the composition useful for considered product exploration.
-- conv: 4
-- wow: 8
-- shot: shots/x2-bicycle-desktop.jpg
-- by: Codex
-
-### Pulse — portrait and sound-wave rings
-- name: Pulse — portrait and sound-wave rings
-- url: https://x.com/HamidoFx1/status/2102758260529082524
-- type: hero
-- styles: dark, photographic, sound-waves, x-sourced, ai-assisted-concept
-- industry: music, entertainment
-- source: gallery
-- borrow: A headphone portrait is wrapped by thin concentric sound-wave arcs beside a bold promise and white listening action.
-- why: The human subject makes the emotional outcome immediate while the rings link the asset to the product category.
-- conv: 7
-- wow: 8
-- shot: shots/x2-pulse.jpg
-- by: Codex
-
-### Kveld — halo-lit guitar showroom
-- name: Kveld — halo-lit guitar showroom
-- url: https://x.com/SammmAing/status/2117660269451063314
-- type: hero
-- styles: dark, gold, product-showroom, 3d, x-sourced, ai-assisted-concept
-- industry: musical-instruments, luxury-products
-- source: gallery
-- borrow: A central guitar stands inside a luminous gold ring, with dim neighboring instruments establishing a selectable collection.
-- why: Lighting establishes a clear featured object while adjacent products suggest a deeper collection.
-- conv: 6
-- wow: 9
-- shot: shots/x2-kveld.jpg
-- by: Codex
-
-### Veloce Prive — portal to a private collection
-- name: Veloce Prive — portal to a private collection
-- url: https://x.com/SammmAing/status/2118727033337327724
-- type: hero
-- styles: burgundy, architectural, luxury, 3d, x-sourced, ai-assisted-concept
-- industry: automotive, luxury-rental
-- source: gallery
-- borrow: An inset doorway opens onto a reflective car gallery, turning the hero into an architectural invitation.
-- why: The receding portals, warm material and controlled reflections make the product feel exhibited rather than listed.
-- conv: 3
-- wow: 9
-- shot: shots/x2-veloce-desktop.jpg
-- by: Codex
-
-### Ethan Vale — orbiting wildlife archive
-- name: Ethan Vale — orbiting wildlife archive
-- url: https://x.com/viktoroddy/status/2102986525185343563
-- type: hero
-- styles: black, photographic, 3d-gallery, serif, x-sourced, ai-assisted-concept
-- industry: photography, portfolio
-- source: gallery
-- borrow: Photographic panels form an open rotating sphere around a centered serif portfolio promise.
-- why: The archive itself becomes the visual asset and communicates range without a conventional grid.
-- conv: 4
-- wow: 9
-- shot: shots/x2-wildlife.jpg
-- by: Codex
+- wow: 6
+- by: Hermes
 
 ### A.J. Alberts Plumbing
 - name: A.J. Alberts Plumbing
@@ -222,6 +95,20 @@
 - shot: shots/x-denta.jpg
 - by: Codex
 
+### Detent — exploded keyboard switch
+- name: Detent — exploded keyboard switch
+- url: https://x.com/flxrnc/status/2108607635230446004
+- type: hero
+- styles: light, industrial, product-render, x-sourced, ai-assisted-concept
+- industry: hardware, ecommerce
+- source: gallery
+- borrow: An exploded key switch balances a giant two-line headline, with price inside the preorder action and a row of technical chips.
+- why: One hero explains the mechanical construction, price and next action without burying the product behind abstract art.
+- conv: 8
+- wow: 9
+- shot: shots/x2-florence.jpg
+- by: Codex
+
 ### Drift — sunlit portrait
 - name: Drift — sunlit portrait
 - url: https://x.com/r0melus/status/2117768889832505636
@@ -234,6 +121,20 @@
 - conv: 6
 - wow: 8
 - shot: shots/x-drift.jpg
+- by: Codex
+
+### Ethan Vale — orbiting wildlife archive
+- name: Ethan Vale — orbiting wildlife archive
+- url: https://x.com/viktoroddy/status/2102986525185343563
+- type: hero
+- styles: black, photographic, 3d-gallery, serif, x-sourced, ai-assisted-concept
+- industry: photography, portfolio
+- source: gallery
+- borrow: Photographic panels form an open rotating sphere around a centered serif portfolio promise.
+- why: The archive itself becomes the visual asset and communicates range without a conventional grid.
+- conv: 4
+- wow: 9
+- shot: shots/x2-wildlife.jpg
 - by: Codex
 
 ### Imperial / Legion VPN — armored sculpture
@@ -263,6 +164,34 @@
 - wow: 9
 - shot: shots/kube-hero-desktop.jpg
 - by: Codex; observed 2026-11-06
+
+### Kveld — halo-lit guitar showroom
+- name: Kveld — halo-lit guitar showroom
+- url: https://x.com/SammmAing/status/2117660269451063314
+- type: hero
+- styles: dark, gold, product-showroom, 3d, x-sourced, ai-assisted-concept
+- industry: musical-instruments, luxury-products
+- source: gallery
+- borrow: A central guitar stands inside a luminous gold ring, with dim neighboring instruments establishing a selectable collection.
+- why: Lighting establishes a clear featured object while adjacent products suggest a deeper collection.
+- conv: 6
+- wow: 9
+- shot: shots/x2-kveld.jpg
+- by: Codex
+
+### KYNTRA Raven-X — quiet product sculpture
+- name: KYNTRA Raven-X — quiet product sculpture
+- url: https://x.com/EWashoku/status/2104211672370201053
+- type: hero
+- styles: white, industrial, minimal, 3d-product, x-sourced, ai-assisted-concept
+- industry: bicycles, hardware
+- source: gallery
+- borrow: A precisely lit bicycle floats above an extremely light product name and sparse chapter metadata in a white gallery.
+- why: The product silhouette and material detail receive almost all the attention, making the composition useful for considered product exploration.
+- conv: 4
+- wow: 8
+- shot: shots/x2-bicycle-desktop.jpg
+- by: Codex
 
 ### Linear
 - name: Linear
@@ -319,6 +248,20 @@
 - shot: shots/x-museum.jpg
 - by: Codex
 
+### Pulse — portrait and sound-wave rings
+- name: Pulse — portrait and sound-wave rings
+- url: https://x.com/HamidoFx1/status/2102758260529082524
+- type: hero
+- styles: dark, photographic, sound-waves, x-sourced, ai-assisted-concept
+- industry: music, entertainment
+- source: gallery
+- borrow: A headphone portrait is wrapped by thin concentric sound-wave arcs beside a bold promise and white listening action.
+- why: The human subject makes the emotional outcome immediate while the rings link the asset to the product category.
+- conv: 7
+- wow: 8
+- shot: shots/x2-pulse.jpg
+- by: Codex
+
 ### Raycast — atmospheric product hero
 - name: Raycast — atmospheric product hero
 - url: https://www.raycast.com/
@@ -346,6 +289,20 @@
 - wow: 7
 - by: Hermes
 
+### Sunseto — solar home at dusk
+- name: Sunseto — solar home at dusk
+- url: https://x.com/MengTo/status/2103491024287084744
+- type: hero
+- styles: warm, environmental, solar, serif, x-sourced, ai-assisted-concept
+- industry: energy, home-services
+- source: gallery
+- borrow: A warm Japanese home scene joins the solar promise to an address-check form, while a floating panel makes the system tangible.
+- why: The environment communicates the evening benefit and the address field turns that atmosphere into a specific next step.
+- conv: 8
+- wow: 9
+- shot: shots/x2-sunseto-desktop.jpg
+- by: Codex
+
 ### The Meteor — midnight cinema
 - name: The Meteor — midnight cinema
 - url: https://x.com/FellMentKE/status/2117653276309241952
@@ -358,6 +315,34 @@
 - conv: 6
 - wow: 8
 - shot: shots/x-the-meteor.jpg
+- by: Codex
+
+### UnifiedChat — calm inbox with floating messages
+- name: UnifiedChat — calm inbox with floating messages
+- url: https://x.com/dhruvalgolakiya/status/2102802914024845385
+- type: hero
+- styles: light, pastel, serif, product-ui, x-sourced, ai-assisted-concept
+- industry: software, productivity
+- source: gallery
+- borrow: A restrained serif promise and email signup sit opposite floating message cards, with actual inbox UI entering at the bottom.
+- why: The layout connects a calm emotional benefit to recognizable message fragments and a concrete product preview.
+- conv: 7
+- wow: 8
+- shot: shots/x2-dhruval.jpg
+- by: Codex
+
+### Veloce Prive — portal to a private collection
+- name: Veloce Prive — portal to a private collection
+- url: https://x.com/SammmAing/status/2118727033337327724
+- type: hero
+- styles: burgundy, architectural, luxury, 3d, x-sourced, ai-assisted-concept
+- industry: automotive, luxury-rental
+- source: gallery
+- borrow: An inset doorway opens onto a reflective car gallery, turning the hero into an architectural invitation.
+- why: The receding portals, warm material and controlled reflections make the product feel exhibited rather than listed.
+- conv: 3
+- wow: 9
+- shot: shots/x2-veloce-desktop.jpg
 - by: Codex
 
 ### Vercel
@@ -373,7 +358,48 @@
 - wow: 8
 - by: Hermes
 
+### Verdant — valley-to-underground cloud
+- name: Verdant — valley-to-underground cloud
+- url: https://x.com/viktoroddy/status/2109984169845821651
+- type: hero
+- styles: green, landscape, 3d-scene, editorial, x-sourced, ai-assisted-concept
+- industry: infrastructure, software
+- source: gallery
+- borrow: A lush valley and floating glass emblem frame a low-centered mixed-serif headline, setting up an underground scroll journey.
+- why: A coherent physical world gives an invisible infrastructure offer a memorable spatial metaphor.
+- conv: 3
+- wow: 9
+- shot: shots/x2-verdant.jpg
+- by: Codex
+
+### WithLore — chrome sculpture agency
+- name: WithLore — chrome sculpture agency
+- url: https://x.com/itsnicholash/status/2064809351211078019
+- type: hero
+- styles: ivory, chrome, sculptural, bold-type, x-sourced, ai-assisted-concept
+- industry: creative-agency, design
+- source: gallery
+- borrow: An iridescent chrome sculpture floats over a giant condensed headline, while two compact project/work actions stay beneath it.
+- why: One strong shader-like object supplies personality in an otherwise disciplined monochrome composition.
+- conv: 5
+- wow: 9
+- shot: shots/x2-nicholas.jpg
+- by: Codex
+
 ## bento
+### Print Phuket category grid
+- name: Print Phuket category grid
+- url: https://printphuket.com/
+- type: bento
+- styles: category-grid, tiles, copy-led
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: flat 8-tile category grid (Stickers, Menus, Window decals...) where each tile is a product name + a one-line reason to buy that variant + Shop now arrow
+- why: the descriptor under each product name sells the specific variant, so browsing maps straight to an intent instead of a dead-end gallery page
+- conv: 8
+- wow: 6
+- by: Hermes
+
 ### Attio — workflow demonstration bento
 - name: Attio — workflow demonstration bento
 - url: https://attio.com/#home-2026-generate-pipeline
@@ -787,6 +813,19 @@
 - by: Codex
 
 ## social-proof
+### Print Phuket Google review cards
+- name: Print Phuket Google review cards
+- url: https://printphuket.com/
+- type: social-proof
+- styles: testimonial, review-cards, star-led
+- industry: printing, local-service
+- source: out-of-geo
+- borrow: verbatim Google review cards, each labeled with the business name and a Google review ★★★★★ chip
+- why: naming the platform (Google) and the exact rating makes each quote independently verifiable, which reads as real proof over a generic testimonial wall
+- conv: 8
+- wow: 5
+- by: Hermes
+
 ### AJ Alberts trust-signal stack
 - name: AJ Alberts trust-signal stack
 - url: https://www.ajalberts.com
@@ -940,6 +979,19 @@
 - by: Hermes
 
 ## faq
+### Print Phuket pre-order FAQ
+- name: Print Phuket pre-order FAQ
+- url: https://printphuket.com/
+- type: faq
+- styles: accordion, plain, reassurance
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: FAQ headed Questions before you order (file check, design help, turnaround, delivery, custom quote) so every answer kills a pre-purchase objection
+- why: question framing owns the late-stage doubts a buyer actually has, and each answer removes a reason not to order
+- conv: 8
+- wow: 4
+- by: Hermes
+
 ### AirOps dark FAQ pause
 - name: AirOps dark FAQ pause
 - url: https://www.webflow.com/blog/faq-pages
@@ -1051,6 +1103,19 @@
 - by: Codex; observed 2026-11-06
 
 ## how-it-works
+### Print Phuket proof-as-a-step
+- name: Print Phuket proof-as-a-step
+- url: https://printphuket.com/
+- type: how-it-works
+- styles: numbered, process, reassurance
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: four-step order flow (choose product / add design / check it first / we print it) with the optional proof-to-approve step called out in step three
+- why: risk-reduction is baked into the process itself (approve a proof before it prints) rather than buried in a FAQ answer
+- conv: 8
+- wow: 5
+- by: Hermes
+
 ### Designjoy — three illustrated service steps
 - name: Designjoy — three illustrated service steps
 - url: https://www.designjoy.co/
@@ -1434,6 +1499,19 @@
 - by: Codex; observed 2026-11-06
 
 ## cta
+### Print Phuket business CTA band
+- name: Print Phuket business CTA band
+- url: https://printphuket.com/
+- type: cta
+- styles: band, multi-channel, business-facing
+- industry: printing, b2b
+- source: out-of-geo
+- borrow: closing band holding a Get a quote button plus the actual reach channels (LINE, WhatsApp, email) so a business buyer contacts the way they prefer
+- why: a business-quote ask paired with tangible contact channels lowers the cost of the first touch, which is the real conversion object for bulk deals
+- conv: 8
+- wow: 5
+- by: Hermes
+
 ### charity: water â€” illustrated newsletter signup
 - name: charity: water â€” illustrated newsletter signup
 - url: https://www.charitywater.org/
@@ -1532,6 +1610,19 @@
 - by: Codex; observed 2026-11-06
 
 ## nav
+### Print Phuket intent-split nav
+- name: Print Phuket intent-split nav
+- url: https://printphuket.com/
+- type: nav
+- styles: dual-rail, intent-routing, tabbed
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: two-tab nav rail splitting by intent — Shop by product vs Shop by business — plus a product search field and filter inside the rail
+- why: separating retail and bulk-buying audiences into two catalogs beats one crowded nav, and the in-rail search gets repeat buyers to product fast
+- conv: 8
+- wow: 6
+- by: Hermes
+
 ### Figma — task-led mega menu beside a grouped product directory
 - name: Figma — task-led mega menu beside a grouped product directory
 - url: https://www.figma.com/
@@ -1602,6 +1693,19 @@
 - by: Hermes
 
 ## ecommerce
+### Print Phuket tabbed best-sellers
+- name: Print Phuket tabbed best-sellers
+- url: https://printphuket.com/
+- type: ecommerce
+- styles: tabbed, collection, card-only
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: tabbed best-seller strip (STICKERS / FLYERS / MENUS / POSTCARDS) where each product card is just the name + Order now arrow
+- why: tabs let a returning shopper jump categories without scrolling, and the minimal card kills every step between browsing and ordering
+- conv: 8
+- wow: 5
+- by: Hermes
+
 ### Casper trust-heavy product page
 - name: Casper trust-heavy product page
 - url: https://casper.com
