@@ -172,6 +172,62 @@ Desktop links and phone closed state inspected. The mobile menu click stalled th
 
 Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
 
+## Print Phuket — product-or-business discovery menu
+
+ID: `printphuket-intent-menu` · Type: nav · Observed: 2026-11-17
+
+Source: [Print Phuket — product-or-business discovery menu](https://printphuket.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: an expansive dark menu with product and business discovery modes, image-led choices, search and a persistent custom-quote route
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-nav-desktop.jpg), [view 2](shots/printphuket-nav-business-desktop.jpg)
+
+Mobile: [view 1](shots/printphuket-nav-mobile.jpg), [view 2](shots/printphuket-nav-business-mobile.jpg)
+
+### Use when
+
+Broad visual catalogues whose customers recognise either product names or use cases.
+
+### Avoid when
+
+Small inventories that would be slower to use through a large modal, or unrelated audience segmentation without distinct destinations.
+
+### Content slots
+
+Menu trigger/close; two discovery modes; category images/labels/links; business search; featured offer; quote and design links; help routes; social links.
+
+### Desktop composition
+
+A pale utility header overlays a near-black rounded mega-panel. A left mode rail, central catalogue and right featured/quote column form the desktop layout. Product mode uses image cards; business mode uses compact image-and-label entries with a filter field. A narrow CMYK band marks the brand boundary.
+
+### Observed mobile behavior
+
+The menu becomes an almost full-screen dark dialog with a product search, two-column image categories, design/quote actions, help routes and a business submenu with a Back control. The accessible dialog name changes from Shop Print Phuket on desktop to Menu on phone.
+
+### Rebuild recipe
+
+Represent the catalogue and business routes as structured navigation data. Render a desktop three-region layout and a narrow-screen drill-in view with explicit Back/Close controls. Manage focus entry, focus containment, Escape and return-to-trigger; mark the active mode and keep the quote route available. Use semantic links for destinations and buttons for state changes.
+
+### Asset production
+
+Small consistent crops drawn from the approved product/application image family, brand mark and a featured promotion image. These are miniature product previews, not arbitrary menu illustrations.
+
+### Adaptation decisions
+
+Trim groups to the actual inventory. Provide a useful plain navigation fallback. Preserve keyboard focus-visible without leaving pointer-click halos. Do not infer retail/wholesale audiences merely from the two labels.
+
+### Interaction evidence and gaps
+
+Pointer opening, product/business switching and close controls were exercised. Desktop Escape closure was observed. One Enter opening attempt did not leave the dialog visible; full keyboard behaviour remains unresolved rather than certified. Captures include transition/focus states. Search filtering and destination completion were not tested.
+
+### Verification
+
+Desktop and phone menu states inspected and captured. No full accessibility audit or complete journey validation.
+
 ## Raycast — atmospheric product hero
 
 ID: `raycast-atmospheric-hero` · Type: hero · Observed: 2026-11-06
@@ -339,6 +395,62 @@ Animated product framing was observed. Purchase destinations were visible but ch
 ### Verification
 
 Desktop crop and mobile viewport capture inspected. Prices and device specifications are not reusable client content.
+
+## Print Phuket — linked photographic card-stack hero
+
+ID: `printphuket-linked-photo-stack-hero` · Type: hero · Observed: 2026-11-17
+
+Source: [Print Phuket — linked photographic card-stack hero](https://printphuket.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a stable sales column beside an automatically cycling stack of rotated product-photo links with named pagination
+
+Editorial scores: conversion clarity 8/9; visual impact 9/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-hero-desktop.jpg), [view 2](shots/printphuket-hero-desktop-state3.jpg), [view 3](shots/printphuket-hero-desktop-state2.jpg)
+
+Mobile: [view 1](shots/printphuket-hero-mobile-full.jpg)
+
+### Use when
+
+A visual product/service catalogue with several recognisable applications and direct destinations for each example.
+
+### Avoid when
+
+One-off urgent tasks, weak or unrelated imagery, or a carousel used as a substitute for a clear offer.
+
+### Content slots
+
+Offer eyebrow; concise outcome headline; supporting offer copy; primary shop action; secondary quote action; chat links; factual reassurance pills; five product images, labels and URLs; named pagination buttons.
+
+### Desktop composition
+
+Desktop splits the hero into a broad text column and a large rounded photographic stack. The current card is upright, with scaled/rotated neighbours visible behind. Pale cyan, magenta and yellow ambient fields connect the photography to the printing brand. The headline carries one gradient-emphasised word. Header and trust pills remain stable while the image changes.
+
+### Observed mobile behavior
+
+At a 390×844 requested viewport, copy, full-width actions and reassurance pills precede the photo stack. The full hero is about 1,221 px tall in the saved capture, so the card is below the first phone screen. The dot controls remain below it. This preserves early action access but delays the visual showcase.
+
+### Rebuild recipe
+
+Build semantic copy/actions beside a relative, aspect-ratio-controlled stage containing product-link cards. Keep card identity, image, label and URL in one data record. Apply active/previous/next states with z-order, rotation, scale and translation; only the active card should accept pointer and keyboard navigation. Use one active index for card state and named pagination. Pause autoplay during pointer/focus interaction and when hidden, and provide a reduced-motion/manual alternative. These accessibility behaviours are adaptation requirements, not verified source features. In Webflow use editable links and a scoped interaction/component; in Astro render card data and add only the small controller needed.
+
+### Asset production
+
+Create an art-directed family of product/application photographs or approved photographic mockups: shared warm light, tactile surfaces, purposeful props, quiet backgrounds and reliable crops. The source's production method and authenticity were not verified. Author new assets or license appropriate ones; do not reuse the site's photographs. A video or 3D model is unnecessary for this effect.
+
+### Adaptation decisions
+
+Borrow the stack and meaningful destinations, not the printing palette by default. Keep useful copy and early CTAs visible. Consider moving a smaller visual higher on phones when visual recognition matters more than a long reassurance list. Include loading/error fallbacks and avoid headline or layout jumps between slides.
+
+### Interaction evidence and gaps
+
+Autoplay changed front products across observations; manual product dots were clicked and aria-hidden card states changed. DOM-backed computed styles showed absolute cards, transform transitions around 0.9 s and opacity around 0.7 s with cubic-bezier(0.2,0.7,0.2,1). Observed neighbour matrices corresponded approximately to −7°/+6° rotation with .86/.88 scale. Exact dwell interval, pause logic, full keyboard traversal and reduced-motion behaviour were not verified. Multiple still states are saved; there is no motion recording.
+
+### Verification
+
+Live desktop and phone inspection plus saved still states. No conversion uplift, autoplay timing measurement or rebuild validation. See printphuket-design-study.md for the detailed stack and asset recipe.
 
 ## The Meteor — midnight cinema
 
@@ -1627,6 +1739,62 @@ The Build pipeline anchor was exercised and scrolled to the article. Mobile navi
 ### Verification
 
 Live desktop/mobile inspection and complementary viewport captures. No complete rebuild or conversion measurement.
+
+## Print Phuket — photographic category doors with coordinated feedback
+
+ID: `printphuket-photo-category-grid` · Type: bento · Observed: 2026-11-17
+
+Source: [Print Phuket — photographic category doors with coordinated feedback](https://printphuket.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: eight photograph-led category doors with short decision descriptors and a coordinated image-zoom, advancing-arrow and colour-line interaction
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-categories-desktop.jpg)
+
+Mobile: [view 1](shots/printphuket-categories-mobile.jpg)
+
+### Use when
+
+A service/product catalogue where visual examples help people recognise the item they need.
+
+### Avoid when
+
+Offers requiring long explanatory copy or a false bento layout with no meaningful category differences.
+
+### Content slots
+
+Section question; short instruction; all-products route; eight category images, names, brief scope descriptors and destination links.
+
+### Desktop composition
+
+A regular four-column, two-row grid, not an asymmetric bento. Large warm product/application photographs sit above compact white text panels. Matching radii, gutters and image ratios create coherence; image subjects create identity.
+
+### Observed mobile behavior
+
+The grid becomes two columns, maintaining the image-first order and concise labels. Longer descriptors wrap heavily and some captured text shows stretched spacing/hyphenation; improve those details when adapting.
+
+### Rebuild recipe
+
+Render each category as one semantic link containing image, title, descriptor and directional affordance. Clip the media area to its radius while leaving text stable. For the designer-reported hover treatment, coordinate a modest image scale, small arrow translation and transient colour line with a shared easing. Start with roughly 200–350 ms, 1.03–1.06 image scale and 4–6 px arrow travel as proposed tuning, not measured source values. Keep feedback under focus-visible too; avoid persistent pointer outlines. Disable nonessential motion under reduced motion.
+
+### Asset production
+
+A consistent set of photographs showing each output in use: printed objects, packaged products, signage or installed graphics. Match light, surfaces, crop and prop density; choose originals/licensed mockups and keep subjects materially distinct.
+
+### Adaptation decisions
+
+Borrow the meaningful visual preview and coordinated feedback. Use brand-appropriate interaction colour; the printing site's rainbow is context-specific. The transient line is action feedback, not a permanent decorative edge strip on a generic card. Keep all cards understandable without hovering.
+
+### Interaction evidence and gaps
+
+Category URLs and responsive structure inspected. The three-part pointer-hover effect was described directly by the designer during this review; an automated hover sequence and exact timing were not captured. Preserve this provenance rather than presenting the proposed motion values as extracted source CSS.
+
+### Verification
+
+Desktop and phone imagery captured, with lazy-loaded images refreshed. Structural inspection and designer-reported hover evidence; no rebuild or conversion measurement.
 
 ## Linear — layered product demo with a selectable visual state
 
@@ -3756,6 +3924,62 @@ Selecting Engineering changed the visible feed to engineering posts while the fe
 
 Live desktop and 390 px phone layouts inspected and saved evidence reviewed. Scores are editorial judgments of conversion clarity and visual impact, not measured conversion results. No complete rebuild or accessibility audit performed.
 
+## Print Phuket — featured guide with supporting article rail
+
+ID: `printphuket-editorial-discovery` · Type: blog · Observed: 2026-11-17
+
+Source: [Print Phuket — featured guide with supporting article rail](https://printphuket.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: one large photographic guide beside two compact image-and-title stories, with consistent category and reading-time metadata
+
+Editorial scores: conversion clarity 7/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-journal-desktop.jpg)
+
+Mobile: [view 1](shots/printphuket-journal-mobile.jpg)
+
+### Use when
+
+A business with a small set of useful educational resources connected to buying or using its offer.
+
+### Avoid when
+
+A fabricated journal or generic content feed added solely to fill the page.
+
+### Content slots
+
+Editorial eyebrow; section headline/summary; journal link; featured image/title/excerpt/metadata; two supporting image/title/metadata items.
+
+### Desktop composition
+
+The featured article occupies the larger left area with a wide photograph and excerpt. The right rail contains two smaller horizontal stories separated by fine rules. Magenta dots and blue labels tie metadata to the brand.
+
+### Observed mobile behavior
+
+The featured story appears first and supporting articles become compact rows beneath. Metadata stays close to titles. Lazy-loaded images required scrolling into view before the refreshed mobile capture.
+
+### Rebuild recipe
+
+Drive the composition from article data with explicit featured/supporting roles. Use semantic article links and a responsive two-region grid; reserve image aspect ratios to avoid movement. Let mobile titles wrap naturally instead of forcing desktop line lengths.
+
+### Asset production
+
+Relevant editorial photographs consistent with the product image family. Use real articles and accurate reading-time/category metadata.
+
+### Adaptation decisions
+
+Choose articles that answer actual buying questions and route appropriately to products or services. Keep excerpts short and preserve useful hierarchy when photography is absent.
+
+### Interaction evidence and gaps
+
+Journal and article destinations inspected as links; article-reading flows were not opened or tested.
+
+### Verification
+
+Desktop and refreshed phone captures inspected; no reading engagement or conversion data.
+
 ## Nielsen Norman Group — educational article with summary, contents and dense tables
 
 ID: `nng-article` · Type: article · Observed: 2026-11-06
@@ -4260,6 +4484,62 @@ The coastal architecture query navigated to its result page. Filters opened the 
 
 Live desktop and 390 px phone evidence inspected. Scores are editorial judgments of clarity and visual impact, not measured conversion. No complete rebuild, checkout or accessibility audit performed.
 
+## Print Phuket — visual configurable-product ordering
+
+ID: `printphuket-configurable-product` · Type: ecommerce · Observed: 2026-11-17
+
+Source: [Print Phuket — visual configurable-product ordering](https://printphuket.com/products/custom-stickers)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a large tactile product gallery beside a staged configurator that separates options, artwork and final order review
+
+Editorial scores: conversion clarity 7/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-product-desktop.jpg), [view 2](shots/printphuket-product-options-desktop.jpg)
+
+Mobile: [view 1](shots/printphuket-product-mobile.jpg)
+
+### Use when
+
+A genuinely configurable product with meaningful variant imagery and pricing.
+
+### Avoid when
+
+A simple product made needlessly complicated or a configurator with incomplete price/stock rules.
+
+### Content slots
+
+Breadcrumb; gallery and thumbnails; product title/benefits/use cases; price/per-piece/quantity context; option controls; artwork upload/design route; review/order action.
+
+### Desktop composition
+
+A thumbnail rail and large image occupy the left side; product value, use-case chips, price and numbered configuration stages sit on the right. Option chips and quantity pricing present concrete decisions rather than a wall of specifications.
+
+### Observed mobile behavior
+
+The gallery precedes the product details and configurator. Long controls wrap or scroll; selected Square state was captured further down the page. The saved phone view is a detail viewport, not the full gallery. Keep action access and total-price context clear while users scroll.
+
+### Rebuild recipe
+
+Model supported options and dependent combinations as data. Keep selection, imagery, displayed price and order payload consistent. Render grouped labelled radio controls and a separate quantity decision. Stage artwork and review without losing selections; support real validation and upload constraints. In Astro use an appropriately scoped interactive island; in Webflow a real commerce/custom-configurator integration is needed, not decorative controls.
+
+### Asset production
+
+Product overview, in-use imagery, macro finish/cut details and option-specific views with a shared art direction. The source labels its images as illustrations; their production method was not independently established. Use accurate material examples and original assets.
+
+### Adaptation decisions
+
+Make configuration rules and final pricing truthful. Avoid broad automatic disclaimers in the adapted site; use accurate imagery and any specifically necessary information in its intended place. Do not treat attractive option chips as proof the cart/order payload is correct.
+
+### Interaction evidence and gaps
+
+The custom Square radio control was selected and a selected visual state observed; the displayed starting price remained visible. No file upload, cart addition, order, payment or downstream pricing consistency test was performed.
+
+### Verification
+
+Desktop gallery/configuration and a phone selected-option viewport inspected. Functional integration is not validated.
+
 ## Peak Design — visual variant selection with practical size support
 
 ID: `peak-product` · Type: ecommerce · Observed: 2026-11-06
@@ -4652,6 +4932,62 @@ Static stages, quote and booking affordance inspected. Booking was not opened an
 
 Live desktop and mobile inspection; saved viewport evidence reviewed. No complete rebuild or measured conversion test.
 
+## Print Phuket — proof-aware ordering timeline
+
+ID: `printphuket-proof-aware-process` · Type: how-it-works · Observed: 2026-11-17
+
+Source: [Print Phuket — proof-aware ordering timeline](https://printphuket.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: four icon-led order stages connected horizontally on desktop and vertically on mobile, with optional proof approval explicitly distinguished
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-process-desktop.jpg)
+
+Mobile: [view 1](shots/printphuket-process-mobile.jpg)
+
+### Use when
+
+A service or customised product with a short, real sequence and a meaningful review/approval stage.
+
+### Avoid when
+
+Invented process theatre or a mandatory-looking step that is actually optional.
+
+### Content slots
+
+Section heading/summary; four numbered stages; meaningful icons; optional-step marker and explanation; primary order and secondary process-detail links.
+
+### Desktop composition
+
+Four black circular icons sit on a fine multicolour horizontal connector; numbered headings and brief text sit below. An optional badge distinguishes proof approval. Paired actions close the sequence.
+
+### Observed mobile behavior
+
+Stages become a vertical timeline, with icon circles on a left rail and text beside them. Actions stack full width. The optional label remains attached to the relevant stage.
+
+### Rebuild recipe
+
+Use an ordered list with decorative connector and accessible step text. Render desktop columns and a phone rail while preserving reading order. Keep optionality in text rather than colour alone, and let the connector adapt to content height.
+
+### Asset production
+
+One coherent icon family and the provider's actual process. No generated media is needed; use authentic photos elsewhere rather than forcing them into every step.
+
+### Adaptation decisions
+
+Use the real review, approval or handoff step for the offer. Do not import this site's production commitments. Give the primary route a concrete destination and keep detail guidance subordinate.
+
+### Interaction evidence and gaps
+
+Primary/secondary routes inspected in the rendered page; no order was placed and the downstream production process was not verified.
+
+### Verification
+
+Desktop/mobile captures and process copy structure inspected. Source claims are not validation of operations or outcomes.
+
 ## Attio — testimonial-backed sales inquiry
 
 ID: `attio-testimonial-contact` · Type: contact · Observed: 2026-11-06
@@ -4987,6 +5323,62 @@ Phone/email link destinations and the map affordance were inspected; no call, em
 ### Verification
 
 Desktop/mobile viewport captures inspected. Essential details remained readable while map imagery loaded.
+
+## Print Phuket — guided custom-quote entry with process support
+
+ID: `printphuket-guided-custom-quote` · Type: contact · Observed: 2026-11-17
+
+Source: [Print Phuket — guided custom-quote entry with process support](https://printphuket.com/pages/get-a-quote)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a project-category chooser that reveals a tailored enquiry area, supported by response expectations, optional preparation guidance and chat fallbacks
+
+Editorial scores: conversion clarity 6/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-quote-desktop.jpg)
+
+Mobile: [view 1](shots/printphuket-quote-mobile.jpg)
+
+### Use when
+
+Consultative or bespoke work where the minimum information depends on the requested project.
+
+### Avoid when
+
+Simple bookings that do not need a category chooser, or third-party form embeds with no reliable loading/error path.
+
+### Content slots
+
+Custom-work proposition; quote action; standard-product alternative; truthful response/payment expectations; category chooser with unsure route; enquiry area; process/preparation guidance; fallback contact routes; buying FAQ.
+
+### Desktop composition
+
+A pale branded hero pairs direct copy with a stylised quote-status card. Below, category choices and a conditional form area sit beside dark process guidance and small preparation/help panels. A supporting FAQ reduces uncertainty.
+
+### Observed mobile behavior
+
+The page becomes a single main column with two-column category chips and stacked guidance panels. The saved narrow-page capture shows clipping/overflow in several quote-page elements; improve min-width, wrapping and container sizing rather than copying it literally.
+
+### Rebuild recipe
+
+Use category buttons to set a project type and reveal relevant fields; keep an unsure option and allow changes without erasing entered information. Ask only minimum required details. Implement loading, unavailable-embed and confirmation states, with accessible field labels/errors and alternative contact routes.
+
+### Asset production
+
+A lightweight brand-specific quote/status illustration can be made with semantic HTML/CSS/SVG. It is explanatory artwork, not evidence of an actual request or guaranteed response.
+
+### Adaptation decisions
+
+Use the real business intake and response capability. Ensure phone controls fit, give any iframe an accessible title and reliable fallback, and verify the enquiry result end-to-end before release.
+
+### Interaction evidence and gaps
+
+The homepage quote link was followed and Signs & banners selected. The selection label changed and a Monday form iframe/loading state appeared; the loaded form fields and submission result were not verified. No personal information, artwork or enquiry was sent.
+
+### Verification
+
+Desktop selected-category and phone landing captures inspected. Form completion and mobile clipping require validation in an adaptation.
 
 ## Studio Freight — inquiry-routing FAQ
 
@@ -5324,6 +5716,62 @@ The second question was clicked and its answer opened while the previous answer 
 
 Desktop/mobile expanded-state captures inspected. A loading overlay in the first mobile attempt was replaced with a settled capture.
 
+## Print Phuket — pre-order objection FAQ
+
+ID: `printphuket-preorder-objections` · Type: faq · Observed: 2026-11-17
+
+Source: [Print Phuket — pre-order objection FAQ](https://printphuket.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a large left-hand FAQ heading beside short ruled questions focused on file readiness, design help, turnaround, delivery and custom orders
+
+Editorial scores: conversion clarity 8/9; visual impact 6/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-faq-desktop.jpg), [view 2](shots/printphuket-faq-desktop-open.jpg)
+
+Mobile: [view 1](shots/printphuket-faq-mobile.jpg)
+
+### Use when
+
+A buying page with a handful of repeated, decision-relevant objections.
+
+### Avoid when
+
+A long general-information article disguised as an accordion or missing critical offer details hidden only in FAQ.
+
+### Content slots
+
+Heading; five concise buyer questions; grounded answers and appropriate service/help links.
+
+### Desktop composition
+
+A wide two-column arrangement pairs a large multiline heading with understated horizontal question rows. Small plus controls sit at the right; an expanded answer occupies the row below its question.
+
+### Observed mobile behavior
+
+The heading precedes a single question column. Rows grow for longer questions and the expand controls remain on the right.
+
+### Rebuild recipe
+
+Use semantic disclosure controls, for example details/summary with clear expanded-state feedback. Keep answers short enough to read and ensure keyboard activation, focus-visible and motion preferences work. Decide intentionally whether multiple answers may stay open.
+
+### Asset production
+
+No large image is required in this utility section; use the established typography and a restrained control icon. The page's visual richness comes from surrounding photographic sections.
+
+### Adaptation decisions
+
+Select questions from real purchase friction, keeping provider-specific promises verified. Avoid importing a generic pest-identification or print-theory list into a service sales page.
+
+### Interaction evidence and gaps
+
+The file-check question was opened and the answer inspected; it distinguished optional proof from design-service proof. Other answers and full keyboard accordion behaviour were not exhaustively tested.
+
+### Verification
+
+Desktop closed/open and phone closed states captured. No support analytics or conversion claims.
+
 ## KUBE Saint-Tropez — restrained reservation close
 
 ID: `kube-reservation-close` · Type: cta · Observed: 2026-11-06
@@ -5660,6 +6108,62 @@ Fields and the subscription control were inspected; no information was entered a
 
 Desktop and complementary mobile captures inspected. The longer form is a design choice to assess, not a universal signup template.
 
+## Print Phuket — custom-business quote close
+
+ID: `printphuket-custom-quote-close` · Type: cta · Observed: 2026-11-17
+
+Source: [Print Phuket — custom-business quote close](https://printphuket.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a rounded indigo closing band with a quote-first action and subordinate messaging/email alternatives for custom business work
+
+Editorial scores: conversion clarity 8/9; visual impact 7/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-close-desktop.jpg)
+
+Mobile: [view 1](shots/printphuket-close-mobile.jpg)
+
+### Use when
+
+A business with genuine custom, high-volume or consultative requests alongside standard products.
+
+### Avoid when
+
+A business unable to service the displayed channels or a page where competing actions obscure the primary next step.
+
+### Content slots
+
+Custom-order heading; brief fit criteria; primary quote link; LINE/WhatsApp alternatives; email route.
+
+### Desktop composition
+
+A wide rounded indigo surface holds a left-aligned white heading, bounded explanatory copy, a white primary action and lower-emphasis alternatives. It creates a strong final pause before the dark footer.
+
+### Observed mobile behavior
+
+The band narrows within page gutters, copy wraps and controls stack/wrap. Preserve adequate line lengths and usable spacing when adapting to small phones.
+
+### Rebuild recipe
+
+Use a semantic section with a constrained content region and explicit action hierarchy. Provide light-surface primary and dark-surface secondary styles from approved tokens. Wire actual quote, messaging and email destinations.
+
+### Asset production
+
+No photo is necessary for this closing action. Use the brand's real colour and truthful scope/channel information.
+
+### Adaptation decisions
+
+Retain one dominant action; messaging alternatives should support the same goal. Pair button surface feedback with directional icon motion and keyboard-only focus-visible in this workspace.
+
+### Interaction evidence and gaps
+
+The quote route was followed to its landing page. Messaging/email URLs were inspected; no external message, email or form was submitted. The separate discount/email popup is documented with desktop screenshots in printphuket-design-study.md, not represented as phone-tested.
+
+### Verification
+
+Desktop/phone closing-band captures and quote landing inspection. No enquiry completion or measured conversion result.
+
 ## Framer — large sitemap with a separate utility strip
 
 ID: `framer-footer` · Type: footer · Observed: 2026-11-06
@@ -5827,3 +6331,59 @@ Necessary cookies were accepted to clear the notice. Newsletter opened an inline
 ### Verification
 
 Live desktop and phone layouts inspected; saved screenshots reviewed. Scores are editorial judgments, with no measured conversion result or complete rebuild validation.
+
+## Print Phuket — utility directory with oversized brand signature
+
+ID: `printphuket-branded-utility-footer` · Type: footer · Observed: 2026-11-17
+
+Source: [Print Phuket — utility directory with oversized brand signature](https://printphuket.com/)
+
+Status: observed reference; not rebuild-validated.
+
+Borrow: a useful contact-and-navigation directory above an oversized wordmark, with the directory collapsing into phone accordions
+
+Editorial scores: conversion clarity 8/9; visual impact 8/9. No measured uplift.
+
+Desktop: [view 1](shots/printphuket-footer-desktop.jpg)
+
+Mobile: [view 1](shots/printphuket-footer-mobile.jpg)
+
+### Use when
+
+An established catalogue/service business with enough real destinations to warrant grouped navigation.
+
+### Avoid when
+
+A small site with no genuine link hierarchy or a huge wordmark that crowds essential contact access.
+
+### Content slots
+
+Brand promise; chat actions; email/phone/address; opening-hours link; four navigation groups; help search; large brand mark; legal/payment/locale utilities.
+
+### Desktop composition
+
+A near-black field contains a left contact block and four navigation groups. A thin multicolour top rule signals print identity; a much larger brand signature occupies a separate lower region before small policy and payment utilities.
+
+### Observed mobile behavior
+
+Contact details remain prominent above four closed disclosure groups. The oversized signature remains below; legal links and payment/locale utilities stack. Captured quote-page footer variants show tight edges; verify wordmark fit and overflow.
+
+### Rebuild recipe
+
+Separate contact, sitemap and brand-signature regions. Use semantic address/navigation markup and real links. Desktop groups can be expanded lists; mobile details/summary should remain keyboard accessible. Size the wordmark with a bounded responsive maximum and reserve space for small utilities.
+
+### Asset production
+
+Permissioned brand mark, coherent contact/social icons and any legitimate payment marks. Do not reproduce another brand's logo or unverified assurance badges.
+
+### Adaptation decisions
+
+Preserve the practical contact routes and trim irrelevant groups. Oversized type should create identity without clipping or reducing contrast/readability. Hover feedback and focus-visible remain distinct.
+
+### Interaction evidence and gaps
+
+Desktop footer lists and phone closed disclosure state inspected. No phone/email/chat contact was initiated and footer groups/search were not fully exercised.
+
+### Verification
+
+Desktop and phone footer evidence inspected. No complete accessibility, localization or payment-flow verification.

@@ -1,8 +1,8 @@
 {
   "counts": {
-    "nav": 3,
-    "hero": 23,
-    "bento": 3,
+    "nav": 4,
+    "hero": 24,
+    "bento": 4,
     "feature": 3,
     "comparison": 3,
     "integration": 3,
@@ -14,16 +14,16 @@
     "pricing": 4,
     "social-proof": 4,
     "logo-cloud": 3,
-    "blog": 3,
+    "blog": 4,
     "article": 3,
     "location": 3,
     "search": 3,
-    "ecommerce": 3,
-    "how-it-works": 4,
-    "contact": 6,
-    "faq": 6,
-    "cta": 6,
-    "footer": 3
+    "ecommerce": 4,
+    "how-it-works": 5,
+    "contact": 7,
+    "faq": 7,
+    "cta": 7,
+    "footer": 4
   },
   "patterns": [
     {
@@ -646,6 +646,96 @@
       "industry": "creative-agency, consultancy, professional-services",
       "fit": "A consultative service with a clear first conversation, delivery stage and client outcome.",
       "catalog": "patterns/pricing-proof-process-2026-11-06.json"
+    },
+    {
+      "id": "printphuket-linked-photo-stack-hero",
+      "name": "Print Phuket — linked photographic card-stack hero",
+      "type": "hero",
+      "styles": "photographic, layered-cards, autoplay, product-discovery, split, cmyk-accent",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "A visual product/service catalogue with several recognisable applications and direct destinations for each example.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-intent-menu",
+      "name": "Print Phuket — product-or-business discovery menu",
+      "type": "nav",
+      "styles": "dark, illustrated-menu, intent-routing, nested-mobile, search",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "Broad visual catalogues whose customers recognise either product names or use cases.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-photo-category-grid",
+      "name": "Print Phuket — photographic category doors with coordinated feedback",
+      "type": "bento",
+      "styles": "photo-led, category-grid, rounded, four-column, two-column-mobile, coordinated-hover",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "A service/product catalogue where visual examples help people recognise the item they need.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-proof-aware-process",
+      "name": "Print Phuket — proof-aware ordering timeline",
+      "type": "how-it-works",
+      "styles": "numbered, icon-timeline, cmyk-connector, optional-step",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "A service or customised product with a short, real sequence and a meaningful review/approval stage.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-editorial-discovery",
+      "name": "Print Phuket — featured guide with supporting article rail",
+      "type": "blog",
+      "styles": "editorial, image-led, featured-story, supporting-rail, commerce-support",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "A business with a small set of useful educational resources connected to buying or using its offer.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-preorder-objections",
+      "name": "Print Phuket — pre-order objection FAQ",
+      "type": "faq",
+      "styles": "split, ruled, accordion, purchase-objections, restrained",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "A buying page with a handful of repeated, decision-relevant objections.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-custom-quote-close",
+      "name": "Print Phuket — custom-business quote close",
+      "type": "cta",
+      "styles": "indigo, rounded-band, multi-channel, high-contrast, business-enquiry",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "A business with genuine custom, high-volume or consultative requests alongside standard products.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-branded-utility-footer",
+      "name": "Print Phuket — utility directory with oversized brand signature",
+      "type": "footer",
+      "styles": "dark, oversized-wordmark, contact-led, accordion-mobile, brand-signature",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "An established catalogue/service business with enough real destinations to warrant grouped navigation.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-configurable-product",
+      "name": "Print Phuket — visual configurable-product ordering",
+      "type": "ecommerce",
+      "styles": "gallery, configuration, staged-ordering, live-price, product-education",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "A genuinely configurable product with meaningful variant imagery and pricing.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
+    },
+    {
+      "id": "printphuket-guided-custom-quote",
+      "name": "Print Phuket — guided custom-quote entry with process support",
+      "type": "contact",
+      "styles": "guided-enquiry, category-selection, process-sidebar, offer-illustration, custom-work",
+      "industry": "printing, ecommerce, local-services, b2b",
+      "fit": "Consultative or bespoke work where the minimum information depends on the requested project.",
+      "catalog": "patterns/printphuket-2026-11-17.json"
     },
     {
       "id": "peak-product",

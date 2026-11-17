@@ -1,17 +1,4 @@
 ## hero
-### Print Phuket hero
-- name: Print Phuket hero
-- url: https://printphuket.com/
-- type: hero
-- styles: local-service, type-led, trust-pill
-- industry: printing, local-service, ecommerce
-- source: out-of-geo
-- borrow: dual primary CTAs (Shop all products / Get a quote) plus a trust-pill strip under the hero (free delivery, free pickup, express, design service) plus live chat channels (LINE/WhatsApp) above the fold
-- why: local-service site puts proof and a way to talk before the decision, not after; the tucked pill row converts without a bulky trust section
-- conv: 8
-- wow: 6
-- by: Hermes
-
 ### A.J. Alberts Plumbing
 - name: A.J. Alberts Plumbing
 - url: https://www.ajalberts.com
@@ -248,6 +235,19 @@
 - shot: shots/x-museum.jpg
 - by: Codex
 
+### Print Phuket hero
+- name: Print Phuket hero
+- url: https://printphuket.com/
+- type: hero
+- styles: local-service, type-led, trust-pill
+- industry: printing, local-service, ecommerce
+- source: out-of-geo
+- borrow: dual primary CTAs (Shop all products / Get a quote) plus a trust-pill strip under the hero (free delivery, free pickup, express, design service) plus live chat channels (LINE/WhatsApp) above the fold
+- why: local-service site puts proof and a way to talk before the decision, not after; the tucked pill row converts without a bulky trust section
+- conv: 8
+- wow: 6
+- by: Hermes
+
 ### Pulse — portrait and sound-wave rings
 - name: Pulse — portrait and sound-wave rings
 - url: https://x.com/HamidoFx1/status/2102758260529082524
@@ -387,19 +387,6 @@
 - by: Codex
 
 ## bento
-### Print Phuket category grid
-- name: Print Phuket category grid
-- url: https://printphuket.com/
-- type: bento
-- styles: category-grid, tiles, copy-led
-- industry: printing, ecommerce
-- source: out-of-geo
-- borrow: flat 8-tile category grid (Stickers, Menus, Window decals...) where each tile is a product name + a one-line reason to buy that variant + Shop now arrow
-- why: the descriptor under each product name sells the specific variant, so browsing maps straight to an intent instead of a dead-end gallery page
-- conv: 8
-- wow: 6
-- by: Hermes
-
 ### Attio — workflow demonstration bento
 - name: Attio — workflow demonstration bento
 - url: https://attio.com/#home-2026-generate-pipeline
@@ -453,6 +440,19 @@
 - wow: 8
 - shot: shots/kube-rooms-desktop.jpg
 - by: Codex; observed 2026-11-06
+
+### Print Phuket category grid
+- name: Print Phuket category grid
+- url: https://printphuket.com/
+- type: bento
+- styles: category-grid, tiles, copy-led
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: flat 8-tile category grid (Stickers, Menus, Window decals...) where each tile is a product name + a one-line reason to buy that variant + Shop now arrow
+- why: the descriptor under each product name sells the specific variant, so browsing maps straight to an intent instead of a dead-end gallery page
+- conv: 8
+- wow: 6
+- by: Hermes
 
 ### Raycast Pro — illustrated feature bento
 - name: Raycast Pro — illustrated feature bento
@@ -641,6 +641,20 @@
 - by: Codex
 
 ## blog
+### Print Phuket — featured guide with supporting article rail
+- name: Print Phuket — featured guide with supporting article rail
+- url: https://printphuket.com/
+- type: blog
+- styles: editorial, image-led, featured-story, supporting-rail, commerce-support
+- industry: printing, ecommerce, local-services, b2b
+- source: team
+- borrow: one large photographic guide beside two compact image-and-title stories, with consistent category and reading-time metadata
+- why: Useful buying guidance supports product decisions without turning the homepage into a long educational article.
+- conv: 7
+- wow: 8
+- shot: shots/printphuket-journal-desktop.jpg
+- by: Codex; observed 2026-11-17
+
 ### Figma Shortcut — magazine lead with supporting stories and topic metadata
 - name: Figma Shortcut — magazine lead with supporting stories and topic metadata
 - url: https://www.figma.com/blog/
@@ -813,19 +827,6 @@
 - by: Codex
 
 ## social-proof
-### Print Phuket Google review cards
-- name: Print Phuket Google review cards
-- url: https://printphuket.com/
-- type: social-proof
-- styles: testimonial, review-cards, star-led
-- industry: printing, local-service
-- source: out-of-geo
-- borrow: verbatim Google review cards, each labeled with the business name and a Google review ★★★★★ chip
-- why: naming the platform (Google) and the exact rating makes each quote independently verifiable, which reads as real proof over a generic testimonial wall
-- conv: 8
-- wow: 5
-- by: Hermes
-
 ### AJ Alberts trust-signal stack
 - name: AJ Alberts trust-signal stack
 - url: https://www.ajalberts.com
@@ -893,6 +894,19 @@
 - wow: 8
 - shot: shots/opendoor-proof-desktop.jpg
 - by: Codex
+
+### Print Phuket Google review cards
+- name: Print Phuket Google review cards
+- url: https://printphuket.com/
+- type: social-proof
+- styles: testimonial, review-cards, star-led
+- industry: printing, local-service
+- source: out-of-geo
+- borrow: verbatim Google review cards, each labeled with the business name and a Google review ★★★★★ chip
+- why: naming the platform (Google) and the exact rating makes each quote independently verifiable, which reads as real proof over a generic testimonial wall
+- conv: 8
+- wow: 5
+- by: Hermes
 
 ### Raycast — profile selector with specific usage endorsements
 - name: Raycast — profile selector with specific usage endorsements
@@ -979,19 +993,6 @@
 - by: Hermes
 
 ## faq
-### Print Phuket pre-order FAQ
-- name: Print Phuket pre-order FAQ
-- url: https://printphuket.com/
-- type: faq
-- styles: accordion, plain, reassurance
-- industry: printing, ecommerce
-- source: out-of-geo
-- borrow: FAQ headed Questions before you order (file check, design help, turnaround, delivery, custom quote) so every answer kills a pre-purchase objection
-- why: question framing owns the late-stage doubts a buyer actually has, and each answer removes a reason not to order
-- conv: 8
-- wow: 4
-- by: Hermes
-
 ### AirOps dark FAQ pause
 - name: AirOps dark FAQ pause
 - url: https://www.webflow.com/blog/faq-pages
@@ -1045,6 +1046,19 @@
 - wow: 7
 - shot: shots/kube-faq-desktop.jpg
 - by: Codex; observed 2026-11-06
+
+### Print Phuket pre-order FAQ
+- name: Print Phuket pre-order FAQ
+- url: https://printphuket.com/
+- type: faq
+- styles: accordion, plain, reassurance
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: FAQ headed Questions before you order (file check, design help, turnaround, delivery, custom quote) so every answer kills a pre-purchase objection
+- why: question framing owns the late-stage doubts a buyer actually has, and each answer removes a reason not to order
+- conv: 8
+- wow: 4
+- by: Hermes
 
 ### Raycast Pro â€” centered dark accordion
 - name: Raycast Pro â€” centered dark accordion
@@ -1103,19 +1117,6 @@
 - by: Codex; observed 2026-11-06
 
 ## how-it-works
-### Print Phuket proof-as-a-step
-- name: Print Phuket proof-as-a-step
-- url: https://printphuket.com/
-- type: how-it-works
-- styles: numbered, process, reassurance
-- industry: printing, ecommerce
-- source: out-of-geo
-- borrow: four-step order flow (choose product / add design / check it first / we print it) with the optional proof-to-approve step called out in step three
-- why: risk-reduction is baked into the process itself (approve a proof before it prints) rather than buried in a FAQ answer
-- conv: 8
-- wow: 5
-- by: Hermes
-
 ### Designjoy — three illustrated service steps
 - name: Designjoy — three illustrated service steps
 - url: https://www.designjoy.co/
@@ -1184,6 +1185,19 @@
 - wow: 8
 - shot: shots/opendoor-process-desktop.jpg
 - by: Codex
+
+### Print Phuket proof-as-a-step
+- name: Print Phuket proof-as-a-step
+- url: https://printphuket.com/
+- type: how-it-works
+- styles: numbered, process, reassurance
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: four-step order flow (choose product / add design / check it first / we print it) with the optional proof-to-approve step called out in step three
+- why: risk-reduction is baked into the process itself (approve a proof before it prints) rather than buried in a FAQ answer
+- conv: 8
+- wow: 5
+- by: Hermes
 
 ## about
 ### Founder-letter about pattern
@@ -1414,6 +1428,20 @@
 - by: Codex
 
 ## contact
+### Print Phuket — guided custom-quote entry with process support
+- name: Print Phuket — guided custom-quote entry with process support
+- url: https://printphuket.com/pages/get-a-quote
+- type: contact
+- styles: guided-enquiry, category-selection, process-sidebar, offer-illustration, custom-work
+- industry: printing, ecommerce, local-services, b2b
+- source: team
+- borrow: a project-category chooser that reveals a tailored enquiry area, supported by response expectations, optional preparation guidance and chat fallbacks
+- why: A buyer can explain a nonstandard job without first knowing all technical specifications.
+- conv: 6
+- wow: 8
+- shot: shots/printphuket-quote-desktop.jpg
+- by: Codex; observed 2026-11-17
+
 ### Attio â€” testimonial-backed sales inquiry
 - name: Attio â€” testimonial-backed sales inquiry
 - url: https://attio.com/contact/sales
@@ -1499,19 +1527,6 @@
 - by: Codex; observed 2026-11-06
 
 ## cta
-### Print Phuket business CTA band
-- name: Print Phuket business CTA band
-- url: https://printphuket.com/
-- type: cta
-- styles: band, multi-channel, business-facing
-- industry: printing, b2b
-- source: out-of-geo
-- borrow: closing band holding a Get a quote button plus the actual reach channels (LINE, WhatsApp, email) so a business buyer contacts the way they prefer
-- why: a business-quote ask paired with tangible contact channels lowers the cost of the first touch, which is the real conversion object for bulk deals
-- conv: 8
-- wow: 5
-- by: Hermes
-
 ### charity: water â€” illustrated newsletter signup
 - name: charity: water â€” illustrated newsletter signup
 - url: https://www.charitywater.org/
@@ -1595,6 +1610,19 @@
 - shot: shots/linear-cta-desktop.jpg
 - by: Codex; observed 2026-11-06
 
+### Print Phuket business CTA band
+- name: Print Phuket business CTA band
+- url: https://printphuket.com/
+- type: cta
+- styles: band, multi-channel, business-facing
+- industry: printing, b2b
+- source: out-of-geo
+- borrow: closing band holding a Get a quote button plus the actual reach channels (LINE, WhatsApp, email) so a business buyer contacts the way they prefer
+- why: a business-quote ask paired with tangible contact channels lowers the cost of the first touch, which is the real conversion object for bulk deals
+- conv: 8
+- wow: 5
+- by: Hermes
+
 ### Switchyards â€” membership offer and oversized join action
 - name: Switchyards â€” membership offer and oversized join action
 - url: https://www.switchyards.com/
@@ -1610,19 +1638,6 @@
 - by: Codex; observed 2026-11-06
 
 ## nav
-### Print Phuket intent-split nav
-- name: Print Phuket intent-split nav
-- url: https://printphuket.com/
-- type: nav
-- styles: dual-rail, intent-routing, tabbed
-- industry: printing, ecommerce
-- source: out-of-geo
-- borrow: two-tab nav rail splitting by intent — Shop by product vs Shop by business — plus a product search field and filter inside the rail
-- why: separating retail and bulk-buying audiences into two catalogs beats one crowded nav, and the in-rail search gets repeat buyers to product fast
-- conv: 8
-- wow: 6
-- by: Hermes
-
 ### Figma — task-led mega menu beside a grouped product directory
 - name: Figma — task-led mega menu beside a grouped product directory
 - url: https://www.figma.com/
@@ -1665,6 +1680,19 @@
 - shot: shots/notion-nav-desktop.jpg
 - by: Codex
 
+### Print Phuket intent-split nav
+- name: Print Phuket intent-split nav
+- url: https://printphuket.com/
+- type: nav
+- styles: dual-rail, intent-routing, tabbed
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: two-tab nav rail splitting by intent — Shop by product vs Shop by business — plus a product search field and filter inside the rail
+- why: separating retail and bulk-buying audiences into two catalogs beats one crowded nav, and the in-rail search gets repeat buyers to product fast
+- conv: 8
+- wow: 6
+- by: Hermes
+
 ### Stripe split header nav
 - name: Stripe split header nav
 - url: https://stripe.com
@@ -1693,18 +1721,19 @@
 - by: Hermes
 
 ## ecommerce
-### Print Phuket tabbed best-sellers
-- name: Print Phuket tabbed best-sellers
-- url: https://printphuket.com/
+### Print Phuket — visual configurable-product ordering
+- name: Print Phuket — visual configurable-product ordering
+- url: https://printphuket.com/products/custom-stickers
 - type: ecommerce
-- styles: tabbed, collection, card-only
-- industry: printing, ecommerce
-- source: out-of-geo
-- borrow: tabbed best-seller strip (STICKERS / FLYERS / MENUS / POSTCARDS) where each product card is just the name + Order now arrow
-- why: tabs let a returning shopper jump categories without scrolling, and the minimal card kills every step between browsing and ordering
-- conv: 8
-- wow: 5
-- by: Hermes
+- styles: gallery, configuration, staged-ordering, live-price, product-education
+- industry: printing, ecommerce, local-services, b2b
+- source: team
+- borrow: a large tactile product gallery beside a staged configurator that separates options, artwork and final order review
+- why: The product is shown in use while shape, size, material and quantity decisions are kept within an explicit ordering sequence.
+- conv: 7
+- wow: 8
+- shot: shots/printphuket-product-desktop.jpg
+- by: Codex; observed 2026-11-17
 
 ### Casper trust-heavy product page
 - name: Casper trust-heavy product page
@@ -1760,6 +1789,19 @@
 - shot: shots/peak-product-desktop.jpg
 - by: Codex
 
+### Print Phuket tabbed best-sellers
+- name: Print Phuket tabbed best-sellers
+- url: https://printphuket.com/
+- type: ecommerce
+- styles: tabbed, collection, card-only
+- industry: printing, ecommerce
+- source: out-of-geo
+- borrow: tabbed best-seller strip (STICKERS / FLYERS / MENUS / POSTCARDS) where each product card is just the name + Order now arrow
+- why: tabs let a returning shopper jump categories without scrolling, and the minimal card kills every step between browsing and ordering
+- conv: 8
+- wow: 5
+- by: Hermes
+
 ### Ugmonk — tactile material choices and explicit kit contents
 - name: Ugmonk — tactile material choices and explicit kit contents
 - url: https://ugmonk.com/products/analog-starter-kit
@@ -1775,6 +1817,20 @@
 - by: Codex
 
 ## footer
+### Print Phuket — utility directory with oversized brand signature
+- name: Print Phuket — utility directory with oversized brand signature
+- url: https://printphuket.com/
+- type: footer
+- styles: dark, oversized-wordmark, contact-led, accordion-mobile, brand-signature
+- industry: printing, ecommerce, local-services, b2b
+- source: team
+- borrow: a useful contact-and-navigation directory above an oversized wordmark, with the directory collapsing into phone accordions
+- why: The ending combines practical routes, contact confidence and a memorable brand-scale moment.
+- conv: 8
+- wow: 8
+- shot: shots/printphuket-footer-desktop.jpg
+- by: Codex; observed 2026-11-17
+
 ### Framer — large sitemap with a separate utility strip
 - name: Framer — large sitemap with a separate utility strip
 - url: https://www.framer.com/
